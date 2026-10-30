@@ -1,0 +1,51 @@
+name: Research Digest Automation (Morning & Afternoon)
+
+on:
+  schedule:
+    # 매일 한국 시간 07:00 (UTC 22:00)
+    - cron: '0 22 * * *'
+    # 매일 한국 시간 18:00 (UTC 09:00)
+    - cron: '0 9 * * *'
+  # GitHub 웹상에서 수동으로 즉시 실행 버튼 지원
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-digest:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install Dependencies
+        run: |
+          pip install requests beautifulsoup4 lxml
+
+      - name: Run Digest Engine
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python run_digest.py --edition auto
+
+      - name: Commit and Push Updated Digest Data
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Bot"
+          git add web/data/
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Auto: Update research digest [skip ci]" && git push)
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./web
