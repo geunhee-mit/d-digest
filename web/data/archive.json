@@ -4,12 +4,12 @@
     "edition": "morning",
     "edition_label": "오전 다이제스트 (Morning Digest)",
     "date": "2026-10-30",
-    "timestamp": "2026-10-30 11:16",
+    "timestamp": "2026-10-30 11:35",
     "item_count": 8,
     "items": [
       {
         "id": "https://doi.org/10.1080/03066150.2026.2739233",
-        "title_kr": "대항 헤게모니와 복합 위기: 사회운동 과학과 돌봄의 실험들",
+        "title_kr": "Counter-hegemony and polycrisis II: movement science and experiments in care",
         "original_title": "Counter-hegemony and polycrisis II: movement science and experiments in care",
         "source": "The Journal of Peasant Studies",
         "authors": "Raj Patel",
@@ -18,44 +18,38 @@
         "category": "재난안전·공공인프라",
         "relevance_score": 9.8,
         "summary_points": [
-          "연구 배경 및 문제의식: 오늘날의 복합 위기(Polycrisis)는 재난들이 한꺼번에 닥쳐오는 현상처럼 보이지만, 그 본질은 자본 축적을 지탱해 온 값싼 자연, 화폐, 노동, 돌봄, 식량, 에너지의 총체적 고갈과 이를 대체할 체제의 부재에서 비롯됩니다.",
-          "핵심 분석 및 이론적 발견: 조반니 아리기(Arrighi)의 헤게모니 순환론과 세계생태론(World-Ecology)을 결합하여, 지배 블록이 '통합 국가(Integral State)'를 통해 위기를 어떻게 관리하고 통제하는지 추적합니다. 저자는 이에 맞서 농민 운동과 대안적 돌봄 실험이 새로운 생태적 대항 헤게모니를 형성하는 과정을 분석합니다.",
-          "트윈 연구 시사점: 복합 위기 시대에 고립된 개인과 재난 약자가 배제되지 않도록 돕는 무해하고 투과성 높은 공공 위기 대응 인터페이스 및 상호부조 커먼즈의 필요성을 강력하게 뒷받침합니다."
+          "연구 배경 및 문제의식: Polycrisis presents as everything, everywhere all at once, the name for a world in which disasters arrive together.",
+          "핵심 분석 및 발견: It should mean something more precise: not a coincidence of shocks but the exhaustion of the cheapened nature, money, work, care, food, energy and life on which capitalist accumulation has depended, and the absence of any successor regime able to reconstitute them. 더불어 저자들은 By joining Giovanni Arrighi's theory of hegemonic cycles to world-ecology, it is possible to track how that exhaustion is administered, and contested, through what Gramsci called the integral state: the unity of political and civil society through which a ruling bloc governs.",
+          "트윈 연구 시사점: 복합 위기(Polycrisis) 시대에 고립된 개인과 재난 약자가 배제되지 않도록 돕는 무해하고 투과성 높은 공공 위기 대응 인터페이스의 필요성을 뒷받침합니다."
         ],
         "keywords": [
-          "#복합위기",
-          "#돌봄실험",
-          "#대항헤게모니",
-          "#세계생태론",
-          "#재난안전"
+          "#재난안전",
+          "#연구동향"
         ]
       },
       {
         "id": "https://doi.org/10.18743/pub.00056688",
-        "title_kr": "식량 위기와 세계 농업의 과학기술적 발전: 1974년 및 2008년 글로벌 식량 위기에 대한 국제 거버넌스의 대응",
+        "title_kr": "'Crisis' and the Scientific Development of World Agriculture: The International Response to the 1974 and 2008 Food Crises",
         "original_title": "'Crisis' and the Scientific Development of World Agriculture: The International Response to the 1974 and 2008 Food Crises",
         "source": "BIROn (Birkbeck, University of London)",
         "authors": "Harbers, Bastiaan Maria",
         "published": "2027-01-01",
         "url": "https://doi.org/10.18743/pub.00056688",
-        "category": "과학기술학·STS",
+        "category": "재난안전·공공인프라",
         "relevance_score": 9.8,
         "summary_points": [
-          "연구 배경 및 문제의식: 1974년과 2008년의 세계 식량 위기에 대한 국제사회의 대응을 분석하며, 현대 농업 거버넌스를 지배해 온 '생산주의적 과학기술 모델'의 기원과 한계를 규명합니다.",
-          "핵심 분석 및 이론적 발견: 위기 때마다 국제사회는 구조적 분배와 식량주권보다는 기술적 생산성 증대만을 약속하는 '녹색혁명' 패러다임을 반복적으로 강화해 왔습니다. 과학기술 지식이 자원의 최적 활용이라는 명분 아래 어떻게 소농의 자치를 제약하고 거대 농업자본의 지배를 공고히 했는지 비판적으로 밝힙니다.",
-          "트윈 연구 시사점: 기술적 처방주의가 구조적 불평등을 은폐하는 방식을 폭로하며, 과학기술학(STS)과 농생태학 관점에서 진정한 식량주권과 시민 자치를 실현하는 공공 대안 인프라의 중요성을 시사합니다."
+          "연구 배경 및 문제의식: This thesis argues that international responses to the international food crises of 1974 and 2008 demonstrate the dominant influence in contemporary history of the productivist techno-scientific model of agricultural development in international governance.",
+          "핵심 분석 및 발견: The two crises saw the renewed commitment of the international community to the Green Revolution model focused on agricultural productivity growth. 더불어 저자들은 The continued influence of the productivist techno-scientific model of agricultural development stems, I argue, from its promise of a fuller and more optimal utilisation of agricultural resources through the application of scientific and technical knowledges and technologies.",
+          "트윈 연구 시사점: 복합 위기(Polycrisis) 시대에 고립된 개인과 재난 약자가 배제되지 않도록 돕는 무해하고 투과성 높은 공공 위기 대응 인터페이스의 필요성을 뒷받침합니다."
         ],
         "keywords": [
-          "#식량주권",
-          "#녹색혁명비판",
-          "#과학기술학",
-          "#농생태학",
-          "#사회기술시스템"
+          "#재난안전",
+          "#연구동향"
         ]
       },
       {
         "id": "https://doi.org/10.5281/zenodo.22229622",
-        "title_kr": "도시 숲 수목의 생물 서식지 기능 연구: 중국 하얼빈 도시림의 미세서식지(TreMs) 공간 패턴 분석",
+        "title_kr": "Urban forest trees as a habitat option in China's northernmost and coldest large city of Harbin: a study on tree-related microhabitats",
         "original_title": "Urban forest trees as a habitat option in China's northernmost and coldest large city of Harbin: a study on tree-related microhabitats",
         "source": "Zenodo (CERN European Organization for Nuclear Research)",
         "authors": "Meijun Liu, Hailiang Lv, Somidh Saha",
@@ -64,21 +58,19 @@
         "category": "공간사회·도시커먼즈",
         "relevance_score": 9.8,
         "summary_points": [
-          "연구 배경 및 문제의식: 한대 기후 대도시의 도시림 112개 표본구를 대상으로, 도시화와 인위적 조경 관리가 수목 관련 미세서식지(TreMs)와 도시 생물다양성에 미치는 영향을 실증 조사했습니다.",
-          "핵심 분석 및 이론적 발견: 흉고직경(DBH), 관리 집약도, 수관층 조도, 도시 경관 이질성이 미세서식지 형성을 결정하는 핵심 요인임을 밝혔습니다. 과도한 인간 중심적 조경 관리가 오히려 곤충과 조류의 미세서식지를 파괴한다는 점을 통계적으로 입증했습니다.",
-          "트윈 연구 시사점: 도시 숲을 인간 중심의 시각적 공원이 아니라 비인간 생명(새, 곤충, 균류)과의 '다종 얽힘(Multispecies)' 공간으로 재인식하게 하며, 도시 커먼즈의 생태적 복원력 설계에 중요한 실증 데이터를 제공합니다."
+          "연구 배경 및 문제의식: This dataset contains field survey data and R‑code for tree‑related microhabitats (TreMs) research in 112 urban forest plots in Harbin, China.",
+          "핵심 분석 및 발견: We explored spatial patterns, driving factors and spatial non‑stationarity of TreMs at tree and plot levels. 더불어 저자들은 Key predictors included diameter at breast height (DBH), management intensity, canopy light environment and urban landscape heterogeneity.",
+          "트윈 연구 시사점: 도시 공간의 상품화와 젠트리피케이션에 맞서 모든 시민이 공간에 대한 권리(Right to the City)를 누릴 수 있는 도시 커먼즈의 물리적·사회적 인프라 전략에 시사점을 던집니다."
         ],
         "keywords": [
-          "#도시숲생태",
-          "#다종공생",
-          "#미세서식지",
-          "#도시커먼즈",
-          "#공간정의"
+          "#공간사회",
+          "#도시공간",
+          "#연구동향"
         ]
       },
       {
         "id": "https://doi.org/10.5334/ijc.1687",
-        "title_kr": "서비스가 중요할 때: 수출 지향 소농 환경에서 농민 협동의 조건 재고찰",
+        "title_kr": "When Services Matter: Rethinking Farmer Cooperation in an Export-Oriented Smallholder Setting",
         "original_title": "When Services Matter: Rethinking Farmer Cooperation in an Export-Oriented Smallholder Setting",
         "source": "International Journal of the Commons (IJC)",
         "authors": "Engjell Skreli, Orjon Xhoxhi, Vladislav Valentinov",
@@ -87,21 +79,18 @@
         "category": "농생태·식량주권",
         "relevance_score": 9.2,
         "summary_points": [
-          "연구 배경 및 문제의식: 체제 전환기 사회에서 농민 협동조합은 거래 비용을 낮추고 시장 접근성을 높임에도 불구하고 왜 구조적으로 취약한 상태에 머무는가라는 제도적 난제를 탐구합니다.",
-          "핵심 분석 및 이론적 발견: 단순한 불신이나 제도적 공백 때문이라는 통념을 넘어, 협동조합이 제공하는 '클럽재(Club Goods)' 형태의 서비스(품질 인증, 공동 마케팅, 자재 구매)가 농민에게 경제적으로 얼마나 실질적인 효용을 제공하는지가 협동의 성패를 가른다는 점을 엘리너 오스트롬의 사회생태시스템(SES) 프레임워크로 증명했습니다.",
-          "트윈 연구 시사점: 커먼즈와 협동 모델이 도덕적 당위나 친목 집단주의만으로는 지속될 수 없으며, 참여자 각자의 자율성과 실질적 자립을 뒷받침하는 명확한 프로토콜과 공통 인프라가 설계되어야 함을 일깨웁니다."
+          "연구 배경 및 문제의식: Why does agricultural cooperation remain fragile in post-socialist settings, despite its potential to reduce transaction costs and improve market access? Explanations usually stress institutional voids and the legacy of distrust.",
+          "핵심 분석 및 발견: This paper advances a different view: farmers cooperate when the services offered are economically salient. 더불어 저자들은 Adapting Ostrom’s SES framework, we reinterpret “resource importance” for club goods, specifically cooperation services such as marketing, certification, and input procurement.",
+          "트윈 연구 시사점: 자본주의적 산업 농업과 추출주의적 대지 착취를 비판하고, 흙·미생물·농민의 자치 역량이 상호 얽혀 회복력을 발휘하는 농생태학(Agroecology) 및 대지 윤리적 실천에 긴밀히 연결됩니다."
         ],
         "keywords": [
-          "#커먼즈자치",
-          "#엘리너오스트롬",
-          "#소농협동",
-          "#SES프레임워크",
-          "#제도분석"
+          "#농생태",
+          "#연구동향"
         ]
       },
       {
         "id": "https://doi.org/10.5334/ijc.1595",
-        "title_kr": "제도 분석 및 개발(IAD) 프레임워크에서 권력 개념의 명시화: 권력 이론에 대한 비판적 검토와 진단적 접근법",
+        "title_kr": "Toward Making Power More Explicit in the IADF: A Review and Diagnostic Approach to Power Theories",
         "original_title": "Toward Making Power More Explicit in the IADF: A Review and Diagnostic Approach to Power Theories",
         "source": "International Journal of the Commons (IJC)",
         "authors": "IASC-ECN Power Collective, Désirée Schwindenhammer, Lavanya Suresh",
@@ -110,21 +99,19 @@
         "category": "시빅HCI·UXR",
         "relevance_score": 9.2,
         "summary_points": [
-          "연구 배경 및 문제의식: 오스트롬이 정립한 제도분석틀(IADF)은 인간과 자연의 상호작용 제도를 파악하는 강력한 도구이지만, 행위자 간의 불평등한 '권력 관계(Power Relations)'를 포착하는 데 한계가 있다는 오랜 비판을 다룹니다.",
-          "핵심 분석 및 이론적 발견: 푸코의 규율 권력, 부르디외의 상징 권력, 정치생태학의 구조적 권력 이론을 IAD 프레임워크의 '활동 공간(Action Arena)'에 통합하는 진단적 방법론을 제안하여, 제도의 규칙 이면에 숨은 권력의 불균형을 드러내는 확장 모델을 제시했습니다.",
-          "트윈 연구 시사점: 공공 인터페이스나 커먼즈 규칙이 중립적으로 보일지라도 취약계층에게는 차별적인 장벽이 될 수 있음을 지적하며, 시빅 UXR과 참여 디자인에서 권력의 비대칭을 교정하는 비판적 시각을 제공합니다."
+          "연구 배경 및 문제의식: In commons and institutional research, the Institutional Analysis and Development framework (IADF) has proven itself as a useful tool to investigate the complexities of social-environmental systems.",
+          "핵심 분석 및 발견: It is effective in guiding researchers through the process of understanding complex problem situations. 더불어 저자들은 The framework helps to conceptually unravel the institutional scaffoldings structuring human-nature interactions.",
+          "트윈 연구 시사점: 기술 관료주의적 하향식 시스템을 넘어 시민과 취약계층이 스스로의 경험과 권리를 능동적으로 행사할 수 있는 참여적 사용자 인터페이스(Civic Interface) 및 포용적 공공데이터 안전망 설계에 직접적으로 적용될 수 있습니다."
         ],
         "keywords": [
-          "#제도분석",
-          "#IADF",
-          "#권력정치",
-          "#커먼즈거버넌스",
-          "#참여디자인"
+          "#시빅HCI",
+          "#커머닝",
+          "#연구동향"
         ]
       },
       {
         "id": "https://doi.org/10.1007/s10460-026-11001-5",
-        "title_kr": "스위스의 내추럴 와인 양조: 한 병에 담긴 자연과 자율성",
+        "title_kr": "Natural wine-crafting in Switzerland: nature and autonomy in the bottle",
         "original_title": "Natural wine-crafting in Switzerland: nature and autonomy in the bottle",
         "source": "Agriculture and Human Values",
         "authors": "Flavian Pichonnat, Heike Mayer, Theresa Tribaldos",
@@ -133,21 +120,19 @@
         "category": "농생태·식량주권",
         "relevance_score": 9.2,
         "summary_points": [
-          "연구 배경 및 문제의식: 효율, 수량, 통제, 표준화로 대변되는 산업형 농업의 지배적 가치에 맞서, 인위적 화학 개입을 최소화하는 내추럴 와인 양조자들의 자율적 실천을 탐구합니다.",
-          "핵심 분석 및 이론적 발견: 스위스 양조자들의 심층 인터뷰를 통해, 내추럴 와인 양조가 단순한 유기농 소비 트렌드가 아니라 토양의 미생물, 기후, 효모라는 '비인간 행위자'와의 협력 속에서 인간의 통제 욕망을 내려놓는 '생태적 자율성(Ecological Autonomy)'의 획득 과정임을 밝힙니다.",
-          "트윈 연구 시사점: 자율성이란 타자나 자연과의 단절이 아니라, 대지의 살아있는 생명들과 조화롭게 관계 맺을 때 완성된다는 깊은 통찰을 주며, 트윈이 추구하는 '흙과 자연을 가까이하는 독립적 삶(반농반연구)'의 미학적 모델을 보여줍니다."
+          "연구 배경 및 문제의식: Abstract Agricultural industrialization has continued along the tracks of technological progress with its attendant socioecological damages.",
+          "핵심 분석 및 발견: The values of industrialism have remained dominant in agriculture: efficiency, quantity, speed, control, and standardization. 더불어 저자들은 Nevertheless, committed wine-crafters worldwide, dedicated to natural wines, have questioned these industrial values.",
+          "트윈 연구 시사점: 자본주의적 산업 농업과 추출주의적 대지 착취를 비판하고, 흙·미생물·농민의 자치 역량이 상호 얽혀 회복력을 발휘하는 농생태학(Agroecology) 및 대지 윤리적 실천에 긴밀히 연결됩니다."
         ],
         "keywords": [
-          "#내추럴와인",
-          "#대지윤리",
-          "#생태적자율성",
+          "#농생태",
           "#다종공생",
-          "#농생태학"
+          "#연구동향"
         ]
       },
       {
         "id": "https://doi.org/10.1007/s10460-026-10977-4",
-        "title_kr": "토종 종자 체계 평가에서 젠더의 결정적 중요성: 모로코, 세네갈, 마다가스카르 소농의 실증 사례",
+        "title_kr": "Gender matters in seed system assessments: evidence from smallholder farms in Morocco, Senegal, and Madagascar",
         "original_title": "Gender matters in seed system assessments: evidence from smallholder farms in Morocco, Senegal, and Madagascar",
         "source": "Agriculture and Human Values",
         "authors": "Vanesse Labeyrie, Florence Lebeaupin, Juliette Mariel",
@@ -156,39 +141,34 @@
         "category": "농생태·식량주권",
         "relevance_score": 8.3,
         "summary_points": [
-          "연구 배경 및 문제의식: 소농 중심의 종자 보존 및 생물다양성 거버넌스에서 여성 농민의 역할이 정책적·학술적으로 배제되거나 저평가되는 현실을 지적하고, 젠더 분리 데이터 수집의 필요성을 제기합니다.",
-          "핵심 분석 및 이론적 발견: 모로코, 세네갈, 마다가스카르 소농 현장 조사를 통해, 토종 종자의 선발, 보관, 교환 네트워크의 중심에 여성 농민의 구전 지식이 있음을 입증하고, 기존 하향식 농업 평가가 여성의 자치적 실천을 보이지 않게 지우는 구조를 비판했습니다.",
-          "트윈 연구 시사점: 반다나 시바의 에코페미니즘 논의와 직접 연결되며, 종자라는 원초적 커먼즈(Seed Commons)를 지키는 비공식적이고 섬세한 돌봄의 노동을 공식적인 연구와 인프라 설계에서 어떻게 가시화해야 하는지 명확한 방향을 제시합니다."
+          "연구 배경 및 문제의식: Despite growing recognition of the importance of involving smallholder farmers in seed systems governance, gender remains a critical but overlooked dimension.",
+          "핵심 분석 및 발견: Women’s seed practices are often misunderstood, underdocumented, and excluded from policy and research, leading to governance frameworks that fail to address their needs or even exacerbate inequalities. 더불어 저자들은 This calls for collecting gender-disaggregated data and developing more inclusive methodologies in seed system assessments.",
+          "트윈 연구 시사점: 자본주의적 산업 농업과 추출주의적 대지 착취를 비판하고, 흙·미생물·농민의 자치 역량이 상호 얽혀 회복력을 발휘하는 농생태학(Agroecology) 및 대지 윤리적 실천에 긴밀히 연결됩니다."
         ],
         "keywords": [
-          "#종자커먼즈",
-          "#에코페미니즘",
-          "#여성농민",
-          "#식량주권",
-          "#돌봄노동"
+          "#농생태",
+          "#연구동향"
         ]
       },
       {
         "id": "https://doi.org/10.17632/nbk3p89m86",
-        "title_kr": "인구 감소 시대 도시 공간의 비동기적 재편: 토지 이용, 활동 밀도, 장소 기반 조정의 다층 실증 분석",
+        "title_kr": "Data and code for: Asynchronous reorganization of urban space under population shrinkage: Multiscale evidence from land processes, activity intensity, and place-based adjustment in Chinese cities",
         "original_title": "Data and code for: Asynchronous reorganization of urban space under population shrinkage: Multiscale evidence from land processes, activity intensity, and place-based adjustment in Chinese cities",
-        "source": "Mendeley Data (Urban Studies)",
+        "source": "Mendeley Data",
         "authors": "Jiawei Sun (772107)",
         "published": "2027-10-06",
         "url": "https://doi.org/10.17632/nbk3p89m86",
         "category": "공간사회·도시커먼즈",
         "relevance_score": 8.3,
         "summary_points": [
-          "연구 배경 및 문제의식: 지속적인 인구 축소 및 지방 소멸 국면에 직면한 도시들이 물리적 토지 이용과 실제 시민 활동 밀도 사이에서 겪는 비동기적 공간 불일치(Spatial Mismatch) 현상을 분석한 데이터셋입니다.",
-          "핵심 분석 및 이론적 발견: 중국 및 아시아 주요 축소 도시들의 다층 데이터를 통해, 인구가 줄어도 행정적 개발과 토지 확장은 관성에 의해 계속되는 불균형을 포착하고, 유휴 부지와 공가(빈집)를 공공 커먼즈로 전환하기 위한 장소 기반 조정 지표를 도출했습니다.",
-          "트윈 연구 시사점: 인구 감소기 도시에서 무분별한 팽창을 멈추고 빈집과 유휴지를 시민의 공유 공간 및 생태적 안전망으로 재설계하는 '감속과 축소의 도시 커먼즈' 전략에 긴요한 분석틀을 제공합니다."
+          "연구 배경 및 문제의식: 본 연구는 Mendeley Data에 게재된 논문으로, 'Data and code for: Asynchronous reorganization of urban space under population shrinkage: Multiscale evidence from land processes, activity intensity, and place-based adjustment in Chinese cities'에 관한 기존 이론적 틀과 현실적 한계를 짚고 대안적 메커니즘을 탐구합니다.",
+          "핵심 분석 및 발견: Mendeley Data의 해당 저작은 실천적 사례 연구와 개념 분석을 결합하여, 행위자 간의 상호작용 및 시스템 거버넌스 구조를 심층적으로 규명합니다.",
+          "트윈 연구 시사점: 도시 공간의 상품화와 젠트리피케이션에 맞서 모든 시민이 공간에 대한 권리(Right to the City)를 누릴 수 있는 도시 커먼즈의 물리적·사회적 인프라 전략에 시사점을 던집니다."
         ],
         "keywords": [
-          "#축소도시",
-          "#공간정의",
-          "#도시커먼즈",
-          "#인구감소",
-          "#유휴공간전환"
+          "#공간사회",
+          "#도시공간",
+          "#연구동향"
         ]
       }
     ]
