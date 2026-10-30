@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>고요한 연구 살롱 · Research Digest</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Google Fonts: Noto Serif KR & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif+KR:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <script>
+    tailwind.config = {
+      darkMode: 'class',
+      theme: {
+        extend: {
+          fontFamily: {
+            serif: ['"Noto Serif KR"', 'serif'],
+            sans: ['Inter', '-apple-system', 'BlinkMacSystemFont', 'system-ui', 'sans-serif'],
+          },
+          colors: {
+            sand: {
+              50: '#fcfbf9',
+              100: '#f7f6f2',
+              200: '#eeebe2',
+              300: '#ded9cc',
+              400: '#c5bdaf',
+              700: '#5c564c',
+              800: '#38342e',
+              900: '#23201d'
+            },
+            sage: {
+              50: '#f4f6f4',
+              100: '#e5eae5',
+              600: '#4b6352',
+              700: '#3b4e41',
+              800: '#2d3c32'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    body {
+      background-color: #fbfaf7;
+      color: #2e2b27;
+      font-family: 'Inter', -apple-system, sans-serif;
+      -webkit-font-smoothing: antialiased;
+    }
+    .serif-title {
+      font-family: 'Noto Serif KR', serif;
+      letter-spacing: -0.02em;
+    }
+    /* Subtle paper texture border */
+    .card-border {
+      border: 1px solid rgba(0, 0, 0, 0.07);
+    }
+    .card-border:hover {
+      border-color: rgba(0, 0, 0, 0.16);
+    }
+  </style>
+</head>
+<body class="min-h-screen flex flex-col justify-between selection:bg-sand-300">
+
+  <!-- Header -->
+  <header class="border-b border-sand-200/80 bg-sand-50/90 backdrop-blur sticky top-0 z-30 transition-all">
+    <div class="max-w-4xl mx-auto px-5 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-3">
+        <span class="text-xl">🍵</span>
+        <div>
+          <h1 class="text-lg font-medium serif-title tracking-tight text-sand-900">고요한 연구 살롱</h1>
+          <p class="text-xs text-sand-700 tracking-wide">Commons · Civic HCI · Agroecology Research Digest</p>
+        </div>
+      </div>
+
+      <!-- Live Clock & Status -->
+      <div class="flex items-center space-x-3 text-xs text-sand-700">
+        <span id="current-edition-badge" class="px-2.5 py-1 rounded-full bg-sand-200 text-sand-800 font-medium">
+          로딩 중...
+        </span>
+        <button id="theme-toggle" class="p-1.5 rounded-full hover:bg-sand-200 text-sand-700 transition" title="다크/라이트 모드">
+          <i data-lucide="sun" class="w-4 h-4"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Main Container -->
+  <main class="max-w-4xl mx-auto px-5 py-8 flex-grow w-full">
+
+    <!-- Top Navigation / Mode Selector -->
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
+      <!-- Tabs -->
+      <div class="flex space-x-1 p-1 bg-sand-100 rounded-xl border border-sand-200 w-fit">
+        <button id="tab-latest" class="tab-btn px-4 py-1.5 text-xs font-medium rounded-lg bg-white shadow-sm text-sand-900 transition">
+          최신 다이제스트
+        </button>
+        <button id="tab-archive" class="tab-btn px-4 py-1.5 text-xs font-medium rounded-lg text-sand-700 hover:text-sand-900 transition">
+          전체 아카이브 및 검색
+        </button>
+      </div>
+
+      <!-- Search Bar -->
+      <div class="relative w-full sm:w-72">
+        <i data-lucide="search" class="w-4 h-4 absolute left-3 top-2.5 text-sand-400"></i>
+        <input 
+          type="text" 
+          id="search-input" 
+          placeholder="논문, 기사, 키워드 검색..." 
+          class="w-full pl-9 pr-4 py-1.5 text-xs bg-white border border-sand-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-sand-400 text-sand-900 placeholder-sand-400 transition"
+        >
+      </div>
+    </div>
+
+    <!-- Category Filter Pills -->
+    <div class="flex flex-wrap items-center gap-1.5 mb-6 text-xs">
+      <span class="text-sand-400 text-[11px] mr-1">분야 필터:</span>
+      <button class="filter-pill active px-3 py-1 rounded-full border border-sand-300 bg-sand-900 text-white transition font-medium" data-cat="all">전체</button>
+      <button class="filter-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-cat="커먼즈">#커먼즈</button>
+      <button class="filter-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-cat="시빅HCI·UXR">#시빅HCI·UXR</button>
+      <button class="filter-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-cat="농생태·생태전환">#농생태·생태전환</button>
+      <button class="filter-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-cat="재난안전·공공인프라">#재난안전·공공인프라</button>
+    </div>
+
+    <!-- Digest Info Banner -->
+    <div id="digest-meta-banner" class="mb-6 p-4 rounded-xl bg-sand-100/70 border border-sand-200/80 flex items-center justify-between text-xs text-sand-700">
+      <div class="flex items-center space-x-2">
+        <i data-lucide="calendar" class="w-4 h-4 text-sand-700"></i>
+        <span id="digest-date-text">발행 정보 불러오는 중...</span>
+      </div>
+      <button id="copy-all-obsidian-btn" class="flex items-center space-x-1.5 px-3 py-1 bg-white hover:bg-sand-50 border border-sand-300 rounded-md shadow-2xs text-sand-800 transition font-medium">
+        <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
+        <span>옵시디언 마크다운 전체 복사</span>
+      </button>
+    </div>
+
+    <!-- Items Feed -->
+    <div id="items-container" class="space-y-6">
+      <!-- Loading Skeleton -->
+      <div class="p-6 bg-white rounded-xl border border-sand-200 animate-pulse space-y-4">
+        <div class="h-4 bg-sand-200 rounded w-1/4"></div>
+        <div class="h-6 bg-sand-200 rounded w-3/4"></div>
+        <div class="h-16 bg-sand-100 rounded w-full"></div>
+      </div>
+    </div>
+
+    <!-- Empty State -->
+    <div id="empty-state" class="hidden py-16 text-center text-sand-400 space-y-2">
+      <i data-lucide="wind" class="w-8 h-8 mx-auto text-sand-300 stroke-1"></i>
+      <p class="text-sm">해당 조건에 맞는 학술 및 담론 소식이 없습니다.</p>
+    </div>
+
+  </main>
+
+  <!-- Toast Notification -->
+  <div id="toast" class="fixed bottom-6 right-6 px-4 py-2.5 bg-sand-900 text-white text-xs rounded-lg shadow-lg flex items-center space-x-2 opacity-0 pointer-events-none transition-all duration-300 z-50">
+    <i data-lucide="check-circle-2" class="w-4 h-4 text-emerald-400"></i>
+    <span id="toast-message">클립보드에 복사되었습니다.</span>
+  </div>
+
+  <!-- Footer -->
+  <footer class="border-t border-sand-200/80 py-6 text-center text-xs text-sand-700 bg-sand-50/50">
+    <p>고요한 자율적 개인을 위한 비영리 학술 연구 다이제스트 인프라</p>
+    <p class="mt-1 text-[11px] text-sand-700">Automated by Google Gemini Free API · Published with GitHub & Vercel</p>
+  </footer>
+
+  <!-- App Script -->
+  <script>
+    let latestDigest = null;
+    let archiveDigests = [];
+    let currentMode = 'latest'; // 'latest' or 'archive'
+    let currentCategory = 'all';
+    let searchQuery = '';
+
+    // Initialize Lucide Icons
+    function updateIcons() {
+      if (window.lucide) {
+        lucide.createIcons();
+      }
+    }
+
+    // Show Toast
+    function showToast(msg) {
+      const toast = document.getElementById('toast');
+      document.getElementById('toast-message').textContent = msg;
+      toast.classList.remove('opacity-0', 'pointer-events-none');
+      setTimeout(() => {
+        toast.classList.add('opacity-0', 'pointer-events-none');
+      }, 2500);
+    }
+
+    // Load Data
+    async function loadData() {
+      try {
+        const [latestRes, archiveRes] = await Promise.all([
+          fetch('data/latest_digest.json'),
+          fetch('data/archive.json').catch(() => null)
+        ]);
+
+        if (latestRes.ok) {
+          latestDigest = await latestRes.json();
+        }
+        if (archiveRes && archiveRes.ok) {
+          archiveDigests = await archiveRes.json();
+        }
+
+        renderHeaderBadge();
+        renderFeed();
+      } catch (err) {
+        console.error('Failed to load digest data:', err);
+        document.getElementById('items-container').innerHTML = `
+          <div class="p-6 bg-amber-50/50 border border-amber-200 rounded-xl text-xs text-amber-800 space-y-2">
+            <p class="font-semibold">⚠️ 아직 다이제스트 데이터가 생성되지 않았거나 로컬 보안(CORS) 제한 상태입니다.</p>
+            <p>터미널에서 <code>python run_digest.py</code>를 실행하여 최신 다이제스트를 생성하거나 웹 서버로 접속해 주세요.</p>
+          </div>
+        `;
+      }
+    }
+
+    function renderHeaderBadge() {
+      if (!latestDigest) return;
+      const badge = document.getElementById('current-edition-badge');
+      badge.textContent = `${latestDigest.date} ${latestDigest.edition === 'morning' ? '🌅 모닝' : '🍵 오후'}`;
+      
+      const meta = document.getElementById('digest-date-text');
+      meta.textContent = `${latestDigest.edition_label} (발행: ${latestDigest.timestamp} · 총 ${latestDigest.item_count}건)`;
+    }
+
+    // Filter Items
+    function getFilteredItems() {
+      let rawItems = [];
+      if (currentMode === 'latest') {
+        rawItems = latestDigest ? latestDigest.items : [];
+      } else {
+        // Flat all archive items
+        archiveDigests.forEach(d => {
+          (d.items || []).forEach(it => {
+            rawItems.push({ ...it, digest_edition_label: `${d.date} ${d.edition === 'morning' ? '오전' : '오후'}` });
+          });
+        });
+      }
+
+      return rawItems.filter(item => {
+        // Category filter
+        const matchCat = (currentCategory === 'all') || (item.category === currentCategory);
+        // Search filter
+        const fullText = `${item.title_kr} ${item.original_title} ${item.source} ${item.authors} ${(item.keywords || []).join(' ')} ${(item.summary_points || []).join(' ')}`.toLowerCase();
+        const matchQuery = !searchQuery || fullText.includes(searchQuery.toLowerCase());
+        return matchCat && matchQuery;
+      });
+    }
+
+    // Render Feed
+    function renderFeed() {
+      const container = document.getElementById('items-container');
+      const emptyState = document.getElementById('empty-state');
+      const items = getFilteredItems();
+
+      if (items.length === 0) {
+        container.innerHTML = '';
+        emptyState.classList.remove('hidden');
+        return;
+      }
+
+      emptyState.classList.add('hidden');
+      container.innerHTML = items.map((item, idx) => {
+        const scoreBadge = item.relevance_score ? `
+          <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-amber-50 text-amber-800 border border-amber-200/60">
+            ★ ${item.relevance_score}
+          </span>
+        ` : '';
+
+        const pointsHtml = (item.summary_points || []).map(p => `
+          <li class="flex items-start space-x-2 text-xs leading-relaxed text-sand-800">
+            <span class="text-sand-400 mt-0.5 select-none">•</span>
+            <span>${p}</span>
+          </li>
+        `).join('');
+
+        const tagsHtml = (item.keywords || []).map(k => `
+          <span class="text-[11px] text-sand-700 hover:text-sand-900 cursor-pointer" onclick="applyTagSearch('${k.replace('#', '')}')">${k}</span>
+        `).join(' ');
+
+        return `
+          <article class="p-6 bg-white rounded-xl card-border shadow-2xs hover:shadow-xs transition-all space-y-4">
+            <!-- Header Row -->
+            <div class="flex flex-wrap items-center justify-between gap-2 border-b border-sand-100 pb-3">
+              <div class="flex items-center space-x-2">
+                <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-sand-100 text-sand-800 border border-sand-200">
+                  ${item.category}
+                </span>
+                <span class="text-xs text-sand-700 truncate max-w-[200px] sm:max-w-xs font-medium">
+                  ${item.source}
+                </span>
+                ${item.digest_edition_label ? `<span class="text-[11px] text-sand-400 font-mono">(${item.digest_edition_label})</span>` : ''}
+              </div>
+              <div class="flex items-center space-x-2">
+                ${scoreBadge}
+                <button 
+                  onclick="copySingleItemMarkdown(${idx})"
+                  class="p-1.5 rounded hover:bg-sand-100 text-sand-700 hover:text-sand-900 transition" 
+                  title="옵시디언 마크다운으로 복사"
+                >
+                  <i data-lucide="copy" class="w-3.5 h-3.5"></i>
+                </button>
+              </div>
+            </div>
+
+            <!-- Titles -->
+            <div class="space-y-1">
+              <h3 class="text-base sm:text-lg font-semibold serif-title text-sand-900 hover:text-sand-700 transition leading-snug">
+                <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="hover:underline">
+                  ${item.title_kr}
+                </a>
+              </h3>
+              <p class="text-xs text-sand-700 font-mono italic">
+                ${item.original_title}
+              </p>
+            </div>
+
+            <!-- Meta: Authors & Date -->
+            <div class="text-xs text-sand-700 flex flex-wrap items-center gap-y-1 gap-x-3">
+              <span>저자: <strong class="text-sand-700">${item.authors || '연구진'}</strong></span>
+              <span class="text-sand-300">|</span>
+              <span>발행일: ${item.published || '최신'}</span>
+            </div>
+
+            <!-- 3-Line Summary Card -->
+            <div class="p-3.5 rounded-lg bg-sand-50/70 border border-sand-200/60">
+              <div class="text-[11px] font-semibold tracking-wide uppercase text-sand-700 mb-2 flex items-center space-x-1">
+                <i data-lucide="sparkles" class="w-3 h-3 text-sand-700"></i>
+                <span>연구자 핵심 시사점 (Research Insights)</span>
+              </div>
+              <ul class="space-y-1.5">
+                ${pointsHtml}
+              </ul>
+            </div>
+
+            <!-- Footer: Tags & Link -->
+            <div class="flex items-center justify-between pt-2">
+              <div class="flex items-center space-x-2">
+                ${tagsHtml}
+              </div>
+              <a 
+                href="${item.url}" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                class="inline-flex items-center space-x-1 text-xs font-medium text-sand-700 hover:text-sand-900 transition group"
+              >
+                <span>원문 보기</span>
+                <i data-lucide="arrow-up-right" class="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
+              </a>
+            </div>
+          </article>
+        `;
+      }).join('');
+
+      updateIcons();
+    }
+
+    // Copy Single Item Markdown
+    window.copySingleItemMarkdown = function(idx) {
+      const items = getFilteredItems();
+      const it = items[idx];
+      if (!it) return;
+
+      const md = `### [${it.category}] ${it.title_kr}
+- **원제**: ${it.original_title}
+- **출처 / 저자**: \`${it.source}\` · ${it.authors} (${it.published || ''})
+- **원문 링크**: [원문 읽기](${it.url})
+- **관련도**: ⭐ ${it.relevance_score || 8.0}/10.0
+- **핵심 시사점**:
+${(it.summary_points || []).map(p => `  - ${p}`).join('\n')}
+- **태그**: ${(it.keywords || []).join(' ')}
+`;
+      navigator.clipboard.writeText(md).then(() => {
+        showToast('논문 요약 마크다운이 복사되었습니다.');
+      });
+    };
+
+    // Copy All Markdown
+    document.getElementById('copy-all-obsidian-btn').addEventListener('click', () => {
+      const items = getFilteredItems();
+      if (!items.length) return;
+
+      let md = `# ☕ Research Digest (${latestDigest ? latestDigest.date : 'Archive'})\n\n`;
+      items.forEach((it, i) => {
+        md += `### ${i+1}. [${it.category}] ${it.title_kr}\n`;
+        md += `- **원제**: ${it.original_title}\n`;
+        md += `- **출처 / 저자**: \`${it.source}\` · ${it.authors}\n`;
+        md += `- **원문 링크**: ${it.url}\n`;
+        md += `- **핵심 시사점**:\n`;
+        (it.summary_points || []).forEach(p => { md += `  - ${p}\n`; });
+        md += `\n---\n\n`;
+      });
+
+      navigator.clipboard.writeText(md).then(() => {
+        showToast('전체 다이제스트 마크다운이 복사되었습니다.');
+      });
+    });
+
+    // Tag Search Helper
+    window.applyTagSearch = function(tag) {
+      const input = document.getElementById('search-input');
+      input.value = tag;
+      searchQuery = tag;
+      renderFeed();
+    };
+
+    // Category Filter Event
+    document.querySelectorAll('.filter-pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-pill').forEach(b => {
+          b.classList.remove('active', 'bg-sand-900', 'text-white');
+          b.classList.add('bg-white', 'text-sand-700');
+        });
+        btn.classList.add('active', 'bg-sand-900', 'text-white');
+        btn.classList.remove('bg-white', 'text-sand-700');
+        currentCategory = btn.dataset.cat;
+        renderFeed();
+      });
+    });
+
+    // Tab Buttons
+    const tabLatest = document.getElementById('tab-latest');
+    const tabArchive = document.getElementById('tab-archive');
+
+    tabLatest.addEventListener('click', () => {
+      currentMode = 'latest';
+      tabLatest.classList.add('bg-white', 'shadow-sm', 'text-sand-900');
+      tabLatest.classList.remove('text-sand-700');
+      tabArchive.classList.remove('bg-white', 'shadow-sm', 'text-sand-900');
+      tabArchive.classList.add('text-sand-700');
+      renderFeed();
+    });
+
+    tabArchive.addEventListener('click', () => {
+      currentMode = 'archive';
+      tabArchive.classList.add('bg-white', 'shadow-sm', 'text-sand-900');
+      tabArchive.classList.remove('text-sand-700');
+      tabLatest.classList.remove('bg-white', 'shadow-sm', 'text-sand-900');
+      tabLatest.classList.add('text-sand-700');
+      renderFeed();
+    });
+
+    // Search Input
+    document.getElementById('search-input').addEventListener('input', (e) => {
+      searchQuery = e.target.value.trim();
+      renderFeed();
+    });
+
+    // Dark Mode Toggle (Simple Invert/Class)
+    let isDark = false;
+    document.getElementById('theme-toggle').addEventListener('click', () => {
+      isDark = !isDark;
+      if (isDark) {
+        document.body.style.backgroundColor = '#181715';
+        document.body.style.color = '#e0dedb';
+        document.querySelectorAll('.card-border').forEach(c => c.style.backgroundColor = '#22201d');
+      } else {
+        document.body.style.backgroundColor = '#fbfaf7';
+        document.body.style.color = '#2e2b27';
+        document.querySelectorAll('.card-border').forEach(c => c.style.backgroundColor = '#ffffff');
+      }
+    });
+
+    // Init
+    loadData();
+    updateIcons();
+  </script>
+</body>
+</html>
