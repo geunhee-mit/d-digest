@@ -1,16 +1,8 @@
 {
-  "updated_at": "2026-10-30 20:14",
-  "total_digests": 2,
-  "total_papers_analyzed": 16,
+  "updated_at": "2026-10-30 20:34",
+  "total_digests": 1,
+  "total_papers_analyzed": 8,
   "category_distribution": [
-    {
-      "category": "재난안전·공공인프라",
-      "count": 4
-    },
-    {
-      "category": "농생태·생태전환",
-      "count": 4
-    },
     {
       "category": "농생태·식량주권",
       "count": 3
@@ -20,80 +12,81 @@
       "count": 2
     },
     {
-      "category": "시빅HCI·UXR",
-      "count": 2
+      "category": "재난안전·공공인프라",
+      "count": 1
     },
     {
-      "category": "커먼즈",
+      "category": "과학기술학·STS",
+      "count": 1
+    },
+    {
+      "category": "시빅HCI·UXR",
       "count": 1
     }
   ],
   "top_keywords": [
     {
-      "keyword": "#연구동향",
-      "count": 8
-    },
-    {
-      "keyword": "#연구노트",
-      "count": 8
-    },
-    {
-      "keyword": "#학술다이제스트",
-      "count": 8
-    },
-    {
-      "keyword": "#농생태·생태전환",
-      "count": 4
-    },
-    {
-      "keyword": "#농생태",
-      "count": 3
-    },
-    {
-      "keyword": "#재난안전",
+      "keyword": "#식량주권",
       "count": 2
     },
     {
-      "keyword": "#공간사회",
+      "keyword": "#농생태학",
       "count": 2
-    },
-    {
-      "keyword": "#도시공간",
-      "count": 2
-    },
-    {
-      "keyword": "#재난안전·공공인프라",
-      "count": 2
-    },
-    {
-      "keyword": "#시빅HCI",
-      "count": 1
-    },
-    {
-      "keyword": "#커머닝",
-      "count": 1
     },
     {
       "keyword": "#다종공생",
+      "count": 2
+    },
+    {
+      "keyword": "#도시커먼즈",
+      "count": 2
+    },
+    {
+      "keyword": "#공간정의",
+      "count": 2
+    },
+    {
+      "keyword": "#제도분석",
+      "count": 2
+    },
+    {
+      "keyword": "#복합위기",
       "count": 1
     },
     {
-      "keyword": "#시빅HCI·UXR",
+      "keyword": "#돌봄실험",
       "count": 1
     },
     {
-      "keyword": "#커먼즈",
+      "keyword": "#대항헤게모니",
+      "count": 1
+    },
+    {
+      "keyword": "#세계생태론",
+      "count": 1
+    },
+    {
+      "keyword": "#재난안전",
+      "count": 1
+    },
+    {
+      "keyword": "#녹색혁명비판",
+      "count": 1
+    },
+    {
+      "keyword": "#과학기술학",
+      "count": 1
+    },
+    {
+      "keyword": "#사회기술시스템",
+      "count": 1
+    },
+    {
+      "keyword": "#도시숲생태",
       "count": 1
     }
   ],
   "timeline_series": [
-    {
-      "id": "2026-10-30_afternoon",
-      "date": "2026-10-30",
-      "edition": "afternoon",
-      "label": "2026-10-30 오후",
-      "count": 8
-    },
     {
       "id": "2026-10-30_morning",
       "date": "2026-10-30",
