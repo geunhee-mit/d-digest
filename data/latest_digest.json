@@ -1,9 +1,9 @@
 {
-  "id": "2026-10-30_morning",
-  "edition": "morning",
-  "edition_label": "오전 다이제스트 (Morning Digest)",
+  "id": "2026-10-30_afternoon",
+  "edition": "afternoon",
+  "edition_label": "오후 다이제스트 (Afternoon Digest)",
   "date": "2026-10-30",
-  "timestamp": "2026-10-30 11:35",
+  "timestamp": "2026-10-30 15:24",
   "item_count": 8,
   "items": [
     {
@@ -109,44 +109,24 @@
       ]
     },
     {
-      "id": "https://doi.org/10.1007/s10460-026-11001-5",
-      "title_kr": "Natural wine-crafting in Switzerland: nature and autonomy in the bottle",
-      "original_title": "Natural wine-crafting in Switzerland: nature and autonomy in the bottle",
+      "id": "https://doi.org/10.1007/s10460-026-10993-4",
+      "title_kr": "Sons or seeds: gender, care work, and agrobiodiversity in translocal households of rural China",
+      "original_title": "Sons or seeds: gender, care work, and agrobiodiversity in translocal households of rural China",
       "source": "Agriculture and Human Values",
-      "authors": "Flavian Pichonnat, Heike Mayer, Theresa Tribaldos",
-      "published": "2026-10-24",
-      "url": "https://doi.org/10.1007/s10460-026-11001-5",
-      "category": "농생태·식량주권",
+      "authors": "Miaomiao Qi, Siyuan Xu",
+      "published": "2026-10-28",
+      "url": "https://doi.org/10.1007/s10460-026-10993-4",
+      "category": "공간사회·도시커먼즈",
       "relevance_score": 9.2,
       "summary_points": [
-        "연구 배경 및 문제의식: Abstract Agricultural industrialization has continued along the tracks of technological progress with its attendant socioecological damages.",
-        "핵심 분석 및 발견: The values of industrialism have remained dominant in agriculture: efficiency, quantity, speed, control, and standardization. 더불어 저자들은 Nevertheless, committed wine-crafters worldwide, dedicated to natural wines, have questioned these industrial values.",
-        "트윈 연구 시사점: 자본주의적 산업 농업과 추출주의적 대지 착취를 비판하고, 흙·미생물·농민의 자치 역량이 상호 얽혀 회복력을 발휘하는 농생태학(Agroecology) 및 대지 윤리적 실천에 긴밀히 연결됩니다."
+        "연구 배경 및 문제의식: Abstract Drawing on fieldwork in two remote mountainous villages in northern and southwestern China, this paper examines women’s (re)engagement with seed keeping practices and agroecological production with the support of social organizations.",
+        "핵심 분석 및 발견: We foreground the dilemma between caring for sons and caring for seeds faced by so-called ‘left-behind’ women in translocal households. 더불어 저자들은 Women’s care work for seeds sustains local agrobiodiversity and contributes to their family’s access to healthy food.",
+        "트윈 연구 시사점: 도시 공간의 상품화와 젠트리피케이션에 맞서 모든 시민이 공간에 대한 권리(Right to the City)를 누릴 수 있는 도시 커먼즈의 물리적·사회적 인프라 전략에 시사점을 던집니다."
       ],
       "keywords": [
-        "#농생태",
+        "#공간사회",
         "#다종공생",
-        "#연구동향"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.1007/s10460-026-10977-4",
-      "title_kr": "Gender matters in seed system assessments: evidence from smallholder farms in Morocco, Senegal, and Madagascar",
-      "original_title": "Gender matters in seed system assessments: evidence from smallholder farms in Morocco, Senegal, and Madagascar",
-      "source": "Agriculture and Human Values",
-      "authors": "Vanesse Labeyrie, Florence Lebeaupin, Juliette Mariel",
-      "published": "2026-10-21",
-      "url": "https://doi.org/10.1007/s10460-026-10977-4",
-      "category": "농생태·식량주권",
-      "relevance_score": 8.3,
-      "summary_points": [
-        "연구 배경 및 문제의식: Despite growing recognition of the importance of involving smallholder farmers in seed systems governance, gender remains a critical but overlooked dimension.",
-        "핵심 분석 및 발견: Women’s seed practices are often misunderstood, underdocumented, and excluded from policy and research, leading to governance frameworks that fail to address their needs or even exacerbate inequalities. 더불어 저자들은 This calls for collecting gender-disaggregated data and developing more inclusive methodologies in seed system assessments.",
-        "트윈 연구 시사점: 자본주의적 산업 농업과 추출주의적 대지 착취를 비판하고, 흙·미생물·농민의 자치 역량이 상호 얽혀 회복력을 발휘하는 농생태학(Agroecology) 및 대지 윤리적 실천에 긴밀히 연결됩니다."
-      ],
-      "keywords": [
-        "#농생태",
-        "#연구동향"
+        "#도시공간"
       ]
     },
     {
@@ -167,6 +147,26 @@
       "keywords": [
         "#공간사회",
         "#도시공간",
+        "#연구동향"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1080/03066150.2026.2742298",
+      "title_kr": "From people to crops: unpacking displacement for the expansion of commodity agriculture",
+      "original_title": "From people to crops: unpacking displacement for the expansion of commodity agriculture",
+      "source": "The Journal of Peasant Studies",
+      "authors": "Olivia del Giorgio, Carla Gras, Lorenzo Langbehn",
+      "published": "2026-10-22",
+      "url": "https://doi.org/10.1080/03066150.2026.2742298",
+      "category": "농생태·식량주권",
+      "relevance_score": 7.4,
+      "summary_points": [
+        "연구 배경 및 문제의식: Commodity agriculture is rapidly expanding worldwide, often at the expense of natural environments and smallholder agricultural systems.",
+        "핵심 분석 및 발견: In this paper, we unpack the process of smallholder displacement due to the expansion of agricultural commodity frontiers in the Argentine Chaco, where large-scale soy and cattle operations are advancing over forests used by small-scale herders. 더불어 저자들은 We identify a series of trends related to the agricultural frontier – growing pressures on local livelihoods, changing mobility patterns, shifting strategies of land control, and weakening of organized resistance – that conspire to create unstable conditions for families.",
+        "트윈 연구 시사점: 자본주의적 산업 농업과 추출주의적 대지 착취를 비판하고, 흙·미생물·농민의 자치 역량이 상호 얽혀 회복력을 발휘하는 농생태학(Agroecology) 및 대지 윤리적 실천에 긴밀히 연결됩니다."
+      ],
+      "keywords": [
+        "#농생태",
         "#연구동향"
       ]
     }
