@@ -3,15 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>고요한 연구 살롱 · Research Digest</title>
+  <title>고요한 연구 살롱 · Research Digest & Trends</title>
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <!-- Lucide Icons -->
   <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Chart.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <!-- Google Fonts: Noto Serif KR & Inter -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif+KR:wght@300;400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Noto+Serif+KR:wght@300;400;600;700&display=swap" rel="stylesheet">
 
   <script>
     tailwind.config = {
@@ -57,34 +59,33 @@
       font-family: 'Noto Serif KR', serif;
       letter-spacing: -0.02em;
     }
-    /* Subtle paper texture border */
     .card-border {
-      border: 1px solid rgba(0, 0, 0, 0.07);
+      border: 1px solid rgba(0, 0, 0, 0.08);
     }
     .card-border:hover {
-      border-color: rgba(0, 0, 0, 0.16);
+      border-color: rgba(0, 0, 0, 0.18);
     }
   </style>
 </head>
 <body class="min-h-screen flex flex-col justify-between selection:bg-sand-300">
 
   <!-- Header -->
-  <header class="border-b border-sand-200/80 bg-sand-50/90 backdrop-blur sticky top-0 z-30 transition-all">
-    <div class="max-w-4xl mx-auto px-5 py-4 flex items-center justify-between">
-      <div class="flex items-center space-x-3">
-        <span class="text-xl">🍵</span>
+  <header class="border-b border-sand-200/80 bg-sand-50/95 backdrop-blur sticky top-0 z-40 transition-all">
+    <div class="max-w-5xl mx-auto px-5 py-4 flex items-center justify-between">
+      <div class="flex items-center space-x-3.5">
+        <span class="text-2xl">🍵</span>
         <div>
           <h1 class="text-lg font-medium serif-title tracking-tight text-sand-900">고요한 연구 살롱</h1>
-          <p class="text-xs text-sand-700 tracking-wide">Commons · Civic HCI · Agroecology Research Digest</p>
+          <p class="text-xs text-sand-700 tracking-wide">Commons · STS · Civic HCI · Agroecology Research Salon</p>
         </div>
       </div>
 
-      <!-- Live Clock & Status -->
-      <div class="flex items-center space-x-3 text-xs text-sand-700">
-        <span id="current-edition-badge" class="px-2.5 py-1 rounded-full bg-sand-200 text-sand-800 font-medium">
+      <!-- Live Badge & Theme -->
+      <div class="flex items-center space-x-3 text-xs">
+        <span id="current-edition-badge" class="px-3 py-1 rounded-full bg-sand-200 text-sand-800 font-medium">
           로딩 중...
         </span>
-        <button id="theme-toggle" class="p-1.5 rounded-full hover:bg-sand-200 text-sand-700 transition" title="다크/라이트 모드">
+        <button id="theme-toggle" class="p-1.5 rounded-full hover:bg-sand-200 text-sand-700 transition" title="화면 테마 전환">
           <i data-lucide="sun" class="w-4 h-4"></i>
         </button>
       </div>
@@ -92,69 +93,172 @@
   </header>
 
   <!-- Main Container -->
-  <main class="max-w-4xl mx-auto px-5 py-8 flex-grow w-full">
+  <main class="max-w-5xl mx-auto px-5 py-8 flex-grow w-full">
 
-    <!-- Top Navigation / Mode Selector -->
-    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-4 mb-8">
-      <!-- Tabs -->
-      <div class="flex space-x-1 p-1 bg-sand-100 rounded-xl border border-sand-200 w-fit">
-        <button id="tab-latest" class="tab-btn px-4 py-1.5 text-xs font-medium rounded-lg bg-white shadow-sm text-sand-900 transition">
-          최신 다이제스트
+    <!-- Top Navigation Tabs (4 Core Views) -->
+    <div class="flex flex-wrap items-center justify-between gap-4 mb-8 border-b border-sand-200/60 pb-4">
+      <nav class="flex space-x-1 p-1 bg-sand-100 rounded-xl border border-sand-200">
+        <button id="tab-latest" class="nav-tab active px-4 py-1.5 text-xs font-semibold rounded-lg bg-white shadow-2xs text-sand-900 transition">
+          ☕ 최신 다이제스트
         </button>
-        <button id="tab-archive" class="tab-btn px-4 py-1.5 text-xs font-medium rounded-lg text-sand-700 hover:text-sand-900 transition">
-          전체 아카이브 및 검색
+        <button id="tab-trends" class="nav-tab px-4 py-1.5 text-xs font-medium rounded-lg text-sand-700 hover:text-sand-900 transition">
+          📊 연구 동향 대시보드
         </button>
-      </div>
+        <button id="tab-periodicals" class="nav-tab px-4 py-1.5 text-xs font-medium rounded-lg text-sand-700 hover:text-sand-900 transition">
+          📚 학술지 & 비평지 살롱
+        </button>
+        <button id="tab-archive" class="nav-tab px-4 py-1.5 text-xs font-medium rounded-lg text-sand-700 hover:text-sand-900 transition">
+          🗂️ 전체 아카이브 & 검색
+        </button>
+      </nav>
 
-      <!-- Search Bar -->
-      <div class="relative w-full sm:w-72">
-        <i data-lucide="search" class="w-4 h-4 absolute left-3 top-2.5 text-sand-400"></i>
+      <!-- Global Search Input -->
+      <div class="relative w-full sm:w-64">
+        <i data-lucide="search" class="w-3.5 h-3.5 absolute left-3 top-2.5 text-sand-400"></i>
         <input 
           type="text" 
           id="search-input" 
           placeholder="논문, 기사, 키워드 검색..." 
-          class="w-full pl-9 pr-4 py-1.5 text-xs bg-white border border-sand-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-sand-400 text-sand-900 placeholder-sand-400 transition"
+          class="w-full pl-8 pr-3 py-1.5 text-xs bg-white border border-sand-200 rounded-lg focus:outline-none focus:ring-1 focus:ring-sand-400 text-sand-900 placeholder-sand-400 transition"
         >
       </div>
     </div>
 
-    <!-- Category Filter Pills -->
-    <div class="flex flex-wrap items-center gap-1.5 mb-6 text-xs">
-      <span class="text-sand-400 text-[11px] mr-1">분야 필터:</span>
-      <button class="filter-pill active px-3 py-1 rounded-full border border-sand-300 bg-sand-900 text-white transition font-medium" data-cat="all">전체</button>
-      <button class="filter-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-cat="커먼즈">#커먼즈</button>
-      <button class="filter-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-cat="시빅HCI·UXR">#시빅HCI·UXR</button>
-      <button class="filter-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-cat="농생태·생태전환">#농생태·생태전환</button>
-      <button class="filter-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-cat="재난안전·공공인프라">#재난안전·공공인프라</button>
-    </div>
-
-    <!-- Digest Info Banner -->
-    <div id="digest-meta-banner" class="mb-6 p-4 rounded-xl bg-sand-100/70 border border-sand-200/80 flex items-center justify-between text-xs text-sand-700">
-      <div class="flex items-center space-x-2">
-        <i data-lucide="calendar" class="w-4 h-4 text-sand-700"></i>
-        <span id="digest-date-text">발행 정보 불러오는 중...</span>
+    <!-- =================================================================== -->
+    <!-- VIEW 1: LATEST & ARCHIVE FEED                                      -->
+    <!-- =================================================================== -->
+    <section id="view-feed" class="space-y-6">
+      <!-- Category Filter Pills -->
+      <div class="flex flex-wrap items-center gap-1.5 text-xs">
+        <span class="text-sand-400 text-[11px] mr-1">분야 필터:</span>
+        <button class="filter-pill active px-3 py-1 rounded-full border border-sand-300 bg-sand-900 text-white transition font-medium" data-cat="all">전체</button>
+        <button class="filter-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-cat="커먼즈·공유재">#커먼즈·공유재</button>
+        <button class="filter-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-cat="과학기술학·STS">#과학기술학·STS</button>
+        <button class="filter-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-cat="시빅HCI·UXR">#시빅HCI·UXR</button>
+        <button class="filter-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-cat="농생태·식량주권">#농생태·식량주권</button>
+        <button class="filter-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-cat="공간사회·도시커먼즈">#공간사회·도시커먼즈</button>
+        <button class="filter-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-cat="재난안전·공공인프라">#재난안전·공공인프라</button>
       </div>
-      <button id="copy-all-obsidian-btn" class="flex items-center space-x-1.5 px-3 py-1 bg-white hover:bg-sand-50 border border-sand-300 rounded-md shadow-2xs text-sand-800 transition font-medium">
-        <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
-        <span>옵시디언 마크다운 전체 복사</span>
-      </button>
-    </div>
 
-    <!-- Items Feed -->
-    <div id="items-container" class="space-y-6">
-      <!-- Loading Skeleton -->
-      <div class="p-6 bg-white rounded-xl border border-sand-200 animate-pulse space-y-4">
-        <div class="h-4 bg-sand-200 rounded w-1/4"></div>
-        <div class="h-6 bg-sand-200 rounded w-3/4"></div>
-        <div class="h-16 bg-sand-100 rounded w-full"></div>
+      <!-- Digest Info Banner -->
+      <div id="digest-meta-banner" class="p-4 rounded-xl bg-sand-100/70 border border-sand-200/80 flex items-center justify-between text-xs text-sand-700">
+        <div class="flex items-center space-x-2">
+          <i data-lucide="clock" class="w-4 h-4 text-sand-700"></i>
+          <span id="digest-date-text">발행 정보 불러오는 중...</span>
+        </div>
+        <button id="copy-all-obsidian-btn" class="flex items-center space-x-1.5 px-3 py-1 bg-white hover:bg-sand-50 border border-sand-300 rounded-md shadow-2xs text-sand-800 transition font-medium">
+          <i data-lucide="file-text" class="w-3.5 h-3.5"></i>
+          <span>옵시디언 마크다운 전체 복사</span>
+        </button>
       </div>
-    </div>
 
-    <!-- Empty State -->
-    <div id="empty-state" class="hidden py-16 text-center text-sand-400 space-y-2">
-      <i data-lucide="wind" class="w-8 h-8 mx-auto text-sand-300 stroke-1"></i>
-      <p class="text-sm">해당 조건에 맞는 학술 및 담론 소식이 없습니다.</p>
-    </div>
+      <!-- Items Container -->
+      <div id="items-container" class="space-y-6"></div>
+
+      <!-- Empty State -->
+      <div id="empty-state" class="hidden py-16 text-center text-sand-400 space-y-2">
+        <i data-lucide="wind" class="w-8 h-8 mx-auto text-sand-300 stroke-1"></i>
+        <p class="text-sm">해당 조건에 맞는 학술 및 담론 소식이 없습니다.</p>
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- VIEW 2: RESEARCH TRENDS DASHBOARD                                  -->
+    <!-- =================================================================== -->
+    <section id="view-trends" class="hidden space-y-8">
+      <!-- Summary Metric Cards -->
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+        <div class="p-5 bg-white rounded-xl card-border shadow-2xs space-y-1">
+          <span class="text-xs text-sand-400 font-medium">총 분석 논문 및 기사</span>
+          <p id="metric-total-papers" class="text-2xl font-bold text-sand-900 font-mono">0</p>
+          <span class="text-[11px] text-sand-700">OpenAlex, IJC, arXiv, STS 저널 누적</span>
+        </div>
+        <div class="p-5 bg-white rounded-xl card-border shadow-2xs space-y-1">
+          <span class="text-xs text-sand-400 font-medium">추적 중인 핵심 연구 키워드</span>
+          <p id="metric-total-keywords" class="text-2xl font-bold text-sand-900 font-mono">0</p>
+          <span class="text-[11px] text-sand-700">#커먼즈, #사회기술시스템, #다종공생 등</span>
+        </div>
+        <div class="p-5 bg-white rounded-xl card-border shadow-2xs space-y-1">
+          <span class="text-xs text-sand-400 font-medium">엄선된 정기간행물 & 학회</span>
+          <p id="metric-total-periodicals" class="text-2xl font-bold text-sand-900 font-mono">14</p>
+          <span class="text-[11px] text-sand-700">《문화과학》, 《과학기술학연구》 등</span>
+        </div>
+      </div>
+
+      <!-- Charts Row -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- Category Doughnut Chart -->
+        <div class="p-6 bg-white rounded-xl card-border shadow-2xs space-y-4">
+          <div class="flex items-center justify-between border-b border-sand-100 pb-3">
+            <h3 class="text-sm font-semibold serif-title text-sand-900 flex items-center space-x-1.5">
+              <i data-lucide="pie-chart" class="w-4 h-4 text-sand-700"></i>
+              <span>주제 분야별 연구 점유율</span>
+            </h3>
+            <span class="text-[11px] text-sand-400">전체 아카이브 기준</span>
+          </div>
+          <div class="h-64 relative flex items-center justify-center">
+            <canvas id="categoryChart"></canvas>
+          </div>
+        </div>
+
+        <!-- Timeline Bar Chart -->
+        <div class="p-6 bg-white rounded-xl card-border shadow-2xs space-y-4">
+          <div class="flex items-center justify-between border-b border-sand-100 pb-3">
+            <h3 class="text-sm font-semibold serif-title text-sand-900 flex items-center space-x-1.5">
+              <i data-lucide="bar-chart-2" class="w-4 h-4 text-sand-700"></i>
+              <span>회차별 연구 다이제스트 수집 추이</span>
+            </h3>
+            <span class="text-[11px] text-sand-400">최근 발행 회차</span>
+          </div>
+          <div class="h-64 relative flex items-center justify-center">
+            <canvas id="timelineChart"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- Top Keywords Section -->
+      <div class="p-6 bg-white rounded-xl card-border shadow-2xs space-y-4">
+        <div class="flex items-center justify-between border-b border-sand-100 pb-3">
+          <div>
+            <h3 class="text-sm font-semibold serif-title text-sand-900 flex items-center space-x-1.5">
+              <i data-lucide="tag" class="w-4 h-4 text-sand-700"></i>
+              <span>기간별 최다 언급 연구 키워드 Top 15</span>
+            </h3>
+            <p class="text-xs text-sand-700 mt-0.5">키워드를 클릭하면 해당 주제의 논문 및 기사 목록으로 즉시 필터링됩니다.</p>
+          </div>
+        </div>
+        <div id="keywords-container" class="flex flex-wrap gap-2 pt-2"></div>
+      </div>
+    </section>
+
+    <!-- =================================================================== -->
+    <!-- VIEW 3: PERIODICALS & JOURNALS SALON                               -->
+    <!-- =================================================================== -->
+    <section id="view-periodicals" class="hidden space-y-6">
+      <!-- Header Banner -->
+      <div class="p-6 rounded-xl bg-sand-100/70 border border-sand-200/80 space-y-2">
+        <h2 class="text-base sm:text-lg font-bold serif-title text-sand-900 flex items-center space-x-2">
+          <span>🏛️</span>
+          <span>트윈의 관심 학술지 & 정기 비평지 살롱</span>
+        </h2>
+        <p class="text-xs text-sand-700 leading-relaxed max-w-3xl">
+          단순 인용용 논문뿐 아니라, 사회적 쟁점과 비판적 문제의식을 발견할 수 있는 국내외 비평지, 과학기술학(STS), 도시공간, 생태정치 및 디자인 학술지를 엄선하여 큐레이션한 서가입니다.
+        </p>
+      </div>
+
+      <!-- Shelf Filters -->
+      <div class="flex flex-wrap items-center gap-1.5 text-xs">
+        <span class="text-sand-400 text-[11px] mr-1">서가 분류:</span>
+        <button class="shelf-pill active px-3 py-1 rounded-full border border-sand-300 bg-sand-900 text-white transition font-medium" data-shelf="all">전체 서가 (14)</button>
+        <button class="shelf-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-shelf="비판이론·문화비평">비판이론·문화비평</button>
+        <button class="shelf-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-shelf="과학기술학·STS">과학기술학(STS)·미디어</button>
+        <button class="shelf-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-shelf="생태·농생태·커먼즈">생태·농생태·커먼즈</button>
+        <button class="shelf-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-shelf="도시공간·디자인비평">도시공간·디자인비평</button>
+      </div>
+
+      <!-- Periodicals Grid -->
+      <div id="periodicals-grid" class="grid grid-cols-1 md:grid-cols-2 gap-5"></div>
+    </section>
 
   </main>
 
@@ -166,26 +270,31 @@
 
   <!-- Footer -->
   <footer class="border-t border-sand-200/80 py-6 text-center text-xs text-sand-700 bg-sand-50/50">
-    <p>고요한 자율적 개인을 위한 비영리 학술 연구 다이제스트 인프라</p>
-    <p class="mt-1 text-[11px] text-sand-700">Automated by Google Gemini Free API · Published with GitHub & Vercel</p>
+    <p>고요한 자율적 개인을 위한 비영리 학술 연구 다이제스트 & 아카이브 인프라</p>
+    <p class="mt-1 text-[11px] text-sand-700">Powered by Google Gemini Free API · Published with GitHub & Vercel</p>
   </footer>
 
   <!-- App Script -->
   <script>
     let latestDigest = null;
     let archiveDigests = [];
-    let currentMode = 'latest'; // 'latest' or 'archive'
+    let periodicalsList = [];
+    let trendsData = null;
+
+    let currentView = 'latest'; // 'latest', 'trends', 'periodicals', 'archive'
     let currentCategory = 'all';
+    let currentShelf = 'all';
     let searchQuery = '';
 
-    // Initialize Lucide Icons
+    let categoryChartInstance = null;
+    let timelineChartInstance = null;
+
     function updateIcons() {
       if (window.lucide) {
         lucide.createIcons();
       }
     }
 
-    // Show Toast
     function showToast(msg) {
       const toast = document.getElementById('toast');
       document.getElementById('toast-message').textContent = msg;
@@ -198,28 +307,24 @@
     // Load Data
     async function loadData() {
       try {
-        const [latestRes, archiveRes] = await Promise.all([
+        const [latestRes, archiveRes, periodicalsRes, trendsRes] = await Promise.all([
           fetch('data/latest_digest.json'),
-          fetch('data/archive.json').catch(() => null)
+          fetch('data/archive.json').catch(() => null),
+          fetch('data/periodicals.json').catch(() => null),
+          fetch('data/trends.json').catch(() => null)
         ]);
 
-        if (latestRes.ok) {
-          latestDigest = await latestRes.json();
-        }
-        if (archiveRes && archiveRes.ok) {
-          archiveDigests = await archiveRes.json();
-        }
+        if (latestRes.ok) latestDigest = await latestRes.json();
+        if (archiveRes && archiveRes.ok) archiveDigests = await archiveRes.json();
+        if (periodicalsRes && periodicalsRes.ok) periodicalsList = await periodicalsRes.json();
+        if (trendsRes && trendsRes.ok) trendsData = await trendsRes.json();
 
         renderHeaderBadge();
         renderFeed();
+        renderPeriodicals();
+        renderTrends();
       } catch (err) {
-        console.error('Failed to load digest data:', err);
-        document.getElementById('items-container').innerHTML = `
-          <div class="p-6 bg-amber-50/50 border border-amber-200 rounded-xl text-xs text-amber-800 space-y-2">
-            <p class="font-semibold">⚠️ 아직 다이제스트 데이터가 생성되지 않았거나 로컬 보안(CORS) 제한 상태입니다.</p>
-            <p>터미널에서 <code>python run_digest.py</code>를 실행하여 최신 다이제스트를 생성하거나 웹 서버로 접속해 주세요.</p>
-          </div>
-        `;
+        console.error('Failed to load data:', err);
       }
     }
 
@@ -232,13 +337,12 @@
       meta.textContent = `${latestDigest.edition_label} (발행: ${latestDigest.timestamp} · 총 ${latestDigest.item_count}건)`;
     }
 
-    // Filter Items
+    // Feed Filter
     function getFilteredItems() {
       let rawItems = [];
-      if (currentMode === 'latest') {
+      if (currentView === 'latest') {
         rawItems = latestDigest ? latestDigest.items : [];
       } else {
-        // Flat all archive items
         archiveDigests.forEach(d => {
           (d.items || []).forEach(it => {
             rawItems.push({ ...it, digest_edition_label: `${d.date} ${d.edition === 'morning' ? '오전' : '오후'}` });
@@ -247,16 +351,14 @@
       }
 
       return rawItems.filter(item => {
-        // Category filter
         const matchCat = (currentCategory === 'all') || (item.category === currentCategory);
-        // Search filter
         const fullText = `${item.title_kr} ${item.original_title} ${item.source} ${item.authors} ${(item.keywords || []).join(' ')} ${(item.summary_points || []).join(' ')}`.toLowerCase();
         const matchQuery = !searchQuery || fullText.includes(searchQuery.toLowerCase());
         return matchCat && matchQuery;
       });
     }
 
-    // Render Feed
+    // Render Feed Cards
     function renderFeed() {
       const container = document.getElementById('items-container');
       const emptyState = document.getElementById('empty-state');
@@ -271,20 +373,35 @@
       emptyState.classList.add('hidden');
       container.innerHTML = items.map((item, idx) => {
         const scoreBadge = item.relevance_score ? `
-          <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-amber-50 text-amber-800 border border-amber-200/60">
+          <span class="px-2 py-0.5 rounded text-[11px] font-semibold bg-amber-50 text-amber-800 border border-amber-200/60 font-mono">
             ★ ${item.relevance_score}
           </span>
         ` : '';
 
-        const pointsHtml = (item.summary_points || []).map(p => `
-          <li class="flex items-start space-x-2 text-xs leading-relaxed text-sand-800">
-            <span class="text-sand-400 mt-0.5 select-none">•</span>
-            <span>${p}</span>
-          </li>
-        `).join('');
+        // Structured 3-part summaries
+        const pointsHtml = (item.summary_points || []).map(p => {
+          let badge = '';
+          let text = p;
+          if (p.startsWith('연구 배경 및 문제의식:')) {
+            badge = '<span class="text-[11px] font-semibold text-sand-800 bg-sand-200/80 px-2 py-0.5 rounded mr-1.5 inline-block">연구 배경</span>';
+            text = p.replace('연구 배경 및 문제의식:', '').trim();
+          } else if (p.startsWith('핵심 분석 및 이론적 발견:') || p.startsWith('핵심 분석 및 발견:')) {
+            badge = '<span class="text-[11px] font-semibold text-emerald-800 bg-emerald-100/70 px-2 py-0.5 rounded mr-1.5 inline-block">핵심 발견</span>';
+            text = p.replace(/핵심 분석 및 (이론적 )?발견:/, '').trim();
+          } else if (p.startsWith('트윈 연구 시사점:')) {
+            badge = '<span class="text-[11px] font-semibold text-sky-800 bg-sky-100/70 px-2 py-0.5 rounded mr-1.5 inline-block">트윈 시사점</span>';
+            text = p.replace('트윈 연구 시사점:', '').trim();
+          }
+
+          return `
+            <li class="text-xs leading-relaxed text-sand-800 space-y-1">
+              <div>${badge}${text}</div>
+            </li>
+          `;
+        }).join('');
 
         const tagsHtml = (item.keywords || []).map(k => `
-          <span class="text-[11px] text-sand-700 hover:text-sand-900 cursor-pointer" onclick="applyTagSearch('${k.replace('#', '')}')">${k}</span>
+          <span class="text-[11px] text-sand-700 hover:text-sand-900 cursor-pointer hover:underline" onclick="applyTagSearch('${k.replace('#', '')}')">${k}</span>
         `).join(' ');
 
         return `
@@ -295,7 +412,7 @@
                 <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-sand-100 text-sand-800 border border-sand-200">
                   ${item.category}
                 </span>
-                <span class="text-xs text-sand-700 truncate max-w-[200px] sm:max-w-xs font-medium">
+                <span class="text-xs text-sand-700 truncate max-w-[240px] sm:max-w-md font-medium">
                   ${item.source}
                 </span>
                 ${item.digest_edition_label ? `<span class="text-[11px] text-sand-400 font-mono">(${item.digest_edition_label})</span>` : ''}
@@ -312,9 +429,9 @@
               </div>
             </div>
 
-            <!-- Titles -->
+            <!-- Title (Without [큐레이션] prefix) -->
             <div class="space-y-1">
-              <h3 class="text-base sm:text-lg font-semibold serif-title text-sand-900 hover:text-sand-700 transition leading-snug">
+              <h3 class="text-base sm:text-lg font-bold serif-title text-sand-900 hover:text-sand-700 transition leading-snug">
                 <a href="${item.url}" target="_blank" rel="noopener noreferrer" class="hover:underline">
                   ${item.title_kr}
                 </a>
@@ -324,36 +441,36 @@
               </p>
             </div>
 
-            <!-- Meta: Authors & Date -->
+            <!-- Authors & Date -->
             <div class="text-xs text-sand-700 flex flex-wrap items-center gap-y-1 gap-x-3">
               <span>저자: <strong class="text-sand-700">${item.authors || '연구진'}</strong></span>
               <span class="text-sand-300">|</span>
               <span>발행일: ${item.published || '최신'}</span>
             </div>
 
-            <!-- 3-Line Summary Card -->
-            <div class="p-3.5 rounded-lg bg-sand-50/70 border border-sand-200/60">
-              <div class="text-[11px] font-semibold tracking-wide uppercase text-sand-700 mb-2 flex items-center space-x-1">
-                <i data-lucide="sparkles" class="w-3 h-3 text-sand-700"></i>
-                <span>연구자 핵심 시사점 (Research Insights)</span>
+            <!-- 3-Part Academic Summary Box -->
+            <div class="p-4 rounded-lg bg-sand-50/80 border border-sand-200/70 space-y-2.5">
+              <div class="text-[11px] font-bold tracking-wider uppercase text-sand-700 flex items-center space-x-1.5">
+                <i data-lucide="sparkles" class="w-3.5 h-3.5 text-sand-700"></i>
+                <span>심층 학술 분석 및 연구 시사점 (Research Insights)</span>
               </div>
-              <ul class="space-y-1.5">
+              <ul class="space-y-2.5 pt-1">
                 ${pointsHtml}
               </ul>
             </div>
 
-            <!-- Footer: Tags & Link -->
-            <div class="flex items-center justify-between pt-2">
-              <div class="flex items-center space-x-2">
+            <!-- Footer: Tags & Direct Link -->
+            <div class="flex items-center justify-between pt-1">
+              <div class="flex flex-wrap items-center gap-2">
                 ${tagsHtml}
               </div>
               <a 
                 href="${item.url}" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                class="inline-flex items-center space-x-1 text-xs font-medium text-sand-700 hover:text-sand-900 transition group"
+                class="inline-flex items-center space-x-1 text-xs font-semibold text-sand-800 hover:text-sand-950 transition group"
               >
-                <span>원문 보기</span>
+                <span>원문 바로가기</span>
                 <i data-lucide="arrow-up-right" class="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform"></i>
               </a>
             </div>
@@ -364,6 +481,239 @@
       updateIcons();
     }
 
+    // Render Trends Dashboard
+    function renderTrends() {
+      if (!trendsData) return;
+
+      // Update Metrics
+      document.getElementById('metric-total-papers').textContent = trendsData.total_papers_analyzed || 0;
+      document.getElementById('metric-total-keywords').textContent = (trendsData.top_keywords || []).length;
+
+      // Render Keywords Pills
+      const kwContainer = document.getElementById('keywords-container');
+      kwContainer.innerHTML = (trendsData.top_keywords || []).map(k => `
+        <button 
+          onclick="applyTagSearch('${k.keyword.replace('#', '')}')"
+          class="inline-flex items-center space-x-1.5 px-3 py-1.5 rounded-lg bg-sand-50 hover:bg-sand-100 border border-sand-200 text-xs font-medium text-sand-800 transition"
+        >
+          <span>${k.keyword}</span>
+          <span class="px-1.5 py-0.2 rounded-full bg-sand-200 text-[10px] font-mono text-sand-700">${k.count}</span>
+        </button>
+      `).join('');
+
+      // Render Charts
+      initCharts();
+    }
+
+    function initCharts() {
+      if (!trendsData) return;
+
+      // 1. Category Chart (Doughnut)
+      const catCtx = document.getElementById('categoryChart');
+      if (catCtx) {
+        const catLabels = trendsData.category_distribution.map(c => c.category);
+        const catCounts = trendsData.category_distribution.map(c => c.count);
+
+        if (categoryChartInstance) categoryChartInstance.destroy();
+        categoryChartInstance = new Chart(catCtx, {
+          type: 'doughnut',
+          data: {
+            labels: catLabels,
+            datasets: [{
+              data: catCounts,
+              backgroundColor: ['#2e2b27', '#4b6352', '#3b5a7a', '#8a6d4b', '#7c5295', '#c26d58'],
+              borderWidth: 2,
+              borderColor: '#ffffff'
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            plugins: {
+              legend: {
+                position: 'bottom',
+                labels: { font: { size: 11, family: 'Inter' }, padding: 12 }
+              }
+            }
+          }
+        });
+      }
+
+      // 2. Timeline Chart (Bar)
+      const timeCtx = document.getElementById('timelineChart');
+      if (timeCtx) {
+        const timeLabels = trendsData.timeline_series.map(t => t.label);
+        const timeCounts = trendsData.timeline_series.map(t => t.count);
+
+        if (timelineChartInstance) timelineChartInstance.destroy();
+        timelineChartInstance = new Chart(timeCtx, {
+          type: 'bar',
+          data: {
+            labels: timeLabels,
+            datasets: [{
+              label: '분석된 논문 수',
+              data: timeCounts,
+              backgroundColor: '#5c564c',
+              borderRadius: 6
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false,
+            scales: {
+              y: { beginAtZero: true, ticks: { stepSize: 2, font: { size: 10 } } },
+              x: { ticks: { font: { size: 10 } } }
+            },
+            plugins: {
+              legend: { display: false }
+            }
+          }
+        });
+      }
+    }
+
+    // Render Periodicals Shelf
+    function renderPeriodicals() {
+      const grid = document.getElementById('periodicals-grid');
+      if (!grid) return;
+
+      const filtered = periodicalsList.filter(p => {
+        const matchShelf = (currentShelf === 'all') || (p.category === currentShelf);
+        const matchQuery = !searchQuery || (p.name + p.publisher + p.nature + p.key_topics.join(' ')).toLowerCase().includes(searchQuery.toLowerCase());
+        return matchShelf && matchQuery;
+      });
+
+      grid.innerHTML = filtered.map(p => `
+        <div class="p-5 bg-white rounded-xl card-border shadow-2xs space-y-3.5 flex flex-col justify-between">
+          <div class="space-y-2">
+            <div class="flex items-center justify-between">
+              <span class="text-xs font-semibold px-2.5 py-0.5 rounded-full bg-sand-100 text-sand-800 border border-sand-200">
+                ${p.category}
+              </span>
+              <span class="text-[11px] font-medium text-emerald-800 bg-emerald-50 px-2 py-0.5 rounded border border-emerald-200/50">
+                ${p.type_badge}
+              </span>
+            </div>
+
+            <div>
+              <h3 class="text-base font-bold serif-title text-sand-900">${p.name}</h3>
+              <p class="text-xs text-sand-400 font-medium">발행: ${p.publisher}</p>
+            </div>
+
+            <p class="text-xs text-sand-800 leading-relaxed">
+              <strong class="text-sand-900 font-medium">성격:</strong> ${p.nature}
+            </p>
+
+            <div class="p-3 rounded-lg bg-sand-50/90 border border-sand-200/60 text-xs text-sand-800 space-y-1">
+              <span class="text-[11px] font-bold text-sand-700 block">💡 추천하는 이유:</span>
+              <p class="leading-relaxed text-[11px]">${p.reason_for_twin}</p>
+            </div>
+
+            <div class="flex flex-wrap gap-1 pt-1">
+              ${(p.key_topics || []).map(t => `<span class="text-[10px] px-2 py-0.5 bg-sand-100 rounded text-sand-700">#${t}</span>`).join('')}
+            </div>
+          </div>
+
+          <div class="pt-3 border-t border-sand-100 flex items-center justify-between text-xs">
+            <span class="text-[11px] text-sand-700 truncate max-w-[180px]">${p.access_info}</span>
+            <a 
+              href="${p.url}" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              class="inline-flex items-center space-x-1 font-semibold text-sand-900 hover:text-sand-700 transition"
+            >
+              <span>자료 바로가기</span>
+              <i data-lucide="external-link" class="w-3 h-3"></i>
+            </a>
+          </div>
+        </div>
+      `).join('');
+
+      updateIcons();
+    }
+
+    // View Switching Logic
+    function switchView(viewName) {
+      currentView = viewName;
+      document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active', 'bg-white', 'shadow-2xs', 'font-semibold', 'text-sand-900'));
+      document.querySelectorAll('.nav-tab').forEach(t => t.classList.add('text-sand-700', 'font-medium'));
+
+      document.getElementById('view-feed').classList.add('hidden');
+      document.getElementById('view-trends').classList.add('hidden');
+      document.getElementById('view-periodicals').classList.add('hidden');
+
+      if (viewName === 'latest' || viewName === 'archive') {
+        const activeTab = document.getElementById(viewName === 'latest' ? 'tab-latest' : 'tab-archive');
+        activeTab.classList.add('active', 'bg-white', 'shadow-2xs', 'font-semibold', 'text-sand-900');
+        activeTab.classList.remove('text-sand-700', 'font-medium');
+        document.getElementById('view-feed').classList.remove('hidden');
+        renderFeed();
+      } else if (viewName === 'trends') {
+        const activeTab = document.getElementById('tab-trends');
+        activeTab.classList.add('active', 'bg-white', 'shadow-2xs', 'font-semibold', 'text-sand-900');
+        activeTab.classList.remove('text-sand-700', 'font-medium');
+        document.getElementById('view-trends').classList.remove('hidden');
+        renderTrends();
+      } else if (viewName === 'periodicals') {
+        const activeTab = document.getElementById('tab-periodicals');
+        activeTab.classList.add('active', 'bg-white', 'shadow-2xs', 'font-semibold', 'text-sand-900');
+        activeTab.classList.remove('text-sand-700', 'font-medium');
+        document.getElementById('view-periodicals').classList.remove('hidden');
+        renderPeriodicals();
+      }
+    }
+
+    document.getElementById('tab-latest').addEventListener('click', () => switchView('latest'));
+    document.getElementById('tab-archive').addEventListener('click', () => switchView('archive'));
+    document.getElementById('tab-trends').addEventListener('click', () => switchView('trends'));
+    document.getElementById('tab-periodicals').addEventListener('click', () => switchView('periodicals'));
+
+    // Tag Search Helper
+    window.applyTagSearch = function(tag) {
+      const input = document.getElementById('search-input');
+      input.value = tag;
+      searchQuery = tag;
+      switchView('archive');
+    };
+
+    // Category Filter Event (Feed)
+    document.querySelectorAll('.filter-pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.filter-pill').forEach(b => {
+          b.classList.remove('active', 'bg-sand-900', 'text-white');
+          b.classList.add('bg-white', 'text-sand-700');
+        });
+        btn.classList.add('active', 'bg-sand-900', 'text-white');
+        btn.classList.remove('bg-white', 'text-sand-700');
+        currentCategory = btn.dataset.cat;
+        renderFeed();
+      });
+    });
+
+    // Shelf Filter Event (Periodicals)
+    document.querySelectorAll('.shelf-pill').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.shelf-pill').forEach(b => {
+          b.classList.remove('active', 'bg-sand-900', 'text-white');
+          b.classList.add('bg-white', 'text-sand-700');
+        });
+        btn.classList.add('active', 'bg-sand-900', 'text-white');
+        btn.classList.remove('bg-white', 'text-sand-700');
+        currentShelf = btn.dataset.shelf;
+        renderPeriodicals();
+      });
+    });
+
+    // Search Input
+    document.getElementById('search-input').addEventListener('input', (e) => {
+      searchQuery = e.target.value.trim();
+      if (currentView === 'periodicals') {
+        renderPeriodicals();
+      } else {
+        renderFeed();
+      }
+    });
+
     // Copy Single Item Markdown
     window.copySingleItemMarkdown = function(idx) {
       const items = getFilteredItems();
@@ -371,13 +721,13 @@
       if (!it) return;
 
       const md = `### [${it.category}] ${it.title_kr}
-- **원제**: ${it.original_title}
+- **원제**: *${it.original_title}*
 - **출처 / 저자**: \`${it.source}\` · ${it.authors} (${it.published || ''})
-- **원문 링크**: [원문 읽기](${it.url})
+- **원문 링크**: [원문 바로가기](${it.url})
 - **관련도**: ⭐ ${it.relevance_score || 8.0}/10.0
-- **핵심 시사점**:
+- **심층 학술 분석 및 시사점**:
 ${(it.summary_points || []).map(p => `  - ${p}`).join('\n')}
-- **태그**: ${(it.keywords || []).join(' ')}
+- **키워드**: ${(it.keywords || []).join(' ')}
 `;
       navigator.clipboard.writeText(md).then(() => {
         showToast('논문 요약 마크다운이 복사되었습니다.');
@@ -392,10 +742,10 @@ ${(it.summary_points || []).map(p => `  - ${p}`).join('\n')}
       let md = `# ☕ Research Digest (${latestDigest ? latestDigest.date : 'Archive'})\n\n`;
       items.forEach((it, i) => {
         md += `### ${i+1}. [${it.category}] ${it.title_kr}\n`;
-        md += `- **원제**: ${it.original_title}\n`;
+        md += `- **원제**: *${it.original_title}*\n`;
         md += `- **출처 / 저자**: \`${it.source}\` · ${it.authors}\n`;
         md += `- **원문 링크**: ${it.url}\n`;
-        md += `- **핵심 시사점**:\n`;
+        md += `- **심층 학술 분석 및 시사점**:\n`;
         (it.summary_points || []).forEach(p => { md += `  - ${p}\n`; });
         md += `\n---\n\n`;
       });
@@ -405,57 +755,7 @@ ${(it.summary_points || []).map(p => `  - ${p}`).join('\n')}
       });
     });
 
-    // Tag Search Helper
-    window.applyTagSearch = function(tag) {
-      const input = document.getElementById('search-input');
-      input.value = tag;
-      searchQuery = tag;
-      renderFeed();
-    };
-
-    // Category Filter Event
-    document.querySelectorAll('.filter-pill').forEach(btn => {
-      btn.addEventListener('click', () => {
-        document.querySelectorAll('.filter-pill').forEach(b => {
-          b.classList.remove('active', 'bg-sand-900', 'text-white');
-          b.classList.add('bg-white', 'text-sand-700');
-        });
-        btn.classList.add('active', 'bg-sand-900', 'text-white');
-        btn.classList.remove('bg-white', 'text-sand-700');
-        currentCategory = btn.dataset.cat;
-        renderFeed();
-      });
-    });
-
-    // Tab Buttons
-    const tabLatest = document.getElementById('tab-latest');
-    const tabArchive = document.getElementById('tab-archive');
-
-    tabLatest.addEventListener('click', () => {
-      currentMode = 'latest';
-      tabLatest.classList.add('bg-white', 'shadow-sm', 'text-sand-900');
-      tabLatest.classList.remove('text-sand-700');
-      tabArchive.classList.remove('bg-white', 'shadow-sm', 'text-sand-900');
-      tabArchive.classList.add('text-sand-700');
-      renderFeed();
-    });
-
-    tabArchive.addEventListener('click', () => {
-      currentMode = 'archive';
-      tabArchive.classList.add('bg-white', 'shadow-sm', 'text-sand-900');
-      tabArchive.classList.remove('text-sand-700');
-      tabLatest.classList.remove('bg-white', 'shadow-sm', 'text-sand-900');
-      tabLatest.classList.add('text-sand-700');
-      renderFeed();
-    });
-
-    // Search Input
-    document.getElementById('search-input').addEventListener('input', (e) => {
-      searchQuery = e.target.value.trim();
-      renderFeed();
-    });
-
-    // Dark Mode Toggle (Simple Invert/Class)
+    // Theme Toggle
     let isDark = false;
     document.getElementById('theme-toggle').addEventListener('click', () => {
       isDark = !isDark;

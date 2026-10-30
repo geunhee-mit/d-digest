@@ -3,12 +3,12 @@
   "edition": "morning",
   "edition_label": "오전 다이제스트 (Morning Digest)",
   "date": "2026-10-30",
-  "timestamp": "2026-10-30 08:30",
+  "timestamp": "2026-10-30 11:16",
   "item_count": 8,
   "items": [
     {
       "id": "https://doi.org/10.1080/03066150.2026.2739233",
-      "title_kr": "[큐레이션] Counter-hegemony and polycrisis II: movement science and experiments in care",
+      "title_kr": "Counter-hegemony and polycrisis II: movement science and experiments in care",
       "original_title": "Counter-hegemony and polycrisis II: movement science and experiments in care",
       "source": "The Journal of Peasant Studies",
       "authors": "Raj Patel",
@@ -17,161 +17,157 @@
       "category": "재난안전·공공인프라",
       "relevance_score": 9.8,
       "summary_points": [
-        "본 연구/기사는 The Journal of Peasant Studies에 수록된 글로, 'Counter-hegemony and polycrisis II: movement science and experiments in care'에 관한 주요 논점을 다룹니다.",
-        "원문 요지: Polycrisis presents as everything, everywhere all at once, the name for a world in which disasters arrive together. It should mean something more precise: not a coincidence of shoc...",
-        "트윈 연구 시사점: '재난안전·공공인프라' 영역의 관점에서 자율적 개인과 공공 인프라 간의 상호작용 및 자치 모델에 중요한 참고가 됩니다."
+        "연구 배경 및 문제의식: Polycrisis presents as everything, everywhere all at once, the name for a world in which disasters arrive together.",
+        "핵심 분석 및 발견: It should mean something more precise: not a coincidence of shocks but the exhaustion of the cheapened nature, money, work, care, food, energy and life on which capitalist accumulation has depended, and the absence of any successor regime able to reconstitute them. 더불어 저자들은 By joining Giovanni Arrighi's theory of hegemonic cycles to world-ecology, it is possible to track how that exhaustion is administered, and contested, through what Gramsci called the integral state: the unity of political and civil society through which a ruling bloc governs.",
+        "트윈 연구 시사점: 복합 위기(Polycrisis) 시대에 고립된 개인과 재난 약자가 배제되지 않도록 돕는 무해하고 투과성 높은 공공 위기 대응 인터페이스의 필요성을 뒷받침합니다."
       ],
       "keywords": [
-        "#재난안전·공공인프라",
-        "#연구노트",
-        "#학술다이제스트"
+        "#재난안전",
+        "#연구동향"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.18743/pub.00056688",
+      "title_kr": "'Crisis' and the Scientific Development of World Agriculture: The International Response to the 1974 and 2008 Food Crises",
+      "original_title": "'Crisis' and the Scientific Development of World Agriculture: The International Response to the 1974 and 2008 Food Crises",
+      "source": "BIROn (Birkbeck, University of London)",
+      "authors": "Harbers, Bastiaan Maria",
+      "published": "2027-01-01",
+      "url": "https://doi.org/10.18743/pub.00056688",
+      "category": "재난안전·공공인프라",
+      "relevance_score": 9.8,
+      "summary_points": [
+        "연구 배경 및 문제의식: This thesis argues that international responses to the international food crises of 1974 and 2008 demonstrate the dominant influence in contemporary history of the productivist techno-scientific model of agricultural development in international governance.",
+        "핵심 분석 및 발견: The two crises saw the renewed commitment of the international community to the Green Revolution model focused on agricultural productivity growth. 더불어 저자들은 The continued influence of the productivist techno-scientific model of agricultural development stems, I argue, from its promise of a fuller and more optimal utilisation of agricultural resources through the application of scientific and technical knowledges and technologies.",
+        "트윈 연구 시사점: 복합 위기(Polycrisis) 시대에 고립된 개인과 재난 약자가 배제되지 않도록 돕는 무해하고 투과성 높은 공공 위기 대응 인터페이스의 필요성을 뒷받침합니다."
+      ],
+      "keywords": [
+        "#재난안전",
+        "#연구동향"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.5281/zenodo.22229622",
+      "title_kr": "Urban forest trees as a habitat option in China's northernmost and coldest large city of Harbin: a study on tree-related microhabitats",
+      "original_title": "Urban forest trees as a habitat option in China's northernmost and coldest large city of Harbin: a study on tree-related microhabitats",
+      "source": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": "Meijun Liu, Hailiang Lv, Somidh Saha",
+      "published": "2027-09-01",
+      "url": "https://doi.org/10.5281/zenodo.22229622",
+      "category": "공간사회·도시커먼즈",
+      "relevance_score": 9.8,
+      "summary_points": [
+        "연구 배경 및 문제의식: This dataset contains field survey data and R‑code for tree‑related microhabitats (TreMs) research in 112 urban forest plots in Harbin, China.",
+        "핵심 분석 및 발견: We explored spatial patterns, driving factors and spatial non‑stationarity of TreMs at tree and plot levels. 더불어 저자들은 Key predictors included diameter at breast height (DBH), management intensity, canopy light environment and urban landscape heterogeneity.",
+        "트윈 연구 시사점: 도시 공간의 상품화와 젠트리피케이션에 맞서 모든 시민이 공간에 대한 권리(Right to the City)를 누릴 수 있는 도시 커먼즈의 물리적·사회적 인프라 전략에 시사점을 던집니다."
+      ],
+      "keywords": [
+        "#공간사회",
+        "#도시공간",
+        "#연구동향"
       ]
     },
     {
       "id": "https://doi.org/10.5334/ijc.1687",
-      "title_kr": "[큐레이션] When Services Matter: Rethinking Farmer Cooperation in an Export-Oriented Smallholder Setting",
+      "title_kr": "When Services Matter: Rethinking Farmer Cooperation in an Export-Oriented Smallholder Setting",
       "original_title": "When Services Matter: Rethinking Farmer Cooperation in an Export-Oriented Smallholder Setting",
       "source": "International Journal of the Commons (IJC)",
       "authors": "Engjell Skreli, Orjon Xhoxhi, Vladislav Valentinov",
       "published": "2026-09-03",
       "url": "https://doi.org/10.5334/ijc.1687",
-      "category": "농생태·생태전환",
-      "relevance_score": 9.0,
+      "category": "농생태·식량주권",
+      "relevance_score": 9.2,
       "summary_points": [
-        "본 연구/기사는 International Journal of the Commons (IJC)에 수록된 글로, 'When Services Matter: Rethinking Farmer Cooperation in an Export-Oriented Smallholder Setting'에 관한 주요 논점을 다룹니다.",
-        "원문 요지: Why does agricultural cooperation remain fragile in post-socialist settings, despite its potential to reduce transaction costs and improve market access? Explanations usually stres...",
-        "트윈 연구 시사점: '농생태·생태전환' 영역의 관점에서 자율적 개인과 공공 인프라 간의 상호작용 및 자치 모델에 중요한 참고가 됩니다."
+        "연구 배경 및 문제의식: Why does agricultural cooperation remain fragile in post-socialist settings, despite its potential to reduce transaction costs and improve market access? Explanations usually stress institutional voids and the legacy of distrust.",
+        "핵심 분석 및 발견: This paper advances a different view: farmers cooperate when the services offered are economically salient. 더불어 저자들은 Adapting Ostrom’s SES framework, we reinterpret “resource importance” for club goods, specifically cooperation services such as marketing, certification, and input procurement.",
+        "트윈 연구 시사점: 자본주의적 산업 농업과 추출주의적 대지 착취를 비판하고, 흙·미생물·농민의 자치 역량이 상호 얽혀 회복력을 발휘하는 농생태학(Agroecology) 및 대지 윤리적 실천에 긴밀히 연결됩니다."
       ],
       "keywords": [
-        "#농생태·생태전환",
-        "#연구노트",
-        "#학술다이제스트"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.1007/s10460-026-11001-5",
-      "title_kr": "[큐레이션] Natural wine-crafting in Switzerland: nature and autonomy in the bottle",
-      "original_title": "Natural wine-crafting in Switzerland: nature and autonomy in the bottle",
-      "source": "Agriculture and Human Values",
-      "authors": "Flavian Pichonnat, Heike Mayer, Theresa Tribaldos",
-      "published": "2026-10-24",
-      "url": "https://doi.org/10.1007/s10460-026-11001-5",
-      "category": "농생태·생태전환",
-      "relevance_score": 9.0,
-      "summary_points": [
-        "본 연구/기사는 Agriculture and Human Values에 수록된 글로, 'Natural wine-crafting in Switzerland: nature and autonomy in the bottle'에 관한 주요 논점을 다룹니다.",
-        "원문 요지: Abstract Agricultural industrialization has continued along the tracks of technological progress with its attendant socioecological damages. The values of industrialism have remain...",
-        "트윈 연구 시사점: '농생태·생태전환' 영역의 관점에서 자율적 개인과 공공 인프라 간의 상호작용 및 자치 모델에 중요한 참고가 됩니다."
-      ],
-      "keywords": [
-        "#농생태·생태전환",
-        "#연구노트",
-        "#학술다이제스트"
+        "#농생태",
+        "#연구동향"
       ]
     },
     {
       "id": "https://doi.org/10.5334/ijc.1595",
-      "title_kr": "[큐레이션] Toward Making Power More Explicit in the IADF: A Review and Diagnostic Approach to Power Theories",
+      "title_kr": "Toward Making Power More Explicit in the IADF: A Review and Diagnostic Approach to Power Theories",
       "original_title": "Toward Making Power More Explicit in the IADF: A Review and Diagnostic Approach to Power Theories",
       "source": "International Journal of the Commons (IJC)",
       "authors": "IASC-ECN Power Collective, Désirée Schwindenhammer, Lavanya Suresh",
       "published": "2026-08-26",
       "url": "https://doi.org/10.5334/ijc.1595",
       "category": "시빅HCI·UXR",
-      "relevance_score": 8.0,
+      "relevance_score": 9.2,
       "summary_points": [
-        "본 연구/기사는 International Journal of the Commons (IJC)에 수록된 글로, 'Toward Making Power More Explicit in the IADF: A Review and Diagnostic Approach to Power Theories'에 관한 주요 논점을 다룹니다.",
-        "원문 요지: In commons and institutional research, the Institutional Analysis and Development framework (IADF) has proven itself as a useful tool to investigate the complexities of social-envi...",
-        "트윈 연구 시사점: '시빅HCI·UXR' 영역의 관점에서 자율적 개인과 공공 인프라 간의 상호작용 및 자치 모델에 중요한 참고가 됩니다."
+        "연구 배경 및 문제의식: In commons and institutional research, the Institutional Analysis and Development framework (IADF) has proven itself as a useful tool to investigate the complexities of social-environmental systems.",
+        "핵심 분석 및 발견: It is effective in guiding researchers through the process of understanding complex problem situations. 더불어 저자들은 The framework helps to conceptually unravel the institutional scaffoldings structuring human-nature interactions.",
+        "트윈 연구 시사점: 기술 관료주의적 하향식 시스템을 넘어 시민과 취약계층이 스스로의 경험과 권리를 능동적으로 행사할 수 있는 참여적 사용자 인터페이스(Civic Interface) 및 포용적 공공데이터 안전망 설계에 직접적으로 적용될 수 있습니다."
       ],
       "keywords": [
-        "#시빅HCI·UXR",
-        "#연구노트",
-        "#학술다이제스트"
+        "#시빅HCI",
+        "#커머닝",
+        "#연구동향"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1007/s10460-026-11001-5",
+      "title_kr": "Natural wine-crafting in Switzerland: nature and autonomy in the bottle",
+      "original_title": "Natural wine-crafting in Switzerland: nature and autonomy in the bottle",
+      "source": "Agriculture and Human Values",
+      "authors": "Flavian Pichonnat, Heike Mayer, Theresa Tribaldos",
+      "published": "2026-10-24",
+      "url": "https://doi.org/10.1007/s10460-026-11001-5",
+      "category": "농생태·식량주권",
+      "relevance_score": 9.2,
+      "summary_points": [
+        "연구 배경 및 문제의식: Abstract Agricultural industrialization has continued along the tracks of technological progress with its attendant socioecological damages.",
+        "핵심 분석 및 발견: The values of industrialism have remained dominant in agriculture: efficiency, quantity, speed, control, and standardization. 더불어 저자들은 Nevertheless, committed wine-crafters worldwide, dedicated to natural wines, have questioned these industrial values.",
+        "트윈 연구 시사점: 자본주의적 산업 농업과 추출주의적 대지 착취를 비판하고, 흙·미생물·농민의 자치 역량이 상호 얽혀 회복력을 발휘하는 농생태학(Agroecology) 및 대지 윤리적 실천에 긴밀히 연결됩니다."
+      ],
+      "keywords": [
+        "#농생태",
+        "#다종공생",
+        "#연구동향"
       ]
     },
     {
       "id": "https://doi.org/10.1007/s10460-026-10977-4",
-      "title_kr": "[큐레이션] Gender matters in seed system assessments: evidence from smallholder farms in Morocco, Senegal, and Madagascar",
+      "title_kr": "Gender matters in seed system assessments: evidence from smallholder farms in Morocco, Senegal, and Madagascar",
       "original_title": "Gender matters in seed system assessments: evidence from smallholder farms in Morocco, Senegal, and Madagascar",
       "source": "Agriculture and Human Values",
       "authors": "Vanesse Labeyrie, Florence Lebeaupin, Juliette Mariel",
       "published": "2026-10-21",
       "url": "https://doi.org/10.1007/s10460-026-10977-4",
-      "category": "농생태·생태전환",
-      "relevance_score": 8.0,
+      "category": "농생태·식량주권",
+      "relevance_score": 8.3,
       "summary_points": [
-        "본 연구/기사는 Agriculture and Human Values에 수록된 글로, 'Gender matters in seed system assessments: evidence from smallholder farms in Morocco, Senegal, and Madagascar'에 관한 주요 논점을 다룹니다.",
-        "원문 요지: Despite growing recognition of the importance of involving smallholder farmers in seed systems governance, gender remains a critical but overlooked dimension. Women’s seed practice...",
-        "트윈 연구 시사점: '농생태·생태전환' 영역의 관점에서 자율적 개인과 공공 인프라 간의 상호작용 및 자치 모델에 중요한 참고가 됩니다."
+        "연구 배경 및 문제의식: Despite growing recognition of the importance of involving smallholder farmers in seed systems governance, gender remains a critical but overlooked dimension.",
+        "핵심 분석 및 발견: Women’s seed practices are often misunderstood, underdocumented, and excluded from policy and research, leading to governance frameworks that fail to address their needs or even exacerbate inequalities. 더불어 저자들은 This calls for collecting gender-disaggregated data and developing more inclusive methodologies in seed system assessments.",
+        "트윈 연구 시사점: 자본주의적 산업 농업과 추출주의적 대지 착취를 비판하고, 흙·미생물·농민의 자치 역량이 상호 얽혀 회복력을 발휘하는 농생태학(Agroecology) 및 대지 윤리적 실천에 긴밀히 연결됩니다."
       ],
       "keywords": [
-        "#농생태·생태전환",
-        "#연구노트",
-        "#학술다이제스트"
+        "#농생태",
+        "#연구동향"
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2610.38536v1",
-      "title_kr": "[큐레이션] Influence of Agent Number and Behavior on Users' Psychological Responses in VR Evacuation Training",
-      "original_title": "Influence of Agent Number and Behavior on Users' Psychological Responses in VR Evacuation Training",
-      "source": "arXiv cs.HC / cs.CY",
-      "authors": "Naoki Matsumura, Kensuke Sugihara, Tomoko Yonezawa",
-      "published": "2026-10-28",
-      "url": "http://arxiv.org/abs/2610.38536v1",
-      "category": "재난안전·공공인프라",
-      "relevance_score": 8.0,
+      "id": "https://doi.org/10.17632/nbk3p89m86",
+      "title_kr": "Data and code for: Asynchronous reorganization of urban space under population shrinkage: Multiscale evidence from land processes, activity intensity, and place-based adjustment in Chinese cities",
+      "original_title": "Data and code for: Asynchronous reorganization of urban space under population shrinkage: Multiscale evidence from land processes, activity intensity, and place-based adjustment in Chinese cities",
+      "source": "Mendeley Data",
+      "authors": "Jiawei Sun (772107)",
+      "published": "2027-10-06",
+      "url": "https://doi.org/10.17632/nbk3p89m86",
+      "category": "공간사회·도시커먼즈",
+      "relevance_score": 8.3,
       "summary_points": [
-        "본 연구/기사는 arXiv cs.HC / cs.CY에 수록된 글로, 'Influence of Agent Number and Behavior on Users' Psychological Responses in VR Evacuation Training'에 관한 주요 논점을 다룹니다.",
-        "원문 요지: This study aims to build effective drill software by combining a virtual simulation of a disaster with multiple agents capable of expressing emotions. We evaluated how the number o...",
-        "트윈 연구 시사점: '재난안전·공공인프라' 영역의 관점에서 자율적 개인과 공공 인프라 간의 상호작용 및 자치 모델에 중요한 참고가 됩니다."
+        "연구 배경 및 문제의식: 본 연구는 Mendeley Data에 게재된 논문으로, 'Data and code for: Asynchronous reorganization of urban space under population shrinkage: Multiscale evidence from land processes, activity intensity, and place-based adjustment in Chinese cities'에 관한 기존 이론적 틀과 현실적 한계를 짚고 대안적 메커니즘을 탐구합니다.",
+        "핵심 분석 및 발견: Mendeley Data의 해당 저작은 실천적 사례 연구와 개념 분석을 결합하여, 행위자 간의 상호작용 및 시스템 거버넌스 구조를 심층적으로 규명합니다.",
+        "트윈 연구 시사점: 도시 공간의 상품화와 젠트리피케이션에 맞서 모든 시민이 공간에 대한 권리(Right to the City)를 누릴 수 있는 도시 커먼즈의 물리적·사회적 인프라 전략에 시사점을 던집니다."
       ],
       "keywords": [
-        "#재난안전·공공인프라",
-        "#연구노트",
-        "#학술다이제스트"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.1080/03066150.2026.2742298",
-      "title_kr": "[큐레이션] From people to crops: unpacking displacement for the expansion of commodity agriculture",
-      "original_title": "From people to crops: unpacking displacement for the expansion of commodity agriculture",
-      "source": "The Journal of Peasant Studies",
-      "authors": "Olivia del Giorgio, Carla Gras, Lorenzo Langbehn",
-      "published": "2026-10-22",
-      "url": "https://doi.org/10.1080/03066150.2026.2742298",
-      "category": "농생태·생태전환",
-      "relevance_score": 7.0,
-      "summary_points": [
-        "본 연구/기사는 The Journal of Peasant Studies에 수록된 글로, 'From people to crops: unpacking displacement for the expansion of commodity agriculture'에 관한 주요 논점을 다룹니다.",
-        "원문 요지: Commodity agriculture is rapidly expanding worldwide, often at the expense of natural environments and smallholder agricultural systems. In this paper, we unpack the process of sma...",
-        "트윈 연구 시사점: '농생태·생태전환' 영역의 관점에서 자율적 개인과 공공 인프라 간의 상호작용 및 자치 모델에 중요한 참고가 됩니다."
-      ],
-      "keywords": [
-        "#농생태·생태전환",
-        "#연구노트",
-        "#학술다이제스트"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.1177/00104140261500259",
-      "title_kr": "[큐레이션] Incubating Revolution: How Social Networks and the Built Environment Sustain Mobilization",
-      "original_title": "Incubating Revolution: How Social Networks and the Built Environment Sustain Mobilization",
-      "source": "Comparative Political Studies",
-      "authors": "Motasem Abuzaid, Kevin Mazur",
-      "published": "2026-10-28",
-      "url": "https://doi.org/10.1177/00104140261500259",
-      "category": "커먼즈",
-      "relevance_score": 7.0,
-      "summary_points": [
-        "본 연구/기사는 Comparative Political Studies에 수록된 글로, 'Incubating Revolution: How Social Networks and the Built Environment Sustain Mobilization'에 관한 주요 논점을 다룹니다.",
-        "원문 요지: How do challengers sustain mobilization under conditions of extreme repression? Social networks and the built environment are critical, interacting at two time scales. Settlement, ...",
-        "트윈 연구 시사점: '커먼즈' 영역의 관점에서 자율적 개인과 공공 인프라 간의 상호작용 및 자치 모델에 중요한 참고가 됩니다."
-      ],
-      "keywords": [
-        "#커먼즈",
-        "#연구노트",
-        "#학술다이제스트"
+        "#공간사회",
+        "#도시공간",
+        "#연구동향"
       ]
     }
   ]
