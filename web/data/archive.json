@@ -1,10 +1,10 @@
 [
   {
-    "id": "2026-10-30_afternoon",
-    "edition": "afternoon",
-    "edition_label": "오후 다이제스트 (Afternoon Digest)",
+    "id": "2026-10-30_morning",
+    "edition": "morning",
+    "edition_label": "오전 다이제스트 (Morning Digest)",
     "date": "2026-10-30",
-    "timestamp": "2026-10-30 17:17",
+    "timestamp": "2026-10-30 08:30",
     "item_count": 8,
     "items": [
       {
@@ -178,11 +178,11 @@
     ]
   },
   {
-    "id": "2026-10-30_morning",
-    "edition": "morning",
-    "edition_label": "오전 다이제스트 (Morning Digest)",
+    "id": "2026-10-30_afternoon",
+    "edition": "afternoon",
+    "edition_label": "오후 다이제스트 (Afternoon Digest)",
     "date": "2026-10-30",
-    "timestamp": "2026-10-30 17:16",
+    "timestamp": "2026-10-30 17:17",
     "item_count": 8,
     "items": [
       {
@@ -228,6 +228,27 @@
         ]
       },
       {
+        "id": "https://doi.org/10.1007/s10460-026-11001-5",
+        "title_kr": "[큐레이션] Natural wine-crafting in Switzerland: nature and autonomy in the bottle",
+        "original_title": "Natural wine-crafting in Switzerland: nature and autonomy in the bottle",
+        "source": "Agriculture and Human Values",
+        "authors": "Flavian Pichonnat, Heike Mayer, Theresa Tribaldos",
+        "published": "2026-10-24",
+        "url": "https://doi.org/10.1007/s10460-026-11001-5",
+        "category": "농생태·생태전환",
+        "relevance_score": 9.0,
+        "summary_points": [
+          "본 연구/기사는 Agriculture and Human Values에 수록된 글로, 'Natural wine-crafting in Switzerland: nature and autonomy in the bottle'에 관한 주요 논점을 다룹니다.",
+          "원문 요지: Abstract Agricultural industrialization has continued along the tracks of technological progress with its attendant socioecological damages. The values of industrialism have remain...",
+          "트윈 연구 시사점: '농생태·생태전환' 영역의 관점에서 자율적 개인과 공공 인프라 간의 상호작용 및 자치 모델에 중요한 참고가 됩니다."
+        ],
+        "keywords": [
+          "#농생태·생태전환",
+          "#연구노트",
+          "#학술다이제스트"
+        ]
+      },
+      {
         "id": "https://doi.org/10.5334/ijc.1595",
         "title_kr": "[큐레이션] Toward Making Power More Explicit in the IADF: A Review and Diagnostic Approach to Power Theories",
         "original_title": "Toward Making Power More Explicit in the IADF: A Review and Diagnostic Approach to Power Theories",
@@ -244,6 +265,27 @@
         ],
         "keywords": [
           "#시빅HCI·UXR",
+          "#연구노트",
+          "#학술다이제스트"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.1007/s10460-026-10977-4",
+        "title_kr": "[큐레이션] Gender matters in seed system assessments: evidence from smallholder farms in Morocco, Senegal, and Madagascar",
+        "original_title": "Gender matters in seed system assessments: evidence from smallholder farms in Morocco, Senegal, and Madagascar",
+        "source": "Agriculture and Human Values",
+        "authors": "Vanesse Labeyrie, Florence Lebeaupin, Juliette Mariel",
+        "published": "2026-10-21",
+        "url": "https://doi.org/10.1007/s10460-026-10977-4",
+        "category": "농생태·생태전환",
+        "relevance_score": 8.0,
+        "summary_points": [
+          "본 연구/기사는 Agriculture and Human Values에 수록된 글로, 'Gender matters in seed system assessments: evidence from smallholder farms in Morocco, Senegal, and Madagascar'에 관한 주요 논점을 다룹니다.",
+          "원문 요지: Despite growing recognition of the importance of involving smallholder farmers in seed systems governance, gender remains a critical but overlooked dimension. Women’s seed practice...",
+          "트윈 연구 시사점: '농생태·생태전환' 영역의 관점에서 자율적 개인과 공공 인프라 간의 상호작용 및 자치 모델에 중요한 참고가 됩니다."
+        ],
+        "keywords": [
+          "#농생태·생태전환",
           "#연구노트",
           "#학술다이제스트"
         ]
@@ -307,48 +349,6 @@
         ],
         "keywords": [
           "#커먼즈",
-          "#연구노트",
-          "#학술다이제스트"
-        ]
-      },
-      {
-        "id": "https://doi.org/10.1007/978-3-032-31594-6_5",
-        "title_kr": "[큐레이션] Hybrid Threat Resilience: Strengthening Military Intelligence Through Gendarmerie-Type Forces",
-        "original_title": "Hybrid Threat Resilience: Strengthening Military Intelligence Through Gendarmerie-Type Forces",
-        "source": "Transnational crime, crime control and security",
-        "authors": "E.J. de Waard, Bart Wielders",
-        "published": "2026-10-28",
-        "url": "https://doi.org/10.1007/978-3-032-31594-6_5",
-        "category": "농생태·생태전환",
-        "relevance_score": 7.0,
-        "summary_points": [
-          "본 연구/기사는 Transnational crime, crime control and security에 수록된 글로, 'Hybrid Threat Resilience: Strengthening Military Intelligence Through Gendarmerie-Type Forces'에 관한 주요 논점을 다룹니다.",
-          "원문 요지: Gendarmerie-Type Forces (GTF) can contribute to strengthening the military intelligence process. Due to their combined police and military character, GTF represent a distinctive se...",
-          "트윈 연구 시사점: '농생태·생태전환' 영역의 관점에서 자율적 개인과 공공 인프라 간의 상호작용 및 자치 모델에 중요한 참고가 됩니다."
-        ],
-        "keywords": [
-          "#농생태·생태전환",
-          "#연구노트",
-          "#학술다이제스트"
-        ]
-      },
-      {
-        "id": "https://openalex.org/W7216894560",
-        "title_kr": "[큐레이션] Strategic Risk Management and Business Continuity: A Framework for Enhancing Enterprise Risk Governance",
-        "original_title": "Strategic Risk Management and Business Continuity: A Framework for Enhancing Enterprise Risk Governance",
-        "source": "International Journal of Innovation Management and Organizational Behavior (IJIMOB)",
-        "authors": "Amir Mirzaee, Ali Lalbar, Azar Moslemi",
-        "published": "2026-11-01",
-        "url": "https://openalex.org/W7216894560",
-        "category": "시빅HCI·UXR",
-        "relevance_score": 7.0,
-        "summary_points": [
-          "본 연구/기사는 International Journal of Innovation Management and Organizational Behavior (IJIMOB)에 수록된 글로, 'Strategic Risk Management and Business Continuity: A Framework for Enhancing Enterprise Risk Governance'에 관한 주요 논점을 다룹니다.",
-          "원문 요지: Objective: This study aimed to examine the relationship between strategic risk management, business continuity, and enterprise risk governance and to propose an integrated framewor...",
-          "트윈 연구 시사점: '시빅HCI·UXR' 영역의 관점에서 자율적 개인과 공공 인프라 간의 상호작용 및 자치 모델에 중요한 참고가 됩니다."
-        ],
-        "keywords": [
-          "#시빅HCI·UXR",
           "#연구노트",
           "#학술다이제스트"
         ]
