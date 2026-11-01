@@ -1,9 +1,9 @@
 {
-  "id": "2026-11-01_morning",
-  "edition": "morning",
-  "edition_label": "오전 다이제스트 (Morning Digest)",
+  "id": "2026-11-01_afternoon",
+  "edition": "afternoon",
+  "edition_label": "오후 다이제스트 (Afternoon Digest)",
   "date": "2026-11-01",
-  "timestamp": "2026-11-01 00:36",
+  "timestamp": "2026-11-01 15:32",
   "item_count": 8,
   "items": [
     {
@@ -130,26 +130,6 @@
       ]
     },
     {
-      "id": "https://doi.org/10.21203/rs.3.rs-11307016/v1",
-      "title_kr": "Bridging or widening the divide? Exploring the role of AI technology in Smart City Development Efficiency and Spatial-temporal Divergence in China",
-      "original_title": "Bridging or widening the divide? Exploring the role of AI technology in Smart City Development Efficiency and Spatial-temporal Divergence in China",
-      "source": "Research Square",
-      "authors": "Zhong Fang, Ying Chen, Peiqi Shi",
-      "published": "2026-10-30",
-      "url": "https://doi.org/10.21203/rs.3.rs-11307016/v1",
-      "category": "공간사회·도시커먼즈",
-      "relevance_score": 9.2,
-      "summary_points": [
-        "연구 배경 및 문제의식: Abstract To accurately assess the significance of AI in smart city development, this paper proposes an Entropy Meta Two-stage Dynamic SBM model and introduces the \"EIT−6S\" framework.",
-        "핵심 분석 및 발견: The framework initially evaluates the development level of AI technology through Environmental Support, Industrial Development, and Technological Innovation (EIT), and assesses the efficiency of SC development based on six aspects: Smart Technology, Smart Economy, Smart Citizen, Smart Governance, Smart Environment, and Smart Transportation (6S). 더불어 저자들은 This study also introduces Kernel Density Estimation, the Gravity Model, and the Standard Deviation Ellipse Model to examine the temporal and spatial divergence characteristics of the AI system, SC system, and AISC system.",
-        "트윈 연구 시사점: 도시 공간의 상품화와 젠트리피케이션에 맞서 모든 시민이 공간에 대한 권리(Right to the City)를 누릴 수 있는 도시 커먼즈의 물리적·사회적 인프라 전략에 시사점을 던집니다."
-      ],
-      "keywords": [
-        "#공간사회",
-        "#연구동향"
-      ]
-    },
-    {
       "id": "https://doi.org/10.17632/nbk3p89m86",
       "title_kr": "Data and code for: Asynchronous reorganization of urban space under population shrinkage: Multiscale evidence from land processes, activity intensity, and place-based adjustment in Chinese cities",
       "original_title": "Data and code for: Asynchronous reorganization of urban space under population shrinkage: Multiscale evidence from land processes, activity intensity, and place-based adjustment in Chinese cities",
@@ -167,6 +147,27 @@
       "keywords": [
         "#공간사회",
         "#도시공간",
+        "#연구동향"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.46632/jame/5/4/1",
+      "title_kr": "Comparative Assessment of Machine Learning Models for Drilling Parameter Optimization in Offshore Wells",
+      "original_title": "Comparative Assessment of Machine Learning Models for Drilling Parameter Optimization in Offshore Wells",
+      "source": "REST Journal on Advances in Mechanical Engineering",
+      "authors": "Sathiyaraj Chinnasamy, M Ramachandran, Muniyammal Sakthivel",
+      "published": "2026-10-31",
+      "url": "https://doi.org/10.46632/jame/5/4/1",
+      "category": "재난안전·공공인프라",
+      "relevance_score": 8.3,
+      "summary_points": [
+        "연구 배경 및 문제의식: This research delves into optimising offshore drilling by leveraging sophisticated machine learning methodologies, with a particular emphasis on forecasting and scrutinising the Rate of Penetration (ROP) within the Volve Oil Field, North Sea.",
+        "핵심 분석 및 발견: Since offshore drilling’s inception in the late 19th century, it has cemented itself as a cornerstone of global energy supply, continually evolving through technological breakthroughs that bolster both its efficacy and safety. 더불어 저자들은 Addressing a pivotal challenge, this study concentrates on refining ROP prediction frameworks to streamline drilling activities, curtail operational expenditures, and mitigate ecological repercussions.",
+        "트윈 연구 시사점: 복합 위기(Polycrisis) 시대에 고립된 개인과 재난 약자가 배제되지 않도록 돕는 무해하고 투과성 높은 공공 위기 대응 인터페이스의 필요성을 뒷받침합니다."
+      ],
+      "keywords": [
+        "#재난안전",
+        "#다종공생",
         "#연구동향"
       ]
     }

@@ -1,57 +1,57 @@
 {
-  "updated_at": "2026-11-01 00:36",
-  "total_digests": 5,
-  "total_papers_analyzed": 40,
+  "updated_at": "2026-11-01 15:32",
+  "total_digests": 6,
+  "total_papers_analyzed": 48,
   "category_distribution": [
     {
       "category": "공간사회·도시커먼즈",
-      "count": 16
+      "count": 19
     },
     {
       "category": "재난안전·공공인프라",
-      "count": 10
+      "count": 13
     },
     {
       "category": "농생태·식량주권",
-      "count": 9
+      "count": 10
     },
     {
       "category": "시빅HCI·UXR",
-      "count": 5
+      "count": 6
     }
   ],
   "top_keywords": [
     {
       "keyword": "#연구동향",
-      "count": 36
+      "count": 43
     },
     {
       "keyword": "#공간사회",
-      "count": 16
+      "count": 19
     },
     {
       "keyword": "#도시공간",
-      "count": 14
+      "count": 17
     },
     {
       "keyword": "#재난안전",
-      "count": 10
+      "count": 13
     },
     {
       "keyword": "#농생태",
-      "count": 9
-    },
-    {
-      "keyword": "#시빅HCI",
-      "count": 5
-    },
-    {
-      "keyword": "#커머닝",
-      "count": 5
+      "count": 10
     },
     {
       "keyword": "#다종공생",
-      "count": 5
+      "count": 7
+    },
+    {
+      "keyword": "#시빅HCI",
+      "count": 6
+    },
+    {
+      "keyword": "#커머닝",
+      "count": 6
     }
   ],
   "timeline_series": [
@@ -88,6 +88,13 @@
       "date": "2026-11-01",
       "edition": "morning",
       "label": "2026-11-01 오전",
+      "count": 8
+    },
+    {
+      "id": "2026-11-01_afternoon",
+      "date": "2026-11-01",
+      "edition": "afternoon",
+      "label": "2026-11-01 오후",
       "count": 8
     }
   ]
