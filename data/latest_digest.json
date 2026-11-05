@@ -1,9 +1,9 @@
 {
-  "id": "2026-11-05_morning",
-  "edition": "morning",
-  "edition_label": "오전 다이제스트 (Morning Digest)",
+  "id": "2026-11-05_afternoon",
+  "edition": "afternoon",
+  "edition_label": "오후 다이제스트 (Afternoon Digest)",
   "date": "2026-11-05",
-  "timestamp": "2026-11-05 01:56",
+  "timestamp": "2026-11-05 16:56",
   "item_count": 8,
   "items": [
     {
@@ -27,22 +27,63 @@
       ]
     },
     {
-      "id": "http://arxiv.org/abs/2611.05176v1",
-      "title_kr": "Extending the MM-AR Metamodeling Platform with Process Mining Capabilities",
-      "original_title": "Extending the MM-AR Metamodeling Platform with Process Mining Capabilities",
-      "source": "arXiv cs.HC / cs.CY",
-      "authors": "Geraldine Hürzeler, Hans-Georg Fill, Daniel Borcard",
-      "published": "2026-11-03",
-      "url": "http://arxiv.org/abs/2611.05176v1",
-      "category": "과학기술학·STS",
+      "id": "https://doi.org/10.18743/pub.00056688",
+      "title_kr": "'Crisis' and the Scientific Development of World Agriculture: The International Response to the 1974 and 2008 Food Crises",
+      "original_title": "'Crisis' and the Scientific Development of World Agriculture: The International Response to the 1974 and 2008 Food Crises",
+      "source": "BIROn (Birkbeck, University of London)",
+      "authors": "Harbers, Bastiaan Maria",
+      "published": "2027-01-01",
+      "url": "https://doi.org/10.18743/pub.00056688",
+      "category": "재난안전·공공인프라",
       "relevance_score": 9.8,
       "summary_points": [
-        "연구 배경 및 문제의식: Process mining derives process models from event data recorded by information systems, but its results are usually presented as two-dimensional visualizations that are separate from the environments in which enterprise models are created and maintained.",
-        "핵심 분석 및 발견: Metamodeling platforms for extended reality (XR), such as MM-AR, allow users to define modeling languages and to display models in 2D and 3D, but they do not provide access to event data or mining algorithms so far. 더불어 저자들은 In this paper we therefore present a first proof-of-concept for showing how an XR-based metamodeling platform can be extended with process discovery capabilities without changes to the platform core through a separate Python service based on the open source PM4Py process mining library.",
-        "트윈 연구 시사점: 기술 시스템을 단순한 기능적 도구가 아닌 권력과 사회적 가치가 각인된 '사회기술시스템(Socio-technical Systems)'으로 바라보며, 플랫폼 독점과 알고리즘 통제에 비판적으로 개입하는 분석적 안목을 확장합니다."
+        "연구 배경 및 문제의식: This thesis argues that international responses to the international food crises of 1974 and 2008 demonstrate the dominant influence in contemporary history of the productivist techno-scientific model of agricultural development in international governance.",
+        "핵심 분석 및 발견: The two crises saw the renewed commitment of the international community to the Green Revolution model focused on agricultural productivity growth. 더불어 저자들은 The continued influence of the productivist techno-scientific model of agricultural development stems, I argue, from its promise of a fuller and more optimal utilisation of agricultural resources through the application of scientific and technical knowledges and technologies.",
+        "트윈 연구 시사점: 복합 위기(Polycrisis) 시대에 고립된 개인과 재난 약자가 배제되지 않도록 돕는 무해하고 투과성 높은 공공 위기 대응 인터페이스의 필요성을 뒷받침합니다."
       ],
       "keywords": [
-        "#과학기술학",
+        "#재난안전",
+        "#연구동향"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.5281/zenodo.22229622",
+      "title_kr": "Urban forest trees as a habitat option in China's northernmost and coldest large city of Harbin: a study on tree-related microhabitats",
+      "original_title": "Urban forest trees as a habitat option in China's northernmost and coldest large city of Harbin: a study on tree-related microhabitats",
+      "source": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": "Meijun Liu, Hailiang Lv, Somidh Saha",
+      "published": "2027-09-01",
+      "url": "https://doi.org/10.5281/zenodo.22229622",
+      "category": "공간사회·도시커먼즈",
+      "relevance_score": 9.8,
+      "summary_points": [
+        "연구 배경 및 문제의식: This dataset contains field survey data and R‑code for tree‑related microhabitats (TreMs) research in 112 urban forest plots in Harbin, China.",
+        "핵심 분석 및 발견: We explored spatial patterns, driving factors and spatial non‑stationarity of TreMs at tree and plot levels. 더불어 저자들은 Key predictors included diameter at breast height (DBH), management intensity, canopy light environment and urban landscape heterogeneity.",
+        "트윈 연구 시사점: 도시 공간의 상품화와 젠트리피케이션에 맞서 모든 시민이 공간에 대한 권리(Right to the City)를 누릴 수 있는 도시 커먼즈의 물리적·사회적 인프라 전략에 시사점을 던집니다."
+      ],
+      "keywords": [
+        "#공간사회",
+        "#도시공간",
+        "#연구동향"
+      ]
+    },
+    {
+      "id": "http://arxiv.org/abs/2611.06176v1",
+      "title_kr": "FireOPS: A Human-Centric Emergency Operations Platform",
+      "original_title": "FireOPS: A Human-Centric Emergency Operations Platform",
+      "source": "arXiv cs.HC / cs.CY",
+      "authors": "Alexander Wallner, Michael Riegler, Philipp Neuhauser",
+      "published": "2026-11-04",
+      "url": "http://arxiv.org/abs/2611.06176v1",
+      "category": "재난안전·공공인프라",
+      "relevance_score": 9.8,
+      "summary_points": [
+        "연구 배경 및 문제의식: Volunteer fire brigades rely on fragmented alerting channels and radio plus paper for situational awareness, hindering a shared common operational picture (COP).",
+        "핵심 분석 및 발견: FireOPS integrates smartphone alerting, navigation, a live geospatial COP, a district resource-load overview and contextual manuals into a human-centric decision-support surface for commanders and responders, running on an edge + cloud architecture whose dual-channel provides source-level redundancy against failure of either the radio or the provincial server feed; delivery to smartphones still depends on the cloud core and mobile networks. 더불어 저자들은 This lessons-learned report presents the design rationale, positions FireOPS within emergency-response information systems research, and reports operational findings from a primary log extract of a major regional flood in 2024 and from the 2025 public app release.",
+        "트윈 연구 시사점: 복합 위기(Polycrisis) 시대에 고립된 개인과 재난 약자가 배제되지 않도록 돕는 무해하고 투과성 높은 공공 위기 대응 인터페이스의 필요성을 뒷받침합니다."
+      ],
+      "keywords": [
+        "#재난안전",
         "#연구동향"
       ]
     },
@@ -109,62 +150,23 @@
       ]
     },
     {
-      "id": "https://doi.org/10.12688/f1000research.192557.1",
-      "title_kr": "Platform Content Moderation and Freedom of Expression in Southeast Asia: A Systematic Literature Review",
-      "original_title": "Platform Content Moderation and Freedom of Expression in Southeast Asia: A Systematic Literature Review",
-      "source": "F1000Research",
-      "authors": "NIZAR AL-GHIFARY, Muliana Muliana, Krisna Puspita",
-      "published": "2026-11-03",
-      "url": "https://doi.org/10.12688/f1000research.192557.1",
-      "category": "과학기술학·STS",
-      "relevance_score": 9.2,
+      "id": "https://doi.org/10.17632/nbk3p89m86",
+      "title_kr": "Data and code for: Asynchronous reorganization of urban space under population shrinkage: Multiscale evidence from land processes, activity intensity, and place-based adjustment in Chinese cities",
+      "original_title": "Data and code for: Asynchronous reorganization of urban space under population shrinkage: Multiscale evidence from land processes, activity intensity, and place-based adjustment in Chinese cities",
+      "source": "Mendeley Data",
+      "authors": "Jiawei Sun (772107)",
+      "published": "2027-10-06",
+      "url": "https://doi.org/10.17632/nbk3p89m86",
+      "category": "공간사회·도시커먼즈",
+      "relevance_score": 8.3,
       "summary_points": [
-        "연구 배경 및 문제의식: Background Big Tech platform self-regulation and national anti-disinformation laws jointly govern political speech in Southeast Asia, a region without a supranational regulatory framework, yet their interaction has not been systematically synthesized.",
-        "핵심 분석 및 발견: This review examined how they interact in shaping political disinformation and freedom of expression in the region from 2015 to 2025. 더불어 저자들은 Methods Following PRISMA 2020, we searched Scopus, ScienceDirect, SAGE Journals, and JSTOR in April–May 2026 for English-language, peer-reviewed studies.",
-        "트윈 연구 시사점: 기술 시스템을 단순한 기능적 도구가 아닌 권력과 사회적 가치가 각인된 '사회기술시스템(Socio-technical Systems)'으로 바라보며, 플랫폼 독점과 알고리즘 통제에 비판적으로 개입하는 분석적 안목을 확장합니다."
+        "연구 배경 및 문제의식: 본 연구는 Mendeley Data에 게재된 논문으로, 'Data and code for: Asynchronous reorganization of urban space under population shrinkage: Multiscale evidence from land processes, activity intensity, and place-based adjustment in Chinese cities'에 관한 기존 이론적 틀과 현실적 한계를 짚고 대안적 메커니즘을 탐구합니다.",
+        "핵심 분석 및 발견: Mendeley Data의 해당 저작은 실천적 사례 연구와 개념 분석을 결합하여, 행위자 간의 상호작용 및 시스템 거버넌스 구조를 심층적으로 규명합니다.",
+        "트윈 연구 시사점: 도시 공간의 상품화와 젠트리피케이션에 맞서 모든 시민이 공간에 대한 권리(Right to the City)를 누릴 수 있는 도시 커먼즈의 물리적·사회적 인프라 전략에 시사점을 던집니다."
       ],
       "keywords": [
-        "#과학기술학",
-        "#연구동향"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.1080/03066150.2026.2742298",
-      "title_kr": "From people to crops: unpacking displacement for the expansion of commodity agriculture",
-      "original_title": "From people to crops: unpacking displacement for the expansion of commodity agriculture",
-      "source": "The Journal of Peasant Studies",
-      "authors": "Olivia del Giorgio, Carla Gras, Lorenzo Langbehn",
-      "published": "2026-10-22",
-      "url": "https://doi.org/10.1080/03066150.2026.2742298",
-      "category": "농생태·식량주권",
-      "relevance_score": 7.4,
-      "summary_points": [
-        "연구 배경 및 문제의식: Commodity agriculture is rapidly expanding worldwide, often at the expense of natural environments and smallholder agricultural systems.",
-        "핵심 분석 및 발견: In this paper, we unpack the process of smallholder displacement due to the expansion of agricultural commodity frontiers in the Argentine Chaco, where large-scale soy and cattle operations are advancing over forests used by small-scale herders. 더불어 저자들은 We identify a series of trends related to the agricultural frontier – growing pressures on local livelihoods, changing mobility patterns, shifting strategies of land control, and weakening of organized resistance – that conspire to create unstable conditions for families.",
-        "트윈 연구 시사점: 자본주의적 산업 농업과 추출주의적 대지 착취를 비판하고, 흙·미생물·농민의 자치 역량이 상호 얽혀 회복력을 발휘하는 농생태학(Agroecology) 및 대지 윤리적 실천에 긴밀히 연결됩니다."
-      ],
-      "keywords": [
-        "#농생태",
-        "#연구동향"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.15187/adr.2026.08.39.3.231",
-      "title_kr": "Phenomenological Exploration of User Experience in Smartphone Grayscale Mode: Implications for Digital Wellbeing",
-      "original_title": "Phenomenological Exploration of User Experience in Smartphone Grayscale Mode: Implications for Digital Wellbeing",
-      "source": "Archives of Design Research (디자인학연구)",
-      "authors": "Seokhyon Oh, Seokhyon Oh, Seung In Kim",
-      "published": "2026-08-31",
-      "url": "https://doi.org/10.15187/adr.2026.08.39.3.231",
-      "category": "시빅HCI·UXR",
-      "relevance_score": 7.4,
-      "summary_points": [
-        "연구 배경 및 문제의식: Abstract not available in metadata..",
-        "핵심 분석 및 발견: Archives of Design Research (디자인학연구)의 해당 저작은 실천적 사례 연구와 개념 분석을 결합하여, 행위자 간의 상호작용 및 시스템 거버넌스 구조를 심층적으로 규명합니다.",
-        "트윈 연구 시사점: 기술 관료주의적 하향식 시스템을 넘어 시민과 취약계층이 스스로의 경험과 권리를 능동적으로 행사할 수 있는 참여적 사용자 인터페이스(Civic Interface) 및 포용적 공공데이터 안전망 설계에 직접적으로 적용될 수 있습니다."
-      ],
-      "keywords": [
-        "#시빅HCI",
+        "#공간사회",
+        "#도시공간",
         "#연구동향"
       ]
     }
