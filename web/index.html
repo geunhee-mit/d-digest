@@ -226,7 +226,7 @@
             <i data-lucide="book-marked" class="w-4 h-4"></i>
             <span>비판 저널 & 서가</span>
           </div>
-          <span class="px-1.5 py-0.2 rounded-full bg-sand-200 text-sand-700 text-[10px] font-mono font-semibold">16</span>
+          <span class="px-1.5 py-0.2 rounded-full bg-sand-200 text-sand-700 text-[10px] font-mono font-semibold">23</span>
         </button>
 
         <button class="nav-item w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-medium text-sand-700 hover:bg-sand-100 hover:text-sand-900 transition" data-view="trends">
@@ -281,7 +281,7 @@
             <div class="text-[10px] text-sand-700">연구 구루</div>
           </div>
           <div class="p-2 bg-white rounded-lg border border-sand-200/70">
-            <div id="metric-lnb-periodicals" class="text-sm font-bold text-sand-900 font-mono">16</div>
+            <div id="metric-lnb-periodicals" class="text-sm font-bold text-sand-900 font-mono">23</div>
             <div class="text-[10px] text-sand-700">비판 정기간행물</div>
           </div>
         </div>
@@ -424,7 +424,8 @@
         <!-- Shelf Filters -->
         <div class="flex flex-wrap items-center gap-1.5 text-xs">
           <span class="text-sand-400 text-[11px] mr-1">서가 분류:</span>
-          <button class="shelf-pill active px-3 py-1 rounded-full border border-sand-300 bg-sand-900 text-white transition font-medium text-xs" data-shelf="all">전체 서가 (16)</button>
+          <button class="shelf-pill active px-3 py-1 rounded-full border border-sand-300 bg-sand-900 text-white transition font-medium text-xs" data-shelf="all">전체 서가 (23)</button>
+          <button class="shelf-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-shelf="생태예술·시각문화·미학이론">🌿 생태예술·시각문화·미학이론 (7)</button>
           <button class="shelf-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-shelf="테크비평·알고리즘정치">테크비평·알고리즘정치</button>
           <button class="shelf-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-shelf="커먼즈·민속지·P2P">커먼즈·민속지·P2P</button>
           <button class="shelf-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-shelf="과학기술학·STS·디지털인문학">과학기술학·STS·인문학</button>
@@ -460,7 +461,7 @@
           </div>
           <div class="p-5 bg-white rounded-xl card-border shadow-2xs space-y-1">
             <span class="text-xs text-sand-400 font-medium">비판 정기간행물</span>
-            <p id="metric-total-periodicals" class="text-2xl font-bold text-sand-900 font-mono">16</p>
+            <p id="metric-total-periodicals" class="text-2xl font-bold text-sand-900 font-mono">23</p>
             <span class="text-[11px] text-sand-700">Logic(s), Ephemera 등</span>
           </div>
         </div>
@@ -608,7 +609,7 @@
       document.getElementById('metric-lnb-papers').textContent = totalPapers;
       document.getElementById('metric-lnb-digests').textContent = archiveDigests.length || 1;
       document.getElementById('metric-lnb-gurus').textContent = gurusList.length || 13;
-      document.getElementById('metric-lnb-periodicals').textContent = periodicalsList.length || 16;
+      document.getElementById('metric-lnb-periodicals').textContent = periodicalsList.length || 23;
 
       // Quick Jump Paper List
       renderQuickJumpList();
@@ -1016,7 +1017,7 @@
       document.getElementById('metric-total-papers').textContent = trendsData.total_papers_analyzed || 0;
       document.getElementById('metric-total-keywords').textContent = (trendsData.top_keywords || []).length;
       document.getElementById('metric-total-gurus').textContent = trendsData.total_gurus || 13;
-      document.getElementById('metric-total-periodicals').textContent = periodicalsList.length || 16;
+      document.getElementById('metric-total-periodicals').textContent = periodicalsList.length || 23;
 
       const kwContainer = document.getElementById('keywords-container');
       kwContainer.innerHTML = (trendsData.top_keywords || []).map(k => `

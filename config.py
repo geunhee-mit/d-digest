@@ -41,6 +41,12 @@ TARGET_JOURNALS = [
 # 학술 검색 쿼리 (OpenAlex & arXiv - STS, 시빅HCI, 공간/도시, 농생태)
 SCHOLARLY_QUERIES = [
     {
+        "name": "Ecological Art & Multispecies Aesthetics (생태예술 & 다종공생 미학)",
+        "category": "농생태·식량주권",
+        "type": "openalex_search",
+        "query": "ecological art OR environmental aesthetics OR land art OR multispecies art OR dialogical art"
+    },
+    {
         "name": "Science & Technology Studies (과학기술학 & 기술정치)",
         "category": "과학기술학·STS",
         "type": "openalex_search",
