@@ -1,23 +1,23 @@
 {
-  "updated_at": "2026-11-05 16:56",
-  "total_digests": 14,
-  "total_papers_analyzed": 112,
+  "updated_at": "2026-11-06 01:56",
+  "total_digests": 15,
+  "total_papers_analyzed": 120,
   "category_distribution": [
     {
       "category": "공간사회·도시커먼즈",
-      "count": 42
+      "count": 45
     },
     {
       "category": "재난안전·공공인프라",
-      "count": 30
+      "count": 33
     },
     {
       "category": "농생태·식량주권",
-      "count": 21
+      "count": 22
     },
     {
       "category": "시빅HCI·UXR",
-      "count": 15
+      "count": 16
     },
     {
       "category": "과학기술학·STS",
@@ -27,35 +27,35 @@
   "top_keywords": [
     {
       "keyword": "#연구동향",
-      "count": 99
+      "count": 106
     },
     {
       "keyword": "#공간사회",
-      "count": 42
+      "count": 45
     },
     {
       "keyword": "#도시공간",
-      "count": 40
+      "count": 43
     },
     {
       "keyword": "#재난안전",
-      "count": 30
+      "count": 33
     },
     {
       "keyword": "#농생태",
-      "count": 21
+      "count": 22
     },
     {
       "keyword": "#다종공생",
-      "count": 16
+      "count": 17
     },
     {
       "keyword": "#시빅HCI",
-      "count": 15
+      "count": 16
     },
     {
       "keyword": "#커머닝",
-      "count": 14
+      "count": 15
     },
     {
       "keyword": "#과학기술학",
