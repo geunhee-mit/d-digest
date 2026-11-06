@@ -1,10 +1,19 @@
 [
   {
-    "id": "2026-11-06_morning",
-    "edition": "morning",
-    "edition_label": "오전 다이제스트 (Morning Digest)",
+    "id": "2026-11-06_afternoon",
+    "edition": "afternoon",
+    "edition_label": "오후 다이제스트 (Afternoon Digest)",
     "date": "2026-11-06",
-    "timestamp": "2026-11-06 01:56",
+    "timestamp": "2026-11-06 16:26",
+    "daily_summary": {
+      "theme": "도시 공간의 탈상품화와 자율적 시민 자치 거버넌스",
+      "overview": "오늘의 담론은 젠트리피케이션과 공간 사유화에 맞서 모든 시민이 누려야 할 공간 권리와, 비시장적으로 운영되는 느슨한 공유 거점의 형성 가능성을 다룹니다.",
+      "key_takeaways": [
+        "사유화(Enclosure)의 극복: 자원과 공간을 소유의 대상이 아닌 공동의 돌봄 대상으로 전환하는 커머닝 규약이 긴요합니다.",
+        "독립적 개인의 자치 연대: 지나친 집단주의적 강요 없이도 상호 신뢰와 규칙을 지켜낼 수 있는 자율 거버넌스 프로토콜이 요청됩니다.",
+        "비시장적 대안 인프라의 필요성: 시장에 종속되지 않고 최소한의 생활 안전을 영위할 수 있는 공통재(Commons)의 확충이 핵심 과제입니다."
+      ]
+    },
     "item_count": 8,
     "items": [
       {
@@ -18,9 +27,9 @@
         "category": "재난안전·공공인프라",
         "relevance_score": 9.8,
         "summary_points": [
-          "연구 배경 및 문제의식: Polycrisis presents as everything, everywhere all at once, the name for a world in which disasters arrive together.",
-          "핵심 분석 및 발견: It should mean something more precise: not a coincidence of shocks but the exhaustion of the cheapened nature, money, work, care, food, energy and life on which capitalist accumulation has depended, and the absence of any successor regime able to reconstitute them. 더불어 저자들은 By joining Giovanni Arrighi's theory of hegemonic cycles to world-ecology, it is possible to track how that exhaustion is administered, and contested, through what Gramsci called the integral state: the unity of political and civil society through which a ruling bloc governs.",
-          "트윈 연구 시사점: 복합 위기(Polycrisis) 시대에 고립된 개인과 재난 약자가 배제되지 않도록 돕는 무해하고 투과성 높은 공공 위기 대응 인터페이스의 필요성을 뒷받침합니다."
+          "연구 배경 및 문제의식: 본 연구는 The Journal of Peasant Studies에 게재된 저작으로, 'Counter-hegemony and polycrisis II: movement science and experiments in care'의 주제 의식을 바탕으로 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
+          "핵심 분석 및 이론적 발견: 지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명합니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
         ],
         "keywords": [
           "#재난안전",
@@ -38,9 +47,9 @@
         "category": "재난안전·공공인프라",
         "relevance_score": 9.8,
         "summary_points": [
-          "연구 배경 및 문제의식: This thesis argues that international responses to the international food crises of 1974 and 2008 demonstrate the dominant influence in contemporary history of the productivist techno-scientific model of agricultural development in international governance.",
-          "핵심 분석 및 발견: The two crises saw the renewed commitment of the international community to the Green Revolution model focused on agricultural productivity growth. 더불어 저자들은 The continued influence of the productivist techno-scientific model of agricultural development stems, I argue, from its promise of a fuller and more optimal utilisation of agricultural resources through the application of scientific and technical knowledges and technologies.",
-          "트윈 연구 시사점: 복합 위기(Polycrisis) 시대에 고립된 개인과 재난 약자가 배제되지 않도록 돕는 무해하고 투과성 높은 공공 위기 대응 인터페이스의 필요성을 뒷받침합니다."
+          "연구 배경 및 문제의식: 본 연구는 BIROn (Birkbeck, University of London)에 게재된 저작으로, ''Crisis' and the Scientific Development of World Agriculture: The International Response to the 1974 and 2008 Food Crises'의 주제 의식을 바탕으로 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
+          "핵심 분석 및 이론적 발견: 지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명합니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
         ],
         "keywords": [
           "#재난안전",
@@ -58,9 +67,9 @@
         "category": "공간사회·도시커먼즈",
         "relevance_score": 9.8,
         "summary_points": [
-          "연구 배경 및 문제의식: This dataset contains field survey data and R‑code for tree‑related microhabitats (TreMs) research in 112 urban forest plots in Harbin, China.",
-          "핵심 분석 및 발견: We explored spatial patterns, driving factors and spatial non‑stationarity of TreMs at tree and plot levels. 더불어 저자들은 Key predictors included diameter at breast height (DBH), management intensity, canopy light environment and urban landscape heterogeneity.",
-          "트윈 연구 시사점: 도시 공간의 상품화와 젠트리피케이션에 맞서 모든 시민이 공간에 대한 권리(Right to the City)를 누릴 수 있는 도시 커먼즈의 물리적·사회적 인프라 전략에 시사점을 던집니다."
+          "연구 배경 및 문제의식: 본 연구는 Zenodo (CERN European Organization for Nuclear Research)에 게재된 저작으로, 'Urban forest trees as a habitat option in China's northernmost and coldest large city of Harbin: a study on tree-related microhabitats'의 주제 의식을 바탕으로 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약을 분석합니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
         ],
         "keywords": [
           "#공간사회",
@@ -79,9 +88,9 @@
         "category": "재난안전·공공인프라",
         "relevance_score": 9.8,
         "summary_points": [
-          "연구 배경 및 문제의식: Volunteer fire brigades rely on fragmented alerting channels and radio plus paper for situational awareness, hindering a shared common operational picture (COP).",
-          "핵심 분석 및 발견: FireOPS integrates smartphone alerting, navigation, a live geospatial COP, a district resource-load overview and contextual manuals into a human-centric decision-support surface for commanders and responders, running on an edge + cloud architecture whose dual-channel provides source-level redundancy against failure of either the radio or the provincial server feed; delivery to smartphones still depends on the cloud core and mobile networks. 더불어 저자들은 This lessons-learned report presents the design rationale, positions FireOPS within emergency-response information systems research, and reports operational findings from a primary log extract of a major regional flood in 2024 and from the 2025 public app release.",
-          "트윈 연구 시사점: 복합 위기(Polycrisis) 시대에 고립된 개인과 재난 약자가 배제되지 않도록 돕는 무해하고 투과성 높은 공공 위기 대응 인터페이스의 필요성을 뒷받침합니다."
+          "연구 배경 및 문제의식: 본 연구는 arXiv cs.HC / cs.CY에 게재된 저작으로, 'FireOPS: A Human-Centric Emergency Operations Platform'의 주제 의식을 바탕으로 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
+          "핵심 분석 및 이론적 발견: 지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명합니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
         ],
         "keywords": [
           "#재난안전",
@@ -99,9 +108,9 @@
         "category": "농생태·식량주권",
         "relevance_score": 9.2,
         "summary_points": [
-          "연구 배경 및 문제의식: Why does agricultural cooperation remain fragile in post-socialist settings, despite its potential to reduce transaction costs and improve market access? Explanations usually stress institutional voids and the legacy of distrust.",
-          "핵심 분석 및 발견: This paper advances a different view: farmers cooperate when the services offered are economically salient. 더불어 저자들은 Adapting Ostrom’s SES framework, we reinterpret “resource importance” for club goods, specifically cooperation services such as marketing, certification, and input procurement.",
-          "트윈 연구 시사점: 자본주의적 산업 농업과 추출주의적 대지 착취를 비판하고, 흙·미생물·농민의 자치 역량이 상호 얽혀 회복력을 발휘하는 농생태학(Agroecology) 및 대지 윤리적 실천에 긴밀히 연결됩니다."
+          "연구 배경 및 문제의식: 본 연구는 International Journal of the Commons (IJC)에 게재된 저작으로, 'When Services Matter: Rethinking Farmer Cooperation in an Export-Oriented Smallholder Setting'의 주제 의식을 바탕으로 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리를 분석합니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화합니다."
         ],
         "keywords": [
           "#농생태",
@@ -119,9 +128,9 @@
         "category": "시빅HCI·UXR",
         "relevance_score": 9.2,
         "summary_points": [
-          "연구 배경 및 문제의식: In commons and institutional research, the Institutional Analysis and Development framework (IADF) has proven itself as a useful tool to investigate the complexities of social-environmental systems.",
-          "핵심 분석 및 발견: It is effective in guiding researchers through the process of understanding complex problem situations. 더불어 저자들은 The framework helps to conceptually unravel the institutional scaffoldings structuring human-nature interactions.",
-          "트윈 연구 시사점: 기술 관료주의적 하향식 시스템을 넘어 시민과 취약계층이 스스로의 경험과 권리를 능동적으로 행사할 수 있는 참여적 사용자 인터페이스(Civic Interface) 및 포용적 공공데이터 안전망 설계에 직접적으로 적용될 수 있습니다."
+          "연구 배경 및 문제의식: 본 연구는 International Journal of the Commons (IJC)에 게재된 저작으로, 'Toward Making Power More Explicit in the IADF: A Review and Diagnostic Approach to Power Theories'의 주제 의식을 바탕으로 공공 시스템이 재난 약자, 고립 1인 가구, 이동 취약계층의 실제 생활 맥락을 반영하지 못하고 행정 편의주의적 인터페이스로 귀결되는 현실적 균열을 짚습니다.",
+          "핵심 분석 및 이론적 발견: 당사자 참여형 디자인 리서치(Participatory Design)와 현장 기반 사용자 경험(UXR)을 통해, 위기 상황에서 침해 없이 작동하는 무해하고 포용적인 공공 서비스 아키텍처를 도출합니다.",
+          "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
         ],
         "keywords": [
           "#시빅HCI",
@@ -140,9 +149,183 @@
         "category": "공간사회·도시커먼즈",
         "relevance_score": 9.2,
         "summary_points": [
-          "연구 배경 및 문제의식: Abstract Drawing on fieldwork in two remote mountainous villages in northern and southwestern China, this paper examines women’s (re)engagement with seed keeping practices and agroecological production with the support of social organizations.",
-          "핵심 분석 및 발견: We foreground the dilemma between caring for sons and caring for seeds faced by so-called ‘left-behind’ women in translocal households. 더불어 저자들은 Women’s care work for seeds sustains local agrobiodiversity and contributes to their family’s access to healthy food.",
-          "트윈 연구 시사점: 도시 공간의 상품화와 젠트리피케이션에 맞서 모든 시민이 공간에 대한 권리(Right to the City)를 누릴 수 있는 도시 커먼즈의 물리적·사회적 인프라 전략에 시사점을 던집니다."
+          "연구 배경 및 문제의식: 본 연구는 Agriculture and Human Values에 게재된 저작으로, 'Sons or seeds: gender, care work, and agrobiodiversity in translocal households of rural China'의 주제 의식을 바탕으로 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약을 분석합니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#다종공생",
+          "#도시공간"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.18743/pub.00056687",
+        "title_kr": "Contested urbanisms: The politics of heritage and housing in Jakarta’s kampungs",
+        "original_title": "Contested urbanisms: The politics of heritage and housing in Jakarta’s kampungs",
+        "source": "BIROn (Birkbeck, University of London)",
+        "authors": "Binte Masron, Irna Nurlina",
+        "published": "2027-01-01",
+        "url": "https://doi.org/10.18743/pub.00056687",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 9.2,
+        "summary_points": [
+          "연구 배경 및 문제의식: 본 연구는 BIROn (Birkbeck, University of London)에 게재된 저작으로, 'Contested urbanisms: The politics of heritage and housing in Jakarta’s kampungs'의 주제 의식을 바탕으로 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약을 분석합니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#도시공간",
+          "#연구동향"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "2026-11-06_morning",
+    "edition": "morning",
+    "edition_label": "오전 다이제스트 (Morning Digest)",
+    "date": "2026-11-06",
+    "timestamp": "2026-11-06 01:56",
+    "item_count": 8,
+    "items": [
+      {
+        "id": "https://doi.org/10.1080/03066150.2026.2739233",
+        "title_kr": "Counter-hegemony and polycrisis II: movement science and experiments in care",
+        "original_title": "Counter-hegemony and polycrisis II: movement science and experiments in care",
+        "source": "The Journal of Peasant Studies",
+        "authors": "Raj Patel",
+        "published": "2026-10-22",
+        "url": "https://doi.org/10.1080/03066150.2026.2739233",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 본 연구는 The Journal of Peasant Studies에 게재된 저작으로, ''의 주제 의식을 바탕으로 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
+          "핵심 분석 및 이론적 발견: 지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명합니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.18743/pub.00056688",
+        "title_kr": "'Crisis' and the Scientific Development of World Agriculture: The International Response to the 1974 and 2008 Food Crises",
+        "original_title": "'Crisis' and the Scientific Development of World Agriculture: The International Response to the 1974 and 2008 Food Crises",
+        "source": "BIROn (Birkbeck, University of London)",
+        "authors": "Harbers, Bastiaan Maria",
+        "published": "2027-01-01",
+        "url": "https://doi.org/10.18743/pub.00056688",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 본 연구는 BIROn (Birkbeck, University of London)에 게재된 저작으로, ''의 주제 의식을 바탕으로 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
+          "핵심 분석 및 이론적 발견: 지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명합니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.5281/zenodo.22229622",
+        "title_kr": "Urban forest trees as a habitat option in China's northernmost and coldest large city of Harbin: a study on tree-related microhabitats",
+        "original_title": "Urban forest trees as a habitat option in China's northernmost and coldest large city of Harbin: a study on tree-related microhabitats",
+        "source": "Zenodo (CERN European Organization for Nuclear Research)",
+        "authors": "Meijun Liu, Hailiang Lv, Somidh Saha",
+        "published": "2027-09-01",
+        "url": "https://doi.org/10.5281/zenodo.22229622",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 본 연구는 Zenodo (CERN European Organization for Nuclear Research)에 게재된 저작으로, ''의 주제 의식을 바탕으로 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약을 분석합니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#도시공간",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/2611.06176v1",
+        "title_kr": "FireOPS: A Human-Centric Emergency Operations Platform",
+        "original_title": "FireOPS: A Human-Centric Emergency Operations Platform",
+        "source": "arXiv cs.HC / cs.CY",
+        "authors": "Alexander Wallner, Michael Riegler, Philipp Neuhauser",
+        "published": "2026-11-04",
+        "url": "http://arxiv.org/abs/2611.06176v1",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 본 연구는 arXiv cs.HC / cs.CY에 게재된 저작으로, ''의 주제 의식을 바탕으로 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
+          "핵심 분석 및 이론적 발견: 지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명합니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.5334/ijc.1687",
+        "title_kr": "When Services Matter: Rethinking Farmer Cooperation in an Export-Oriented Smallholder Setting",
+        "original_title": "When Services Matter: Rethinking Farmer Cooperation in an Export-Oriented Smallholder Setting",
+        "source": "International Journal of the Commons (IJC)",
+        "authors": "Engjell Skreli, Orjon Xhoxhi, Vladislav Valentinov",
+        "published": "2026-09-03",
+        "url": "https://doi.org/10.5334/ijc.1687",
+        "category": "농생태·식량주권",
+        "relevance_score": 9.2,
+        "summary_points": [
+          "연구 배경 및 문제의식: 본 연구는 International Journal of the Commons (IJC)에 게재된 저작으로, ''의 주제 의식을 바탕으로 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리를 분석합니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화합니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.5334/ijc.1595",
+        "title_kr": "Toward Making Power More Explicit in the IADF: A Review and Diagnostic Approach to Power Theories",
+        "original_title": "Toward Making Power More Explicit in the IADF: A Review and Diagnostic Approach to Power Theories",
+        "source": "International Journal of the Commons (IJC)",
+        "authors": "IASC-ECN Power Collective, Désirée Schwindenhammer, Lavanya Suresh",
+        "published": "2026-08-26",
+        "url": "https://doi.org/10.5334/ijc.1595",
+        "category": "시빅HCI·UXR",
+        "relevance_score": 9.2,
+        "summary_points": [
+          "연구 배경 및 문제의식: 본 연구는 International Journal of the Commons (IJC)에 게재된 저작으로, ''의 주제 의식을 바탕으로 공공 시스템이 재난 약자, 고립 1인 가구, 이동 취약계층의 실제 생활 맥락을 반영하지 못하고 행정 편의주의적 인터페이스로 귀결되는 현실적 균열을 짚습니다.",
+          "핵심 분석 및 이론적 발견: 당사자 참여형 디자인 리서치(Participatory Design)와 현장 기반 사용자 경험(UXR)을 통해, 위기 상황에서 침해 없이 작동하는 무해하고 포용적인 공공 서비스 아키텍처를 도출합니다.",
+          "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
+        ],
+        "keywords": [
+          "#시빅HCI",
+          "#커머닝",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.1007/s10460-026-10993-4",
+        "title_kr": "Sons or seeds: gender, care work, and agrobiodiversity in translocal households of rural China",
+        "original_title": "Sons or seeds: gender, care work, and agrobiodiversity in translocal households of rural China",
+        "source": "Agriculture and Human Values",
+        "authors": "Miaomiao Qi, Siyuan Xu",
+        "published": "2026-10-28",
+        "url": "https://doi.org/10.1007/s10460-026-10993-4",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 9.2,
+        "summary_points": [
+          "연구 배경 및 문제의식: 본 연구는 Agriculture and Human Values에 게재된 저작으로, ''의 주제 의식을 바탕으로 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약을 분석합니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
         ],
         "keywords": [
           "#공간사회",
@@ -161,9 +344,9 @@
         "category": "공간사회·도시커먼즈",
         "relevance_score": 8.3,
         "summary_points": [
-          "연구 배경 및 문제의식: 본 연구는 Mendeley Data에 게재된 논문으로, 'Data and code for: Asynchronous reorganization of urban space under population shrinkage: Multiscale evidence from land processes, activity intensity, and place-based adjustment in Chinese cities'에 관한 기존 이론적 틀과 현실적 한계를 짚고 대안적 메커니즘을 탐구합니다.",
-          "핵심 분석 및 발견: Mendeley Data의 해당 저작은 실천적 사례 연구와 개념 분석을 결합하여, 행위자 간의 상호작용 및 시스템 거버넌스 구조를 심층적으로 규명합니다.",
-          "트윈 연구 시사점: 도시 공간의 상품화와 젠트리피케이션에 맞서 모든 시민이 공간에 대한 권리(Right to the City)를 누릴 수 있는 도시 커먼즈의 물리적·사회적 인프라 전략에 시사점을 던집니다."
+          "연구 배경 및 문제의식: 본 연구는 Mendeley Data에 게재된 저작으로, ''의 주제 의식을 바탕으로 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약을 분석합니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
         ],
         "keywords": [
           "#공간사회",
@@ -171,7 +354,16 @@
           "#연구동향"
         ]
       }
-    ]
+    ],
+    "daily_summary": {
+      "theme": "상호부조와 데이터 인프라가 엮어내는 사각지대 없는 공공 돌봄",
+      "overview": "오늘의 연구들은 일상화된 재난 환경 속에서 고독사와 사회적 고립을 방지하기 위한 최소 개입형 상호부조 안전망과 공공 인프라 프로토콜의 구체적 청사진을 제시합니다.",
+      "key_takeaways": [
+        "사유화(Enclosure)의 극복: 자원과 공간을 소유의 대상이 아닌 공동의 돌봄 대상으로 전환하는 커머닝 규약이 긴요합니다.",
+        "독립적 개인의 자치 연대: 지나친 집단주의적 강요 없이도 상호 신뢰와 규칙을 지켜낼 수 있는 자율 거버넌스 프로토콜이 요청됩니다.",
+        "비시장적 대안 인프라의 필요성: 시장에 종속되지 않고 최소한의 생활 안전을 영위할 수 있는 공통재(Commons)의 확충이 핵심 과제입니다."
+      ]
+    }
   },
   {
     "id": "2026-11-05_afternoon",
@@ -2608,6 +2800,15 @@
           "#연구동향"
         ]
       }
-    ]
+    ],
+    "daily_summary": {
+      "theme": "복합 위기 시대의 대항 헤게모니와 자치적 커먼즈 인프라",
+      "overview": "오늘 수집된 연구 흐름은 기후·식량·돌봄의 중첩된 위기 속에서 기술 관료주의적 녹색혁명 처방을 넘어선 소농의 자치, 비시장적 커먼즈 프로토콜, 그리고 취약계층의 사각지대를 해소하는 공공 인프라의 필요성을 집중 조명합니다.",
+      "key_takeaways": [
+        "녹색혁명 기술주의 비판: 생산성 중심의 하향식 농업 기술 처방은 소농의 식량주권과 대지 윤리를 배제하므로, 다종 공생 기반의 농생태학적 대항 헤게모니 형성이 시급합니다.",
+        "돌봄과 상호부조의 커먼즈화: 파편화된 개인과 재난 약자를 위기에서 보호하기 위해 집단주의적 강요가 없는 투과성 높은 공공 안전망과 상호 호혜적 돌봄 실험이 요청됩니다.",
+        "참여적 시빅 테크와 IAD 거버넌스: 하향식 행정 전산망에 맞서 오스트롬의 제도 분석(IAD) 프레임워크를 기반으로 시민과 현장이 데이터와 알고리즘 규칙 제정에 능동적으로 개입할 수 있어야 합니다."
+      ]
+    }
   }
 ]
