@@ -7,6 +7,7 @@ WEB_DATA_DIR = os.path.join(os.path.dirname(__file__), "web", "data")
 ARCHIVE_FILE = os.path.join(WEB_DATA_DIR, "archive.json")
 LATEST_FILE = os.path.join(WEB_DATA_DIR, "latest_digest.json")
 TRENDS_FILE = os.path.join(WEB_DATA_DIR, "trends.json")
+GURUS_FILE = os.path.join(WEB_DATA_DIR, "gurus.json")
 OBSIDIAN_DIGEST_DIR = r"H:\내 드라이브\lgh\10. Journals\Research Digest"
 
 
@@ -42,10 +43,21 @@ def compute_trends(archive):
         for kw, cnt in keyword_counts.most_common(15)
     ]
 
+    # 구루 수 파악
+    total_gurus = 13
+    if os.path.exists(GURUS_FILE):
+        try:
+            with open(GURUS_FILE, "r", encoding="utf-8") as f:
+                gdata = json.load(f)
+                total_gurus = len(gdata)
+        except Exception:
+            pass
+
     trends_data = {
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "total_digests": len(archive),
         "total_papers_analyzed": sum(len(d.get("items", [])) for d in archive),
+        "total_gurus": total_gurus,
         "category_distribution": [
             {"category": cat, "count": cnt}
             for cat, cnt in category_counts.most_common()
@@ -57,7 +69,7 @@ def compute_trends(archive):
     return trends_data
 
 
-def export_digest(curated_items, edition="morning"):
+def export_digest(curated_items, daily_summary=None, edition="morning"):
     """큐레이션 결과를 웹앱 데이터(JSON) 및 옵시디언 볼트에 저장"""
     os.makedirs(WEB_DATA_DIR, exist_ok=True)
     os.makedirs(OBSIDIAN_DIGEST_DIR, exist_ok=True)
@@ -73,6 +85,7 @@ def export_digest(curated_items, edition="morning"):
         "edition_label": edition_label,
         "date": date_str,
         "timestamp": timestamp_str,
+        "daily_summary": daily_summary,
         "item_count": len(curated_items),
         "items": curated_items
     }
@@ -115,7 +128,7 @@ def export_digest(curated_items, edition="morning"):
 
 
 def generate_markdown(digest):
-    """옵시디언 마크다운 형식 생성 (깔끔하고 깊이 있는 학술 서식)"""
+    """옵시디언 마크다운 형식 생성 (깔끔하고 깊이 있는 학술 서식 + 오늘의 사유 지형)"""
     lines = [
         "---",
         f"date: {digest['date']}",
@@ -128,10 +141,25 @@ def generate_markdown(digest):
         f"# ☕ {digest['date']} {digest['edition_label']}",
         "",
         f"> 발행 시각: `{digest['timestamp']}` | 총 `{digest['item_count']}`편의 엄선된 학술·담론 소식",
-        "",
-        "---",
         ""
     ]
+
+    daily_summary = digest.get("daily_summary")
+    if daily_summary and isinstance(daily_summary, dict):
+        lines.append("## 💡 오늘의 사유 지형 (Daily Executive Summary)")
+        lines.append(f"**화두**: *{daily_summary.get('theme', '')}*")
+        lines.append("")
+        lines.append(f"> {daily_summary.get('overview', '')}")
+        lines.append("")
+        lines.append("**핵심 사유 테이크어웨이**:")
+        for tk in daily_summary.get("key_takeaways", []):
+            lines.append(f"- {tk}")
+        lines.append("")
+        lines.append("---")
+        lines.append("")
+
+    lines.append("## 📖 오늘의 엄선 연구 목록")
+    lines.append("")
 
     for i, it in enumerate(digest["items"], 1):
         lines.append(f"### {i}. [{it['category']}] {it['title_kr']}")

@@ -1,0 +1,226 @@
+[
+  {
+    "id": "david-bollier",
+    "name_kr": "데이비드 볼리어",
+    "name_en": "David Bollier",
+    "field": "커먼즈·공유재",
+    "category": "커먼즈·자율주의",
+    "affiliation": "Schumacher Center for a New Economics / Commons Strategies Group",
+    "avatar": "🏛️",
+    "core_philosophy": "커먼즈는 단순한 '자원'이 아니라 사람과 자원, 규범이 상호작용하는 살아있는 사회적 실천인 '커머닝(Commoning)'이다. 국가와 시장이라는 낡은 이분법을 넘어 자치와 협력에 기반한 새로운 존재론적 패러다임을 제안한다.",
+    "key_concepts": ["커머닝(Commoning)", "온토시프트(Ontoshift)", "관계적 존재론", "커먼즈 법", "코스모로컬리즘"],
+    "key_works": ["『공유인으로 살아가기(Think Like a Commoner)』", "『자유, 공정, 번영(Free, Fair, and Alive)』 (질케 헬프리히 공저)", "『The Commoner's Catalog for Changemaking』"],
+    "recent_activities": "Commons Strategies Group을 이끌며 글로벌 커먼즈 패턴 랭귀지 보급, 팟캐스트 'Frontiers of Commoning' 진행, 생태적 커먼즈 법제화 연구 주도.",
+    "follow_links": [
+      {"name": "공식 웹사이트", "url": "https://www.bollier.org/"},
+      {"name": "팟캐스트", "url": "https://frontiersofcommoning.podbean.com/"},
+      {"name": "Schumacher Center", "url": "https://centerforneweconomics.org/"}
+    ]
+  },
+  {
+    "id": "silvia-federici",
+    "name_kr": "실비아 페데리치",
+    "name_en": "Silvia Federici",
+    "field": "페미니즘·돌봄 커먼즈",
+    "category": "돌봄·페미니즘",
+    "affiliation": "Hofstra University 명예교수 / 자율주의 페미니스트 철학자",
+    "avatar": "🫂",
+    "core_philosophy": "자본주의적 원시 축적은 여성의 가사·돌봄(재생산) 노동을 비가시화하고 자연을 인클로저하는 과정이었다. 따라서 진정한 커머닝은 거실과 부엌, 돌봄과 살림의 영역을 재전유하고 집단화하는 데서 출발해야 한다.",
+    "key_concepts": ["재생산 노동", "가사의 공동체화", "신체와 대지의 커먼즈", "마녀사냥과 원시축적"],
+    "key_works": ["『캘리번과 마녀(Caliban and the Witch)』", "『혁명의 영점(Revolution at Point Zero)』", "『세계를 재마법화하기(Re-enchanting the World: Feminism and the Politics of the Commons)』"],
+    "recent_activities": "전 세계 여성·소농 연대 운동 참여, 라틴아메리카 토착민 여성들의 공동체 방어 투쟁 기록 및 글로벌 에코페미니즘 강연.",
+    "follow_links": [
+      {"name": "위키피디아", "url": "https://en.wikipedia.org/wiki/Silvia_Federici"},
+      {"name": "PM Press 저자 페이지", "url": "https://pmpress.org/index.php?l=product_list&c=137"}
+    ]
+  },
+  {
+    "id": "michel-bauwens",
+    "name_kr": "미셸 바우언스",
+    "name_en": "Michel Bauwens",
+    "field": "P2P·디지털 커먼즈",
+    "category": "커먼즈·자율주의",
+    "affiliation": "P2P Foundation 창립자 / 코스모로컬리즘 이론가",
+    "avatar": "💻",
+    "core_philosophy": "디지털 세계의 비경합적 공유(지식, 소프트웨어, 디자인)와 물리적 세계의 생태적 한계를 결합한 '코스모로컬리즘(Cosmolocalism)'을 주창한다. 가벼운 것은 지구적으로 공유하고 무거운 것은 지역에서 생산하는 P2P 피어생산 모델을 설계한다.",
+    "key_concepts": ["P2P 피어생산", "코스모로컬리즘", "개방형 협동주의", "상호성 라이선스", "파트너 국가"],
+    "key_works": ["『Peer to Peer: The Commons Manifesto』", "『P2P와 인간 진화』", "에콰도르 FLOK Society 프로젝트 리포트"],
+    "recent_activities": "P2P Foundation 아카이브 운영, 플랫폼 협동조합과 지역 분산 생산(FabLab)의 결합 정책 자문, 탈중앙 거버넌스 연구.",
+    "follow_links": [
+      {"name": "P2P Foundation", "url": "https://p2pfoundation.net/"},
+      {"name": "블로그 & 뉴스", "url": "https://blog.p2pfoundation.net/"},
+      {"name": "트위터/X", "url": "https://twitter.com/mbauwens"}
+    ]
+  },
+  {
+    "id": "donna-haraway",
+    "name_kr": "도나 해러웨이",
+    "name_en": "Donna Haraway",
+    "field": "과학기술학·다종 공생",
+    "category": "농생태·다종공생",
+    "affiliation": "UC Santa Cruz 의식사학과 석좌교수 / 페미니스트 과학기술학자",
+    "avatar": "🐙",
+    "core_philosophy": "인간은 결코 홀로 존재하지 않으며, 미생물, 동물, 기계와 얽혀 함께 되어가는(Becoming-with) 존재다. 인류세의 파국을 넘어 다종 생명체와 함께 친족을 만들고(Make Kin), 폐허 속에서 살아남는 공생적 지혜를 제안한다.",
+    "key_concepts": ["사이보그 선언", "상황적 지식(Situated Knowledges)", "트러블과 함께 살아가기", "다종 얽힘", "툴루세(Chthulucene)"],
+    "key_works": ["『사이보그 선언(A Cyborg Manifesto)』", "『트러블과 함께 살아가기(Staying with the Trouble)』", "『반려종 선언(The Companion Species Manifesto)』"],
+    "recent_activities": "생태위기 시대의 예술가·환경운동가들과의 협업, 다종 서식지 복원 포럼 참여, 인류세 이후의 사유에 관한 대담집 출간.",
+    "follow_links": [
+      {"name": "교수 홈페이지", "url": "https://people.ucsc.edu/~haraway/"},
+      {"name": "Google Scholar", "url": "https://scholar.google.com/citations?user=7iI6Z0wAAAAJ"}
+    ]
+  },
+  {
+    "id": "yuk-hui",
+    "name_kr": "육 후이",
+    "name_en": "Yuk Hui",
+    "field": "기술철학·미디어 생태학",
+    "category": "과학기술학·AI",
+    "affiliation": "Erasmus University Rotterdam 철학교수 / 기계와 유기체 철학 연구자",
+    "avatar": "⚙️",
+    "core_philosophy": "서구 중심의 단일한 보편 기술관(가속주의)을 해체하고, 각 지역과 문화의 우주론과 생태에 뿌리내린 다원적 기술인 '코스모테크닉스(Cosmotechnics)'를 복원해야 한다. 디지털 객체와 기계를 새로운 유기적 존재론으로 재해석한다.",
+    "key_concepts": ["코스모테크닉스", "디지털 객체의 존재론", "재귀성과 우발성", "기술다원주의"],
+    "key_works": ["『중국에서의 기술에 관한 물음(The Question Concerning Technology in China)』", "『디지털 객체의 존재에 대하여(On the Existence of Digital Objects)』", "『예술과 우주기법(Art and Cosmotechnics)』"],
+    "recent_activities": "Research Network for Philosophy and Technology 디렉터, AI의 존재론적 한계와 미래에 관한 유럽·아시아 순회 강연.",
+    "follow_links": [
+      {"name": "개인 공식 사이트", "url": "https://www.digitalformat.org/"},
+      {"name": "철학&기술 네트워크", "url": "https://philtech.net/"}
+    ]
+  },
+  {
+    "id": "ruha-benjamin",
+    "name_kr": "루하 벤저민",
+    "name_en": "Ruha Benjamin",
+    "field": "사회기술시스템·디자인 정의",
+    "category": "과학기술학·AI",
+    "affiliation": "Princeton University 아프리카계 미국인학 교수 / Ida B. Wells Just Data Lab",
+    "avatar": "🔍",
+    "core_philosophy": "기술은 결코 중립적이지 않으며, 기존 사회의 인종차별, 성차별, 불평등 구조를 알고리즘 뒤로 매끄럽게 은폐하고 재생산한다('The New Jim Code'). 상상력과 참여적 디자인을 통해 기술 시스템을 해체하고 재설계해야 한다.",
+    "key_concepts": ["새로운 짐 코드(The New Jim Code)", "디자인 저스티스", "해방적 상상력", "데이터 정의(Data Justice)"],
+    "key_works": ["『기술 이후의 인종(Race After Technology)』", "『바이러스 같은 바이러스(Viral Justice)』", "『Imagination: A Manifesto』"],
+    "recent_activities": "Ida B. Wells Just Data Lab을 통해 지역사회 기반 공익 데이터 프로젝트 진행, 2024년 맥아더 펠로우십 수상, 풀뿌리 테크 액티비즘 지원.",
+    "follow_links": [
+      {"name": "개인 공식 사이트", "url": "https://www.ruhabenjamin.com/"},
+      {"name": "Just Data Lab", "url": "https://www.thejustdatalab.com/"},
+      {"name": "트위터/X", "url": "https://twitter.com/ruha9"}
+    ]
+  },
+  {
+    "id": "kate-crawford",
+    "name_kr": "케이트 크로포드",
+    "name_en": "Kate Crawford",
+    "field": "AI 정치경제학·데이터 추출주의",
+    "category": "과학기술학·AI",
+    "affiliation": "USC Annenberg 교수 / École Normale Supérieure 선임연구원",
+    "avatar": "🗺️",
+    "core_philosophy": "인공지능은 순수한 소프트웨어가 아니라 희토류 광산, 리튬 배터리 채굴, 글로벌 크라우드워커의 저임금 노동, 막대한 전력 소비로 지탱되는 물리적이고 추출주의적인 거대 인프라다.",
+    "key_concepts": ["AI의 아틀라스", "데이터 추출주의", "알고리즘 권력", "유령 노동 인프라"],
+    "key_works": ["『AI의 아틀라스(Atlas of AI)』", "『Anatomy of an AI System』 (블라단 욜레르 공저 - MoMA 영구소장)"],
+    "recent_activities": "빅테크 AI의 생태적 탄소 발자국과 자원 추출 네트워크 매핑 연구, 국제 인권 및 AI 규제 정책 자문.",
+    "follow_links": [
+      {"name": "개인 공식 사이트", "url": "https://katecrawford.net/"},
+      {"name": "Anatomy of an AI System", "url": "https://anatomyof.ai/"},
+      {"name": "트위터/X", "url": "https://twitter.com/katecrawford"}
+    ]
+  },
+  {
+    "id": "sasha-costanza-chock",
+    "name_kr": "사샤 코스탄자-촉",
+    "name_en": "Sasha Costanza-Chock",
+    "field": "시빅HCI·참여디자인",
+    "category": "시빅HCI·디자인",
+    "affiliation": "Design Justice Network 운영위원 / Berkman Klein Center Fellow",
+    "avatar": "🛠️",
+    "core_philosophy": "디자인은 특권층의 전유물이 아니며, '디자인 정의(Design Justice)'는 시스템에 의해 가장 큰 피해를 입는 당사자가 인터페이스와 기술 개발의 주체가 되어야 함을 의미한다. 매트릭스 지배 체계를 해체하는 해방적 해킹을 지향한다.",
+    "key_concepts": ["디자인 저스티스(Design Justice)", "참여적 미디어 액티비즘", "포용적 인터페이스", "풀뿌리 해킹"],
+    "key_works": ["『디자인 정의(Design Justice: Community-Led Practices to Build the Worlds We Need)』", "『Out of the Shadows, Into the Streets!』"],
+    "recent_activities": "Design Justice Network의 글로벌 챕터 확장, 트랜스젠더·유색인종 풀뿌리 커뮤니티 미디어 툴킷 개발.",
+    "follow_links": [
+      {"name": "개인 사이트", "url": "https://schock.cc/"},
+      {"name": "Design Justice Network", "url": "https://designjustice.org/"}
+    ]
+  },
+  {
+    "id": "anna-tsing",
+    "name_kr": "안나 칭",
+    "name_en": "Anna Tsing",
+    "field": "인류학·다종 민족지",
+    "category": "농생태·다종공생",
+    "affiliation": "UC Santa Cruz 인류학과 교수 / Aarhus University 오르후스 오토놈 연구소",
+    "avatar": "🍄",
+    "core_philosophy": "자본주의적 개발이 지구를 파괴한 폐허 속에서도, 송이버섯과 균류, 비인간 생명들은 인간의 통제를 벗어난 채 자생적으로 번성한다. 통제 불가능한 오염과 불안정(Precarity) 속에서 다종이 공존하는 법을 모색한다.",
+    "key_concepts": ["폐허에서의 삶", "다종 민족지", "비인간 행위성", "패치형 자본주의(Patchy Anthropocene)"],
+    "key_works": ["『말미잘과 송이버섯: 자본주의 폐허에서 삶의 가능성에 대하여(The Mushroom at the End of the World)』", "『Feral Atlas: The More-than-Human Anthropocene』"],
+    "recent_activities": "야생화된 인류세 인터랙티브 지도 'Feral Atlas' 프로젝트 지속 전개, 글로벌 생태 인류학 현장 연구.",
+    "follow_links": [
+      {"name": "Feral Atlas 공식 사이트", "url": "https://feralatlas.org/"},
+      {"name": "교수 프로필", "url": "https://anthro.ucsc.edu/faculty/index.php?uid=atshing"}
+    ]
+  },
+  {
+    "id": "miguel-altieri",
+    "name_kr": "미겔 알티에리",
+    "name_en": "Miguel Altieri",
+    "field": "농생태학·소농 식량주권",
+    "category": "농생태·다종공생",
+    "affiliation": "UC Berkeley 농생태학 명예교수 / SOCLA 명예회장",
+    "avatar": "🌾",
+    "core_philosophy": "화학비료와 살충제, GMO에 의존하는 산업형 농업은 생태계를 파괴하고 농민을 자본에 종속시킨다. 흙의 유기물, 생물다양성, 소농의 토착 지식을 기반으로 한 농생태학(Agroecology)만이 기후위기 시대의 진정한 식량주권과 회복탄력성을 보장한다.",
+    "key_concepts": ["농생태학(Agroecology)", "소농 회복탄력성", "토양 생물다양성", "전통 농법의 과학화"],
+    "key_works": ["『농생태학: 지속가능한 농업의 과학적 원리(Agroecology: The Science of Sustainable Agriculture)』", "『기후변화와 농생태적 대안』"],
+    "recent_activities": "라틴아메리카 및 글로벌 소농 네트워크(SOCLA) 자문, 소농의 기후 탄력적 농법 현장 매뉴얼 보급.",
+    "follow_links": [
+      {"name": "UC Berkeley 프로필", "url": "https://ourenvironment.berkeley.edu/people/miguel-altieri"},
+      {"name": "SOCLA 공식 사이트", "url": "https://www.socla.co/"}
+    ]
+  },
+  {
+    "id": "johan-jinhee",
+    "name_kr": "조한진희",
+    "name_en": "Johan Jinhee",
+    "field": "돌봄 커먼즈·질병권",
+    "category": "돌봄·페미니즘",
+    "affiliation": "플랫폼 '다른몸들' 대표 / 질병·장애 운동가·연구자",
+    "avatar": "🕊️",
+    "core_philosophy": "건강하고 독립적인 몸만이 정상이라는 자본주의적 신화를 거부한다. '아플 권리'와 취약성을 인정하고, 혈연 가족에 외주화된 돌봄을 사회적 커먼즈로 전환하여 누구나 손상된 몸으로도 환대받는 세계를 짓는다.",
+    "key_concepts": ["질병권", "다른몸들", "돌봄 커먼즈", "손상의 연대", "취약성의 윤리"],
+    "key_works": ["『아파도 미안하지 않습니다』", "『동료시민선언』 (공저)", "논문 「소유하는 집·가족에서 돌봄의 커먼즈로」"],
+    "recent_activities": "'다른몸들'에서 만성질환·장애 1인 가구 자조모임 및 워크숍 운영, 돌봄 커먼즈 제도화 포럼 주최.",
+    "follow_links": [
+      {"name": "다른몸들 공식 사이트", "url": "https://damom.org/"},
+      {"name": "페이스북", "url": "https://www.facebook.com/jinhee.johan"}
+    ]
+  },
+  {
+    "id": "lee-kwang-suk",
+    "name_kr": "이광석",
+    "name_en": "Lee Kwang-suk",
+    "field": "기술비평·피지털 커먼즈",
+    "category": "과학기술학·AI",
+    "affiliation": "서울과학기술대학교 IT정책전문대학원 교수 / 문화비평가",
+    "avatar": "📡",
+    "core_philosophy": "플랫폼 자본주의의 데이터 식민화와 AI 가속주의를 비판하며, 물리적 공간과 디지털 인프라가 융합된 '피지털 커먼즈(Phygital Commons)'와 대항적 미디어 생태학의 형성을 역설한다.",
+    "key_concepts": ["피지털 커먼즈", "데이터 식민주의 비판", "미디어 생태학", "디지털 슬러지", "기술 파시즘"],
+    "key_works": ["『피지털 커먼즈』", "『데이터 액티비즘』", "『디지털의 배반』", "『공통도시』 (공저)"],
+    "recent_activities": "《문화과학》 편집위원 활동, 인공지능과 플랫폼 노동의 정치경제학 비판 연구, 디지털 커먼즈 포럼 기획.",
+    "follow_links": [
+      {"name": "연구실 웹사이트", "url": "https://www.commune.kr/"},
+      {"name": "문화과학 아카이브", "url": "http://www.munwha.net/"}
+    ]
+  },
+  {
+    "id": "jung-young-shin",
+    "name_kr": "정영신",
+    "name_en": "Jung Young-shin",
+    "field": "생태정치·커먼즈 제도론",
+    "category": "커먼즈·자율주의",
+    "affiliation": "가톨릭대학교 사회학과 교수 / 커먼즈 연구자",
+    "avatar": "🌲",
+    "core_philosophy": "커먼즈의 두 차원인 '보편적 권리(모두의 것)'와 '지역적 자치(우리의 것)'의 결합을 모색한다. 제주 비자림로 생태정치와 이탈리아 민법개정·커먼즈 규약 분석을 통해 한국형 커먼즈 제도의 정립을 탐색한다.",
+    "key_concepts": ["커먼즈 규약", "생태정치", "모두의 것과 우리의 것", "다종 생태계의 권리"],
+    "key_works": ["논문 「이탈리아의 민법개정운동과 커먼즈 규약 그리고 커먼즈의 정치」", "논문 「제주 비자림로의 생태정치와 커먼즈의 변동」", "『커먼즈란 무엇인가』"],
+    "recent_activities": "한국환경사회학회(ECO) 연구 활동, 비자림로 및 제주 자연 커먼즈 보전 시민연대 학술 지원.",
+    "follow_links": [
+      {"name": "DBpia 저자 페이지", "url": "https://www.dbpia.co.kr/author/authorDetail?authorId=358055"}
+    ]
+  }
+]

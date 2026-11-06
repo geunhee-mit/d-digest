@@ -40,14 +40,22 @@ def main():
     raw_candidates = fetch_all()
     print(f"      -> {len(raw_candidates)} items retrieved.")
 
-    # 2. 무료 AI 큐레이션 및 3줄 요약
+    # 2. 무료 AI 큐레이션 및 오늘의 사유 지형 요약
     print("[2/3] Curating & summarizing with AI (Gemini 2.0 Flash / Heuristic fallback)...")
-    curated_items = curate_items(raw_candidates)
+    curation_res = curate_items(raw_candidates)
+    if isinstance(curation_res, tuple) and len(curation_res) == 2:
+        curated_items, daily_summary = curation_res
+    else:
+        curated_items = curation_res
+        daily_summary = None
+
     print(f"      -> {len(curated_items)} high-relevance items curated.")
+    if daily_summary:
+        print(f"      -> Daily Theme: {daily_summary.get('theme', '')}")
 
     # 3. 결과 내보내기 (웹앱 JSON + 옵시디언 볼트 마크다운)
     print("[3/3] Exporting to web app data & Obsidian vault...")
-    export_digest(curated_items, edition=edition)
+    export_digest(curated_items, daily_summary=daily_summary, edition=edition)
 
     print("==================================================")
     print(f"✨ {edition.capitalize()} Digest Generation Completed!")
