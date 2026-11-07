@@ -1,48 +1,487 @@
 [
   {
+    "id": "korean-eco-art",
+    "name": "한국생태예술학연구",
+    "publisher": "한국생태예술학회",
+    "category": "생태예술·시각문화·미학이론",
+    "type_badge": "KCI 등재 학술지",
+    "nature": "생태예술, 환경미학, 장소특정적 미술, 대지미술 및 다종공생 시각문화 연구",
+    "reason_for_twin": "자연과 예술의 결합, 순환적 대지 미술과 과정 중심의 생태적 실천을 탐구하는 국내 유일의 생태예술 전문 학술지입니다. 트윈의 예술적 사유와 지역 기반 창작에 직접적인 이론적 토대를 제공합니다.",
+    "key_topics": [
+      "생태미술",
+      "장소특정성",
+      "대지예술",
+      "다종공생 미학",
+      "치유예술"
+    ],
+    "access_info": "DBpia, KCI 오픈 논문 열람 가능",
+    "url": "https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?sereId=002018"
+  },
+  {
+    "id": "modern-art-history",
+    "name": "현대미술사연구",
+    "publisher": "현대미술사학회",
+    "category": "생태예술·시각문화·미학이론",
+    "type_badge": "KCI 우수등재 학술지",
+    "nature": "한국 및 글로벌 근현대 미술사, 탈식민주의 시각이론, 동시대 비판적 시각문화 연구",
+    "reason_for_twin": "근대성 극복과 동시대 미술의 대안적 실천을 다루며, 예술이 어떻게 사회적 갈등과 생태적 파국에 개입하는지 미술사학적 엄밀함으로 분석합니다.",
+    "key_topics": [
+      "동시대미술",
+      "비판적 시각이론",
+      "설치미술",
+      "사회참여예술",
+      "미술사학"
+    ],
+    "access_info": "DBpia, RISS 및 KCI 열람",
+    "url": "https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?sereId=000424"
+  },
+  {
+    "id": "western-art-history",
+    "name": "서양미술사학회논문집",
+    "publisher": "서양미술사학회",
+    "category": "생태예술·시각문화·미학이론",
+    "type_badge": "KCI 등재 학술지",
+    "nature": "서양 미술사조, 현대 미학 이론, 매체 미학 및 물질성(Materiality) 연구",
+    "reason_for_twin": "신유물론(New Materialism)과 객체지향 존재론(OOO)이 시각예술에 미친 영향, 물질과 비인간 행위자의 미학적 표현을 깊이 있게 검토합니다.",
+    "key_topics": [
+      "신유물론",
+      "물질성",
+      "매체미학",
+      "동시대 미학",
+      "시각문화"
+    ],
+    "access_info": "DBpia, 학술교육원 열람",
+    "url": "https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?sereId=000438"
+  },
+  {
+    "id": "aesthetics-and-art-studies",
+    "name": "미학예술학연구",
+    "publisher": "한국미학예술학회",
+    "category": "생태예술·시각문화·미학이론",
+    "type_badge": "KCI 등재 학술지",
+    "nature": "철학적 미학, 예술철학, 감각론, 생태적 감수성 및 관계 미학 연구",
+    "reason_for_twin": "감각의 분배(Ranciere)와 관계 미학(Bourriaud), 그리고 자연미와 환경윤리의 결합을 이론적으로 성찰하는 국내 대표 미학 학술지입니다.",
+    "key_topics": [
+      "예술철학",
+      "관계미학",
+      "감각론",
+      "환경미학",
+      "비판적 담론"
+    ],
+    "access_info": "KCI 및 국회도서관 열람",
+    "url": "https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?sereId=001602"
+  },
+  {
+    "id": "visual-art-theory",
+    "name": "시각예술이론연구",
+    "publisher": "한국시각예술이론학회",
+    "category": "생태예술·시각문화·미학이론",
+    "type_badge": "KCI 등재후보지 / 학술저널",
+    "nature": "현대 시각이론, 큐레이팅 담론, 대화적 예술(Dialogical Art) 및 장소성 연구",
+    "reason_for_twin": "관람객을 단순 수용자가 아닌 공동 창작자로 호명하는 대화적·협업적 예술 프로젝트의 실제 비평을 심도 있게 다룹니다.",
+    "key_topics": [
+      "대화적 예술",
+      "큐레이팅",
+      "장소성",
+      "커뮤니티 아트",
+      "현대시각문화"
+    ],
+    "access_info": "KCI 오픈 아카이브",
+    "url": "https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?sereId=002360"
+  },
+  {
+    "id": "environmental-aesthetics",
+    "name": "환경미학연구",
+    "publisher": "한국환경미학연구소 / 학술포럼",
+    "category": "생태예술·시각문화·미학이론",
+    "type_badge": "비판적 예술 포럼지",
+    "nature": "자연미, 일상미학, 풍경의 정치경제학, 생태학적 정동(Affect) 탐구",
+    "reason_for_twin": "인간이 자연 풍경을 대상화하여 소비하는 관광적 시선을 비판하고, 대지와 몸이 교명하는 생태적 정동과 일상미학의 복원을 제안합니다.",
+    "key_topics": [
+      "자연미학",
+      "일상미학",
+      "정동이론",
+      "풍경의 정치학",
+      "대지 감수성"
+    ],
+    "access_info": "포럼 자료집 및 오픈 웹 열람",
+    "url": "https://scholar.google.com/scholar?q=%ED%99%98%EA%B2%BD%EB%AF%B8%ED%95%99"
+  },
+  {
+    "id": "public-art-dialogue",
+    "name": "공공미술과 커뮤니티아트",
+    "publisher": "공공미술연구포럼",
+    "category": "생태예술·시각문화·미학이론",
+    "type_badge": "시빅 아트 무크지",
+    "nature": "공공공간 점유, 도시재생 비판, 커먼즈로서의 공공예술 실천",
+    "reason_for_twin": "관료적 공공조형물 행정을 넘어, 주민과 예술가가 공유지(공원, 골목, 텃밭)를 매개로 협력하고 갈등을 조정하는 커뮤니티 아트의 지혜를 전합니다.",
+    "key_topics": [
+      "공공미술",
+      "커뮤니티아트",
+      "공간점유",
+      "시민참여",
+      "공유지 예술"
+    ],
+    "access_info": "온라인 웹진 및 공공미술 아카이브",
+    "url": "https://publicart.or.kr/"
+  },
+  {
+    "id": "munhwa-gwahak",
+    "name": "문화과학 (Cultural Studies)",
+    "publisher": "문화과학사",
+    "category": "한국독립비평·사회이론",
+    "type_badge": "비판적 문화이론 계간지",
+    "nature": "신유물론, 기술정치, 피지털 커먼즈, 생태사회주의, 플랫폼 자본주의 비판",
+    "reason_for_twin": "한국에서 가장 급진적이고 수준 높은 문화사회이론을 견인하는 비평지. 이광석, 심광현 등 핵심 연구진이 디지털 인클로저와 피지털 커먼즈의 대안을 모색합니다.",
+    "key_topics": [
+      "피지털 커먼즈",
+      "문화정치",
+      "플랫폼 자본주의",
+      "신유물론",
+      "생태위기"
+    ],
+    "access_info": "문화과학 공식 아카이브 및 정기구독",
+    "url": "http://www.munwha.net/"
+  },
+  {
+    "id": "changbi",
+    "name": "창작과비평 (Creation & Criticism)",
+    "publisher": "창비",
+    "category": "한국독립비평·사회이론",
+    "type_badge": "대표 인문비평 계간지",
+    "nature": "한국 사회 변혁 담론, 분단체제론, 생태적 녹색전환, 대항 공론장 구축",
+    "reason_for_twin": "한국 현대 비판지성사의 산실. 문학과 사회학을 결합하여 자본과 국가의 관료주의적 통제에 맞서는 풀뿌리 민주주의와 생태적 자립의 경로를 지속적으로 논의합니다.",
+    "key_topics": [
+      "변혁적 중도주의",
+      "생태전환",
+      "분단체제",
+      "시민참여",
+      "공론장"
+    ],
+    "access_info": "창비 정기구독 및 디지털 아카이브",
+    "url": "https://magazine.changbi.com/"
+  },
+  {
+    "id": "green-review",
+    "name": "녹색평론 (Green Review)",
+    "publisher": "녹색평론사",
+    "category": "한국독립비평·사회이론",
+    "type_badge": "생태주의 사상 격월간지",
+    "nature": "농본주의, 대지윤리, 탈성장, 소농 자립, 생명사상과 자치공동체",
+    "reason_for_twin": "고(故) 김종철 선생이 창간한 한국 생태주의의 성서와 같은 잡지. 산업문명의 파국 앞에서 흙을 일구고 이웃과 상호부조하며 살아가는 자율적 삶의 철학적 뿌리를 제공합니다.",
+    "key_topics": [
+      "농본주의",
+      "탈성장",
+      "상호부조",
+      "소농의 권리",
+      "생명평화"
+    ],
+    "access_info": "녹색평론 과월호 아카이브 및 웹 칼럼",
+    "url": "http://www.greenreview.co.kr/"
+  },
+  {
+    "id": "space-and-society",
+    "name": "공간과 사회 (Space & Environment)",
+    "publisher": "한국공간환경학회",
+    "category": "한국독립비평·사회이론",
+    "type_badge": "KCI 등재 학술지",
+    "nature": "공간정의, 도시커먼즈, 배제적 젠트리피케이션 비판, 주거권 및 지역 불평등",
+    "reason_for_twin": "데이비드 하비와 앙리 르페브르의 공간이론을 한국 현실(부동산 투기, 지방 소멸, 재난 안전)에 창조적으로 적용하는 공간정치경제학의 최고 학술지입니다.",
+    "key_topics": [
+      "공간정의",
+      "도시커먼즈",
+      "젠트리피케이션",
+      "도시권",
+      "지역재생"
+    ],
+    "access_info": "KCI 및 DBpia 무료/기관 열람",
+    "url": "https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?sereId=000854"
+  },
+  {
+    "id": "economy-and-society",
+    "name": "경제와 사회 (Economy and Society)",
+    "publisher": "비판사회학회",
+    "category": "한국독립비평·사회이론",
+    "type_badge": "KCI 우수등재 학술지",
+    "nature": "비판사회학, 노동권, 돌봄의 위기, 플랫폼 자본주의, 복지국가와 커먼즈",
+    "reason_for_twin": "한국 비판사회학의 중심축. 1인 가구, 고립 청년, 비정규 노동 등 체제 바깥으로 밀려난 이들의 현실을 정밀한 경험연구와 구조적 비판으로 짚어냅니다.",
+    "key_topics": [
+      "비판사회학",
+      "플랫폼 노동",
+      "돌봄의 위기",
+      "불평등",
+      "대안적 복지"
+    ],
+    "access_info": "비판사회학회 및 DBpia 열람",
+    "url": "https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?sereId=000492"
+  },
+  {
+    "id": "hwanghae-culture",
+    "name": "황해문화 (Hwanghae Review)",
+    "publisher": "새얼문화재단",
+    "category": "한국독립비평·사회이론",
+    "type_badge": "진보 종합 인문계간지",
+    "nature": "지역성, 평화, 비판적 시민성, 인문학적 성찰 및 문화 비평",
+    "reason_for_twin": "중앙 집중적 서울 중심주의를 비판하고 서해·인천·경계를 매개로 동아시아 평화와 지역 자치, 주변부의 삶을 따뜻하고도 날카롭게 조명합니다.",
+    "key_topics": [
+      "지역성",
+      "평화네트워크",
+      "시민연대",
+      "주변부 사유",
+      "문화정치"
+    ],
+    "access_info": "새얼문화재단 웹 아카이브 및 정기구독",
+    "url": "http://www.saeul.org/"
+  },
+  {
+    "id": "citizen-and-world",
+    "name": "시민과 세계 (Citizen and World)",
+    "publisher": "참여사회연구소 (참여연대)",
+    "category": "한국독립비평·사회이론",
+    "type_badge": "시민정치 학술비평 반년간지",
+    "nature": "참여민주주의, 시민사회론, 공공성 재구성, 시민적 권리와 사회적 안전망",
+    "reason_for_twin": "관료적 국가와 탐욕스러운 시장 사이에서 시민사회가 어떻게 공공성의 제3 섹터를 구축할 수 있는지 실천적 정책과 담론을 제시합니다.",
+    "key_topics": [
+      "참여민주주의",
+      "공공성",
+      "시민사회",
+      "사회안전망",
+      "시민권"
+    ],
+    "access_info": "참여사회연구소 무료 PDF 오픈 열람",
+    "url": "https://www.peoplepower21.org/index.php?mid=IPS"
+  },
+  {
+    "id": "marxism-21",
+    "name": "마르크스주의 연구 (Marxism 21)",
+    "publisher": "경상국립대 사회과학연구원",
+    "category": "한국독립비평·사회이론",
+    "type_badge": "KCI 등재 학술지",
+    "nature": "비판적 정치경제학, 현대 자본주의 인클로저 분석, 공유재와 코뮌주의 사유",
+    "reason_for_twin": "자본주의가 어떻게 자연, 신체, 지식을 무차별적으로 상품화(사유화)하는지 엄밀한 정치경제학적 분석 틀을 제공하며 진정한 공통재의 가능성을 묻습니다.",
+    "key_topics": [
+      "정치경제학 비판",
+      "원시축적",
+      "공통재",
+      "인클로저",
+      "자본주의 위기"
+    ],
+    "access_info": "KCI 및 사회과학연구원 오픈 아카이브",
+    "url": "https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?sereId=001662"
+  },
+  {
     "id": "logics-magazine",
     "name": "Logic(s) Magazine",
     "publisher": "Logic(s) Editorial Collective / Incite Center",
-    "category": "비판기술·알고리즘정의",
+    "category": "테크비평·알고리즘정치",
     "type_badge": "독립 테크 비평 계간지",
     "nature": "탈식민주의, 흑인·퀴어·토착민 관점의 비판적 기술 비평, 테크 노동자 인터뷰",
-    "reason_for_twin": "실리콘밸리의 기술 낙관론과 백인 남성 중심 테크 담론을 가장 급진적으로 해체하는 독립 저널. 1인 가구, 플랫폼 노동자, 소수자의 시각에서 AI와 데이터 권력을 바라보는 날카로운 시각을 제공합니다.",
+    "reason_for_twin": "실리콘밸리의 기술 낙관론과 백인 남성 중심 테크 담론을 가장 급진적으로 해체하는 독립 저널. 1인 가구, 플랫폼 노동자, 소수자의 시각에서 AI와 데이터 권력을 분석합니다.",
     "key_topics": [
       "디자인 저스티스",
       "알고리즘 억압",
       "테크 노동",
-      "디지털 식민주의",
-      "감시 자본주의"
+      "디지털 식민주의"
     ],
     "access_info": "온라인 오픈 웹 아티클 및 실물 인쇄본 구독",
     "url": "https://logicmag.io/"
   },
   {
+    "id": "big-data-and-society",
+    "name": "Big Data & Society",
+    "publisher": "SAGE Publishing",
+    "category": "테크비평·알고리즘정치",
+    "type_badge": "오픈액세스 SSCI 저널",
+    "nature": "빅데이터, 알고리즘, 플랫폼의 권력 구조와 사회적 함의를 비판적으로 탐구",
+    "reason_for_twin": "단순 데이터 과학 저널이 아니라, 데이터가 어떻게 사람을 분류하고 배제하는지(소외, 감시, 불평등)를 사회학·STS 관점에서 가장 권위 있게 다루는 핵심 학술지입니다.",
+    "key_topics": [
+      "데이터 권력",
+      "알고리즘 통제",
+      "시빅 데이터",
+      "인프라 정치"
+    ],
+    "access_info": "전편 무료 오픈액세스 (PDF 열람 및 다운로드)",
+    "url": "https://journals.sagepub.com/home/bds"
+  },
+  {
+    "id": "spheres-journal",
+    "name": "Spheres: Journal for Digital Cultures",
+    "publisher": "Leuphana University Lüneburg",
+    "category": "테크비평·알고리즘정치",
+    "type_badge": "독립 디지털 문화 저널",
+    "nature": "디지털 자율성, 대항적 인프라, 해킹, 플랫폼에 대항하는 미디어 실천",
+    "reason_for_twin": "디지털 세계에서 상업적 플랫폼을 거부하고 독립적인 서버와 네트워크를 운영하는 해커들과 연구자들의 급진적 담론을 모아놓은 비평지입니다.",
+    "key_topics": [
+      "디지털 자율성",
+      "대항 인프라",
+      "미디어 액티비즘",
+      "오픈소스 문화"
+    ],
+    "access_info": "완전 무료 다이아몬드 오픈액세스",
+    "url": "https://spheres-journal.org/"
+  },
+  {
+    "id": "ada-new-media",
+    "name": "Ada: Gender, New Media & Technology",
+    "publisher": "Fembot Collective",
+    "category": "테크비평·알고리즘정치",
+    "type_badge": "오픈액세스 피어리뷰 저널",
+    "nature": "페미니스트 미디어 이론, 디지털 폭력, 기술과 성별/인종의 교차성 비판",
+    "reason_for_twin": "온라인 괴롭힘, 알고리즘 성차별, 가상공간에서의 신체성을 페미니즘적 시각에서 엄밀하게 해체합니다.",
+    "key_topics": [
+      "페미니스트 테크",
+      "디지털 신체",
+      "온라인 안전",
+      "교차성"
+    ],
+    "access_info": "무료 오픈액세스 저널",
+    "url": "https://adanewmedia.org/"
+  },
+  {
+    "id": "boundary-2",
+    "name": "boundary 2: an international journal of literature and culture",
+    "publisher": "Duke University Press",
+    "category": "테크비평·알고리즘정치",
+    "type_badge": "국제 비판이론 학술지",
+    "nature": "포스트모더니티, 글로벌 제국주의, 기술관료제 비판 및 문화철학",
+    "reason_for_twin": "세계화된 자본주의와 디지털 기술 체제가 인간의 주체성을 어떻게 해체하고 지배하는지 인문학적 거시 시각으로 고찰합니다.",
+    "key_topics": [
+      "비판이론",
+      "기술관료제",
+      "제국주의 비판",
+      "문화철학"
+    ],
+    "access_info": "Duke Univ Press 및 Project MUSE 열람",
+    "url": "https://read.dukeupress.edu/boundary-2"
+  },
+  {
     "id": "commoning-ethnography",
     "name": "Commoning Ethnography",
     "publisher": "Victoria University of Wellington",
-    "category": "커먼즈·현장실천",
+    "category": "커먼즈·민속지·P2P",
     "type_badge": "다이아몬드 오픈액세스 저널",
     "nature": "전 세계 도시·농촌 현장의 커머닝(Commoning) 실천과 갈등을 기록하는 인류학 학술지",
-    "reason_for_twin": "책상 위의 추상적 제도론(IAD 프레임워크)을 넘어, 마을 사람들이 실제로 어떻게 밥을 나누고, 공간을 점거하고, 실패하고 다시 일어서는지를 민족지(Ethnography)로 생생하게 포착합니다.",
+    "reason_for_twin": "책상 위의 추상적 제도론을 넘어, 마을 사람들이 실제로 어떻게 밥을 나누고, 공간을 점거하고, 실패하고 다시 일어서는지를 민족지(Ethnography)로 생생하게 포착합니다.",
     "key_topics": [
       "현장 커머닝",
       "도시 공간 점거",
       "토착민 커먼즈",
-      "돌봄의 집단화",
-      "참여 민족지"
+      "돌봄의 집단화"
     ],
     "access_info": "완전 무료 다이아몬드 오픈액세스 (PDF 다운로드 무료)",
     "url": "https://ojs.victoria.ac.nz/ce"
   },
   {
+    "id": "journal-of-peer-production",
+    "name": "Journal of Peer Production (JoPP)",
+    "publisher": "Peer Production Collective",
+    "category": "커먼즈·민속지·P2P",
+    "type_badge": "P2P 독립 학술지",
+    "nature": "자유/오픈소스 소프트웨어, 위키백과, 팹랩(FabLab), 오픈 하드웨어 및 비경합적 피어 생산",
+    "reason_for_twin": "인터넷 기반의 비시장적 자발적 협업(Peer Production)이 어떻게 거대 독점 기업보다 뛰어난 지식과 도구를 만들어낼 수 있는지 이론적·실증적으로 분석합니다.",
+    "key_topics": [
+      "P2P 생산",
+      "오픈소스",
+      "코스모로컬리즘",
+      "개방형 디자인"
+    ],
+    "access_info": "전편 무료 오픈 웹 아카이브",
+    "url": "http://peerproduction.net/"
+  },
+  {
+    "id": "ijc-commons",
+    "name": "International Journal of the Commons (IJC)",
+    "publisher": "International Association for the Study of the Commons (IASC)",
+    "category": "커먼즈·민속지·P2P",
+    "type_badge": "국제 최고 권위 커먼즈 저널",
+    "nature": "엘리너 오스트롬의 자치 거버넌스, 어장·삼림·수자원 커먼즈, 지식 커먼즈 규약 연구",
+    "reason_for_twin": "전 세계 커먼즈 연구의 기준이 되는 정통 학술지. 자율적 개인들이 국가나 사유화 없이 어떻게 공유재를 고갈시키지 않고 지속 가능하게 관리하는지 실증 연구를 망라합니다.",
+    "key_topics": [
+      "오스트롬 거버넌스",
+      "공동자원 관리",
+      "제도 분석",
+      "지식 커먼즈"
+    ],
+    "access_info": "완전 무료 오픈액세스 저널",
+    "url": "https://thecommonsjournal.org/"
+  },
+  {
+    "id": "roar-magazine",
+    "name": "ROAR Magazine",
+    "publisher": "ROAR Collective",
+    "category": "커먼즈·민속지·P2P",
+    "type_badge": "자율주의 정치 비평 계간지",
+    "nature": "직접민주주의, 사회적 코뮌, 코뮌주의적 자치 거버넌스 및 풀뿌리 운동",
+    "reason_for_twin": "로자바 자치구, 사파티스타 등 현실에서 국가 없는 자치를 구현하는 현장의 목소리를 기록하며 자립적 네트워크의 힘을 전합니다.",
+    "key_topics": [
+      "자치",
+      "코뮌",
+      "직접민주주의",
+      "사회운동"
+    ],
+    "access_info": "웹 아티클 무료 공개",
+    "url": "https://roarmag.org/"
+  },
+  {
+    "id": "p2p-research-notes",
+    "name": "P2P Foundation Research Notes",
+    "publisher": "P2P Foundation / Michel Bauwens",
+    "category": "커먼즈·민속지·P2P",
+    "type_badge": "연구 리포트 & 싱크탱크 저널",
+    "nature": "코스모로컬 생산, 파트너 국가론, 상호성 라이선스, 플랫폼 협동조합 제도화",
+    "reason_for_twin": "미셸 바우언스가 주도하는 P2P 재단의 최신 연구 성과물. 디지털 지식은 전 세계가 공유하고 물리적 제품은 지역에서 생산하는 미래 경제 청사진을 제시합니다.",
+    "key_topics": [
+      "코스모로컬리즘",
+      "피어 거버넌스",
+      "파트너 국가",
+      "플랫폼 협동주의"
+    ],
+    "access_info": "P2P Foundation 위키 및 블로그 아카이브",
+    "url": "https://p2pfoundation.net/"
+  },
+  {
+    "id": "journal-of-sts",
+    "name": "과학기술학연구 (Journal of Science & Technology Studies)",
+    "publisher": "한국과학기술학회",
+    "category": "과학기술학·STS·디지털인문학",
+    "type_badge": "KCI 등재 최고 권위 학술지",
+    "nature": "과학기술과 사회의 상호작용, 위험사회, 기술민주화, 시민과학, AI 윤리와 알고리즘 정치",
+    "reason_for_twin": "한국 과학기술학 연구의 정점. 원자력, 감염병, AI 알고리즘 등 국가와 기업이 밀어붙이는 기술 시스템에 시민들이 어떻게 개입하고 대안을 만들 수 있는지 규명합니다.",
+    "key_topics": [
+      "사회기술시스템",
+      "기술민주화",
+      "시민과학",
+      "위험사회",
+      "알고리즘정치"
+    ],
+    "access_info": "KCI 및 과학기술학회 오픈 아카이브",
+    "url": "https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?sereId=001633"
+  },
+  {
+    "id": "social-studies-of-science",
+    "name": "Social Studies of Science (SSS)",
+    "publisher": "SAGE Publishing",
+    "category": "과학기술학·STS·디지털인문학",
+    "type_badge": "국제 최정상 SSCI 저널",
+    "nature": "행위자-연결망 이론(ANT), 과학지식사회학(SSK), 인프라 연구, 객관성의 역사",
+    "reason_for_twin": "브뤼노 라투르, 도나 해러웨이 등의 이론이 활발히 교류되는 STS 분야 전 세계 최고의 권위지입니다.",
+    "key_topics": [
+      "행위자-연결망(ANT)",
+      "인프라 연구",
+      "과학사회학",
+      "기술정치"
+    ],
+    "access_info": "SAGE 온라인 및 대학 도서관 접속",
+    "url": "https://journals.sagepub.com/home/sss"
+  },
+  {
     "id": "critical-ai",
     "name": "Critical AI",
     "publisher": "Duke University Press",
-    "category": "과학기술학·AI비평",
+    "category": "과학기술학·STS·디지털인문학",
     "type_badge": "국제 비판 인문학 저널",
-    "nature": "생성형 AI, 대규모 언어 모델(LLM), 자동화가 문학·인문학·사회 정의에 미치는 영향 분석",
-    "reason_for_twin": "컴퓨터공학의 기술적 허세를 인문학적 엄밀함으로 해체하는 신생 학술지. 챗GPT와 거대 AI가 어떻게 지식 커먼즈를 약탈하고 표절하는지 가장 예리하게 분석합니다.",
+    "nature": "생성형 AI, LLM, 자동화가 문학·인문학·사회 정의에 미치는 영향 분석",
+    "reason_for_twin": "컴퓨터공학의 기술적 허세를 인문학적 엄밀함으로 해체하는 신생 학술지. 거대 AI가 어떻게 지식 커먼즈를 약탈하고 표절하는지 예리하게 분석합니다.",
     "key_topics": [
       "대규모 언어 모델 비판",
       "지식 인클로저",
@@ -53,362 +492,227 @@
     "url": "https://read.dukeupress.edu/critical-ai"
   },
   {
-    "id": "big-data-and-society",
-    "name": "Big Data & Society",
-    "publisher": "SAGE Publishing",
-    "category": "비판기술·데이터정치",
-    "type_badge": "오픈액세스 SSCI 저널",
-    "nature": "빅데이터, 알고리즘, 플랫폼의 권력 구조와 사회적 함의를 비판적으로 탐구",
-    "reason_for_twin": "단순 데이터 과학 저널이 아니라, 데이터가 어떻게 사람을 분류하고 배제하는지(소외, 감시, 불평등)를 사회학·STS 관점에서 가장 권위 있게 다루는 핵심 학술지.",
+    "id": "science-as-culture",
+    "name": "Science as Culture",
+    "publisher": "Taylor & Francis",
+    "category": "과학기술학·STS·디지털인문학",
+    "type_badge": "국제 비판 STS 저널",
+    "nature": "과학과 일상 문화, 민중 과학, 기술 유토피아주의 비판, 재생산 기술의 정치학",
+    "reason_for_twin": "전문가주의에 포획된 과학 지식을 일반 시민의 일상적 삶과 해방적 문화의 관점으로 되가져오는 실천적 학술지입니다.",
     "key_topics": [
-      "데이터 권력",
-      "알고리즘 통제",
-      "시빅 데이터",
-      "인프라 정치",
-      "디지털 프라이버시"
+      "민중과학",
+      "전문가주의 비판",
+      "생명정치",
+      "문화적 STS"
     ],
-    "access_info": "전편 무료 오픈액세스 (PDF 열람 및 다운로드)",
-    "url": "https://journals.sagepub.com/home/bds"
+    "access_info": "Taylor & Francis 저널 아카이브",
+    "url": "https://www.tandfonline.com/toc/csac20/current"
+  },
+  {
+    "id": "dhq-digital-humanities",
+    "name": "Digital Humanities Quarterly (DHQ)",
+    "publisher": "Association for Computers and the Humanities (ACH)",
+    "category": "과학기술학·STS·디지털인문학",
+    "type_badge": "오픈액세스 디지털인문학 저널",
+    "nature": "디지털 텍스트 마이닝, 문화 데이터 아카이빙, 비판적 인터페이스 분석",
+    "reason_for_twin": "빅데이터를 단순히 계량화하는 것을 넘어, 인문학적 텍스트와 역사적 기억을 어떻게 디지털 커먼즈로 보존하고 재해석할 것인가를 탐구합니다.",
+    "key_topics": [
+      "디지털 인문학",
+      "문화 아카이브",
+      "데이터 비판",
+      "텍스트 시각화"
+    ],
+    "access_info": "전편 무료 오픈액세스",
+    "url": "http://digitalhumanities.org/dhq/"
+  },
+  {
+    "id": "theory-culture-society",
+    "name": "Theory, Culture & Society (TCS)",
+    "publisher": "SAGE Publishing",
+    "category": "과학기술학·STS·디지털인문학",
+    "type_badge": "세계적 사회이론 저널",
+    "nature": "포스트휴머니즘, 미디어 고고학, 사물 존재론, 행성적 연대 사유",
+    "reason_for_twin": "현대 사회이론과 철학, 기술비평의 최전선을 보여주는 대표적 저널. 인간 이후의 주체성과 기술-자연의 복합체를 깊이 있게 다룹니다.",
+    "key_topics": [
+      "포스트휴머니즘",
+      "미디어 고고학",
+      "사물 존재론",
+      "행성성"
+    ],
+    "access_info": "SAGE 저널 아카이브",
+    "url": "https://journals.sagepub.com/home/tcs"
+  },
+  {
+    "id": "eco-environmental-sociology",
+    "name": "환경사회학연구 ECO",
+    "publisher": "한국환경사회학회",
+    "category": "환경인문학·대지·음식정치",
+    "type_badge": "KCI 등재 대표 환경학술지",
+    "nature": "기후정의, 농촌 에너지 전환, 탈핵, 생태계 복원, 환경 불평등과 느린 폭력",
+    "reason_for_twin": "한국의 환경 갈등과 농촌 커먼즈, 에너지 자립마을의 실제 현장을 조사하고 비판적 사회학 시각으로 분석하는 가장 신뢰할 수 있는 학술지입니다.",
+    "key_topics": [
+      "기후정의",
+      "에너지 전환",
+      "농촌 커먼즈",
+      "느린 폭력",
+      "생태민주주의"
+    ],
+    "access_info": "KCI 및 환경사회학회 오픈 아카이브",
+    "url": "https://www.kci.go.kr/kciportal/po/search/poArtiSearList.kci?sereId=001637"
   },
   {
     "id": "environmental-humanities",
     "name": "Environmental Humanities",
     "publisher": "Duke University Press",
-    "category": "다종공생·생태인문학",
+    "category": "환경인문학·대지·음식정치",
     "type_badge": "국제 오픈액세스 저널",
     "nature": "인간-너머(More-than-human) 생태학, 에코페미니즘, 다종 얽힘, 인류세 환경 인문학",
-    "reason_for_twin": "도나 해러웨이, 안나 칭 등의 사유가 집대성되는 곳. 인간 중심의 보호주의를 넘어 비인간 동식물과 미생물이 어떻게 역사와 도시를 함께 직조하는지 놀라운 통찰을 줍니다.",
+    "reason_for_twin": "도나 해러웨이, 안나 칭 등의 사유가 집대성되는 곳. 인간 중심의 보호주의를 넘어 비인간 동식물과 미생물이 어떻게 역사와 생태계를 직조하는지 놀라운 통찰을 줍니다.",
     "key_topics": [
       "다종 얽힘",
       "인간-너머 생태학",
-      "생태적 슬픔과 회복",
-      "에코페미니즘",
-      "행성성"
+      "생태적 슬픔",
+      "에코페미니즘"
     ],
     "access_info": "완전 무료 오픈액세스 저널",
     "url": "https://read.dukeupress.edu/environmental-humanities"
   },
   {
-    "id": "ephemera",
-    "name": "Ephemera: theory & politics in organization",
-    "publisher": "ephemera editorial collective",
-    "category": "자율주의·대안조직",
-    "type_badge": "독립 학술 저널 (오픈액세스)",
-    "nature": "자본주의적 경영학을 거부하고 자율주의, 커먼즈, 탈성장, 대안적 조직화 방식을 탐구",
-    "reason_for_twin": "1인 가구, 프리랜서, 활동가들이 어떻게 기업이나 국가에 종속되지 않고 스스로 조직하고 살아남을 수 있는지(자율적 협동, 시간은행, 대안 노동)를 급진적으로 사유합니다.",
-    "key_topics": [
-      "대안 조직화",
-      "플랫폼 협동조합",
-      "정동 노동",
-      "탈성장 경제학",
-      "자율주의"
-    ],
-    "access_info": "전호 무료 열람 (독립 오픈액세스 아카이브)",
-    "url": "http://www.ephemerajournal.org/"
-  },
-  {
-    "id": "codesign",
-    "name": "CoDesign",
+    "id": "journal-of-peasant-studies",
+    "name": "The Journal of Peasant Studies",
     "publisher": "Taylor & Francis",
-    "category": "시빅HCI·참여디자인",
-    "type_badge": "국제 학술지 (AHCI)",
-    "nature": "사회혁신을 위한 공동 디자인(Co-creation), 참여 디자인, 커뮤니티 인터페이스 연구",
-    "reason_for_twin": "디자이너 혼자 예쁘게 만드는 디자인이 아니라, 사용자·취약계층·주민이 직접 디자인 과정에 개입하여 공공 시스템을 바꾸는 방법론의 글로벌 최고 권위 저널.",
+    "category": "환경인문학·대지·음식정치",
+    "type_badge": "SSCI 최정상 농민학 저널",
+    "nature": "농민 권리, 식량주권, 토지 인클로저, 다국적 농기업 비판, 농생태학적 전환",
+    "reason_for_twin": "농업을 단순 산업이 아닌 인류 생존과 해방의 보루로 보는 비판적 농민학의 세계적 학술지. 소농들의 땅과 종자를 지키기 위한 투쟁을 다룹니다.",
     "key_topics": [
-      "참여 디자인",
-      "사회혁신 디자인",
-      "공동 창작(Co-creation)",
-      "시빅 인터페이스",
-      "리빙랩"
+      "식량주권",
+      "농민학",
+      "토지 인클로저",
+      "농생태학",
+      "소농 자립"
     ],
-    "access_info": "Taylor & Francis 온라인 (일부 오픈액세스)",
-    "url": "https://www.tandfonline.com/toc/ncdn20/current"
+    "access_info": "Taylor & Francis 온라인 아카이브",
+    "url": "https://www.tandfonline.com/toc/fjps20/current"
   },
   {
-    "id": "journal-of-peer-production",
-    "name": "Journal of Peer Production (JoPP)",
-    "publisher": "P2P Foundation / JoPP Collective",
-    "category": "커먼즈·피어생산",
-    "type_badge": "독립 P2P 학술지",
-    "nature": "오픈소스 하드웨어, 해커스페이스, 위키, 탈중앙 거버넌스 및 P2P 생산 문화",
-    "reason_for_twin": "디지털 커먼즈와 시빅테크가 단순히 소프트웨어에 머무르지 않고 어떻게 물리적 생산(FabLab, 팹랩, 농기구 공유, 오픈 시빅테크)으로 이어지는지 보여주는 실천적 교과서.",
+    "id": "agriculture-and-human-values",
+    "name": "Agriculture and Human Values",
+    "publisher": "Springer / Agriculture, Food, and Human Values Society",
+    "category": "환경인문학·대지·음식정치",
+    "type_badge": "SSCI 저명 학술지",
+    "nature": "음식 윤리, 대안 농식품 체계, 지역 공동체 지원 농업(CSA), 농생태학적 정의",
+    "reason_for_twin": "식탁과 농장을 연결하는 윤리적·철학적 고리를 규명하며, 상업적 유통망을 우회하는 직거래 커뮤니티 농업의 지속 가능성을 다룹니다.",
     "key_topics": [
-      "P2P 생산",
-      "오픈소스 하드웨어",
-      "해커 문화",
-      "디지털 공유지",
-      "탈중앙 자치"
+      "음식윤리",
+      "지역먹거리체계",
+      "농생태정의",
+      "공동체지원농업(CSA)"
     ],
-    "access_info": "전호 온라인 아카이브 무료 열람",
-    "url": "http://peerproduction.net/"
+    "access_info": "SpringerLink 및 학술DB 접속",
+    "url": "https://www.springer.com/journal/10460"
   },
   {
-    "id": "journal-of-political-ecology",
-    "name": "Journal of Political Ecology (JPE)",
-    "publisher": "University of Arizona",
-    "category": "농생태·생태정치학",
-    "type_badge": "다이아몬드 오픈액세스",
-    "nature": "자본의 생태 수탈, 토지 강탈(Land Grabbing), 소농 생태정치, 환경정의",
-    "reason_for_twin": "환경 문제를 순진한 도덕이나 기술 혁신으로 보지 않고, 다국적 농기업과 금융 자본이 토지와 농민을 어떻게 수탈하는지 정치경제학적으로 폭로하는 독립 오픈액세스 학술지.",
-    "key_topics": [
-      "정치생태학",
-      "토지 강탈",
-      "소농 식량주권",
-      "추출주의 비판",
-      "환경정의"
-    ],
-    "access_info": "완전 무료 오픈액세스 (PDF 열람 및 다운로드)",
-    "url": "https://journals.librarypublishing.arizona.edu/jpe/"
-  },
-  {
-    "id": "first-monday",
-    "name": "First Monday",
-    "publisher": "University of Illinois at Chicago Library",
-    "category": "비판기술·인터넷사회",
-    "type_badge": "세계 최초의 인터넷 오픈액세스 저널",
-    "nature": "인터넷의 사회적·정치적·철학적 영향, 디지털 공론장, 플랫폼 거버넌스",
-    "reason_for_twin": "1996년부터 이어진 인터넷 문화 연구의 원조. 플랫폼 독점, 인터넷 커뮤니티의 동학과 고립된 개인들의 디지털 연결망을 연구하기 위한 필독 아카이브.",
-    "key_topics": [
-      "인터넷 문화",
-      "디지털 공론장",
-      "플랫폼 거버넌스",
-      "정보 커먼즈",
-      "온라인 공동체"
-    ],
-    "access_info": "완전 무료 오픈액세스",
-    "url": "https://firstmonday.org/"
-  },
-  {
-    "id": "roar-magazine",
-    "name": "ROAR Magazine",
-    "publisher": "ROAR Collective",
-    "category": "자율주의·풀뿌리민주주의",
-    "type_badge": "국제 독립 비평지",
-    "nature": "로자바 자율 코뮌, 사파티스타, 도시 점거운동, 풀뿌리 직접민주주의 현장 비평",
-    "reason_for_twin": "국가 중심 대의제의 무기력함을 넘어, 풀뿌리 주민들이 어떻게 자치와 연방을 구성하는지 전 세계 자율주의 운동의 생생한 르포와 이론을 담아냅니다.",
-    "key_topics": [
-      "풀뿌리 민주주의",
-      "자율 코뮌",
-      "도시 반란",
-      "연대 경제",
-      "커먼즈 정치"
-    ],
-    "access_info": "온라인 오픈 아티클 및 과월호 열람",
-    "url": "https://roarmag.org/"
-  },
-  {
-    "id": "computational-culture",
-    "name": "Computational Culture",
-    "publisher": "Computational Culture Collective",
-    "category": "비판기술·소프트웨어연구",
-    "type_badge": "독립 소프트웨어 비평 저널",
-    "nature": "코드, 알고리즘, 소프트웨어의 물질성과 문화적 효과를 다루는 비판적 미디어 생태학",
-    "reason_for_twin": "코드를 단순한 개발 도구가 아니라 문화적·이데올로기적 텍스트로 읽어냅니다. 시빅테크 개발자가 기술을 도구주의적 함정 없이 비판적으로 설계하도록 돕습니다.",
-    "key_topics": [
-      "소프트웨어 연구",
-      "비판적 코드 분석",
-      "인터페이스 비평",
-      "알고리즘 생태학"
-    ],
-    "access_info": "완전 무료 오픈액세스",
-    "url": "http://computationalculture.net/"
-  },
-  {
-    "id": "gastronomica",
-    "name": "Gastronomica: The Journal for Food Studies",
-    "publisher": "University of California Press",
-    "category": "농생태·먹거리인문학",
-    "type_badge": "음식문화 비판 학술지",
-    "nature": "음식의 정치경제학, 미식 문화 비판, 먹거리 커먼즈, 식량 주권과 농민",
-    "reason_for_twin": "음식을 단순한 레시피나 영양소가 아니라 사회적 권력과 대지 윤리의 결정체로 조명합니다. 1인 가구 밥상과 로컬푸드 커먼즈를 잇는 문화적 상상력을 줍니다.",
-    "key_topics": [
-      "먹거리 정치학",
-      "식량 커먼즈",
-      "음식과 젠더",
-      "소농 농업",
-      "요리의 인류학"
-    ],
-    "access_info": "UC Press 저널 플랫폼",
-    "url": "https://online.ucpress.edu/gastronomica"
-  },
-  {
-    "id": "mal-and-hwal",
-    "name": "말과활클럽 / 말과활판",
-    "publisher": "말과활아카데미",
-    "category": "국내독립비평·삶의정치",
-    "type_badge": "국내 독립 인문비평",
-    "nature": "제도권 대학 담론을 벗어나 현장과 삶의 자리에서 발화하는 급진적 인문비평과 연대",
-    "reason_for_twin": "교수 중심의 관료적 학술지를 넘어, 고립된 개인들이 모여 읽고 쓰며 삶을 전환하는 독립적 지식 생산의 생생한 국내 거점.",
-    "key_topics": [
-      "삶의 정치",
-      "인문비평",
-      "소수자 연대",
-      "페미니즘",
-      "자립적 학습"
-    ],
-    "access_info": "말과활아카데미 웹진 및 정기 간행물",
-    "url": "https://wordnbow.net/"
-  },
-  {
-    "id": "platform-c",
-    "name": "플랫폼C (Platform C)",
-    "publisher": "플랫폼C 운영위원회",
-    "category": "국내독립비평·국제연대",
-    "type_badge": "독립 진보 웹진",
-    "nature": "기후정의, 플랫폼 노동, 동아시아 및 글로벌 민중 연대, 체제전환 담론",
-    "reason_for_twin": "한국의 청년 1인 가구, 플랫폼 라이더, 기후정의 활동가들의 목소리와 글로벌 사회운동을 가장 신속하고 깊이 있게 연결해 주는 독립 미디어.",
-    "key_topics": [
-      "기후정의",
-      "플랫폼 노동",
-      "체제전환",
-      "국제 연대",
-      "동아시아 민중운동"
-    ],
-    "access_info": "온라인 무료 웹진",
-    "url": "https://platformc.kr/"
-  },
-  {
-    "id": "phenomenon-and-cognition",
-    "name": "현상과인식",
-    "publisher": "한국인문사회과학회",
-    "category": "학술커먼즈·비판이론",
-    "type_badge": "KCI 등재 학술지",
-    "nature": "등재제도 왜곡 비판, 오픈액세스 지식공유연대 거점, 학문 생태계 자정 연구",
-    "reason_for_twin": "상업적 DBpia/KISS의 지식 독점에 맞서 연구자 자치와 오픈액세스를 주창하는 '지식공유연대' 연구자들이 활동하는 비판적 학술 거점.",
-    "key_topics": [
-      "학술 커먼즈",
-      "연구 윤리",
-      "지식공유",
-      "대학 비판",
-      "사회철학"
-    ],
-    "access_info": "KCI 및 지식공유연대 네트워크",
-    "url": "https://www.kci.go.kr/kciportal/po/search/poArtiSear.kci?sereId=000840"
-  },
-  {
-    "id": "field-journal",
-    "name": "Field: A Journal of Socially-Engaged Art Criticism",
-    "publisher": "University of California, San Diego (UCSD) / Editor: Grant Kester",
-    "category": "생태예술·시각문화·미학이론",
-    "type_badge": "사회참여·대화적 예술 비평 저널",
-    "nature": "사회참여예술(Socially-Engaged Art), 대화적 미술(Dialogical Practices), 현장 기반 생태 예술 비평",
-    "reason_for_twin": "해리슨 스튜디오처럼 화이트 큐브를 벗어나 현장에서 지역주민, 과학자, 생태계와 대화하며 실천하는 대화적·과정 중심 예술의 가장 치열한 글로벌 비평과 현장 사례를 만날 수 있습니다.",
-    "key_topics": [
-      "사회참여예술",
-      "대화적미술",
-      "생태현장실천",
-      "과정중심예술",
-      "관계미학비판"
-    ],
-    "access_info": "완전 무료 오픈액세스 (온라인 전호 무료 열람)",
-    "url": "https://field-journal.com/"
-  },
-  {
-    "id": "e-flux-journal",
-    "name": "e-flux journal",
-    "publisher": "e-flux (New York)",
-    "category": "생태예술·시각문화·미학이론",
-    "type_badge": "글로벌 동시대 미술 & 비판이론 최고 권위지",
-    "nature": "인류세(Anthropocene), 생태적 전환, 코스모테크닉스, 기술정치 및 동시대 미술이론",
-    "reason_for_twin": "브뤼노 라투르, 도나 해러웨이, 육 후이 등 세계적 사상가들과 동시대 예술가들이 함께 생태위기 시대 예술과 인간의 존재 이유를 날카롭게 성찰하는 세계 최고의 독립 비판 예술 저널입니다.",
-    "key_topics": [
-      "인류세미술",
-      "코스모테크닉스",
-      "비판이론",
-      "행성적사유",
-      "탈식민생태"
-    ],
-    "access_info": "온라인 전편 무료 열람 (Open Access)",
-    "url": "https://www.e-flux.com/journal/"
-  },
-  {
-    "id": "antennae-journal",
-    "name": "Antennae: The Journal of Nature in Visual Culture",
-    "publisher": "Antennae Project (UK) / Editor: Giovanni Aloi",
-    "category": "생태예술·시각문화·미학이론",
-    "type_badge": "다종 공생 & 자연 시각문화 전문지",
-    "nature": "시각예술 속 자연, 동물, 식물, 미생물, 다종(Multispecies) 공생, 포스트휴머니즘 미학",
-    "reason_for_twin": "인간 중심주의를 완전히 탈피하여 흙, 균류, 식물, 야생동물이 미술의 동등한 주체이자 매개자로 어떻게 등장하는지 다종 공생 미학의 시각적·이론적 최전선을 보여줍니다.",
-    "key_topics": [
-      "다종공생",
-      "식물미학",
-      "포스트휴머니즘",
-      "비인간행위자",
-      "생태시각문화"
-    ],
-    "access_info": "전호 무료 다운로드 오픈액세스 (PDF 제공)",
-    "url": "https://www.antennae.org.uk/"
-  },
-  {
-    "id": "resilience-journal",
+    "id": "resilience-env-humanities",
     "name": "Resilience: A Journal of the Environmental Humanities",
     "publisher": "University of Nebraska Press",
-    "category": "생태예술·시각문화·미학이론",
-    "type_badge": "환경인문학 & 생태예술 융합 학술지",
-    "nature": "환경인문학, 기후 정의, 생태 예술, 대지 서사 및 생태계 회복력(Resilience) 탐구",
-    "reason_for_twin": "기후 위기 속에서 자연과 인간 공동체가 어떻게 회복력(Resilience)을 발휘할 수 있는지를 예술과 인문학의 렌즈로 탐색하는 핵심 학술지입니다.",
+    "category": "환경인문학·대지·음식정치",
+    "type_badge": "피어리뷰 인문학 저널",
+    "nature": "생태적 회복력(Resilience), 환경 문학, 기후 우울증 치유, 황폐화된 대지 복원",
+    "reason_for_twin": "기후위기 시대의 무력감과 냉소를 넘어, 작은 숲과 정원, 지역 공동체에서 회복탄력성을 키우는 인문학적·문학적 치유의 힘을 증언합니다.",
     "key_topics": [
-      "생태회복력",
-      "환경인문학",
-      "기후정의",
-      "대지서사",
-      "생태커먼즈"
+      "생태 회복탄력성",
+      "환경문학",
+      "생태치유",
+      "황폐지 복원"
     ],
-    "access_info": "Project MUSE / JSTOR 수록 (일부 논문 오픈액세스)",
+    "access_info": "Project MUSE 아카이브",
     "url": "https://www.resiliencejournal.org/"
   },
   {
-    "id": "art-and-society-kr",
-    "name": "미술과 사회 (Art & Society)",
-    "publisher": "미술사학연구회 (한국)",
-    "category": "생태예술·시각문화·미학이론",
-    "type_badge": "한국 비판 미술 & 사회적 실천 등재지",
-    "nature": "예술의 사회적 실천, 생태예술 담론, 제도비판, 삶을 위한 예술(Art for Life)",
-    "reason_for_twin": "유현주 교수의 생태예술 논문이 발표된 저널로, 한국 동시대 미술이 어떻게 생태 위기, 지역 현장과 접속하여 '삶을 위한 예술'로 변모해 왔는지를 가장 잘 추적할 수 있는 국내 학술지입니다.",
+    "id": "ephemera",
+    "name": "Ephemera: theory & politics in organization",
+    "publisher": "ephemera editorial collective",
+    "category": "참여디자인·협동조합·조직이론",
+    "type_badge": "독립 학술 저널 (오픈액세스)",
+    "nature": "자본주의적 경영학을 거부하고 자율주의, 커먼즈, 탈성장, 대안적 조직화 방식을 탐구",
+    "reason_for_twin": "1인 가구, 프리랜서, 활동가들이 어떻게 기업이나 국가에 종속되지 않고 스스로 조직하고 살아남을 수 있는지(자율적 협동, 시간은행, 대안 노동)를 사유합니다.",
     "key_topics": [
-      "삶을위한예술",
-      "한국생태미술",
-      "제도비판",
-      "사회참여예술",
-      "생태윤리"
+      "대안 조직화",
+      "자율주의",
+      "탈성장",
+      "자유 소프트웨어",
+      "반자본주의 경영"
     ],
-    "access_info": "KCI 한국학술지인용색인 및 DBpia 수록",
-    "url": "https://www.kci.go.kr/kciportal/po/search/poArtiSear.kci"
+    "access_info": "완전 무료 오픈액세스 저널 (PDF 다운로드)",
+    "url": "http://www.ephemerajournal.org/"
   },
   {
-    "id": "journal-of-aesthetics-kr",
-    "name": "미학예술학연구 (The Journal of Aesthetics and Science of Arts)",
-    "publisher": "한국미학예술학회",
-    "category": "생태예술·시각문화·미학이론",
-    "type_badge": "한국 미학 & 예술철학 우수등재지",
-    "nature": "미학 이론, 대지예술·환경예술·자연예술의 개념 규명, 인류세와 포스트휴먼 미학",
-    "reason_for_twin": "김융희 미학자의 '생태예술의 지형그리기'처럼, 대지예술과 생태예술의 본질적 차이 및 자연과 인간의 관계를 철학적으로 엄밀하게 규명하는 학술적 디딤돌입니다.",
+    "id": "codesign-journal",
+    "name": "CoDesign: International Journal of CoCreation",
+    "publisher": "Taylor & Francis",
+    "category": "참여디자인·협동조합·조직이론",
+    "type_badge": "국제 최고 권위 참여디자인 저널",
+    "nature": "참여 디자인(Participatory Design), 공동 창작 방법론, 공공 서비스 혁신",
+    "reason_for_twin": "전문가 디자이너의 독점을 깨고 최종 사용자와 주민이 직접 시스템과 공간을 디자인하는 공동 창작(Co-creation)의 이론과 실무 툴킷을 배웁니다.",
     "key_topics": [
-      "생태미학",
-      "대지예술비판",
-      "자연예술철학",
-      "포스트휴먼미학",
-      "과정미학"
+      "참여디자인",
+      "공동창작",
+      "시빅 서비스",
+      "사용자 중심 리서치"
     ],
-    "access_info": "KCI 및 학회 홈페이지 온라인 논문 검색",
-    "url": "http://www.aesthetics-art.or.kr/"
+    "access_info": "Taylor & Francis 저널 아카이브",
+    "url": "https://www.tandfonline.com/toc/ncdn20/current"
   },
   {
-    "id": "yatoo-nature-art",
-    "name": "야투(YATOO) 자연미술 아카이브 & 금강자연미술비엔날레",
-    "publisher": "(사)한국자연미술가협회-야투 (YATOO)",
-    "category": "생태예술·시각문화·미학이론",
-    "type_badge": "한국 고유의 '자연미술' 발상지 아카이브",
-    "nature": "무흔적(Leave-no-trace) 자연예술, 사계절 현장 연구, 금강자연미술비엔날레",
-    "reason_for_twin": "서구의 거대한 대지예술과 달리, 자연에 무리한 조형을 가하지 않고 계절과 바람의 흐름에 순응하며 최소 개입의 미학을 실천해 온 한국 자연예술의 40년 역사와 현장을 만날 수 있습니다.",
+    "id": "cooperative-org-management",
+    "name": "Journal of Co-operative Organization and Management",
+    "publisher": "Elsevier",
+    "category": "참여디자인·협동조합·조직이론",
+    "type_badge": "국제 협동조합 학술지",
+    "nature": "플랫폼 협동조합, 노동자 자주관리, 소비자 생협, 협동 거버넌스",
+    "reason_for_twin": "기업 권력을 민주화하는 플랫폼 협동조합과 주민 자치 거버넌스의 실제 성공 및 실패 사례를 정밀하게 분석합니다.",
     "key_topics": [
-      "자연예술",
-      "야투(YATOO)",
-      "무흔적미학",
-      "금강비엔날레",
-      "현장예술"
+      "플랫폼 협동조합",
+      "노동자 자주관리",
+      "사회적 경제",
+      "협동 거버넌스"
     ],
-    "access_info": "공식 웹사이트 아카이브 및 비엔날레 도록 무료 열람",
-    "url": "http://www.yatoo.or.kr/"
+    "access_info": "ScienceDirect 및 기관 열람",
+    "url": "https://www.sciencedirect.com/journal/journal-of-co-operative-organization-and-management"
+  },
+  {
+    "id": "design-and-culture",
+    "name": "Design and Culture",
+    "publisher": "Routledge / Design Studies Forum",
+    "category": "참여디자인·협동조합·조직이론",
+    "type_badge": "비판적 디자인 문화 저널",
+    "nature": "비판적 디자인학, 디자인 액티비즘, 사회적 포용 인터페이스, 물질문화",
+    "reason_for_twin": "상업적 제품 판매를 위한 스타일링으로서의 디자인을 비판하고, 불평등한 사회 구조를 폭로하고 전환하는 디자인 액티비즘의 가능성을 모색합니다.",
+    "key_topics": [
+      "디자인 액티비즘",
+      "비판적 디자인",
+      "사회적 포용",
+      "물질문화"
+    ],
+    "access_info": "Routledge 온라인 저널",
+    "url": "https://www.tandfonline.com/toc/rfdc20/current"
+  },
+  {
+    "id": "pdc-proceedings",
+    "name": "Participatory Design Conference (PDC)",
+    "publisher": "ACM Digital Library",
+    "category": "참여디자인·협동조합·조직이론",
+    "type_badge": "ACM 시빅 테크 콘퍼런스",
+    "nature": "풀뿌리 민주주의를 위한 시빅 테크, 취약계층 포용 인터페이스, 디자인 정의",
+    "reason_for_twin": "전 세계 시빅 컴퓨팅 및 참여 디자인 연구자들이 모이는 최고의 프로시딩. 위기 상황에서 침해 없이 작동하는 공공 안전망 인터페이스의 최신 연구를 접할 수 있습니다.",
+    "key_topics": [
+      "참여디자인",
+      "시빅테크",
+      "디자인 정의",
+      "공공 인터페이스"
+    ],
+    "access_info": "ACM Digital Library 오픈액세스 트랙",
+    "url": "https://pdcproceedings.org/"
   }
 ]
