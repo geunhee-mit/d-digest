@@ -1,5 +1,6 @@
 import json
 import os
+import re
 from collections import Counter
 from datetime import datetime
 
@@ -8,6 +9,7 @@ ARCHIVE_FILE = os.path.join(WEB_DATA_DIR, "archive.json")
 LATEST_FILE = os.path.join(WEB_DATA_DIR, "latest_digest.json")
 TRENDS_FILE = os.path.join(WEB_DATA_DIR, "trends.json")
 GURUS_FILE = os.path.join(WEB_DATA_DIR, "gurus.json")
+PERIODICALS_FILE = os.path.join(WEB_DATA_DIR, "periodicals.json")
 OBSIDIAN_DIGEST_DIR = r"H:\내 드라이브\lgh\10. Journals\Research Digest"
 
 
@@ -40,10 +42,9 @@ def compute_trends(archive):
 
     top_keywords = [
         {"keyword": kw, "count": cnt}
-        for kw, cnt in keyword_counts.most_common(15)
+        for kw, cnt in keyword_counts.most_common(20)
     ]
 
-    # 구루 수 파악
     total_gurus = 13
     if os.path.exists(GURUS_FILE):
         try:
@@ -53,11 +54,22 @@ def compute_trends(archive):
         except Exception:
             pass
 
+    total_periodicals = 41
+    if os.path.exists(PERIODICALS_FILE):
+        try:
+            with open(PERIODICALS_FILE, "r", encoding="utf-8") as f:
+                pdata = json.load(f)
+                total_periodicals = len(pdata)
+        except Exception:
+            pass
+
     trends_data = {
         "updated_at": datetime.now().strftime("%Y-%m-%d %H:%M"),
         "total_digests": len(archive),
         "total_papers_analyzed": sum(len(d.get("items", [])) for d in archive),
         "total_gurus": total_gurus,
+        "total_periodicals": total_periodicals,
+        "total_tracked_keywords": len(top_keywords),
         "category_distribution": [
             {"category": cat, "count": cnt}
             for cat, cnt in category_counts.most_common()

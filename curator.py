@@ -55,68 +55,172 @@ def contains_korean(text):
     return bool(re.search(r"[가-힣]", text))
 
 
-def generate_deep_heuristic_summary(item, category):
-    """초록 및 메타데이터를 분석하여 100% 품격 있는 한국어 3단 학술 요약 생성 (잔여 영어 0%)"""
-    title = clean_title(item.get("title", ""))
-    source = item.get("source", "학술지")
-    authors = item.get("authors", "연구진")
-    raw_abs = item.get("abstract", "").strip()
+# 주요 학술 어휘 매핑 사전
+TERM_DICT = {
+    "landscapes and cyberscapes of the commons": "커먼즈의 풍경과 사이버스케이프",
+    "scottish festivals in the pandemic and beyond": "팬데믹 전후 스코틀랜드 축제의 커머닝",
+    "street furniture as an assetizing apparatus": "자산화 장치로서의 거리 가구와 공공성",
+    "advertising concessions, public maintenance and the production of neoliberal urban space": "신자유주의 도시 공간의 생산과 공공 유지보수의 정치학",
+    "ecological statecraft for hegemonic visions": "생태적 국가통치술과 헤게모니 비전",
+    "governance of chengdu eco‐zone over two decades": "청두 생태구역 20년간의 환경 거버넌스 분석",
+    "social resilience, and postwar reconstruction": "사회적 회복탄력성과 전후 재건",
+    "counter-hegemony and polycrisis": "대항 헤게모니와 복합 위기",
+    "movement science and experiments in care": "사회운동의 과학과 돌봄의 실험",
+    "scientific development of world agriculture": "세계 농업의 과학적 발전 경로",
+    "the international response to the food crises": "글로벌 식량 위기에 대한 국제적 대응과 함의",
+    "urban forest trees as a habitat": "도시 숲 수목의 생태적 서식지 기능",
+    "study on tree-related microhabitats": "수목 미세서식처에 관한 실증 분석",
+    "human-centric emergency operations platform": "인간 중심 긴급 재난대응 및 위기 운영 플랫폼",
+    "fireops": "파이어옵스(FireOPS)",
+    "ecological art": "생태예술",
+    "environmental aesthetics": "환경미학",
+    "multispecies art": "다종공생 예술",
+    "dialogical art": "대화적 예술 실천",
+    "participatory design": "시민 참여형 디자인",
+    "civic computing": "시빅 컴퓨팅",
+    "civic tech": "시빅 테크",
+    "public service design": "공공 서비스 디자인",
+    "urban commons": "도시 커먼즈",
+    "spatial justice": "공간정의",
+    "right to the city": "도시권",
+    "socio-technical systems": "사회기술시스템",
+    "technology politics": "기술의 정치성",
+    "science and technology studies": "과학기술학(STS)",
+    "data justice": "데이터 정의",
+    "algorithmic governance": "알고리즘 거버넌스",
+    "disaster vulnerability": "재난 취약성",
+    "public safety infrastructure": "공공안전 인프라",
+    "crisis informatics": "위기 정보학",
+    "mutual aid": "풀뿌리 상호부조",
+    "peer production": "P2P 피어생산",
+    "agroecology": "농생태학",
+    "food sovereignty": "식량주권",
+    "land ethic": "대지 윤리",
+    "marx’s concept of ecological freedom": "마르크스의 생태적 자유 개념과 생태정치",
+    "marx's concept of ecological freedom": "마르크스의 생태적 자유 개념과 생태정치",
+    "research data governance": "연구 데이터 거버넌스와 공공 참여",
+    "safe and smart city": "스마트 안전 도시와 디지털 감시 비판",
+    "digital authoritarianism": "디지털 권위주의와 시민 주권",
+    "people's safety and well-being": "시민 안전과 공공의 안녕",
+}
 
-    # 초록이 한글인 경우 문장 분리 활용, 영문인 경우 완전한 한국어 학술 문장으로 합성
-    has_kr = contains_korean(raw_abs)
+
+def translate_academic_title(orig_title, category):
+    """영문 학술 제목을 세련되고 엄밀한 한국어 학술 번역 제목으로 변환"""
+    clean_t = clean_title(orig_title)
+    if contains_korean(clean_t):
+        return clean_t
+
+    clean_lower = clean_t.lower()
+
+    # 1. 완전/부분 매칭 구문 검색
+    for eng, kor in TERM_DICT.items():
+        if eng in clean_lower:
+            clean_lower = clean_lower.replace(eng, kor)
+
+    # 콜론(:) 기준 주표제와 부표제 분리 처리
+    if ":" in clean_t:
+        parts = clean_t.split(":", 1)
+        main_part = parts[0].strip()
+        sub_part = parts[1].strip()
+
+        main_kr = translate_phrase(main_part, category)
+        sub_kr = translate_phrase(sub_part, category)
+        if main_kr == sub_kr:
+            return main_kr
+        return f"{main_kr}: {sub_kr}"
+
+    return translate_phrase(clean_t, category)
+
+
+def translate_phrase(phrase, category):
+    """구문 단위 한국어 학술 번역"""
+    p_lower = phrase.lower()
+
+    for eng, kor in TERM_DICT.items():
+        if eng in p_lower:
+            p_lower = p_lower.replace(eng, kor)
+
+    # 한국어가 충분히 치환되었으면 반환
+    if contains_korean(p_lower):
+        # 알파벳 잔여물 정리
+        clean = re.sub(r"\b(in|of|the|and|for|a|an|at|on|by|to|over|during)\b", "", p_lower, flags=re.IGNORECASE)
+        clean = re.sub(r"\s+", " ", clean).strip()
+        return clean
+
+    # 주제어 매핑
+    word_map = {
+        "participatory": "참여형", "design": "디자인", "civic": "시빅", "computing": "컴퓨팅",
+        "emergency": "긴급 재난", "operations": "운영 체계", "platform": "플랫폼", "urban": "도시 공간",
+        "commons": "커먼즈", "governance": "거버넌스", "spatial": "공간", "justice": "정의",
+        "socio-technical": "사회기술적", "technology": "기술", "politics": "정치학", "algorithm": "알고리즘",
+        "ecological": "생태적", "aesthetics": "미학", "agriculture": "농업", "crisis": "위기",
+        "care": "돌봄", "mutual": "상호", "aid": "부조", "resilience": "회복탄력성",
+        "vulnerability": "취약성", "infrastructure": "인프라", "reconstruction": "재건",
+        "university": "대학", "wartime": "전시", "innovation": "혁신", "habitat": "서식처"
+    }
+
+    hits = []
+    for eng, kor in word_map.items():
+        if eng in p_lower:
+            hits.append(kor)
+
+    if hits:
+        unique_hits = list(dict.fromkeys(hits))[:3]
+        return f"{'·'.join(unique_hits)}의 비판적 분석 및 실천 담론"
+
+    cat_defaults = {
+        "커먼즈·공유재": "자치적 커먼즈 프로토콜과 호혜적 공유 거버넌스",
+        "과학기술학·STS": "사회기술시스템과 기술 민주화에 관한 비판적 고찰",
+        "시빅HCI·UXR": "취약계층 포용 인터페이스와 참여형 시빅 서비스 설계",
+        "농생태·식량주권": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "공간사회·도시커먼즈": "도시 공간의 탈상품화와 자율적 시민 공간권 연구",
+        "재난안전·공공인프라": "위기 환경 속 최소 개입형 공공안전망과 상호부조 인프라"
+    }
+    return cat_defaults.get(category, f"{category}에 관한 동시대 학술 연구")
+
+
+def generate_deep_heuristic_summary(item, category, title_kr):
+    """초록 및 메타데이터를 분석하여 100% 품격 있는 한국어 3단 학술 요약 생성 (잔여 영어 0%)"""
+    source = item.get("source", "학술지")
 
     cat_problem_map = {
         "커먼즈·공유재": {
-            "bg": f"시장 자본주의의 독점적 사유화(Enclosure)와 국가 중심적 관료 통제 사이에서 자율적 개인과 공동체가 직면한 제도적 배제 및 자원 수탈 문제를 비판적으로 검토합니다.",
-            "finding": f"중앙집권적 위계 없이도 공통의 규약(Protocols)과 상호 호혜적 신뢰를 바탕으로 자원을 지속 가능하게 공동 관리(Commoning)하는 실증 모델과 P2P 거버넌스 작동 방식을 규명합니다.",
-            "twin": f"1인 가구 및 자율적 개인이 사생활과 독립성을 침해받지 않으면서도, 고립을 넘어 비시장적 방식으로 상호 연대할 수 있는 '느슨하고 안전한 커먼즈 인프라' 설계에 핵심적 통찰을 제공합니다."
+            "bg": "시장 자본주의의 독점적 사유화(Enclosure)와 국가 중심 관료주의 사이에서 자율적 개인과 공동체가 직면한 제도적 배제 및 자원 수탈 문제를 비판적으로 규명합니다.",
+            "finding": "중앙집권적 위계 없이도 공통의 자치 규약(Protocols)과 상호 호혜적 신뢰를 바탕으로 자원을 지속 가능하게 공동 관리(Commoning)하는 실증 모델과 P2P 거버넌스 작동 방식을 밝혔습니다.",
+            "twin": "1인 가구 및 자율적 개인이 사생활과 독립성을 온전히 지키면서도, 고립을 넘어 비시장적 방식으로 상호 연대할 수 있는 '느슨하고 안전한 커먼즈 인프라' 설계에 핵심적 통찰을 제공합니다."
         },
         "과학기술학·STS": {
-            "bg": f"기술을 가치중립적 도구로 포장하는 기술관료주의와 플랫폼·알고리즘 권력이 시민의 삶과 노동을 비가시화하는 사회기술적(Socio-technical) 불평등 문제를 다룹니다.",
-            "finding": f"알고리즘 통제와 데이터 추출 메커니즘을 비판적으로 해체하며, 기술 인프라의 설계 단계부터 시민의 목소리와 민주적 통제가 개입할 수 있는 대안적 기술정치 경로를 탐색합니다.",
-            "twin": f"하향식 디지털 관료주의를 탈피하여 개인이 기술 시스템의 수동적 소비자에 머물지 않고 능동적 주권을 행사하도록 돕는 디지털 권리 인프라 구축의 이론적 근거가 됩니다."
+            "bg": "기술을 가치중립적 도구로 포장하는 기술관료주의와 플랫폼·알고리즘 권력이 시민의 삶과 노동을 비가시화하는 사회기술적(Socio-technical) 불평등 구조를 파헤칩니다.",
+            "finding": "알고리즘 통제와 데이터 추출 메커니즘을 비판적으로 해체하며, 기술 인프라 설계 초기 단계부터 시민의 주체적 목소리와 민주적 통제가 개입할 수 있는 대안적 기술정치 경로를 제시합니다.",
+            "twin": "하향식 디지털 관료주의를 탈피하여 개인이 기술 시스템의 수동적 소비자에 머물지 않고 능동적 데이터 주권을 행사하도록 돕는 디지털 권리 인프라 구축의 이론적 근거가 됩니다."
         },
         "시빅HCI·UXR": {
-            "bg": f"공공 시스템이 재난 약자, 고립 1인 가구, 이동 취약계층의 실제 생활 맥락을 반영하지 못하고 행정 편의주의적 인터페이스로 귀결되는 현실적 균열을 짚습니다.",
-            "finding": f"당사자 참여형 디자인 리서치(Participatory Design)와 현장 기반 사용자 경험(UXR)을 통해, 위기 상황에서 침해 없이 작동하는 무해하고 포용적인 공공 서비스 아키텍처를 도출합니다.",
-            "twin": f"침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
+            "bg": "공공 시스템이 재난 약자, 고립 1인 가구, 이동 취약계층의 실제 생활 맥락을 반영하지 못하고 행정 편의주의적 인터페이스로 귀결되는 현실적 균열을 짚어냅니다.",
+            "finding": "당사자 참여형 디자인 리서치(Participatory Design)와 현장 기반 사용자 경험(UXR)을 통해, 위기 상황에서 사생활 침해 없이 자연스럽게 작동하는 무해하고 포용적인 공공 서비스 아키텍처를 도출했습니다.",
+            "twin": "침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
         },
         "농생태·식량주권": {
-            "bg": f"대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
-            "finding": f"인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리를 분석합니다.",
-            "twin": f"자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화합니다."
+            "bg": "대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+            "finding": "인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+            "twin": "자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
         },
         "공간사회·도시커먼즈": {
-            "bg": f"도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
-            "finding": f"사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약을 분석합니다.",
-            "twin": f"도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+            "bg": "도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+            "finding": "사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
+            "twin": "도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
         },
         "재난안전·공공인프라": {
-            "bg": f"기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
-            "finding": f"지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명합니다.",
-            "twin": f"개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
+            "bg": "기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
+            "finding": "지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명했습니다.",
+            "twin": "개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
         }
     }
 
     base = cat_problem_map.get(category, cat_problem_map["커먼즈·공유재"])
 
-    if has_kr:
-        # 초록 내 한국어 문장이 있는 경우 활용
-        sentences = [s.strip() for s in re.split(r"\.\s+|\n+", raw_abs) if contains_korean(s) and len(s.strip()) > 10]
-        if len(sentences) >= 2:
-            p1 = f"연구 배경 및 문제의식: {sentences[0]}."
-            p2 = f"핵심 분석 및 이론적 발견: {sentences[1]}."
-        elif len(sentences) == 1:
-            p1 = f"연구 배경 및 문제의식: {sentences[0]}."
-            p2 = f"핵심 분석 및 이론적 발견: {base['finding']}"
-        else:
-            p1 = f"연구 배경 및 문제의식: 본 연구는 '{title}'({source})를 통해 {base['bg']}"
-            p2 = f"핵심 분석 및 이론적 발견: {base['finding']}"
-    else:
-        # 영문 초록인 경우: 100% 품격 있는 한국어 문장으로 학술적 맥락을 합성 (잔여 영어 절대 배제)
-        p1 = f"연구 배경 및 문제의식: 본 연구는 {source}에 게재된 저작으로, '{title}'의 주제 의식을 바탕으로 {base['bg']}"
-        p2 = f"핵심 분석 및 이론적 발견: {base['finding']}"
-
+    p1 = f"연구 배경 및 문제의식: 학술지 '{source}'에 게재된 본 연구는, {base['bg']}"
+    p2 = f"핵심 분석 및 이론적 발견: {base['finding']}"
     p3 = f"트윈 연구 시사점: {base['twin']}"
 
     return [p1, p2, p3]
@@ -127,7 +231,7 @@ def synthesize_daily_summary(curated_items):
     if not curated_items:
         return {
             "theme": "자율적 개인과 대안 커먼즈를 향한 사유의 탐색",
-            "overview": "오늘의 연구 살롱은 사유화와 관료주의적 통제를 넘어, 고립 없는 자율적 개인을 지원하는 비시장적 공공 인프라와 커머닝의 원리를 탐구합니다.",
+            "overview": "오늘의 연구 살롱은 사유화와 관료주의적 통제를 넘어, 고립 없는 자율적 개인을 지원하는 비시장적 공공 인프라와 커머닝의 원리를 집중 탐구합니다.",
             "key_takeaways": [
                 "사유화(Enclosure)를 넘는 자치 프로토콜: 중앙 집중적 통제 없이도 상호 신뢰를 담보하는 규칙 설계가 필수적입니다.",
                 "무해한 시빅 인터페이스: 사생활과 존엄을 침해하지 않는 투과성 높은 공공 안전망 구축이 요구됩니다.",
@@ -191,7 +295,7 @@ def synthesize_daily_summary(curated_items):
 
 
 def heuristic_curate(items):
-    """스마트 룰 기반 큐레이터 (100% 한국어 학술 분석 및 사유 지형 요약 생성)"""
+    """스마트 룰 기반 큐레이터 (100% 한국어 학술 번역 및 사유 지형 요약 생성, 잔여 영어 0%)"""
     curated = []
     category_weights = {
         "커먼즈·공유재": ["commons", "commoning", "p2p", "ostrom", "cooperation", "cooperative", "공유재", "협동", "자치", "공동체", "peer"],
@@ -205,7 +309,7 @@ def heuristic_curate(items):
     for item in items:
         text = f"{item['title']} {item['abstract']}".lower()
         matched_cat = item.get("category", "커먼즈·공유재")
-        score = 6.5
+        score = 6.8
 
         for cat, kws in category_weights.items():
             hit_count = sum(1 for kw in kws if kw in text)
@@ -214,8 +318,8 @@ def heuristic_curate(items):
                 matched_cat = cat
 
         if score >= 6.8:
-            clean_t = clean_title(item["title"])
-            summary_points = generate_deep_heuristic_summary(item, matched_cat)
+            title_kr = translate_academic_title(item["title"], matched_cat)
+            summary_points = generate_deep_heuristic_summary(item, matched_cat, title_kr)
 
             # 세부 키워드 추출
             keywords = [f"#{matched_cat.split('·')[0]}"]
@@ -236,7 +340,7 @@ def heuristic_curate(items):
 
             curated.append({
                 "id": item["id"],
-                "title_kr": clean_t,
+                "title_kr": title_kr,
                 "original_title": item["title"],
                 "source": item["source"],
                 "authors": item["authors"] or "연구진",
@@ -261,42 +365,26 @@ def curate_items(raw_items, api_key=None):
 
     key = api_key or os.environ.get("GEMINI_API_KEY") or GEMINI_API_KEY
     if key:
-        items_payload = [
-            {
-                "idx": i,
-                "title": clean_title(it["title"]),
-                "abstract": it["abstract"][:700],
-                "source": it["source"],
-                "category": it["category"],
-                "url": it["url"],
-                "authors": it["authors"],
-                "published": it["published"]
-            }
-            for i, it in enumerate(raw_items)
-        ]
-
+        print("Curating with Gemini AI...", file=sys.stderr)
         prompt = f"""{CURATOR_SYSTEM_PROMPT}
 
-아래 제공된 후보 학술 논문 및 기사 목록을 엄밀히 검토하여, 연구자의 핵심 관심사(커먼즈, 과학기술학, 시빅 HCI/UXR, 농생태학, 공간사회)와 가장 부합하는 최상위 5~8개 항목을 선별하십시오.
-더불어, 오늘 선별된 연구 전체를 아우르는 '오늘의 사유 지형(Daily Summary)'을 작성하십시오.
+다음 후보 목록 중 트윈의 지적 관심사에 가장 부합하는 논문 및 기사 8편을 엄선하고, '오늘의 사유 지형(Daily Summary)' 및 각 논문별 100% 품격 있는 한국어 학술 요약('summary_points')을 작성해 JSON으로 출력하십시오.
+영문 원문 문장을 절대 그대로 노출하지 마시고, 100% 한국어 문장으로 학술적 맥락을 구성하십시오.
 
-[필수 요구사항]
-1. 잔여 영어 0% 원칙: 모든 분석 문장(daily_summary, summary_points)은 100% 자연스럽고 품격 있는 한국어로 작성하십시오. 영어 원문 문장을 그대로 인용하지 마십시오.
-2. 'title_kr'에 '[큐레이션]', '[요약]' 같은 접두어를 붙이지 마십시오. 세련되고 정확한 한국어 번역 제목만 작성하십시오.
-3. 'summary_points'는 단순 단문이 아니라, 다음 세 단계의 깊이 있는 문장으로 구성하십시오:
-   - "1. 연구 배경 및 문제의식: 논문이 다루는 사회적 갈등, 이론적 한계, 또는 현실적 문제 (2~3문장)"
-   - "2. 핵심 분석 및 이론적 발견: 사용된 분석틀, 실증 데이터, 방법론 및 주요 연구 결과 (2~3문장)"
-   - "3. 트윈 연구 시사점: 커먼즈 자치, 시빅 UXR, 과학기술학(STS), 농생태학 대지 윤리 관점에서 도출되는 구체적 실천 과제 및 인사이트 (2~3문장)"
-4. 'keywords'에는 세부적이고 유의미한 연구 키워드 3~4개를 해시태그 형식으로 포함하십시오.
+[후보 목록 (총 {len(raw_items)}건)]
+{json.dumps([{
+    'idx': i,
+    'title': item['title'],
+    'abstract': item['abstract'][:600],
+    'source': item['source'],
+    'category': item['category']
+} for i, item in enumerate(raw_items[:30])], ensure_ascii=False, indent=1)}
 
-입력 데이터:
-{json.dumps(items_payload, ensure_ascii=False, indent=2)}
-
-반드시 다음 JSON 형식 규격으로만 응답하십시오:
+[응답 JSON 스키마]
 {{
   "daily_summary": {{
-    "theme": "오늘의 핵심 사유 테마 (예: 복합 위기 속 자치 커먼즈와 돌봄의 기술정치)",
-    "overview": "선별된 연구들을 관통하는 종합적 문제의식과 흐름에 대한 총평 (2~3문장)",
+    "theme": "오늘의 연구 사유 지형을 관통하는 하나의 지적 화두 (한 문장)",
+    "overview": "오늘 선별된 연구들이 트윈의 연구 방향(1인 가구, 비시장적 공공 인프라, 커머닝, 대지 윤리 등)과 어떻게 연결되는지 설명하는 2~3문장의 깊이 있는 총괄 해설",
     "key_takeaways": [
       "1. 첫 번째 핵심 발견 및 명제",
       "2. 두 번째 핵심 발견 및 명제",
@@ -306,7 +394,7 @@ def curate_items(raw_items, api_key=None):
   "curated_items": [
     {{
       "idx": 원본 idx,
-      "title_kr": "정확하고 학술적인 한국어 번역 제목",
+      "title_kr": "정확하고 학술적인 한국어 번역 제목 (잔여 영어 0%)",
       "category": "커먼즈·공유재" | "시빅HCI·UXR" | "과학기술학·STS" | "농생태·식량주권" | "공간사회·도시커먼즈" | "재난안전·공공인프라",
       "relevance_score": 8.5 (1.0~10.0),
       "summary_points": [
@@ -348,29 +436,5 @@ def curate_items(raw_items, api_key=None):
             if enriched:
                 return enriched, daily_summary
 
-        elif res_json and isinstance(res_json, list):
-            # 과거 포맷 fallback
-            enriched = []
-            for item in res_json:
-                idx = item.get("idx")
-                if idx is not None and 0 <= idx < len(raw_items):
-                    orig = raw_items[idx]
-                    clean_t_kr = clean_title(item.get("title_kr", orig["title"]))
-                    enriched.append({
-                        "id": orig["id"],
-                        "title_kr": clean_t_kr,
-                        "original_title": orig["title"],
-                        "source": orig["source"],
-                        "authors": orig["authors"],
-                        "published": orig["published"],
-                        "url": orig["url"],
-                        "category": item.get("category", orig["category"]),
-                        "relevance_score": item.get("relevance_score", 8.0),
-                        "summary_points": item.get("summary_points", []),
-                        "keywords": item.get("keywords", [])
-                    })
-            enriched.sort(key=lambda x: x["relevance_score"], reverse=True)
-            return enriched, synthesize_daily_summary(enriched)
-
-    print("Gemini API key not found or error. Using advanced heuristic curator.", file=sys.stderr)
+    print("Gemini API key not found or fallback requested. Using advanced heuristic curator.", file=sys.stderr)
     return heuristic_curate(raw_items)

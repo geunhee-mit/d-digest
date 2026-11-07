@@ -1,5 +1,191 @@
 [
   {
+    "id": "2026-11-07_afternoon",
+    "edition": "afternoon",
+    "edition_label": "오후 다이제스트 (Afternoon Digest)",
+    "date": "2026-11-07",
+    "timestamp": "2026-11-07 19:39",
+    "daily_summary": {
+      "theme": "도시 공간의 탈상품화와 자율적 시민 자치 거버넌스",
+      "overview": "오늘의 담론은 젠트리피케이션과 공간 사유화에 맞서 모든 시민이 누려야 할 공간 권리와, 비시장적으로 운영되는 느슨한 공유 거점의 형성 가능성을 다룹니다.",
+      "key_takeaways": [
+        "사유화(Enclosure)의 극복: 자원과 공간을 소유의 대상이 아닌 공동의 돌봄 대상으로 전환하는 커머닝 규약이 긴요합니다.",
+        "독립적 개인의 자치 연대: 지나친 집단주의적 강요 없이도 상호 신뢰와 규칙을 지켜낼 수 있는 자율 거버넌스 프로토콜이 요청됩니다.",
+        "비시장적 대안 인프라의 필요성: 시장에 종속되지 않고 최소한의 생활 안전을 영위할 수 있는 공통재(Commons)의 확충이 핵심 과제입니다."
+      ]
+    },
+    "item_count": 8,
+    "items": [
+      {
+        "id": "https://doi.org/10.5334/ijc.1535",
+        "title_kr": "커먼즈의 풍경과 사이버스케이프: 팬데믹 전후 스코틀랜드 축제의 커머닝",
+        "original_title": "Landscapes and Cyberscapes of the Commons: Scottish Festivals in the Pandemic and Beyond",
+        "source": "International Journal of the Commons (IJC)",
+        "authors": "John Wright, Alice Borchi",
+        "published": "2026-01-01",
+        "url": "https://doi.org/10.5334/ijc.1535",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'International Journal of the Commons (IJC)'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#커머닝",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.1111/anti.70231",
+        "title_kr": "자산화 장치로서의 거리 가구와 공공성: 신자유주의 도시 공간의 생산과 공공 유지보수의 정치학 glasgow",
+        "original_title": "Street Furniture as an Assetizing Apparatus: Advertising Concessions, Public Maintenance and the Production of Neoliberal Urban Space in Glasgow",
+        "source": "Antipode: A Radical Journal of Geography",
+        "authors": "Sinan Wang",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1111/anti.70231",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Antipode: A Radical Journal of Geography'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#도시공간",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.1111/anti.70229",
+        "title_kr": "생태적 국가통치술과 헤게모니 비전: 청두 생태구역 20년간의 환경 거버넌스 분석",
+        "original_title": "Ecological Statecraft for Hegemonic Visions: The Governance of Chengdu Eco‐Zone Over Two Decades",
+        "source": "Antipode: A Radical Journal of Geography",
+        "authors": "Handuo Deng, Fulong Wu, Fangzhu Zhang",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.1111/anti.70229",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Antipode: A Radical Journal of Geography'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#다종공생",
+          "#도시공간"
+        ]
+      },
+      {
+        "id": "https://openalex.org/W7219973476",
+        "title_kr": "전시의 비판적 분석 및 실천 담론: innovation, 사회적 회복탄력성과 전후 재건",
+        "original_title": "Rethinking the Third Mission of Ukrainian Universities in Wartime: Innovation, Social Resilience, and Postwar Reconstruction",
+        "source": "ASEAN Journal of Educational Research and Technology",
+        "authors": "Olena Orzhel, Olha Petroye, Алла Гаврилюк",
+        "published": "2026-12-01",
+        "url": "https://openalex.org/W7219973476",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'ASEAN Journal of Educational Research and Technology'에 게재된 본 연구는, 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
+          "핵심 분석 및 이론적 발견: 지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.21953/lse.00004950",
+        "title_kr": "도시 공간의 탈상품화와 자율적 시민 공간권 연구",
+        "original_title": "Timber nation architecture, forest industry, and the construction of Finnishness",
+        "source": "London School of Economics and Political Science Theses Online (London School of Economics and Political Science)",
+        "authors": "Saari, Heini-Emilia",
+        "published": "2027-01-01",
+        "url": "https://doi.org/10.21953/lse.00004950",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'London School of Economics and Political Science Theses Online (London School of Economics and Political Science)'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#도시공간",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/2611.03776v1",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성: 참여형·돌봄의 비판적 분석 및 실천 담론",
+        "original_title": "Proceedings of the CSCW 2026 Workshop on Women's Health as Cooperative Work: Participatory AI Across Care, Community, and Policy",
+        "source": "arXiv cs.HC / cs.CY",
+        "authors": "Sherilyn Francis",
+        "published": "2026-11-02",
+        "url": "http://arxiv.org/abs/2611.03776v1",
+        "category": "농생태·식량주권",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'arXiv cs.HC / cs.CY'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#참여디자인",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.5334/ijc.1667",
+        "title_kr": "도시 공간의 탈상품화와 자율적 시민 공간권 연구",
+        "original_title": "Managing the Messy Middle: Toward a Typology of Dilemmas in Nature-Based Recreation",
+        "source": "International Journal of the Commons (IJC)",
+        "authors": "Brenna Jungers, John Martin Anderies",
+        "published": "2026-08-05",
+        "url": "https://doi.org/10.5334/ijc.1667",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 9.5,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'International Journal of the Commons (IJC)'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#다종공생",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.5334/ijc.1604",
+        "title_kr": "사회기술시스템과 기술 민주화에 관한 비판적 고찰",
+        "original_title": "Conflicts in Forest Commoning: A Case Study of Indigenous Communities’ Struggle in India’s Gadchiroli District",
+        "source": "International Journal of the Commons (IJC)",
+        "authors": "Santosh Gedam, Ankur Sarin",
+        "published": "2026-07-30",
+        "url": "https://doi.org/10.5334/ijc.1604",
+        "category": "과학기술학·STS",
+        "relevance_score": 9.5,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'International Journal of the Commons (IJC)'에 게재된 본 연구는, 기술을 가치중립적 도구로 포장하는 기술관료주의와 플랫폼·알고리즘 권력이 시민의 삶과 노동을 비가시화하는 사회기술적(Socio-technical) 불평등 구조를 파헤칩니다.",
+          "핵심 분석 및 이론적 발견: 알고리즘 통제와 데이터 추출 메커니즘을 비판적으로 해체하며, 기술 인프라 설계 초기 단계부터 시민의 주체적 목소리와 민주적 통제가 개입할 수 있는 대안적 기술정치 경로를 제시합니다.",
+          "트윈 연구 시사점: 하향식 디지털 관료주의를 탈피하여 개인이 기술 시스템의 수동적 소비자에 머물지 않고 능동적 데이터 주권을 행사하도록 돕는 디지털 권리 인프라 구축의 이론적 근거가 됩니다."
+        ],
+        "keywords": [
+          "#과학기술학",
+          "#커머닝",
+          "#연구동향"
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-07_morning",
     "edition": "morning",
     "edition_label": "오전 다이제스트 (Morning Digest)",

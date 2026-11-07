@@ -26,14 +26,38 @@ TARGET_JOURNALS = [
     },
     {
         "name": "The Journal of Peasant Studies",
-        "category": "생태정치·대지인클로저",
+        "category": "농생태·식량주권",
         "issn": "0306-6150",
         "type": "openalex_journal"
     },
     {
         "name": "Archives of Design Research (디자인학연구)",
-        "category": "디자인비평·서비스HCI",
+        "category": "시빅HCI·UXR",
         "issn": "1226-8046",
+        "type": "openalex_journal"
+    },
+    {
+        "name": "Social Studies of Science (SSS)",
+        "category": "과학기술학·STS",
+        "issn": "0306-3127",
+        "type": "openalex_journal"
+    },
+    {
+        "name": "Antipode: A Radical Journal of Geography",
+        "category": "공간사회·도시커먼즈",
+        "issn": "0066-4812",
+        "type": "openalex_journal"
+    },
+    {
+        "name": "Big Data & Society",
+        "category": "과학기술학·STS",
+        "issn": "2053-9517",
+        "type": "openalex_journal"
+    },
+    {
+        "name": "Environmental Humanities",
+        "category": "농생태·식량주권",
+        "issn": "2201-1919",
         "type": "openalex_journal"
     }
 ]
@@ -88,13 +112,13 @@ RSS_FEEDS = [
     },
     {
         "name": "한겨레 기후·사회 뉴스",
-        "category": "생태정치·대지인클로저",
+        "category": "농생태·식량주권",
         "url": "https://www.hani.co.kr/rss/",
         "type": "rss"
     },
     {
         "name": "한겨레 오피니언·칼럼",
-        "category": "비판담론·문화비평",
+        "category": "커먼즈·공유재",
         "url": "https://www.hani.co.kr/rss/opinion/",
         "type": "rss"
     }
