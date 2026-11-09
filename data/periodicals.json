@@ -714,5 +714,167 @@
     ],
     "access_info": "ACM Digital Library 오픈액세스 트랙",
     "url": "https://pdcproceedings.org/"
+  },
+  {
+    "id": "space-magazine",
+    "name": "SPACE (공간)",
+    "publisher": "공간사 (CNB미디어)",
+    "category": "생태예술·시각문화·미학이론",
+    "type_badge": "A&HCI / KCI 등재 건축·예술지",
+    "nature": "현대 건축, 도시 공간, 공공 디자인, 장소특정적 시각예술 비평",
+    "reason_for_twin": "1966년 김수근에 의해 창간된 한국 최고의 건축·도시·문화예술 전문지. 도시 공간의 역사성과 공공성, 장소특정적 생태 공간 설계의 국제적 최신 담론을 엄밀하게 다룹니다.",
+    "key_topics": [
+      "현대건축",
+      "도시공간",
+      "공공디자인",
+      "장소특정성",
+      "공간비평"
+    ],
+    "access_info": "SPACE 공식 아카이브 및 웹진 열람",
+    "url": "https://vmspace.com/"
+  },
+  {
+    "id": "monthly-art",
+    "name": "월간미술 (Monthly Art)",
+    "publisher": "(주)월간미술",
+    "category": "생태예술·시각문화·미학이론",
+    "type_badge": "한국 대표 동시대 미술 매거진",
+    "nature": "동시대 미술 전시, 대지미술 및 설치 비평, 비엔날레, 시각문화 담론",
+    "reason_for_twin": "1976년 창간 이래 한국 현대미술의 지형을 가장 폭넓게 아카이빙해 온 대표적 미술지. 최근 동시대 미술계가 주목하는 생태적 전환, 비인간 행위성, 참여 예술의 흐름을 빠르게 조망할 수 있습니다.",
+    "key_topics": [
+      "동시대미술",
+      "전시비평",
+      "생태설치",
+      "비엔날레담론",
+      "시각문화"
+    ],
+    "access_info": "월간미술 공식 웹진 및 과월호 검색",
+    "url": "https://monthlyart.com/"
+  },
+  {
+    "id": "monthly-environment",
+    "name": "월간 환경",
+    "publisher": "환경운동연합 / 월간환경사",
+    "category": "환경인문학·대지·음식정치",
+    "type_badge": "생태환경 종합 월간지",
+    "nature": "기후위기, 자원순환, 탈핵, 생태계 보전, 풀뿌리 환경운동 현장 르포",
+    "reason_for_twin": "한국 환경운동의 최전선과 생태 현장의 구체적 갈등을 매월 밀착 취재하는 대표적 환경 교양지. 이론을 넘어 실제 대지와 강, 숲을 지키는 풀뿌리 시민들의 생생한 목소리를 전달합니다.",
+    "key_topics": [
+      "기후위기",
+      "탈핵에너지",
+      "생태보전",
+      "자원순환",
+      "환경르포"
+    ],
+    "access_info": "온라인 웹진 및 정기구독 열람",
+    "url": "http://kfem.or.kr/"
+  },
+  {
+    "id": "monthly-vegan",
+    "name": "월간 비건 (The Vegan)",
+    "publisher": "(주)월간비건",
+    "category": "환경인문학·대지·음식정치",
+    "type_badge": "비건·생명존중 전문 매거진",
+    "nature": "비거니즘, 동물권, 제철 채식 요리, 제로웨이스트, 다종공생 라이프스타일",
+    "reason_for_twin": "육식 중심 문화를 성찰하고, 비인간 동물과의 공존 및 대지 윤리를 식생활과 일상 문화 속에서 실천하는 친환경·비건 생태 문화의 풍부한 레시피와 철학을 제공합니다.",
+    "key_topics": [
+      "비거니즘",
+      "동물권",
+      "채식평화주의",
+      "다종공생",
+      "제로웨이스트"
+    ],
+    "access_info": "월간 비건 공식 웹진 및 과월호",
+    "url": "http://begun.co.kr/"
+  },
+  {
+    "id": "women-and-society",
+    "name": "여성과 사회 (Women and Society)",
+    "publisher": "한국여성연구소 (창비)",
+    "category": "한국독립비평·사회이론",
+    "type_badge": "한국여성학 비판 학술지 (역사적 아카이브)",
+    "nature": "페미니즘 이론, 가사·돌봄 노동, 가족 이데올로기 비판, 노동과 젠더",
+    "reason_for_twin": "1990년 창간되어 한국 비판적 여성학의 기틀을 닦은 기념비적 학술 비평지. 가부장적 자본주의가 어떻게 여성의 돌봄을 착취해 왔는지 구조적으로 폭로한 한국 젠더·돌봄 커먼즈 연구의 필독 아카이브입니다.",
+    "key_topics": [
+      "돌봄노동",
+      "가족이데올로기",
+      "페미니즘경제학",
+      "젠더정의",
+      "사회재생산"
+    ],
+    "access_info": "창비/한국여성연구소 아카이브 및 학술DB 열람",
+    "url": "https://kwis.or.kr/"
+  },
+  {
+    "id": "coop-review",
+    "name": "생협평론 (Coop Review)",
+    "publisher": "재단법인 아이쿱협동조합연구소",
+    "category": "참여디자인·협동조합·조직이론",
+    "type_badge": "협동조합·사회적경제 전문 계간지",
+    "nature": "생활협동조합 운동, 농생태적 먹거리, 협동조합 자치 거버넌스, 돌봄 커먼즈",
+    "reason_for_twin": "조합원들이 자발적으로 출자하고 운영하는 생활협동조합의 실제 거버넌스와 지역 먹거리 순환 모델을 탐구합니다. 자본주의 시장을 우회하는 자립적 협동경제의 실천적 교과서입니다.",
+    "key_topics": [
+      "생협운동",
+      "협동조합자치",
+      "사회적경제",
+      "먹거리안전",
+      "호혜돌봄"
+    ],
+    "access_info": "아이쿱협동조합연구소 웹사이트 무료 PDF 열람",
+    "url": "https://icoop.re.kr/"
+  },
+  {
+    "id": "science-technology-society-archive",
+    "name": "과학기술과 사회",
+    "publisher": "청년과학기술자협의회 / 도서출판 한울",
+    "category": "과학기술학·STS·디지털인문학",
+    "type_badge": "비판적 과학기술운동 무크지 (역사적 아카이브)",
+    "nature": "민중과학, 기술민주화, 과학기술 노동, 군사주의 비판, 대안기술",
+    "reason_for_twin": "1980~90년대 한국 과학기술운동의 선구적 무크지. 과학기술이 지배권력과 자본의 도구가 되는 것을 거부하고, 시민의 삶을 위한 민중과학과 기술민주주의를 선언한 역사적 이정표입니다.",
+    "key_topics": [
+      "민중과학",
+      "기술민주화",
+      "과학기술운동",
+      "사회기술비평",
+      "대안기술"
+    ],
+    "access_info": "공공도서관 및 과학기술운동 사료 아카이브",
+    "url": "https://scholar.google.com/scholar?q=%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EA%B3%BC+%EC%82%AC%ED%9A%8C+%EC%B2%AD%EB%85%84%EA%B3%BC%ED%95%99%EA%B8%B0%EC%88%A0%EC%9E%90%ED%98%91%EC%9D%98%ED%9A%8C"
+  },
+  {
+    "id": "new-radical-review",
+    "name": "뉴 래디컬 리뷰 (New Radical Review)",
+    "publisher": "뉴 래디컬 리뷰 편집위원회",
+    "category": "한국독립비평·사회이론",
+    "type_badge": "급진 비판이론 독립 무크지",
+    "nature": "신좌파 정치경제학, 체제 전환, 급진 민주주의, 탈자본주의 담론",
+    "reason_for_twin": "신자유주의적 세계화와 금융자본주의의 파국에 맞서 사회주의적·자율주의적 체제 전환의 청사진을 탐구하는 급진 독립 비평지입니다.",
+    "key_topics": [
+      "체제전환",
+      "급진민주주의",
+      "정치경제학비판",
+      "신좌파이론",
+      "탈자본주의"
+    ],
+    "access_info": "독립출판 네트워크 및 학술자료실",
+    "url": "https://scholar.google.com/scholar?q=%EB%89%B4+%EB%9E%98%EB%94%94%EC%BB%AC+%EB%A6%AC%EB%B7%B0"
+  },
+  {
+    "id": "philosophy-and-reality",
+    "name": "철학과 현실 (Philosophy and Reality)",
+    "publisher": "철학문화연구소",
+    "category": "한국독립비평·사회이론",
+    "type_badge": "현실참여 철학 계간지",
+    "nature": "생명윤리, 생태철학, 민주주의의 위기, 현실 참여적 인문학 성찰",
+    "reason_for_twin": "상아탑에 갇힌 관념적 철학을 거부하고, 기후위기, AI와 기술윤리, 고독과 죽음 등 동시대의 절박한 현실 문제를 사유하는 대중적 비판철학지입니다.",
+    "key_topics": [
+      "현실철학",
+      "생태철학",
+      "생명윤리",
+      "공공철학",
+      "민주주의"
+    ],
+    "access_info": "철학문화연구소 및 DBpia 정기구독 열람",
+    "url": "http://www.cheolhak.or.kr/"
   }
 ]

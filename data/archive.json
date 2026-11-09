@@ -1,5 +1,192 @@
 [
   {
+    "id": "digest-20261109-afternoon",
+    "date": "2026-11-09",
+    "edition": "afternoon",
+    "edition_label": "오후",
+    "timestamp": "2026-11-09 19:17",
+    "daily_summary": {
+      "theme": "추출주의 농업 극복과 다종 공생 기반 대지 윤리의 회복",
+      "overview": "오늘의 연구들은 기후 붕괴와 토양 황폐화라는 복합 위기 속에서, 소농의 자치권과 흙·미생물·다종 생명 간의 유기적 얽힘을 회복하는 농생태학적 대안을 역설합니다.",
+      "key_takeaways": [
+        "생산주의 패러다임 탈피: 화학 비료와 거대 자본 중심의 녹색혁명을 넘어 생태적 지속가능성을 우선하는 패러다임 전환이 요구됩니다.",
+        "다종 공생의 대지 윤리: 인간뿐 아니라 흙과 생태계 구성원 전체의 상호 의존성을 인정하는 돌봄의 농업을 실천해야 합니다.",
+        "소농의 자치와 지역 식량 순환: 외부 공급망 충격에 흔들리지 않는 지역 중심의 자립적 식량 및 생태 네트워크를 복원해야 합니다."
+      ]
+    },
+    "items": [
+      {
+        "id": "https://doi.org/10.2979/een.00021",
+        "title_kr": "위기 환경 속 최소 개입형 공공안전망과 상호부조 인프라",
+        "original_title": "The Power of Ideas: An Ecofeminist Conversation with Patsy Hallen",
+        "source": "Ethics and the Environment",
+        "authors": "Patsy Hallen, Todd Levasseur, Paul M. Pulé",
+        "published": "2026-03-01",
+        "url": "https://doi.org/10.2979/een.00021",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Ethics and the Environment'에 게재된 본 연구는, 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
+          "핵심 분석 및 이론적 발견: 지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.63673/deparch.2026.48",
+        "title_kr": "공간의 비판적 분석 및 실천 담론: 도시 공간의 탈상품화와 자율적 시민 공간권 연구",
+        "original_title": "A post-humanist spatial analysis of the novel: The End of the World as We Know It",
+        "source": "Journal of Design Planning and Aesthetics Research",
+        "authors": "Nihan Sümeyye Gündoğdu",
+        "published": "2026-11-07",
+        "url": "https://doi.org/10.63673/deparch.2026.48",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Journal of Design Planning and Aesthetics Research'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#토지개간미술",
+          "#비건에코페미니즘"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.36096/ijbes.v8i6.1393",
+        "title_kr": "위기 환경 속 최소 개입형 공공안전망과 상호부조 인프라: 취약성의 비판적 분석 및 실천 담론",
+        "original_title": "Social Entrepreneurship and Social Work Practice: A Strategic Framework for Sustainable Community-Based Responses to Poverty and Family Vulnerability",
+        "source": "International Journal of Business Ecosystem and Strategy (2687-2293)",
+        "authors": "Mmaphuti Percy Dipela",
+        "published": "2026-11-04",
+        "url": "https://doi.org/10.36096/ijbes.v8i6.1393",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'International Journal of Business Ecosystem and Strategy (2687-2293)'에 게재된 본 연구는, 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
+          "핵심 분석 및 이론적 발견: 지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#토지개간미술",
+          "#녹색사회복지"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.5840/enviroethics2026323110",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "Equality, Ecology, and the Problem of Predation",
+        "source": "Environmental Ethics",
+        "authors": "Dayton Martindale",
+        "published": "2026-01-01",
+        "url": "https://doi.org/10.5840/enviroethics2026323110",
+        "category": "농생태·식량주권",
+        "relevance_score": 9.5,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Environmental Ethics'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#다종공생",
+          "#토지개간미술",
+          "#비건에코페미니즘"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.1086/741585",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성: 정치학의 비판적 분석 및 실천 담론",
+        "original_title": "Antigone’s Curse: Genealogy, Politics, and Feminist Jurisprudence",
+        "source": "Signs: Journal of Women in Culture and Society",
+        "authors": "Stephen D. Seely",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1086/741585",
+        "category": "농생태·식량주권",
+        "relevance_score": 9.5,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Signs: Journal of Women in Culture and Society'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.1086/741581",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "Toward a Black Feminist Approach to Social Reproduction Theory",
+        "source": "Signs: Journal of Women in Culture and Society",
+        "authors": "Eshe Sherley",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1086/741581",
+        "category": "농생태·식량주권",
+        "relevance_score": 9.5,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Signs: Journal of Women in Culture and Society'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.1086/741582",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "Is Lesbian a Gender? Rethinking the Gender/Sexuality Divide",
+        "source": "Signs: Journal of Women in Culture and Society",
+        "authors": "Mary Maxfield",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1086/741582",
+        "category": "농생태·식량주권",
+        "relevance_score": 9.5,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Signs: Journal of Women in Culture and Society'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.1177/20539517261500657",
+        "title_kr": "도시 공간의 탈상품화와 자율적 시민 공간권 연구",
+        "original_title": "Dreams of rebirth: revisiting China's AI imaginaries in the post-DeepSeek era",
+        "source": "Big Data & Society",
+        "authors": "Jindong Leo-Liu, Yang Yi, Qiming Gu",
+        "published": "2026-11-07",
+        "url": "https://doi.org/10.1177/20539517261500657",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 9.5,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Big Data & Society'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      }
+    ]
+  },
+  {
     "id": "2026-11-09_morning",
     "edition": "morning",
     "edition_label": "오전 다이제스트 (Morning Digest)",

@@ -583,5 +583,176 @@
         "url": "https://www.dbpia.co.kr/author/authorDetail?authorId=358055"
       }
     ]
+  },
+  {
+    "id": "maria-mies",
+    "name_kr": "마리아 미스",
+    "name_en": "Maria Mies",
+    "field": "에코페미니즘·자급 관점",
+    "category": "돌봄·상호부조",
+    "avatar": "🌱",
+    "core_philosophy": "자본주의와 가부장제는 여성의 무급 가사노동, 자연의 무한 착취, 식민지 민중의 희생을 기반으로 지탱된다. 끝없는 자본 축적과 소비주의를 넘어서 생명 유지와 재생산을 중심에 두는 '자급적 관점(Subsistence Perspective)'으로의 전환을 역설한다.",
+    "key_concepts": [
+      "자급적 삶의 관점(Subsistence Perspective)",
+      "가부장제와 자본주의 복합체",
+      "가사노동의 식민지화",
+      "생태적 상호의존성"
+    ],
+    "key_works": [
+      "『에코페미니즘(Ecofeminism)』 (반다나 시바 공저)",
+      "『가부장제와 자본축적(Patriarchy and Accumulation on a World Scale)』",
+      "『자급의 관점(The Subsistence Perspective)』"
+    ],
+    "recent_activities": "글로벌 여성 평화 운동과 반자본주의 에코페미니즘 이론의 초석을 다진 사상가로, 2023년 작고 전까지 전 세계 커먼즈 및 탈성장 연구자들에게 강력한 영감을 제공함.",
+    "follow_links": [
+      {
+        "name": "위키피디아",
+        "url": "https://en.wikipedia.org/wiki/Maria_Mies"
+      },
+      {
+        "name": "Zed Books 저자 정보",
+        "url": "https://www.bloomsbury.com/author/maria-mies/"
+      }
+    ],
+    "representative_work": "『에코페미니즘(Ecofeminism)』, 『가부장제와 자본축적(Patriarchy and Accumulation on a World Scale)』",
+    "links": [
+      {
+        "title": "위키피디아",
+        "url": "https://en.wikipedia.org/wiki/Maria_Mies"
+      },
+      {
+        "title": "Zed Books 저자 정보",
+        "url": "https://www.bloomsbury.com/author/maria-mies/"
+      }
+    ]
+  },
+  {
+    "id": "rosi-braidotti",
+    "name_kr": "로지 브라이도티",
+    "name_en": "Rosi Braidotti",
+    "field": "신유물론·비판적 포스트휴머니즘",
+    "category": "과학기술학·STS",
+    "avatar": "🧬",
+    "core_philosophy": "인간 예외주의와 서구 근대적 이성 중심주의를 해체하고, 비인간 생명체 및 기계적 네트워크와 물질적으로 얽혀 있는 '유목적 주체'를 구성한다. 스피노자-들뢰즈 계열의 활력적 유물론에 기반하여 차이를 긍정하고 다종 공생의 연대 윤리를 주창한다.",
+    "key_concepts": [
+      "유목적 주체(Nomadic Subjects)",
+      "분자적 여성-되기(Becoming-Woman)",
+      "비판적 포스트휴머니즘",
+      "생동하는 물질성(Vital Materialism)",
+      "조에(Zoē)의 긍정 윤리학"
+    ],
+    "key_works": [
+      "『포스트휴먼(The Posthuman)』",
+      "『변신(Metamorphoses)』",
+      "『포스트휴먼 지식(Posthuman Knowledge)』"
+    ],
+    "recent_activities": "네덜란드 위트레흐트 대학교 명예교수 및 인문학 연구소 소장 역임, 환경인문학과 신유물론 페미니즘 서머스쿨 주재.",
+    "follow_links": [
+      {
+        "name": "공식 웹사이트",
+        "url": "https://rosibraidotti.com/"
+      },
+      {
+        "name": "위트레흐트 대학교",
+        "url": "https://www.uu.nl/staff/RBraidotti"
+      }
+    ],
+    "representative_work": "『포스트휴먼(The Posthuman)』, 『변신(Metamorphoses)』",
+    "links": [
+      {
+        "title": "공식 웹사이트",
+        "url": "https://rosibraidotti.com/"
+      },
+      {
+        "title": "위트레흐트 대학교",
+        "url": "https://www.uu.nl/staff/RBraidotti"
+      }
+    ]
+  },
+  {
+    "id": "carol-adams",
+    "name_kr": "캐롤 J. 애덤스",
+    "name_en": "Carol J. Adams",
+    "field": "비건 에코페미니즘·동물권",
+    "category": "농생태학·대지윤리",
+    "avatar": "🐮",
+    "core_philosophy": "육식문화는 가부장적 지배와 폭력성이 식탁 위에 투영된 결과물이다. 동물 도살과 고기 소비는 살아있는 생명체를 파편화하고 주체성을 지워버리는 '부재지칭(Absent Referent)'의 구조를 통해 여성에 대한 대상화 및 폭력과 구조적으로 긴밀히 연결되어 있다.",
+    "key_concepts": [
+      "부재지칭(Absent Referent)",
+      "육식의 성정치(The Sexual Politics of Meat)",
+      "육식주의(Carnism) 비판",
+      "교차적 돌봄 윤리",
+      "종차별주의와 가부장제의 접합"
+    ],
+    "key_works": [
+      "『육식의 성정치(The Sexual Politics of Meat)』",
+      "『포르노그래피 오브 미트(The Pornography of Meat)』",
+      "『동물에 반대하는 남성성(Defiant Daughters)』"
+    ],
+    "recent_activities": "전 세계 동물권, 비거니즘, 에코페미니즘 학회 기조연설 및 비판적 동물 연구(Critical Animal Studies) 네트워크 활동 주도.",
+    "follow_links": [
+      {
+        "name": "공식 웹사이트",
+        "url": "https://caroljadams.com/"
+      },
+      {
+        "name": "위키피디아",
+        "url": "https://en.wikipedia.org/wiki/Carol_J._Adams"
+      }
+    ],
+    "representative_work": "『육식의 성정치(The Sexual Politics of Meat)』",
+    "links": [
+      {
+        "title": "공식 웹사이트",
+        "url": "https://caroljadams.com/"
+      },
+      {
+        "title": "위키피디아",
+        "url": "https://en.wikipedia.org/wiki/Carol_J._Adams"
+      }
+    ]
+  },
+  {
+    "id": "agnes-denes",
+    "name_kr": "아그네스 디네스",
+    "name_en": "Agnes Denes",
+    "field": "생태예술·토지 개간 미술",
+    "category": "농생태학·대지윤리",
+    "avatar": "🌾",
+    "core_philosophy": "자연을 거대한 화폭이나 인간 정복의 대상으로 소비하던 남성 중심의 기념비적 대지미술을 비판하고, 오염된 토양 정화와 생태계 치유, 공동체 참여를 결합한 '토지 개간 미술(Reclamation Art)'을 창시했다. 예술은 인류세의 생태적 파국에 맞서 대지와 미래 세대를 잇는 철학적 실천이어야 한다.",
+    "key_concepts": [
+      "토지 개간 미술(Reclamation Art)",
+      "밀밭: 대결(Wheatfield - A Confrontation)",
+      "생태 복원 미학",
+      "수림(Tree Mountain)과 400년 숲 가꾸기",
+      "철학적 공공예술"
+    ],
+    "key_works": [
+      "「밀밭: 대결 (Wheatfield - A Confrontation, 1982)」 (맨해튼 배터리 파크 매립지 2에이커 밀 경작)",
+      "「수림 (Tree Mountain - A Living Time Capsule, 1996)」 (핀란드 11,000그루 식수 프로젝트)",
+      "『Original Works & Drawings: In Defense of the Environment』"
+    ],
+    "recent_activities": "뉴욕 더 셰드(The Shed) 회고전 개최, 80세를 넘긴 현재도 전 세계 환경 복원 및 기후행동 대지예술 프로젝트 지속 전개.",
+    "follow_links": [
+      {
+        "name": "공식 웹사이트",
+        "url": "http://www.agnesdenesstudio.com/"
+      },
+      {
+        "name": "MoMA 아티스트 프로필",
+        "url": "https://www.moma.org/artists/1492"
+      }
+    ],
+    "representative_work": "「밀밭: 대결(Wheatfield - A Confrontation)」, 「수림(Tree Mountain)」",
+    "links": [
+      {
+        "title": "공식 웹사이트",
+        "url": "http://www.agnesdenesstudio.com/"
+      },
+      {
+        "title": "MoMA 아티스트 프로필",
+        "url": "https://www.moma.org/artists/1492"
+      }
+    ]
   }
 ]
