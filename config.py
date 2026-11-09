@@ -31,6 +31,30 @@ TARGET_JOURNALS = [
         "type": "openalex_journal"
     },
     {
+        "name": "Environmental Humanities",
+        "category": "농생태·식량주권",
+        "issn": "2201-1919",
+        "type": "openalex_journal"
+    },
+    {
+        "name": "Ethics and the Environment",
+        "category": "농생태·식량주권",
+        "issn": "1085-6633",
+        "type": "openalex_journal"
+    },
+    {
+        "name": "Environmental Ethics",
+        "category": "농생태·식량주권",
+        "issn": "0163-4275",
+        "type": "openalex_journal"
+    },
+    {
+        "name": "Signs: Journal of Women in Culture and Society",
+        "category": "커먼즈·공유재",
+        "issn": "0097-9740",
+        "type": "openalex_journal"
+    },
+    {
         "name": "Archives of Design Research (디자인학연구)",
         "category": "시빅HCI·UXR",
         "issn": "1226-8046",
@@ -53,22 +77,40 @@ TARGET_JOURNALS = [
         "category": "과학기술학·STS",
         "issn": "2053-9517",
         "type": "openalex_journal"
-    },
-    {
-        "name": "Environmental Humanities",
-        "category": "농생태·식량주권",
-        "issn": "2201-1919",
-        "type": "openalex_journal"
     }
 ]
 
-# 학술 검색 쿼리 (OpenAlex & arXiv - STS, 시빅HCI, 공간/도시, 농생태)
+# 학술 검색 쿼리 (OpenAlex & arXiv - STS, 시빅HCI, 공간/도시, 농생태, 에코페미니즘, 생태예술)
 SCHOLARLY_QUERIES = [
     {
-        "name": "Ecological Art & Multispecies Aesthetics (생태예술 & 다종공생 미학)",
+        "name": "Ecofeminism & Feminist New Materialism (에코페미니즘 & 신유물론)",
         "category": "농생태·식량주권",
         "type": "openalex_search",
-        "query": "ecological art OR environmental aesthetics OR land art OR multispecies art OR dialogical art"
+        "query": "ecofeminism OR feminist new materialism OR multispecies care OR posthuman feminism OR bodily materialism OR rosi braidotti"
+    },
+    {
+        "name": "Reclamation Art & Environmental Aesthetics (토지 개간 미술 & 생태미학)",
+        "category": "농생태·식량주권",
+        "type": "openalex_search",
+        "query": "reclamation art OR ecological restoration art OR environmental aesthetics OR land art ecology OR dialogical art OR agnes denes"
+    },
+    {
+        "name": "Caring Commons & Seed Sovereignty (돌봄 커먼즈 & 종자주권·메티스)",
+        "category": "커먼즈·공유재",
+        "type": "openalex_search",
+        "query": "caring commons OR seed commons OR food sovereignty OR metis local knowledge OR reproductive labor commons OR seed saving"
+    },
+    {
+        "name": "Vegan Ecofeminism & Queer Ecology (비건 에코페미니즘 & 퀴어 생태학)",
+        "category": "농생태·식량주권",
+        "type": "openalex_search",
+        "query": "vegan ecofeminism OR animal liberation OR carnism OR queer ecology OR speciesism OR carol adams"
+    },
+    {
+        "name": "Green Social Work & Climate Vulnerability (녹색사회복지 & 재난 취약성)",
+        "category": "재난안전·공공인프라",
+        "type": "openalex_search",
+        "query": "green social work OR climate vulnerability OR ecological justice OR disaster care OR lena dominelli"
     },
     {
         "name": "Science & Technology Studies (과학기술학 & 기술정치)",
@@ -125,14 +167,15 @@ RSS_FEEDS = [
 ]
 
 # 트윈의 지적 관심사 필터링 및 고품질 학술 큐레이션 프롬프트
-CURATOR_SYSTEM_PROMPT = """당신은 '비판적 생태·기술 커먼즈, 과학기술학(STS), 시빅 HCI/UXR 및 농생태학' 분야의 수석 연구 큐레이터입니다.
+CURATOR_SYSTEM_PROMPT = """당신은 '비판적 생태·기술 커먼즈, 에코페미니즘 & 신유물론, 토지 개간 미술, 시빅 HCI/UXR 및 농생태학' 분야의 수석 연구 큐레이터입니다.
 
-[연구자의 5대 핵심 관심 지형]
+[연구자의 핵심 관심 지형]
 1. 커먼즈(Commons) & 자율성: 엘리너 오스트롬의 자치 관리론, 데이비드 볼리어의 커머닝(Commoning), 디지털·데이터 커먼즈, P2P 피어생산, 플랫폼 협동조합, 자본주의적 사유화(Enclosure) 비판.
-2. 과학기술학(STS) & 미디어/기술정치: 사회기술시스템(Socio-technical systems), 기술의 정치성, 시민 과학, 알고리즘과 플랫폼 권력, 디지털 불평등.
-3. 시빅 HCI & 공공 UXR: 취약계층 재난 안전망, 참여 디자인, 공공데이터, 관료주의를 넘는 포용적이고 무해한 유니버설 인터페이스.
-4. 농생태학 & 다종 공생: 흙/토양의 생태정치, 대지 윤리, 식량주권, 에코페미니즘, 인간 중심주의를 탈피한 다종 얽힘(Multispecies).
-5. 자율적 개인을 위한 공공 인프라: 침해적인 집단주의 규율 없이도, 고독과 사생활의 경계를 지키며 안전하게 자립하도록 돕는 공공 인프라.
+2. 에코페미니즘 & 신유물론(New Materialism): 가부장제-자본주의 복합체 비판(마리아 미스), 물질-기호적 얽힘(해러웨이), 유목적 주체와 분자적 여성-되기(브라이도티), 데보라 버드 로즈의 반짝임(Shimmer), 본질주의를 탈피한 비판적 에코페미니즘.
+3. 토지 개간 미술(Reclamation Art) & 인류세 생태예술: 기념비적 남성 대지미술을 탈피한 대지 치유 미학(아그네스 디네스, 낸시 홀트, 패트리샤 요한슨), 오염지 생태 정화, 행동주의 예술, 다종 서식처 복원.
+4. 호혜적 돌봄 커먼즈 & 지역 메티스(Mētis): 가사·돌봄의 사회화(실비아 페데리치, 초록상상), 종자 커먼즈 및 토종씨앗 지키기, 제임스 C. 스콧의 실천적 지식(Mētis), 녹색사회복지(Green Social Work).
+5. 비건 에코페미니즘 & 퀴어 생태학: 캐롤 애덤스의 육식주의(Carnism) 비판, 비인간 동물의 주체성, 동물권 내 시스-이성애규범성 극복, 법계연기론/불교생태학 기반 종차별 철폐.
+6. 과학기술학(STS) & 시빅 HCI: 사회기술시스템, 기술의 정치성, 참여 디자인, 재난 취약계층 및 고립 1인 가구를 위한 비침해적 공공 안전망.
 
 [절대 엄수 작업 지침]
 1. 잔여 영어 0% 원칙: 모든 분석 내용('daily_summary', 'summary_points')은 반드시 100% 자연스럽고 품격 있는 한국어 학술 문장으로 작성하십시오. 영어 원문 문장을 번역 없이 그대로 복사하거나 인용하지 마십시오 (영문 저자명 또는 통용 학술 고유명사 제외).

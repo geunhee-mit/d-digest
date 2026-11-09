@@ -37,7 +37,7 @@ def compute_trends(archive):
             category_counts[cat] += 1
             for kw in it.get("keywords", []):
                 clean_kw = kw.strip()
-                if clean_kw:
+                if clean_kw and clean_kw not in ["#연구동향", "연구동향"]:
                     keyword_counts[clean_kw] += 1
 
     top_keywords = [
@@ -45,7 +45,7 @@ def compute_trends(archive):
         for kw, cnt in keyword_counts.most_common(20)
     ]
 
-    total_gurus = 13
+    total_gurus = 17
     if os.path.exists(GURUS_FILE):
         try:
             with open(GURUS_FILE, "r", encoding="utf-8") as f:
@@ -54,7 +54,7 @@ def compute_trends(archive):
         except Exception:
             pass
 
-    total_periodicals = 41
+    total_periodicals = 50
     if os.path.exists(PERIODICALS_FILE):
         try:
             with open(PERIODICALS_FILE, "r", encoding="utf-8") as f:
@@ -89,103 +89,130 @@ def export_digest(curated_items, daily_summary=None, edition="morning"):
     now = datetime.now()
     timestamp_str = now.strftime("%Y-%m-%d %H:%M")
     date_str = now.strftime("%Y-%m-%d")
-    edition_label = "오전 다이제스트 (Morning Digest)" if edition == "morning" else "오후 다이제스트 (Afternoon Digest)"
+    edition_label = "오전" if edition == "morning" else "오후"
+    digest_id = f"digest-{now.strftime('%Y%m%d')}-{edition}"
 
-    digest_payload = {
-        "id": f"{date_str}_{edition}",
-        "edition": edition,
-        "edition_label": edition_label,
-        "date": date_str,
-        "timestamp": timestamp_str,
-        "daily_summary": daily_summary,
-        "item_count": len(curated_items),
-        "items": curated_items
-    }
-
-    # 1. web/data/latest_digest.json 업데이트
-    with open(LATEST_FILE, "w", encoding="utf-8") as f:
-        json.dump(digest_payload, f, ensure_ascii=False, indent=2)
-
-    # 2. web/data/archive.json 누적 업데이트 (영구 보관 및 검색용)
+    # 1. 아카이브 로드 및 갱신
     archive = []
     if os.path.exists(ARCHIVE_FILE):
         try:
             with open(ARCHIVE_FILE, "r", encoding="utf-8") as f:
                 archive = json.load(f)
-        except Exception:
-            archive = []
+        except Exception as e:
+            print(f"Error loading archive: {e}")
 
-    archive = [d for d in archive if d.get("id") != digest_payload["id"]]
-    archive.insert(0, digest_payload)
+    # 동일 ID(날짜-판)가 이미 존재하면 교체, 없으면 맨 앞에 추가
+    existing_idx = next((i for i, d in enumerate(archive) if d.get("id") == digest_id), -1)
+    new_entry = {
+        "id": digest_id,
+        "date": date_str,
+        "edition": edition,
+        "edition_label": edition_label,
+        "timestamp": timestamp_str,
+        "daily_summary": daily_summary,
+        "items": curated_items
+    }
+
+    if existing_idx >= 0:
+        archive[existing_idx] = new_entry
+    else:
+        archive.insert(0, new_entry)
+
+    # 2. trends.json 산출
+    trends = compute_trends(archive)
+
+    # 3. JSON 파일 저장
+    with open(LATEST_FILE, "w", encoding="utf-8") as f:
+        json.dump(new_entry, f, ensure_ascii=False, indent=2)
 
     with open(ARCHIVE_FILE, "w", encoding="utf-8") as f:
         json.dump(archive, f, ensure_ascii=False, indent=2)
 
-    # 3. web/data/trends.json 통계 데이터 산출 및 저장 (연구 동향 대시보드용)
-    trends = compute_trends(archive)
     with open(TRENDS_FILE, "w", encoding="utf-8") as f:
         json.dump(trends, f, ensure_ascii=False, indent=2)
 
-    # 4. 옵시디언 볼트용 마크다운 파일 생성 (Research Digest)
-    obsidian_md_file = os.path.join(OBSIDIAN_DIGEST_DIR, f"{date_str}_{edition}.md")
-    md_content = generate_markdown(digest_payload)
-    with open(obsidian_md_file, "w", encoding="utf-8") as f:
+    print(f"Exported web digest to {LATEST_FILE} & {ARCHIVE_FILE}")
+
+    # 4. 옵시디언 볼트에 마크다운 리포트 저장
+    obsidian_filename = f"{date_str}-{edition_label}-리서치_다이제스트.md"
+    obsidian_filepath = os.path.join(OBSIDIAN_DIGEST_DIR, obsidian_filename)
+
+    md_content = generate_obsidian_markdown(new_entry)
+    with open(obsidian_filepath, "w", encoding="utf-8") as f:
         f.write(md_content)
 
-    print(f"✅ Digest & Trends exported successfully:")
-    print(f"   - Web Latest: {LATEST_FILE}")
-    print(f"   - Web Archive: {ARCHIVE_FILE} (Total {len(archive)} editions)")
-    print(f"   - Web Trends: {TRENDS_FILE} (Keywords: {len(trends['top_keywords'])})")
-    print(f"   - Obsidian Vault: {obsidian_md_file}")
+    print(f"Exported Obsidian digest to {obsidian_filepath}")
+    return obsidian_filepath
 
 
-def generate_markdown(digest):
-    """옵시디언 마크다운 형식 생성 (깔끔하고 깊이 있는 학술 서식 + 오늘의 사유 지형)"""
-    lines = [
-        "---",
-        f"date: {digest['date']}",
-        f"edition: {digest['edition']}",
-        f"item_count: {digest['item_count']}",
-        "tags:",
-        "  - topic/research-digest",
-        "  - type/journal",
-        "---",
-        f"# ☕ {digest['date']} {digest['edition_label']}",
-        "",
-        f"> 발행 시각: `{digest['timestamp']}` | 총 `{digest['item_count']}`편의 엄선된 학술·담론 소식",
-        ""
-    ]
+def generate_obsidian_markdown(entry):
+    """옵시디언 맞춤형 품격 있는 학술 다이제스트 마크다운 생성"""
+    date = entry["date"]
+    edition_label = entry["edition_label"]
+    daily_sum = entry.get("daily_summary") or {}
+    items = entry.get("items", [])
 
-    daily_summary = digest.get("daily_summary")
-    if daily_summary and isinstance(daily_summary, dict):
-        lines.append("## 💡 오늘의 사유 지형 (Daily Executive Summary)")
-        lines.append(f"**화두**: *{daily_summary.get('theme', '')}*")
-        lines.append("")
-        lines.append(f"> {daily_summary.get('overview', '')}")
-        lines.append("")
-        lines.append("**핵심 사유 테이크어웨이**:")
-        for tk in daily_summary.get("key_takeaways", []):
-            lines.append(f"- {tk}")
-        lines.append("")
-        lines.append("---")
-        lines.append("")
-
-    lines.append("## 📖 오늘의 엄선 연구 목록")
+    lines = []
+    lines.append("---")
+    lines.append(f"title: \"{date} {edition_label} 학술 연구 다이제스트\"")
+    lines.append(f"date: {date}")
+    lines.append(f"edition: {entry['edition']}")
+    lines.append("category:")
+    lines.append("  - Research Digest")
+    lines.append("  - Daily Salon")
+    lines.append("tags:")
+    lines.append("  - 리서치다이제스트")
+    lines.append("  - 연구살롱")
+    lines.append("  - 커먼즈")
+    lines.append("  - STS")
+    lines.append("  - 시빅디자인")
+    lines.append("  - 에코페미니즘")
+    lines.append("---")
+    lines.append("")
+    lines.append(f"# ☕ {date} {edition_label} 고요한 연구 살롱 다이제스트")
     lines.append("")
 
-    for i, it in enumerate(digest["items"], 1):
-        lines.append(f"### {i}. [{it['category']}] {it['title_kr']}")
+    if daily_sum:
+        theme = daily_sum.get("theme", "오늘의 사유 지형")
+        overview = daily_sum.get("overview", "")
+        takeaways = daily_sum.get("key_takeaways", [])
+
+        lines.append("## 🧭 오늘의 사유 지형 (Daily Horizon)")
+        lines.append(f"> **화두: {theme}**")
+        lines.append("")
+        if overview:
+            lines.append(overview)
+            lines.append("")
+
+        if takeaways:
+            lines.append("### 💡 핵심 명제 3선")
+            for t in takeaways:
+                lines.append(f"- {t}")
+            lines.append("")
+
+    lines.append("---")
+    lines.append("")
+    lines.append("## 📚 엄선된 최신 학술 논문 및 담론")
+    lines.append("")
+
+    for i, it in enumerate(items, 1):
+        lines.append(f"### {i}. {it.get('title_kr', it['original_title'])}")
         lines.append(f"- **원제**: *{it['original_title']}*")
-        lines.append(f"- **출처 / 저자**: `{it['source']}` · {it['authors']} ({it.get('published', '')})")
-        lines.append(f"- **원문 링크**: [원문 바로가기]({it['url']})")
-        lines.append(f"- **관련도**: ⭐ {it['relevance_score']}/10.0")
-        lines.append("- **심층 학술 분석 및 시사점**:")
-        for sp in it.get("summary_points", []):
-            lines.append(f"  - {sp}")
-        if it.get("keywords"):
-            lines.append(f"- **핵심 키워드**: {' '.join(it['keywords'])}")
+        lines.append(f"- **저자 및 출처**: {it.get('authors', '연구진')} | `{it.get('source', '')}` ({it.get('published', '')})")
+        lines.append(f"- **분류 / 적합도**: `{it.get('category', '')}` (적합도 {it.get('relevance_score', 0)}/10.0)")
+        if it.get("url"):
+            lines.append(f"- **원문 링크**: [{it['url']}]({it['url']})")
+        lines.append("")
+        lines.append("**[심층 분석]**")
+        for p in it.get("summary_points", []):
+            lines.append(f"- {p}")
+        lines.append("")
+        kws = " ".join(it.get("keywords", []))
+        if kws:
+            lines.append(f"`{kws}`")
         lines.append("")
         lines.append("---")
         lines.append("")
 
+    lines.append("\n*본 다이제스트는 트윈의 자율적 연구와 대안적 공공 인프라 탐색을 위해 자동 큐레이션되었습니다.*")
     return "\n".join(lines)

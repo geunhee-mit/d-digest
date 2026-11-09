@@ -1,179 +1,185 @@
 {
-  "id": "2026-11-09_morning",
-  "edition": "morning",
-  "edition_label": "오전 다이제스트 (Morning Digest)",
+  "id": "digest-20261109-afternoon",
   "date": "2026-11-09",
-  "timestamp": "2026-11-09 01:21",
+  "edition": "afternoon",
+  "edition_label": "오후",
+  "timestamp": "2026-11-09 13:40",
   "daily_summary": {
-    "theme": "도시 공간의 탈상품화와 자율적 시민 자치 거버넌스",
-    "overview": "오늘의 담론은 젠트리피케이션과 공간 사유화에 맞서 모든 시민이 누려야 할 공간 권리와, 비시장적으로 운영되는 느슨한 공유 거점의 형성 가능성을 다룹니다.",
+    "theme": "추출주의 농업 극복과 다종 공생 기반 대지 윤리의 회복",
+    "overview": "오늘의 연구들은 기후 붕괴와 토양 황폐화라는 복합 위기 속에서, 소농의 자치권과 흙·미생물·다종 생명 간의 유기적 얽힘을 회복하는 농생태학적 대안을 역설합니다.",
     "key_takeaways": [
-      "사유화(Enclosure)의 극복: 자원과 공간을 소유의 대상이 아닌 공동의 돌봄 대상으로 전환하는 커머닝 규약이 긴요합니다.",
-      "독립적 개인의 자치 연대: 지나친 집단주의적 강요 없이도 상호 신뢰와 규칙을 지켜낼 수 있는 자율 거버넌스 프로토콜이 요청됩니다.",
-      "비시장적 대안 인프라의 필요성: 시장에 종속되지 않고 최소한의 생활 안전을 영위할 수 있는 공통재(Commons)의 확충이 핵심 과제입니다."
+      "생산주의 패러다임 탈피: 화학 비료와 거대 자본 중심의 녹색혁명을 넘어 생태적 지속가능성을 우선하는 패러다임 전환이 요구됩니다.",
+      "다종 공생의 대지 윤리: 인간뿐 아니라 흙과 생태계 구성원 전체의 상호 의존성을 인정하는 돌봄의 농업을 실천해야 합니다.",
+      "소농의 자치와 지역 식량 순환: 외부 공급망 충격에 흔들리지 않는 지역 중심의 자립적 식량 및 생태 네트워크를 복원해야 합니다."
     ]
   },
-  "item_count": 8,
   "items": [
     {
-      "id": "https://doi.org/10.1007/s10460-026-10979-2",
+      "id": "https://doi.org/10.17613/jchtw-w2z97",
+      "title_kr": "정의·알고리즘의 비판적 분석 및 실천 담론: 농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+      "original_title": "Algorithmic Justice and Responsible AI Journalism: A Comparative Communication Policy Perspective in East Asia",
+      "source": "PhilPapers (PhilPapers Foundation)",
+      "authors": "Renxiudi Huang, Linjia Bai",
+      "published": "2026-12-31",
+      "url": "https://doi.org/10.17613/jchtw-w2z97",
+      "category": "농생태·식량주권",
+      "relevance_score": 9.8,
+      "summary_points": [
+        "연구 배경 및 문제의식: 학술지 'PhilPapers (PhilPapers Foundation)'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+        "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+        "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+      ],
+      "keywords": [
+        "#농생태",
+        "#토지개간미술",
+        "#연구동향"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.21203/rs.3.rs-11333409/v1",
+      "title_kr": "도시 공간의 탈상품화와 자율적 시민 공간권 연구",
+      "original_title": "A Rhetoric of Respect: A Theoretical Heuristic for Improving Communication Between Health Practitioners and Black Women",
+      "source": "Research Square",
+      "authors": "Veronica Joyner",
+      "published": "2026-11-06",
+      "url": "https://doi.org/10.21203/rs.3.rs-11333409/v1",
+      "category": "공간사회·도시커먼즈",
+      "relevance_score": 9.5,
+      "summary_points": [
+        "연구 배경 및 문제의식: 학술지 'Research Square'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+        "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
+        "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+      ],
+      "keywords": [
+        "#공간사회",
+        "#토지개간미술",
+        "#연구동향"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.17613/sb76m-v2e23",
+      "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성: 플랫폼의 비판적 분석 및 실천 담론",
+      "original_title": "From Embedded Finance to Embedded Obligation: A Law-and-Economics Theory of Consumer Protection in Platform-Mediated Financial Services",
+      "source": "Scholarly Pre-print / Journal",
+      "authors": "Yongxin Chen",
+      "published": "2026-12-31",
+      "url": "https://doi.org/10.17613/sb76m-v2e23",
+      "category": "농생태·식량주권",
+      "relevance_score": 9.5,
+      "summary_points": [
+        "연구 배경 및 문제의식: 학술지 'Scholarly Pre-print / Journal'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+        "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+        "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+      ],
+      "keywords": [
+        "#농생태",
+        "#토지개간미술",
+        "#연구동향"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1215/22011919-12383970",
       "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
-      "original_title": "When seeds change hands: gender, intersectionality, and access to seed in rural Senegal",
-      "source": "Agriculture and Human Values",
-      "authors": "Anna Porcuna-Ferrer, Victoria Reyes‐García, Sarah Ouadah",
-      "published": "2026-10-28",
-      "url": "https://doi.org/10.1007/s10460-026-10979-2",
+      "original_title": "Practicing Resilient Solarities",
+      "source": "Environmental Humanities",
+      "authors": "Azucena Castro",
+      "published": "2026-07-01",
+      "url": "https://doi.org/10.1215/22011919-12383970",
       "category": "농생태·식량주권",
-      "relevance_score": 7.7,
+      "relevance_score": 8.6,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Agriculture and Human Values'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+        "연구 배경 및 문제의식: 학술지 'Environmental Humanities'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
         "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
         "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
       ],
       "keywords": [
         "#농생태",
-        "#연구동향"
+        "#다종공생",
+        "#토지개간미술"
       ]
     },
     {
-      "id": "https://doi.org/10.1080/03066150.2026.2710182",
+      "id": "https://doi.org/10.1215/22011919-12383914",
       "title_kr": "도시 공간의 탈상품화와 자율적 시민 공간권 연구",
-      "original_title": "Beyond ethnic federalism. Agrarian relations, land registration and conflict on the Ethiopian coffee frontier",
-      "source": "The Journal of Peasant Studies",
-      "authors": "Mehdi Labzaé",
-      "published": "2026-09-07",
-      "url": "https://doi.org/10.1080/03066150.2026.2710182",
+      "original_title": "Mining the Virgin Mountain",
+      "source": "Environmental Humanities",
+      "authors": "Simon Ferdinand",
+      "published": "2026-07-01",
+      "url": "https://doi.org/10.1215/22011919-12383914",
       "category": "공간사회·도시커먼즈",
-      "relevance_score": 7.7,
+      "relevance_score": 8.6,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'The Journal of Peasant Studies'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+        "연구 배경 및 문제의식: 학술지 'Environmental Humanities'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
         "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
         "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
       ],
       "keywords": [
         "#공간사회",
+        "#토지개간미술",
         "#연구동향"
       ]
     },
     {
-      "id": "https://doi.org/10.15187/adr.2026.08.39.3.143",
-      "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성: 돌봄의 비판적 분석 및 실천 담론",
-      "original_title": "Proposal of an Explainable AI (XAI)-Based Clinical Decision Support Service System for Enhancing Doctor-Patient Communication and Promoting Rational Patient Decision-Making: A Case Study in Dental Care",
-      "source": "Archives of Design Research (디자인학연구)",
-      "authors": "Youn Jee Song, Youn Jee Song, Sowon Park",
-      "published": "2026-08-31",
-      "url": "https://doi.org/10.15187/adr.2026.08.39.3.143",
+      "id": "https://doi.org/10.1215/22011919-12383922",
+      "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+      "original_title": "Contested Belonging",
+      "source": "Environmental Humanities",
+      "authors": "Anselmo Matusse",
+      "published": "2026-07-01",
+      "url": "https://doi.org/10.1215/22011919-12383922",
       "category": "농생태·식량주권",
-      "relevance_score": 7.7,
+      "relevance_score": 8.6,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Archives of Design Research (디자인학연구)'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+        "연구 배경 및 문제의식: 학술지 'Environmental Humanities'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
         "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
         "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
       ],
       "keywords": [
         "#농생태",
+        "#토지개간미술",
         "#연구동향"
       ]
     },
     {
-      "id": "https://doi.org/10.15187/adr.2026.08.39.3.309",
-      "title_kr": "디자인의 비판적 분석 및 실천 담론: 취약계층 포용 인터페이스와 참여형 시빅 서비스 설계",
-      "original_title": "Analysis of User Perception in Sustainable Package Design: Origami-Type Packaging",
-      "source": "Archives of Design Research (디자인학연구)",
-      "authors": "Han Jiang, Han Jiang, Euitay Jung",
-      "published": "2026-08-31",
-      "url": "https://doi.org/10.15187/adr.2026.08.39.3.309",
-      "category": "시빅HCI·UXR",
-      "relevance_score": 7.7,
+      "id": "https://doi.org/10.2979/een.00024",
+      "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+      "original_title": "Toward a Shared Telos: The Significance of Empathy with Animals in Husserl’s Ethics",
+      "source": "Ethics and the Environment",
+      "authors": "Hossein Khodadadi",
+      "published": "2026-03-01",
+      "url": "https://doi.org/10.2979/een.00024",
+      "category": "농생태·식량주권",
+      "relevance_score": 8.6,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Archives of Design Research (디자인학연구)'에 게재된 본 연구는, 공공 시스템이 재난 약자, 고립 1인 가구, 이동 취약계층의 실제 생활 맥락을 반영하지 못하고 행정 편의주의적 인터페이스로 귀결되는 현실적 균열을 짚어냅니다.",
-        "핵심 분석 및 이론적 발견: 당사자 참여형 디자인 리서치(Participatory Design)와 현장 기반 사용자 경험(UXR)을 통해, 위기 상황에서 사생활 침해 없이 자연스럽게 작동하는 무해하고 포용적인 공공 서비스 아키텍처를 도출했습니다.",
-        "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
+        "연구 배경 및 문제의식: 학술지 'Ethics and the Environment'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+        "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+        "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
       ],
       "keywords": [
-        "#시빅HCI",
-        "#연구동향"
+        "#농생태",
+        "#다종공생",
+        "#비건에코페미니즘"
       ]
     },
     {
-      "id": "https://doi.org/10.1177/03063127261489301",
-      "title_kr": "취약계층 포용 인터페이스와 참여형 시빅 서비스 설계",
-      "original_title": "Scientific Remix: Epistemic Idioms and the Spread of Data Science",
-      "source": "Social Studies of Science (SSS)",
-      "authors": "Anissa Tanweer",
-      "published": "2026-10-20",
-      "url": "https://doi.org/10.1177/03063127261489301",
-      "category": "시빅HCI·UXR",
-      "relevance_score": 7.7,
+      "id": "https://doi.org/10.2979/een.00022",
+      "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+      "original_title": "The Concept of Interconnectedness with Nature among the Oromo People of Ethiopia",
+      "source": "Ethics and the Environment",
+      "authors": "Abdi Kitesa Keno",
+      "published": "2026-03-01",
+      "url": "https://doi.org/10.2979/een.00022",
+      "category": "농생태·식량주권",
+      "relevance_score": 8.6,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Social Studies of Science (SSS)'에 게재된 본 연구는, 공공 시스템이 재난 약자, 고립 1인 가구, 이동 취약계층의 실제 생활 맥락을 반영하지 못하고 행정 편의주의적 인터페이스로 귀결되는 현실적 균열을 짚어냅니다.",
-        "핵심 분석 및 이론적 발견: 당사자 참여형 디자인 리서치(Participatory Design)와 현장 기반 사용자 경험(UXR)을 통해, 위기 상황에서 사생활 침해 없이 자연스럽게 작동하는 무해하고 포용적인 공공 서비스 아키텍처를 도출했습니다.",
-        "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
+        "연구 배경 및 문제의식: 학술지 'Ethics and the Environment'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+        "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+        "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
       ],
       "keywords": [
-        "#시빅HCI",
-        "#연구동향"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.1177/03063127261482050",
-      "title_kr": "도시 공간의 탈상품화와 자율적 시민 공간권 연구",
-      "original_title": "Big AI-Based Mathematics and the Redistribution of Epistemic Labor",
-      "source": "Social Studies of Science (SSS)",
-      "authors": "Michael Friedman, Kati Kish Bar-On",
-      "published": "2026-10-07",
-      "url": "https://doi.org/10.1177/03063127261482050",
-      "category": "공간사회·도시커먼즈",
-      "relevance_score": 7.7,
-      "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Social Studies of Science (SSS)'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
-        "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
-        "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
-      ],
-      "keywords": [
-        "#공간사회",
-        "#연구동향"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.1177/03063127261469570",
-      "title_kr": "사회기술시스템과 기술 민주화에 관한 비판적 고찰: 알고리즘의 비판적 분석 및 실천 담론",
-      "original_title": "Assembling Topic Models: Material Political Economy and the Genealogy of an Algorithm",
-      "source": "Social Studies of Science (SSS)",
-      "authors": "Bolun Zhang",
-      "published": "2026-09-09",
-      "url": "https://doi.org/10.1177/03063127261469570",
-      "category": "과학기술학·STS",
-      "relevance_score": 7.7,
-      "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Social Studies of Science (SSS)'에 게재된 본 연구는, 기술을 가치중립적 도구로 포장하는 기술관료주의와 플랫폼·알고리즘 권력이 시민의 삶과 노동을 비가시화하는 사회기술적(Socio-technical) 불평등 구조를 파헤칩니다.",
-        "핵심 분석 및 이론적 발견: 알고리즘 통제와 데이터 추출 메커니즘을 비판적으로 해체하며, 기술 인프라 설계 초기 단계부터 시민의 주체적 목소리와 민주적 통제가 개입할 수 있는 대안적 기술정치 경로를 제시합니다.",
-        "트윈 연구 시사점: 하향식 디지털 관료주의를 탈피하여 개인이 기술 시스템의 수동적 소비자에 머물지 않고 능동적 데이터 주권을 행사하도록 돕는 디지털 권리 인프라 구축의 이론적 근거가 됩니다."
-      ],
-      "keywords": [
-        "#과학기술학",
-        "#연구동향"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.1111/anti.70230",
-      "title_kr": "도시 공간의 탈상품화와 자율적 시민 공간권 연구",
-      "original_title": "Moving Goods, Marginalizing Workers: Racialized Labor and Logistics‐Led Growth in Chicago's Freight Economy",
-      "source": "Antipode: A Radical Journal of Geography",
-      "authors": "José Miguel Acosta-Córdova",
-      "published": "2026-11-01",
-      "url": "https://doi.org/10.1111/anti.70230",
-      "category": "공간사회·도시커먼즈",
-      "relevance_score": 7.7,
-      "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Antipode: A Radical Journal of Geography'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
-        "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
-        "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
-      ],
-      "keywords": [
-        "#공간사회",
-        "#도시공간",
-        "#연구동향"
+        "#농생태",
+        "#다종공생",
+        "#토지개간미술"
       ]
     }
   ]

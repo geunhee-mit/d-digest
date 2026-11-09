@@ -98,6 +98,22 @@ TERM_DICT = {
     "land ethic": "대지 윤리",
     "marx’s concept of ecological freedom": "마르크스의 생태적 자유 개념과 생태정치",
     "marx's concept of ecological freedom": "마르크스의 생태적 자유 개념과 생태정치",
+    "ecofeminism": "생태여성주의(에코페미니즘)",
+    "feminist new materialism": "페미니즘 신유물론",
+    "new materialism": "신유물론",
+    "reclamation art": "토지 개간 미술",
+    "caring commons": "돌봄 커먼즈",
+    "seed commons": "종자 커먼즈",
+    "vegan ecofeminism": "비건 에코페미니즘",
+    "carnism": "육식주의",
+    "queer ecology": "퀴어 생태학",
+    "green social work": "녹색사회복지",
+    "metis": "지역 실천지식(메티스)",
+    "multispecies care": "다종 공생 돌봄",
+    "reproductive labor": "재생산 돌봄 노동",
+    "land reclamation": "토지 개간 및 생태 복원",
+    "speciesism": "종차별주의",
+    "shimmer": "반짝임(Shimmer)",
     "research data governance": "연구 데이터 거버넌스와 공공 참여",
     "safe and smart city": "스마트 안전 도시와 디지털 감시 비판",
     "digital authoritarianism": "디지털 권위주의와 시민 주권",
@@ -298,12 +314,12 @@ def heuristic_curate(items):
     """스마트 룰 기반 큐레이터 (100% 한국어 학술 번역 및 사유 지형 요약 생성, 잔여 영어 0%)"""
     curated = []
     category_weights = {
-        "커먼즈·공유재": ["commons", "commoning", "p2p", "ostrom", "cooperation", "cooperative", "공유재", "협동", "자치", "공동체", "peer"],
+        "커먼즈·공유재": ["commons", "commoning", "p2p", "ostrom", "cooperation", "cooperative", "공유재", "협동", "자치", "공동체", "peer", "caring commons", "돌봄 커먼즈", "reproductive labor", "가사노동", "재생산"],
         "시빅HCI·UXR": ["civic", "participatory", "public", "user", "interface", "governance", "시민", "공공", "안전", "참여", "ux", "interaction"],
         "과학기술학·STS": ["socio-technical", "politics", "algorithm", "platform", "science and technology", "기술", "사회기술", "알고리즘"],
-        "농생태·식량주권": ["farmer", "agriculture", "ecological", "care", "crisis", "peasant", "생태", "농업", "기후", "토양", "다종", "식량"],
+        "농생태·식량주권": ["farmer", "agriculture", "ecological", "care", "crisis", "peasant", "생태", "농업", "기후", "토양", "다종", "식량", "ecofeminism", "feminist", "reclamation", "art", "vegan", "speciesism", "carnism", "animal", "queer", "seed", "신유물론", "에코페미니즘", "토지개간", "생태미학", "비건", "동물권", "종차별", "종자", "메티스"],
         "공간사회·도시커먼즈": ["urban", "spatial", "city", "space", "도시", "공간", "젠트리피케이션", "공간정의"],
-        "재난안전·공공인프라": ["disaster", "vulnerable", "safety", "emergency", "crisis", "재난", "취약", "대피", "인프라"]
+        "재난안전·공공인프라": ["disaster", "vulnerable", "safety", "emergency", "crisis", "재난", "취약", "대피", "인프라", "social work", "사회복지", "녹색사회복지"]
     }
 
     for item in items:
@@ -335,6 +351,22 @@ def heuristic_curate(items):
                 keywords.append("#다종공생")
             if "urban" in text or "도시" in text:
                 keywords.append("#도시공간")
+            if "ecofeminism" in text or "에코페미니즘" in text:
+                keywords.append("#에코페미니즘")
+            if "materialism" in text or "신유물론" in text:
+                keywords.append("#신유물론")
+            if "reclamation" in text or "토지개간" in text or "art" in text or "예술" in text:
+                keywords.append("#토지개간미술")
+            if "caring" in text or "돌봄" in text:
+                keywords.append("#돌봄커먼즈")
+            if "seed" in text or "종자" in text:
+                keywords.append("#종자커먼즈")
+            if "vegan" in text or "비건" in text or "animal" in text or "동물" in text:
+                keywords.append("#비건에코페미니즘")
+            if "social work" in text or "사회복지" in text:
+                keywords.append("#녹색사회복지")
+            if "metis" in text or "메티스" in text:
+                keywords.append("#지역메티스")
             if len(keywords) < 3:
                 keywords.append("#연구동향")
 

@@ -56,10 +56,13 @@ def fetch_openalex_journal(journal_config, limit=6):
                 if not title:
                     continue
                 abstract = reconstruct_abstract(item.get("abstract_inverted_index"))
-                authors = [
-                    a.get("author", {}).get("display_name", "")
-                    for a in item.get("authorships", [])[:3]
-                ]
+                authors = []
+                for a in (item.get("authorships") or [])[:3]:
+                    if a and isinstance(a, dict):
+                        auth = a.get("author") or {}
+                        name = auth.get("display_name", "")
+                        if name:
+                            authors.append(name)
                 doi = item.get("doi") or item.get("id")
                 results.append({
                     "id": doi,
@@ -91,17 +94,18 @@ def fetch_openalex_search(query_config, limit=6):
                 if not title:
                     continue
                 abstract = reconstruct_abstract(item.get("abstract_inverted_index"))
-                authors = [
-                    a.get("author", {}).get("display_name", "")
-                    for a in item.get("authorships", [])[:3]
-                ]
+                authors = []
+                for a in (item.get("authorships") or [])[:3]:
+                    if a and isinstance(a, dict):
+                        auth = a.get("author") or {}
+                        name = auth.get("display_name", "")
+                        if name:
+                            authors.append(name)
+
                 doi = item.get("doi") or item.get("id")
-                source_name = (
-                    item.get("primary_location", {})
-                    .get("source", {})
-                    .get("display_name")
-                    or "Scholarly Pre-print / Journal"
-                )
+                prim_loc = item.get("primary_location") or {}
+                source_obj = prim_loc.get("source") or {}
+                source_name = source_obj.get("display_name") or "Scholarly Pre-print / Journal"
                 results.append({
                     "id": doi,
                     "title": title,

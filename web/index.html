@@ -277,7 +277,7 @@
             <div class="text-[10px] text-sand-700">추적 연구 키워드</div>
           </div>
           <div class="p-2 bg-white rounded-lg border border-sand-200/70">
-            <div id="metric-lnb-gurus" class="text-sm font-bold text-sand-900 font-mono">13</div>
+            <div id="metric-lnb-gurus" class="text-sm font-bold text-sand-900 font-mono">17</div>
             <div class="text-[10px] text-sand-700">연구 구루</div>
           </div>
           <div class="p-2 bg-white rounded-lg border border-sand-200/70">
@@ -392,7 +392,7 @@
         <!-- Guru Category Filters -->
         <div class="flex flex-wrap items-center gap-1.5 text-xs">
           <span class="text-sand-400 text-[11px] mr-1">분야 필터:</span>
-          <button class="guru-pill active px-3 py-1 rounded-full border border-sand-300 bg-sand-900 text-white transition font-medium text-xs" data-gurucat="all">전체 (13)</button>
+          <button class="guru-pill active px-3 py-1 rounded-full border border-sand-300 bg-sand-900 text-white transition font-medium text-xs" data-gurucat="all">전체</button>
           <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="커먼즈·공유재">커먼즈·공유재</button>
           <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="과학기술학·STS">과학기술학·STS</button>
           <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="시빅디자인·참여HCI">시빅디자인·참여HCI</button>
@@ -456,7 +456,7 @@
           </div>
           <div class="p-5 bg-white rounded-xl card-border shadow-2xs space-y-1">
             <span class="text-xs text-sand-400 font-medium">인덱스 수록 구루</span>
-            <p id="metric-total-gurus" class="text-2xl font-bold text-sand-900 font-mono">13</p>
+            <p id="metric-total-gurus" class="text-2xl font-bold text-sand-900 font-mono">17</p>
             <span class="text-[11px] text-sand-700">볼리어, 페데리치, 해러웨이 등</span>
           </div>
           <div class="p-5 bg-white rounded-xl card-border shadow-2xs space-y-1">
@@ -610,7 +610,7 @@
       document.getElementById('metric-lnb-papers').textContent = totalPapers;
       const kwLnb = document.getElementById('metric-lnb-keywords');
       if (kwLnb) kwLnb.textContent = totalKeywords;
-      document.getElementById('metric-lnb-gurus').textContent = gurusList.length || 13;
+      document.getElementById('metric-lnb-gurus').textContent = gurusList.length || 17;
       document.getElementById('metric-lnb-periodicals').textContent = periodicalsList.length || 50;
 
       // Quick Jump Paper List
@@ -1077,7 +1077,7 @@
 
       document.getElementById('metric-total-papers').textContent = trendsData.total_papers_analyzed || 0;
       document.getElementById('metric-total-keywords').textContent = (trendsData.top_keywords || []).length;
-      document.getElementById('metric-total-gurus').textContent = trendsData.total_gurus || 13;
+      document.getElementById('metric-total-gurus').textContent = trendsData.total_gurus || 17;
       document.getElementById('metric-total-periodicals').textContent = periodicalsList.length || 23;
 
       const kwContainer = document.getElementById('keywords-container');
