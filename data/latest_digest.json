@@ -1,9 +1,9 @@
 {
-  "id": "digest-20261112-morning",
+  "id": "digest-20261112-afternoon",
   "date": "2026-11-12",
-  "edition": "morning",
-  "edition_label": "오전",
-  "timestamp": "2026-11-12 02:38",
+  "edition": "afternoon",
+  "edition_label": "오후",
+  "timestamp": "2026-11-12 17:12",
   "daily_summary": {
     "theme": "추출주의 농업 극복과 다종 공생 기반 대지 윤리의 회복",
     "overview": "오늘의 연구들은 기후 붕괴와 토양 황폐화라는 복합 위기 속에서, 소농의 자치권과 흙·미생물·다종 생명 간의 유기적 얽힘을 회복하는 농생태학적 대안을 역설합니다.",
@@ -15,101 +15,38 @@
   },
   "items": [
     {
-      "id": "https://doi.org/10.59490/6ad2941c6ee698573e4dd496",
-      "title_kr": "도시 공간의 비판적 분석 및 실천 담론",
-      "original_title": "State-of-the-art Ground Understanding for Modern Urban Development on the Deltaic Soils of Zuidplaspolder, Netherlands",
-      "source": "Scholarly Pre-print / Journal",
-      "authors": "A.J.M. Steenbakkers, S. Kamp, M. Tijnagel",
-      "published": "2026-10-29",
-      "url": "https://doi.org/10.59490/6ad2941c6ee698573e4dd496",
-      "category": "공간사회·도시커먼즈",
-      "relevance_score": 8.6,
-      "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Scholarly Pre-print / Journal'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
-        "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
-        "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
-      ],
-      "keywords": [
-        "#공간사회",
-        "#도시공간",
-        "#토지개간미술"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.21203/rs.3.rs-11670337/v1",
-      "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
-      "original_title": "Beyond AI Productivity: Enterprise AI Systems, Human–AI Responsibility, and the Future of Work",
-      "source": "Research Square",
-      "authors": "Audrey Rah, David W. Johnson",
-      "published": "2026-11-10",
-      "url": "https://doi.org/10.21203/rs.3.rs-11670337/v1",
+      "id": "https://doi.org/10.1007/s10460-026-11007-z",
+      "title_kr": "정의의 비판적 분석 및 실천 담론: 농업의 비판적 분석 및 실천 담론",
+      "original_title": "Justice for Non-Human Animals in agrifood system transitions: perspectives from animal-free sustainable agriculture standards",
+      "source": "Agriculture and Human Values",
+      "authors": "Mona Seymour, Richard James White",
+      "published": "2026-11-11",
+      "url": "https://doi.org/10.1007/s10460-026-11007-z",
       "category": "농생태·식량주권",
-      "relevance_score": 8.6,
+      "relevance_score": 9.8,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Research Square'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+        "연구 배경 및 문제의식: 학술지 'Agriculture and Human Values'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
         "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
         "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
       ],
       "keywords": [
         "#농생태",
-        "#토지개간미술",
+        "#비건에코페미니즘",
         "#연구동향"
       ]
     },
     {
-      "id": "https://doi.org/10.3389/fhumd.2026.1990729",
-      "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
-      "original_title": "When wanting to return is not enough: social protection and the capability to realize return aspirations",
-      "source": "Frontiers in Human Dynamics",
-      "authors": "Marco Tulio Falconí Picardo",
-      "published": "2026-11-09",
-      "url": "https://doi.org/10.3389/fhumd.2026.1990729",
-      "category": "농생태·식량주권",
-      "relevance_score": 8.6,
-      "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Frontiers in Human Dynamics'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
-        "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
-        "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
-      ],
-      "keywords": [
-        "#농생태",
-        "#토지개간미술",
-        "#연구동향"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.4292/wjgpt.128040",
-      "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
-      "original_title": "Myths and facts about diet in metabolic dysfunction-associated steatotic liver disease—part II: Nutrition during incretin-based therapy",
-      "source": "World Journal of Gastrointestinal Pharmacology and Therapeutics",
-      "authors": "Sabrina Alves Fernandes, João Marcello de Araújo-Neto",
-      "published": "2026-11-09",
-      "url": "https://doi.org/10.4292/wjgpt.128040",
-      "category": "농생태·식량주권",
-      "relevance_score": 8.6,
-      "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'World Journal of Gastrointestinal Pharmacology and Therapeutics'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
-        "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
-        "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
-      ],
-      "keywords": [
-        "#농생태",
-        "#토지개간미술",
-        "#연구동향"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.1111/pce.71040",
-      "title_kr": "위기 환경 속 최소 개입형 공공안전망과 상호부조 인프라",
-      "original_title": "Drought‐Induced Dieback Emerges From Microsite‐Driven Functional Divergence in European Beech",
-      "source": "Plant Cell & Environment",
-      "authors": "Álvaro Rubio‐Cuadrado, José Ignacio Querejeta, J. Julio Camarero",
-      "published": "2026-11-09",
-      "url": "https://doi.org/10.1111/pce.71040",
+      "id": "https://doi.org/10.15642/saicopss.2026.4.1.1-19",
+      "title_kr": "알고리즘·위기의 비판적 분석 및 실천 담론: 위기 환경 속 최소 개입형 공공안전망과 상호부조 인프라",
+      "original_title": "Algorithmic Blind Spots in Digital Crisis Sensing: Human Validation of Social Media Sentiment on Indonesia's Free Nutritious Meals Program",
+      "source": "Proceedings of Sunan Ampel International Conference of Political and Social Sciences",
+      "authors": "Bayu Aulia Priyantomo",
+      "published": "2026-12-01",
+      "url": "https://doi.org/10.15642/saicopss.2026.4.1.1-19",
       "category": "재난안전·공공인프라",
-      "relevance_score": 8.6,
+      "relevance_score": 9.8,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Plant Cell & Environment'에 게재된 본 연구는, 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
+        "연구 배경 및 문제의식: 학술지 'Proceedings of Sunan Ampel International Conference of Political and Social Sciences'에 게재된 본 연구는, 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
         "핵심 분석 및 이론적 발견: 지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명했습니다.",
         "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
       ],
@@ -119,58 +56,80 @@
       ]
     },
     {
-      "id": "https://doi.org/10.35329/fkip.v22i2.7931",
-      "title_kr": "perspektif 녹색사회복지 terhadap akses sumber daya pada ketahanan keluarga petani dalam menghadapi ketidakpastian kondisi cuaca di pangalengan",
-      "original_title": "Perspektif Green Social Work terhadap Akses Sumber Daya pada Ketahanan Keluarga Petani dalam Menghadapi Ketidakpastian Kondisi Cuaca di Pangalengan",
-      "source": "Pepatudzu Media Pendidikan dan Sosial Kemasyarakatan",
-      "authors": "Dwiky Alvin Akbar Alkautshar, Binahayati Rusyidi, Gigin G. K. Basar",
-      "published": "2026-11-03",
-      "url": "https://doi.org/10.35329/fkip.v22i2.7931",
-      "category": "재난안전·공공인프라",
-      "relevance_score": 8.6,
+      "id": "https://doi.org/10.1177/03063127261496508",
+      "title_kr": "플랫폼의 비판적 분석 및 실천 담론: 농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+      "original_title": "Personalized Medicine Platforms: Turning the ‘Healthy Sick’ and the ‘Worried Well’ Into Valuable Data",
+      "source": "Social Studies of Science (SSS)",
+      "authors": "Clémence Pinel, Mie S. Dam",
+      "published": "2026-11-11",
+      "url": "https://doi.org/10.1177/03063127261496508",
+      "category": "농생태·식량주권",
+      "relevance_score": 9.5,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Pepatudzu Media Pendidikan dan Sosial Kemasyarakatan'에 게재된 본 연구는, 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
-        "핵심 분석 및 이론적 발견: 지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명했습니다.",
-        "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
+        "연구 배경 및 문제의식: 학술지 'Social Studies of Science (SSS)'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+        "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+        "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
       ],
       "keywords": [
-        "#재난안전",
+        "#농생태",
         "#토지개간미술",
-        "#녹색사회복지"
+        "#연구동향"
       ]
     },
     {
-      "id": "https://doi.org/10.3389/feduc.2026.2013555",
+      "id": "https://doi.org/10.1007/s43621-026-05000-z",
+      "title_kr": "기술·농업의 비판적 분석 및 실천 담론",
+      "original_title": "Fintech adoption and its impact on climate smart agriculture technology adoption and agricultural productivity in rice and maize farming",
+      "source": "Discover Sustainability",
+      "authors": "Md. Mizanur Rahman Sarker, Farhana Afroz Joty, Maruf Khan",
+      "published": "2026-11-12",
+      "url": "https://doi.org/10.1007/s43621-026-05000-z",
+      "category": "농생태·식량주권",
+      "relevance_score": 9.5,
+      "summary_points": [
+        "연구 배경 및 문제의식: 학술지 'Discover Sustainability'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+        "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+        "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+      ],
+      "keywords": [
+        "#농생태",
+        "#토지개간미술",
+        "#연구동향"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1007/s10943-026-02822-z",
       "title_kr": "도시 공간의 탈상품화와 자율적 시민 공간권 연구",
-      "original_title": "“Every professional is a climate professional”: a framework for climate responsibility in practice",
-      "source": "Frontiers in Education",
-      "authors": "Aaron Thierry, Mario Veen",
-      "published": "2026-10-30",
-      "url": "https://doi.org/10.3389/feduc.2026.2013555",
+      "original_title": "Exploring the Evolving Role of US Hospital Chaplains During COVID-19 Through a Job Demands-Resource Theoretical Lens",
+      "source": "Journal of Religion and Health",
+      "authors": "Linda Y Kim, Adrienne Martinez-Hollingsworth, Sarah Low",
+      "published": "2026-11-10",
+      "url": "https://doi.org/10.1007/s10943-026-02822-z",
       "category": "공간사회·도시커먼즈",
-      "relevance_score": 8.6,
+      "relevance_score": 9.5,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Frontiers in Education'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+        "연구 배경 및 문제의식: 학술지 'Journal of Religion and Health'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
         "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
         "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
       ],
       "keywords": [
         "#공간사회",
+        "#토지개간미술",
         "#연구동향"
       ]
     },
     {
-      "id": "https://doi.org/10.29029/busbed.1943917",
+      "id": "https://doi.org/10.1177/20539517261500665",
       "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
-      "original_title": "AFET SONRASI ULUSÖTESİ DİJİTAL SOSYAL DESTEK EKOLOJİSİ: 2023 KAHRAMANMARAŞ DEPREMLERİNE İLİŞKİN X PAYLAŞIMLARININ BERTOPİC VE DUYGU ANALİZİ TEMELLİ HARİTALANMASI",
-      "source": "Bingöl Üniversitesi Sosyal Bilimler Enstitüsü Dergisi",
-      "authors": "Fatih Demir, Zeynep Uyanık Negiz",
-      "published": "2026-10-30",
-      "url": "https://doi.org/10.29029/busbed.1943917",
+      "original_title": "A new response to online disinformation: How positive authentication labels for news influence user engagement",
+      "source": "Big Data & Society",
+      "authors": "Johanna Eggers",
+      "published": "2026-11-11",
+      "url": "https://doi.org/10.1177/20539517261500665",
       "category": "농생태·식량주권",
       "relevance_score": 8.6,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Bingöl Üniversitesi Sosyal Bilimler Enstitüsü Dergisi'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+        "연구 배경 및 문제의식: 학술지 'Big Data & Society'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
         "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
         "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
       ],
@@ -178,6 +137,48 @@
         "#농생태",
         "#토지개간미술",
         "#연구동향"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1007/s42438-026-00701-0",
+      "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+      "original_title": "Please Forward this Postdigital Feminist Chain-Letter on Living with AI in Higher Education",
+      "source": "Postdigital Science and Education",
+      "authors": "Carmen Vallis, Ingrid Forsler, Margaret Bearman",
+      "published": "2026-11-11",
+      "url": "https://doi.org/10.1007/s42438-026-00701-0",
+      "category": "농생태·식량주권",
+      "relevance_score": 8.6,
+      "summary_points": [
+        "연구 배경 및 문제의식: 학술지 'Postdigital Science and Education'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+        "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+        "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+      ],
+      "keywords": [
+        "#농생태",
+        "#토지개간미술",
+        "#연구동향"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1007/s11259-026-11616-3",
+      "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+      "original_title": "Characterization of the vaginal microbiota of dairy cows treated with probiotics",
+      "source": "Veterinary Research Communications",
+      "authors": "A. P. Baioco, Fabiane Pereira de Moraes, Sérgio Farias Vargas Júnior",
+      "published": "2026-11-11",
+      "url": "https://doi.org/10.1007/s11259-026-11616-3",
+      "category": "농생태·식량주권",
+      "relevance_score": 8.6,
+      "summary_points": [
+        "연구 배경 및 문제의식: 학술지 'Veterinary Research Communications'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+        "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+        "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+      ],
+      "keywords": [
+        "#농생태",
+        "#토지개간미술",
+        "#비건에코페미니즘"
       ]
     }
   ]
