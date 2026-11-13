@@ -1,5 +1,189 @@
 [
   {
+    "id": "digest-20261113-morning",
+    "date": "2026-11-13",
+    "edition": "morning",
+    "edition_label": "오전",
+    "timestamp": "2026-11-13 02:19",
+    "daily_summary": {
+      "theme": "추출주의 농업 극복과 다종 공생 기반 대지 윤리의 회복",
+      "overview": "오늘의 연구들은 기후 붕괴와 토양 황폐화라는 복합 위기 속에서, 소농의 자치권과 흙·미생물·다종 생명 간의 유기적 얽힘을 회복하는 농생태학적 대안을 역설합니다.",
+      "key_takeaways": [
+        "생산주의 패러다임 탈피: 화학 비료와 거대 자본 중심의 녹색혁명을 넘어 생태적 지속가능성을 우선하는 패러다임 전환이 요구됩니다.",
+        "다종 공생의 대지 윤리: 인간뿐 아니라 흙과 생태계 구성원 전체의 상호 의존성을 인정하는 돌봄의 농업을 실천해야 합니다.",
+        "소농의 자치와 지역 식량 순환: 외부 공급망 충격에 흔들리지 않는 지역 중심의 자립적 식량 및 생태 네트워크를 복원해야 합니다."
+      ]
+    },
+    "items": [
+      {
+        "id": "http://arxiv.org/abs/2611.14871v1",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성: 참여형의 비판적 분석 및 실천 담론",
+        "original_title": "Women's Genetic Health as Family Cooperative Work: Empirical Findings and a Case for Participatory AI",
+        "source": "arXiv cs.HC / cs.CY",
+        "authors": "Ziqi Yang, Yunan Chen, Daniel A. Epstein",
+        "published": "2026-11-11",
+        "url": "http://arxiv.org/abs/2611.14871v1",
+        "category": "농생태·식량주권",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'arXiv cs.HC / cs.CY'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#참여디자인",
+          "#토지개간미술"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/2611.14901v1",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "Understanding the Effects of Multi-Agent Deliberation for Human-AI Decision-Making",
+        "source": "arXiv cs.HC / cs.CY",
+        "authors": "Harry Yizhou Tian, Ming Yin",
+        "published": "2026-11-11",
+        "url": "http://arxiv.org/abs/2611.14901v1",
+        "category": "농생태·식량주권",
+        "relevance_score": 9.5,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'arXiv cs.HC / cs.CY'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.1007/s10886-026-01780-w",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "Disentangling Chemical Defence and Prey Composition of Oophaga sylvatica",
+        "source": "Journal of Chemical Ecology",
+        "authors": "Arianna Tartara, Karla Neira-Salamea, Alexander Keller",
+        "published": "2026-11-10",
+        "url": "https://doi.org/10.1007/s10886-026-01780-w",
+        "category": "농생태·식량주권",
+        "relevance_score": 8.6,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Journal of Chemical Ecology'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#다종공생",
+          "#토지개간미술"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.1215/22011919-12383930",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "“The Goddess Is Singing on a Neem Branch”",
+        "source": "Environmental Humanities",
+        "authors": "Rakesh Kumar Pankaj, Dibyakusum Ray",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1215/22011919-12383930",
+        "category": "농생태·식량주권",
+        "relevance_score": 7.7,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Environmental Humanities'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.1215/22011919-12383938",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "The Great River Speaks",
+        "source": "Environmental Humanities",
+        "authors": "Anna Nacher",
+        "published": "2026-07-01",
+        "url": "https://doi.org/10.1215/22011919-12383938",
+        "category": "농생태·식량주권",
+        "relevance_score": 7.7,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Environmental Humanities'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.2979/een.00026",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "The Practice of Letting Go",
+        "source": "Ethics and the Environment",
+        "authors": "Nicolas B. Verger",
+        "published": "2026-03-01",
+        "url": "https://doi.org/10.2979/een.00026",
+        "category": "농생태·식량주권",
+        "relevance_score": 7.7,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Ethics and the Environment'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.5840/enviroethics2026331113",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "Ocean-Based Salmon Farming: A Case Study of “Irreversible Damage”",
+        "source": "Environmental Ethics",
+        "authors": "H. Orri Stefánsson",
+        "published": "2026-01-01",
+        "url": "https://doi.org/10.5840/enviroethics2026331113",
+        "category": "농생태·식량주권",
+        "relevance_score": 7.7,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Environmental Ethics'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.1086/741631",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "Queering the Hmong Diaspora: Racial Subjectivity and the Myth of Hyperheterosexuality",
+        "source": "Signs: Journal of Women in Culture and Society",
+        "authors": "Chong A. Moua",
+        "published": "2026-09-01",
+        "url": "https://doi.org/10.1086/741631",
+        "category": "농생태·식량주권",
+        "relevance_score": 7.7,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Signs: Journal of Women in Culture and Society'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#연구동향"
+        ]
+      }
+    ]
+  },
+  {
     "id": "digest-20261112-afternoon",
     "date": "2026-11-12",
     "edition": "afternoon",
