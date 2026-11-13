@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-12 17:12",
-  "total_digests": 28,
-  "total_papers_analyzed": 224,
+  "updated_at": "2026-11-13 02:19",
+  "total_digests": 29,
+  "total_papers_analyzed": 232,
   "total_gurus": 17,
   "total_periodicals": 50,
   "total_tracked_keywords": 13,
@@ -12,7 +12,7 @@
     },
     {
       "category": "농생태·식량주권",
-      "count": 60
+      "count": 68
     },
     {
       "category": "재난안전·공공인프라",
@@ -34,7 +34,7 @@
     },
     {
       "keyword": "#농생태",
-      "count": 60
+      "count": 68
     },
     {
       "keyword": "#도시공간",
@@ -46,11 +46,11 @@
     },
     {
       "keyword": "#토지개간미술",
-      "count": 41
+      "count": 47
     },
     {
       "keyword": "#다종공생",
-      "count": 31
+      "count": 32
     },
     {
       "keyword": "#시빅HCI",
@@ -70,7 +70,7 @@
     },
     {
       "keyword": "#참여디자인",
-      "count": 3
+      "count": 4
     },
     {
       "keyword": "#녹색사회복지",
