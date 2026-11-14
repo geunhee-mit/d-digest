@@ -1,18 +1,18 @@
 {
-  "updated_at": "2026-11-14 01:55",
-  "total_digests": 31,
-  "total_papers_analyzed": 248,
+  "updated_at": "2026-11-14 15:24",
+  "total_digests": 32,
+  "total_papers_analyzed": 256,
   "total_gurus": 17,
   "total_periodicals": 50,
   "total_tracked_keywords": 15,
   "category_distribution": [
     {
       "category": "공간사회·도시커먼즈",
-      "count": 83
+      "count": 85
     },
     {
       "category": "농생태·식량주권",
-      "count": 77
+      "count": 83
     },
     {
       "category": "재난안전·공공인프라",
@@ -30,19 +30,19 @@
   "top_keywords": [
     {
       "keyword": "#공간사회",
-      "count": 83
+      "count": 85
     },
     {
       "keyword": "#농생태",
-      "count": 77
+      "count": 83
+    },
+    {
+      "keyword": "#토지개간미술",
+      "count": 63
     },
     {
       "keyword": "#도시공간",
       "count": 58
-    },
-    {
-      "keyword": "#토지개간미술",
-      "count": 57
     },
     {
       "keyword": "#재난안전",
