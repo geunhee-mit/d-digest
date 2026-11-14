@@ -1,5 +1,187 @@
 [
   {
+    "id": "digest-20261114-morning",
+    "date": "2026-11-14",
+    "edition": "morning",
+    "edition_label": "오전",
+    "timestamp": "2026-11-14 01:55",
+    "daily_summary": {
+      "theme": "추출주의 농업 극복과 다종 공생 기반 대지 윤리의 회복",
+      "overview": "오늘의 연구들은 기후 붕괴와 토양 황폐화라는 복합 위기 속에서, 소농의 자치권과 흙·미생물·다종 생명 간의 유기적 얽힘을 회복하는 농생태학적 대안을 역설합니다.",
+      "key_takeaways": [
+        "생산주의 패러다임 탈피: 화학 비료와 거대 자본 중심의 녹색혁명을 넘어 생태적 지속가능성을 우선하는 패러다임 전환이 요구됩니다.",
+        "다종 공생의 대지 윤리: 인간뿐 아니라 흙과 생태계 구성원 전체의 상호 의존성을 인정하는 돌봄의 농업을 실천해야 합니다.",
+        "소농의 자치와 지역 식량 순환: 외부 공급망 충격에 흔들리지 않는 지역 중심의 자립적 식량 및 생태 네트워크를 복원해야 합니다."
+      ]
+    },
+    "items": [
+      {
+        "id": "https://doi.org/10.1145/3830454.3846705",
+        "title_kr": "사회기술시스템과 기술 민주화에 관한 비판적 고찰",
+        "original_title": "It Takes a Forum: Resources & Stakeholders Sustaining the Online Synthetic Non-Consensual Intimate Image Creation Ecosystem",
+        "source": "ACM SIGSAC Conference on Computer and Communications Security (CCS)",
+        "authors": "Bernardo B. P. Medeiros, Malvika Jadhav, Allison Lu",
+        "published": "2026-11-12",
+        "url": "https://doi.org/10.1145/3830454.3846705",
+        "category": "과학기술학·STS",
+        "relevance_score": 8.6,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'ACM SIGSAC Conference on Computer and Communications Security (CCS)'에 게재된 본 연구는, 기술을 가치중립적 도구로 포장하는 기술관료주의와 플랫폼·알고리즘 권력이 시민의 삶과 노동을 비가시화하는 사회기술적(Socio-technical) 불평등 구조를 파헤칩니다.",
+          "핵심 분석 및 이론적 발견: 알고리즘 통제와 데이터 추출 메커니즘을 비판적으로 해체하며, 기술 인프라 설계 초기 단계부터 시민의 주체적 목소리와 민주적 통제가 개입할 수 있는 대안적 기술정치 경로를 제시합니다.",
+          "트윈 연구 시사점: 하향식 디지털 관료주의를 탈피하여 개인이 기술 시스템의 수동적 소비자에 머물지 않고 능동적 데이터 주권을 행사하도록 돕는 디지털 권리 인프라 구축의 이론적 근거가 됩니다."
+        ],
+        "keywords": [
+          "#과학기술학",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.1017/9781009680882",
+        "title_kr": "정의의 비판적 분석 및 실천 담론",
+        "original_title": "Responsible AI and Structural Justice",
+        "source": "Cambridge University Press eBooks",
+        "authors": "Swati Srivastava",
+        "published": "2026-11-12",
+        "url": "https://doi.org/10.1017/9781009680882",
+        "category": "시빅HCI·UXR",
+        "relevance_score": 8.6,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Cambridge University Press eBooks'에 게재된 본 연구는, 공공 시스템이 재난 약자, 고립 1인 가구, 이동 취약계층의 실제 생활 맥락을 반영하지 못하고 행정 편의주의적 인터페이스로 귀결되는 현실적 균열을 짚어냅니다.",
+          "핵심 분석 및 이론적 발견: 당사자 참여형 디자인 리서치(Participatory Design)와 현장 기반 사용자 경험(UXR)을 통해, 위기 상황에서 사생활 침해 없이 자연스럽게 작동하는 무해하고 포용적인 공공 서비스 아키텍처를 도출했습니다.",
+          "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
+        ],
+        "keywords": [
+          "#시빅HCI",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.5539/jas.v18n12p62",
+        "title_kr": "혁신의 비판적 분석 및 실천 담론",
+        "original_title": "Scalability Scope and Limitations of Potential Innovations and Renewable Energy Sources to Sustain Small Holder Farming Families and Various Ecosystems in India-Local to Global Relevance",
+        "source": "Journal of Agricultural Science",
+        "authors": "Rupinder Chandel, Ritu Dogra, Baldev Dogra",
+        "published": "2026-11-12",
+        "url": "https://doi.org/10.5539/jas.v18n12p62",
+        "category": "농생태·식량주권",
+        "relevance_score": 8.6,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Journal of Agricultural Science'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#종자커먼즈",
+          "#비건에코페미니즘"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.3389/fbuil.2026.1751596",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "Improving data quality in German office construction: a template-based framework for an SME-driven market",
+        "source": "Frontiers in Built Environment",
+        "authors": "Maximilian Benn, Christian Stoy",
+        "published": "2026-11-12",
+        "url": "https://doi.org/10.3389/fbuil.2026.1751596",
+        "category": "농생태·식량주권",
+        "relevance_score": 8.6,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Frontiers in Built Environment'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.3389/fpsyg.2026.1944980",
+        "title_kr": "돌봄의 비판적 분석 및 실천 담론",
+        "original_title": "Can privacy and security concerns coexist with device adoption? Internet privacy and security concerns and smart eldercare device adoption among older adults",
+        "source": "Frontiers in Psychology",
+        "authors": "Yuxin Zhang, Qian Luo, Xi Wu",
+        "published": "2026-11-12",
+        "url": "https://doi.org/10.3389/fpsyg.2026.1944980",
+        "category": "농생태·식량주권",
+        "relevance_score": 8.6,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Frontiers in Psychology'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/2611.16931v1",
+        "title_kr": "도시 공간의 탈상품화와 자율적 시민 공간권 연구",
+        "original_title": "Beyond Curiosity: Habit and Organizational Learning Capability as Predictors of Shadow AI",
+        "source": "arXiv cs.HC / cs.CY",
+        "authors": "Nolan Lovett, Mohan Yang",
+        "published": "2026-11-12",
+        "url": "http://arxiv.org/abs/2611.16931v1",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 8.6,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'arXiv cs.HC / cs.CY'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/2611.15204v1",
+        "title_kr": "취약계층 포용 인터페이스와 참여형 시빅 서비스 설계",
+        "original_title": "Alignment De-Identifies Without Aligning: A Congruence-Invariant Relational Gap in Cross-Subject Neural Representations",
+        "source": "arXiv cs.HC / cs.CY",
+        "authors": "Anna Notaro, Letizia Rossato, Sadasivan Puthusserypady",
+        "published": "2026-11-11",
+        "url": "http://arxiv.org/abs/2611.15204v1",
+        "category": "시빅HCI·UXR",
+        "relevance_score": 8.6,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'arXiv cs.HC / cs.CY'에 게재된 본 연구는, 공공 시스템이 재난 약자, 고립 1인 가구, 이동 취약계층의 실제 생활 맥락을 반영하지 못하고 행정 편의주의적 인터페이스로 귀결되는 현실적 균열을 짚어냅니다.",
+          "핵심 분석 및 이론적 발견: 당사자 참여형 디자인 리서치(Participatory Design)와 현장 기반 사용자 경험(UXR)을 통해, 위기 상황에서 사생활 침해 없이 자연스럽게 작동하는 무해하고 포용적인 공공 서비스 아키텍처를 도출했습니다.",
+          "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
+        ],
+        "keywords": [
+          "#시빅HCI",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.1080/03066150.2026.2745995",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "Territorial pluralism, property rights and access: customary adat recognition in the Toraja region of Indonesia",
+        "source": "The Journal of Peasant Studies",
+        "authors": "Jeff Neilson, Mitra Wulandari, Simon Butt",
+        "published": "2026-11-11",
+        "url": "https://doi.org/10.1080/03066150.2026.2745995",
+        "category": "농생태·식량주권",
+        "relevance_score": 7.7,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'The Journal of Peasant Studies'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      }
+    ]
+  },
+  {
     "id": "digest-20261113-afternoon",
     "date": "2026-11-13",
     "edition": "afternoon",
