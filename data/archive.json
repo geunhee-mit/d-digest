@@ -1,5 +1,186 @@
 [
   {
+    "id": "digest-20261116-morning",
+    "date": "2026-11-16",
+    "edition": "morning",
+    "edition_label": "오전",
+    "timestamp": "2026-11-16 01:31",
+    "daily_summary": {
+      "theme": "추출주의 농업 극복과 다종 공생 기반 대지 윤리의 회복",
+      "overview": "오늘의 연구들은 기후 붕괴와 토양 황폐화라는 복합 위기 속에서, 소농의 자치권과 흙·미생물·다종 생명 간의 유기적 얽힘을 회복하는 농생태학적 대안을 역설합니다.",
+      "key_takeaways": [
+        "생산주의 패러다임 탈피: 화학 비료와 거대 자본 중심의 녹색혁명을 넘어 생태적 지속가능성을 우선하는 패러다임 전환이 요구됩니다.",
+        "다종 공생의 대지 윤리: 인간뿐 아니라 흙과 생태계 구성원 전체의 상호 의존성을 인정하는 돌봄의 농업을 실천해야 합니다.",
+        "소농의 자치와 지역 식량 순환: 외부 공급망 충격에 흔들리지 않는 지역 중심의 자립적 식량 및 생태 네트워크를 복원해야 합니다."
+      ]
+    },
+    "items": [
+      {
+        "id": "https://doi.org/10.1007/s43926-026-00530-4",
+        "title_kr": "돌봄의 비판적 분석 및 실천 담론",
+        "original_title": "A systematic review and conceptual hybrid framework for integrating blockchain and internet of medical things in secure healthcare systems",
+        "source": "Discover Internet of Things",
+        "authors": "Kedar Nath Singh, Harsh Pratap Singh, Ajay Anil Kumar",
+        "published": "2026-11-14",
+        "url": "https://doi.org/10.1007/s43926-026-00530-4",
+        "category": "농생태·식량주권",
+        "relevance_score": 8.6,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Discover Internet of Things'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.1073/pnas.2615409123",
+        "title_kr": "도시 공간의 탈상품화와 자율적 시민 공간권 연구",
+        "original_title": "Rising temperatures, shifting population: Changes in children’s ambient heat exposure in China",
+        "source": "Proceedings of the National Academy of Sciences",
+        "authors": "Kai Feng, Marco M. Laghi, Jere Richard Behrman",
+        "published": "2026-11-02",
+        "url": "https://doi.org/10.1073/pnas.2615409123",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 7.7,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Proceedings of the National Academy of Sciences'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.64898/2026.10.30.26366946",
+        "title_kr": "취약계층 포용 인터페이스와 참여형 시빅 서비스 설계",
+        "original_title": "Global Disparities in Vaccine Reimbursement for Adults Living with HIV: A Cross-Sectional Survey of 120 Countries by EVASG and ESTISG",
+        "source": "medRxiv",
+        "authors": "Emily O. Burzynski, Özlem Türkmen Recen, Petar Velikov",
+        "published": "2026-11-01",
+        "url": "https://doi.org/10.64898/2026.10.30.26366946",
+        "category": "시빅HCI·UXR",
+        "relevance_score": 7.7,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'medRxiv'에 게재된 본 연구는, 공공 시스템이 재난 약자, 고립 1인 가구, 이동 취약계층의 실제 생활 맥락을 반영하지 못하고 행정 편의주의적 인터페이스로 귀결되는 현실적 균열을 짚어냅니다.",
+          "핵심 분석 및 이론적 발견: 당사자 참여형 디자인 리서치(Participatory Design)와 현장 기반 사용자 경험(UXR)을 통해, 위기 상황에서 사생활 침해 없이 자연스럽게 작동하는 무해하고 포용적인 공공 서비스 아키텍처를 도출했습니다.",
+          "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
+        ],
+        "keywords": [
+          "#시빅HCI",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.5281/zenodo.23598006",
+        "title_kr": "자치적 커먼즈 프로토콜과 호혜적 공유 거버넌스",
+        "original_title": "Renewable Energy Champions Initiative",
+        "source": "Zenodo (CERN European Organization for Nuclear Research)",
+        "authors": "REN21",
+        "published": "2027-05-07",
+        "url": "https://doi.org/10.5281/zenodo.23598006",
+        "category": "커먼즈·공유재",
+        "relevance_score": 7.7,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Zenodo (CERN European Organization for Nuclear Research)'에 게재된 본 연구는, 시장 자본주의의 독점적 사유화(Enclosure)와 국가 중심 관료주의 사이에서 자율적 개인과 공동체가 직면한 제도적 배제 및 자원 수탈 문제를 비판적으로 규명합니다.",
+          "핵심 분석 및 이론적 발견: 중앙집권적 위계 없이도 공통의 자치 규약(Protocols)과 상호 호혜적 신뢰를 바탕으로 자원을 지속 가능하게 공동 관리(Commoning)하는 실증 모델과 P2P 거버넌스 작동 방식을 밝혔습니다.",
+          "트윈 연구 시사점: 1인 가구 및 자율적 개인이 사생활과 독립성을 온전히 지키면서도, 고립을 넘어 비시장적 방식으로 상호 연대할 수 있는 '느슨하고 안전한 커먼즈 인프라' 설계에 핵심적 통찰을 제공합니다."
+        ],
+        "keywords": [
+          "#커먼즈",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.17613/90v07-0pa54",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "The Sociolinguistics of Machine Identity: LLM Personality and Ideology Propagation",
+        "source": "Scholarly Pre-print / Journal",
+        "authors": "Guangni Li",
+        "published": "2026-12-31",
+        "url": "https://doi.org/10.17613/90v07-0pa54",
+        "category": "농생태·식량주권",
+        "relevance_score": 7.7,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Scholarly Pre-print / Journal'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.5281/zenodo.14763520",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "Transversalité pour la circularité et la sobriété à Grenoble",
+        "source": "HAL",
+        "authors": "Valentin Aubois-Liogier, Danijel Baturina, Timothy Marcroft",
+        "published": "2027-07-01",
+        "url": "https://doi.org/10.5281/zenodo.14763520",
+        "category": "농생태·식량주권",
+        "relevance_score": 7.7,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'HAL'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://openalex.org/W7202333118",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "\"Please Put The Phone Down!\": Self-Determination Theory Applied to Parental Social Media Mediation",
+        "source": "Aquila Digital Community (University of Southern Mississippi)",
+        "authors": "Benjamin A. Dolowich",
+        "published": "2026-12-01",
+        "url": "https://openalex.org/W7202333118",
+        "category": "농생태·식량주권",
+        "relevance_score": 7.7,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Aquila Digital Community (University of Southern Mississippi)'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://openalex.org/W7220264977",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "Integrating Student-Mined Data In Youth Computer Science Learning: An Investigation Of Learning Outcomes And Educational Strategies",
+        "source": "DigitalCommons@UTEP (The University of Texas at El Paso)",
+        "authors": "Alex Kojo Acquah",
+        "published": "2026-12-01",
+        "url": "https://openalex.org/W7220264977",
+        "category": "농생태·식량주권",
+        "relevance_score": 7.7,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'DigitalCommons@UTEP (The University of Texas at El Paso)'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      }
+    ]
+  },
+  {
     "id": "digest-20261115-afternoon",
     "date": "2026-11-15",
     "edition": "afternoon",
