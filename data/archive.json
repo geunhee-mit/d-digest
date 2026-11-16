@@ -1,5 +1,194 @@
 [
   {
+    "id": "digest-20261116-afternoon",
+    "date": "2026-11-16",
+    "edition": "afternoon",
+    "edition_label": "오후",
+    "timestamp": "2026-11-16 18:59",
+    "daily_summary": {
+      "theme": "상호부조와 데이터 인프라가 엮어내는 사각지대 없는 공공 돌봄",
+      "overview": "오늘의 연구들은 일상화된 재난 환경 속에서 고독사와 사회적 고립을 방지하기 위한 최소 개입형 상호부조 안전망과 공공 인프라 프로토콜의 구체적 청사진을 제시합니다.",
+      "key_takeaways": [
+        "사유화(Enclosure)의 극복: 자원과 공간을 소유의 대상이 아닌 공동의 돌봄 대상으로 전환하는 커머닝 규약이 긴요합니다.",
+        "독립적 개인의 자치 연대: 지나친 집단주의적 강요 없이도 상호 신뢰와 규칙을 지켜낼 수 있는 자율 거버넌스 프로토콜이 요청됩니다.",
+        "비시장적 대안 인프라의 필요성: 시장에 종속되지 않고 최소한의 생활 안전을 영위할 수 있는 공통재(Commons)의 확충이 핵심 과제입니다."
+      ]
+    },
+    "items": [
+      {
+        "id": "https://doi.org/10.1145/3822517.3848728",
+        "title_kr": "위기 환경 속 최소 개입형 공공안전망과 상호부조 인프라",
+        "original_title": "Dream-Butterfly: Configuring Embodied Conversational Guidance for Public Outdoor Mixed Reality Exhibitions",
+        "source": "ACM Symposium on Virtual Reality Software and Technology (VRST)",
+        "authors": "Dongyijie Primo Pan, Shuyue Li, Yawei Zhao",
+        "published": "2026-11-14",
+        "url": "https://doi.org/10.1145/3822517.3848728",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'ACM Symposium on Virtual Reality Software and Technology (VRST)'에 게재된 본 연구는, 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
+          "핵심 분석 및 이론적 발견: 지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.32991/2237-2717.2026v16i3.p391-425",
+        "title_kr": "도시 공간의 탈상품화와 자율적 시민 공간권 연구",
+        "original_title": "Entre Minas, Bosques y Canchones. Relaciones e Historias Más-Que-Humanas en los Paisajes Extractivos del Tamarugal (Atacama, S. XVIII-XX)",
+        "source": "Historia Ambiental Latinoamericana y Caribeña (HALAC) revista de la Solcha",
+        "authors": "Javier Carmona Yost",
+        "published": "2026-11-14",
+        "url": "https://doi.org/10.32991/2237-2717.2026v16i3.p391-425",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Historia Ambiental Latinoamericana y Caribeña (HALAC) revista de la Solcha'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#다종공생",
+          "#토지개간미술",
+          "#비건에코페미니즘"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.18743/pub.00056686",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성: 미학의 비판적 분석 및 실천 담론",
+        "original_title": "Intimate Ecologies: Queer Speculations on Pleasure, Blackness and Decolonial Aesthetics",
+        "source": "BIROn (Birkbeck, University of London)",
+        "authors": "Budge Johnstone, Ama Josephine",
+        "published": "2027-01-01",
+        "url": "https://doi.org/10.18743/pub.00056686",
+        "category": "농생태·식량주권",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'BIROn (Birkbeck, University of London)'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#비건에코페미니즘"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.60867/00000065",
+        "title_kr": "위기 환경 속 최소 개입형 공공안전망과 상호부조 인프라",
+        "original_title": "Microbial Profiling and Cold Plasma Applications for Improving the Safety and Quality of Fresh Spirulina",
+        "source": "Murdoch University Research Portal",
+        "authors": "Odgerel Bumandalai",
+        "published": "2027-01-01",
+        "url": "https://doi.org/10.60867/00000065",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Murdoch University Research Portal'에 게재된 본 연구는, 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
+          "핵심 분석 및 이론적 발견: 지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.17638/03193916",
+        "title_kr": "위기 환경 속 최소 개입형 공공안전망과 상호부조 인프라",
+        "original_title": "Assessing Multiple Pressures on Seabirds",
+        "source": "University of Liverpool",
+        "authors": "Eve S Merrall",
+        "published": "2027-01-01",
+        "url": "https://doi.org/10.17638/03193916",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'University of Liverpool'에 게재된 본 연구는, 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
+          "핵심 분석 및 이론적 발견: 지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#도시공간",
+          "#토지개간미술"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.21953/lse.00004909",
+        "title_kr": "도시 공간의 탈상품화와 자율적 시민 공간권 연구",
+        "original_title": "Are we the people? Democratic municipalism in two European cities, in the approach to power and thereafter 2011-2024",
+        "source": "London School of Economics and Political Science Theses Online (London School of Economics and Political Science)",
+        "authors": "Adam Greenfield",
+        "published": "2027-01-01",
+        "url": "https://doi.org/10.21953/lse.00004909",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'London School of Economics and Political Science Theses Online (London School of Economics and Political Science)'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#참여디자인",
+          "#도시공간",
+          "#토지개간미술"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.48683/1926.00130503",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성: 혁신의 비판적 분석 및 실천 담론",
+        "original_title": "Entrepreneurial discoveries. Triple-helix and open partnerships: configuring a transformative innovation system",
+        "source": "CentAUR (University of Reading)",
+        "authors": "Vassilen Iotzov",
+        "published": "2027-01-01",
+        "url": "https://doi.org/10.48683/1926.00130503",
+        "category": "농생태·식량주권",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'CentAUR (University of Reading)'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#커머닝",
+          "#사회기술시스템",
+          "#토지개간미술"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/2611.18439v1",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성: 참여형의 비판적 분석 및 실천 담론",
+        "original_title": "Between Obligations and Evidence: A Participatory Study of Translating the EU AI Act into Technical Requirements",
+        "source": "arXiv cs.HC / cs.CY",
+        "authors": "Helma Torkamaan, Masoud Mansoury, Yanan Xin",
+        "published": "2026-11-13",
+        "url": "http://arxiv.org/abs/2611.18439v1",
+        "category": "농생태·식량주권",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'arXiv cs.HC / cs.CY'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#참여디자인",
+          "#토지개간미술"
+        ]
+      }
+    ]
+  },
+  {
     "id": "digest-20261116-morning",
     "date": "2026-11-16",
     "edition": "morning",

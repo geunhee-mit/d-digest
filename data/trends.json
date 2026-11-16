@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-11-16 01:31",
-  "total_digests": 35,
-  "total_papers_analyzed": 280,
+  "updated_at": "2026-11-16 18:59",
+  "total_digests": 36,
+  "total_papers_analyzed": 288,
   "total_gurus": 17,
   "total_periodicals": 50,
-  "total_tracked_keywords": 17,
+  "total_tracked_keywords": 18,
   "category_distribution": [
     {
       "category": "농생태·식량주권",
-      "count": 98
+      "count": 101
     },
     {
       "category": "공간사회·도시커먼즈",
-      "count": 91
+      "count": 93
     },
     {
       "category": "재난안전·공공인프라",
-      "count": 55
+      "count": 58
     },
     {
       "category": "시빅HCI·UXR",
@@ -34,47 +34,47 @@
   "top_keywords": [
     {
       "keyword": "#농생태",
-      "count": 98
+      "count": 101
     },
     {
       "keyword": "#공간사회",
-      "count": 91
+      "count": 93
     },
     {
       "keyword": "#토지개간미술",
-      "count": 77
+      "count": 85
     },
     {
       "keyword": "#도시공간",
-      "count": 61
+      "count": 63
     },
     {
       "keyword": "#재난안전",
-      "count": 55
+      "count": 58
     },
     {
       "keyword": "#다종공생",
-      "count": 37
+      "count": 38
+    },
+    {
+      "keyword": "#커머닝",
+      "count": 27
     },
     {
       "keyword": "#시빅HCI",
       "count": 27
     },
     {
-      "keyword": "#커머닝",
-      "count": 26
+      "keyword": "#비건에코페미니즘",
+      "count": 12
     },
     {
-      "keyword": "#비건에코페미니즘",
-      "count": 10
+      "keyword": "#참여디자인",
+      "count": 8
     },
     {
       "keyword": "#과학기술학",
       "count": 8
-    },
-    {
-      "keyword": "#참여디자인",
-      "count": 6
     },
     {
       "keyword": "#돌봄커먼즈",
@@ -87,6 +87,10 @@
     {
       "keyword": "#녹색사회복지",
       "count": 3
+    },
+    {
+      "keyword": "#사회기술시스템",
+      "count": 1
     },
     {
       "keyword": "#커먼즈",
