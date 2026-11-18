@@ -1,107 +1,119 @@
 {
-  "updated_at": "2026-11-18 03:16",
-  "total_digests": 39,
-  "total_papers_analyzed": 312,
-  "total_gurus": 17,
+  "updated_at": "2026-11-18 17:39",
+  "total_digests": 40,
+  "total_papers_analyzed": 321,
+  "total_gurus": 38,
   "total_periodicals": 50,
-  "total_tracked_keywords": 18,
+  "total_tracked_keywords": 20,
   "category_distribution": [
     {
       "category": "농생태·식량주권",
-      "count": 114
+      "count": 90
     },
     {
       "category": "공간사회·도시커먼즈",
-      "count": 95
+      "count": 82
     },
     {
       "category": "재난안전·공공인프라",
-      "count": 64
-    },
-    {
-      "category": "시빅HCI·UXR",
-      "count": 30
+      "count": 58
     },
     {
       "category": "과학기술학·STS",
+      "count": 54
+    },
+    {
+      "category": "시빅HCI·UXR",
+      "count": 24
+    },
+    {
+      "category": "돌봄·상호부조",
       "count": 8
     },
     {
       "category": "커먼즈·공유재",
-      "count": 1
+      "count": 5
     }
   ],
   "top_keywords": [
     {
-      "keyword": "#농생태",
-      "count": 114
+      "keyword": "#동시대학술",
+      "count": 164
     },
     {
-      "keyword": "#토지개간미술",
-      "count": 104
+      "keyword": "#농생태",
+      "count": 90
     },
     {
       "keyword": "#공간사회",
-      "count": 95
+      "count": 82
     },
     {
       "keyword": "#재난안전",
-      "count": 64
+      "count": 58
     },
     {
-      "keyword": "#도시공간",
-      "count": 64
-    },
-    {
-      "keyword": "#다종공생",
-      "count": 39
-    },
-    {
-      "keyword": "#시빅HCI",
-      "count": 30
-    },
-    {
-      "keyword": "#커머닝",
-      "count": 27
-    },
-    {
-      "keyword": "#비건에코페미니즘",
-      "count": 13
-    },
-    {
-      "keyword": "#참여디자인",
-      "count": 8
+      "keyword": "#책임있는AI",
+      "count": 55
     },
     {
       "keyword": "#과학기술학",
+      "count": 54
+    },
+    {
+      "keyword": "#도시공간",
+      "count": 54
+    },
+    {
+      "keyword": "#시빅HCI",
+      "count": 24
+    },
+    {
+      "keyword": "#다종공생",
+      "count": 23
+    },
+    {
+      "keyword": "#커머닝",
+      "count": 22
+    },
+    {
+      "keyword": "#존중의수사학",
+      "count": 9
+    },
+    {
+      "keyword": "#돌봄",
       "count": 8
     },
     {
-      "keyword": "#시빅테크",
+      "keyword": "#대지윤리",
+      "count": 7
+    },
+    {
+      "keyword": "#알고리즘정의",
       "count": 5
     },
     {
-      "keyword": "#돌봄커먼즈",
+      "keyword": "#커먼즈",
+      "count": 5
+    },
+    {
+      "keyword": "#토지개간미술",
       "count": 4
     },
     {
-      "keyword": "#녹색사회복지",
-      "count": 4
-    },
-    {
-      "keyword": "#사회기술시스템",
+      "keyword": "#돌봄소통",
       "count": 2
     },
     {
-      "keyword": "#커먼즈",
+      "keyword": "#참여디자인",
+      "count": 1
+    },
+    {
+      "keyword": "#위기안전망",
       "count": 1
     },
     {
       "keyword": "#에코페미니즘",
-      "count": 1
-    },
-    {
-      "keyword": "#종자커먼즈",
       "count": 1
     }
   ],

@@ -124,8 +124,8 @@
             <span>오늘의 다이제스트</span>
           </button>
           <button class="nav-btn-mobile w-full text-left px-3 py-2 rounded-lg font-medium text-sand-700 hover:bg-sand-100 flex items-center space-x-2" data-view="gurus">
-            <i data-lucide="user-check" class="w-4 h-4 text-sand-700"></i>
-            <span>연구 구루(Guru) 인덱스</span>
+            <i data-lucide="users" class="w-4 h-4 text-sand-700"></i>
+            <span>연구자 인덱스 (핫한 연구자·레전드)</span>
           </button>
           <button class="nav-btn-mobile w-full text-left px-3 py-2 rounded-lg font-medium text-sand-700 hover:bg-sand-100 flex items-center space-x-2" data-view="periodicals">
             <i data-lucide="book-open" class="w-4 h-4 text-sand-700"></i>
@@ -216,9 +216,9 @@
         <button class="nav-item w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-medium text-sand-700 hover:bg-sand-100 hover:text-sand-900 transition" data-view="gurus">
           <div class="flex items-center space-x-2.5">
             <i data-lucide="users" class="w-4 h-4"></i>
-            <span>연구 구루(Guru) 인덱스</span>
+            <span>연구자 인덱스</span>
           </div>
-          <span class="px-1.5 py-0.2 rounded-full bg-sand-200 text-sand-700 text-[10px] font-mono font-semibold">13</span>
+          <span id="metric-lnb-gurus" class="px-1.5 py-0.2 rounded-full bg-sand-200 text-sand-700 text-[10px] font-mono font-semibold">38</span>
         </button>
 
         <button class="nav-item w-full flex items-center justify-between px-3 py-2 rounded-xl text-xs font-medium text-sand-700 hover:bg-sand-100 hover:text-sand-900 transition" data-view="periodicals">
@@ -373,20 +373,35 @@
       </section>
 
       <!-- ================================================================= -->
-      <!-- VIEW 2: GURU INDEX (분야별 연구 구루 인덱스)                      -->
+      <!-- VIEW 2: GURU INDEX (핫한 연구자 & 올타임 레전드 인덱스)              -->
       <!-- ================================================================= -->
       <section id="view-gurus" class="hidden space-y-6">
         <!-- Guru Header Banner -->
-        <div class="p-6 rounded-2xl bg-gradient-to-br from-sand-100/90 via-sand-50 to-white border border-sand-200/90 space-y-2">
+        <div class="p-6 rounded-2xl bg-gradient-to-br from-sand-100/90 via-sand-50 to-white border border-sand-200/90 space-y-3">
           <div class="flex items-center space-x-2">
             <span class="text-2xl">🏛️</span>
             <h2 class="text-base sm:text-lg font-bold serif-title text-sand-900">
-              트윈의 핵심 연구 구루(Guru) & 사상가 인덱스
+              연구자 인덱스 · 학계 핫한 연구자 & 올타임 레전드
             </h2>
           </div>
           <p class="text-xs text-sand-700 leading-relaxed max-w-3xl">
-            커먼즈, 과학기술학(STS), 시빅 디자인, 농생태학, 돌봄 연대 분야의 국내외 대표 사상가 13인의 핵심 철학, 대표 개념, 최근 활동 및 관점을 망라했습니다. 이들의 사유 틀은 자율적인 개인을 위한 공공 인프라 구축의 나침반이 됩니다.
+            커먼즈, 과학기술학(STS), 시빅 컴퓨팅, 농생태학, 돌봄 연대 분야에서 <strong>지금 동시대 학술 담론을 이끄는 핫한 신진·중견 연구자들</strong>과, <strong>사유의 뼈대를 놓은 불멸의 올타임 레전드 사상가들</strong>을 함께 조망합니다. 다이제스트가 발행될 때마다 논문 저자 데이터가 실시간으로 자동 갱신됩니다.
           </p>
+
+          <!-- Tier Switcher Tabs -->
+          <div class="flex flex-wrap items-center gap-2 pt-2 border-t border-sand-200/60">
+            <button class="guru-tier-btn active px-4 py-1.5 rounded-xl font-semibold text-xs border border-sand-900 bg-sand-900 text-white transition flex items-center space-x-1.5" data-tier="trending">
+              <span>🔥 학계 핫한 연구자</span>
+              <span id="badge-trending-count" class="px-1.5 py-0.2 rounded-full bg-white/20 text-[10px]">20</span>
+            </button>
+            <button class="guru-tier-btn px-4 py-1.5 rounded-xl font-medium text-xs border border-sand-300 bg-white text-sand-800 hover:bg-sand-100 transition flex items-center space-x-1.5" data-tier="legend">
+              <span>🏛️ 올타임 레전드</span>
+              <span id="badge-legend-count" class="px-1.5 py-0.2 rounded-full bg-sand-200 text-[10px]">18</span>
+            </button>
+            <button class="guru-tier-btn px-3 py-1.5 rounded-xl font-medium text-xs border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-tier="all">
+              <span>전체 보기</span>
+            </button>
+          </div>
         </div>
 
         <!-- Guru Category Filters -->
@@ -395,8 +410,10 @@
           <button class="guru-pill active px-3 py-1 rounded-full border border-sand-300 bg-sand-900 text-white transition font-medium text-xs" data-gurucat="all">전체</button>
           <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="커먼즈·공유재">커먼즈·공유재</button>
           <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="과학기술학·STS">과학기술학·STS</button>
-          <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="시빅디자인·참여HCI">시빅디자인·참여HCI</button>
-          <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="농생태학·대지윤리">농생태학·대지윤리</button>
+          <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="시빅HCI·UXR">시빅HCI·UXR</button>
+          <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="농생태·식량주권">농생태·식량주권</button>
+          <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="공간사회·도시커먼즈">공간사회·도시커먼즈</button>
+          <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="재난안전·공공인프라">재난안전·공공인프라</button>
           <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="돌봄·상호부조">돌봄·상호부조</button>
         </div>
 
@@ -541,6 +558,7 @@
     let currentView = 'latest'; // 'latest', 'gurus', 'periodicals', 'trends', 'archive'
     let currentCategory = 'all';
     let currentGuruCat = 'all';
+    let currentGuruTier = 'trending'; // 'trending', 'legend', 'all'
     let currentShelf = 'all';
     let searchQuery = '';
 
@@ -575,7 +593,20 @@
 
         if (latestRes.ok) latestDigest = await latestRes.json();
         if (archiveRes && archiveRes.ok) archiveDigests = await archiveRes.json();
-        if (gurusRes && gurusRes.ok) gurusList = await gurusRes.json();
+        if (gurusRes && gurusRes.ok) {
+          const rawGurus = await gurusRes.json();
+          if (Array.isArray(rawGurus)) {
+            gurusList = rawGurus;
+          } else if (rawGurus && rawGurus.all_scholars) {
+            gurusList = rawGurus.all_scholars;
+            const tBadge = document.getElementById('badge-trending-count');
+            if (tBadge) tBadge.textContent = rawGurus.total_trending || 20;
+            const lBadge = document.getElementById('badge-legend-count');
+            if (lBadge) lBadge.textContent = rawGurus.total_legends || 18;
+            const lnbGurus = document.getElementById('metric-lnb-gurus');
+            if (lnbGurus) lnbGurus.textContent = rawGurus.total_all || gurusList.length;
+          }
+        }
         if (periodicalsRes && periodicalsRes.ok) periodicalsList = await periodicalsRes.json();
         if (trendsRes && trendsRes.ok) trendsData = await trendsRes.json();
 
@@ -870,8 +901,9 @@
 
     // Update Guru Pill Counts dynamically
     function updateGuruPillCounts() {
-      const counts = { all: gurusList.length };
-      gurusList.forEach(g => {
+      const activeList = gurusList.filter(g => currentGuruTier === 'all' || g.tier === currentGuruTier);
+      const counts = { all: activeList.length };
+      activeList.forEach(g => {
         counts[g.category] = (counts[g.category] || 0) + 1;
       });
       document.querySelectorAll('.guru-pill').forEach(btn => {
@@ -883,40 +915,133 @@
       });
     }
 
-    // Render Gurus Grid
+    // Render Gurus Grid (Trending Scholars & All-Time Legends)
     function renderGurus() {
       const grid = document.getElementById('gurus-grid');
       if (!grid) return;
 
+      updateGuruPillCounts();
+
       const filtered = gurusList.filter(g => {
+        const matchTier = (currentGuruTier === 'all') || (g.tier === currentGuruTier);
         const matchCat = (currentGuruCat === 'all') || (g.category === currentGuruCat);
-        const full = `${g.name_kr} ${g.name_en} ${g.field} ${g.core_philosophy} ${g.recent_activities} ${(g.key_concepts || []).join(' ')}`.toLowerCase();
+        const full = `${g.name_kr} ${g.name_en} ${g.field} ${g.core_philosophy || ''} ${g.recent_activities || ''} ${(g.key_concepts || []).join(' ')}`.toLowerCase();
         const matchQuery = !searchQuery || full.includes(searchQuery.toLowerCase());
-        return matchCat && matchQuery;
+        return matchTier && matchCat && matchQuery;
       });
 
       if (filtered.length === 0) {
         grid.innerHTML = `
           <div class="col-span-full py-12 text-center text-sand-500 space-y-2">
-            <p class="text-sm">해당 분류나 검색어에 맞는 연구 구루가 없습니다.</p>
-            <button onclick="currentGuruCat='all'; searchQuery=''; renderGurus();" class="text-xs text-sand-800 underline">전체 구루 보기</button>
+            <p class="text-sm">해당 분류나 검색어에 맞는 연구자가 없습니다.</p>
+            <button onclick="currentGuruCat='all'; currentGuruTier='all'; searchQuery=''; renderGurus();" class="text-xs text-sand-800 underline">전체 연구자 보기</button>
           </div>
         `;
         return;
       }
 
       grid.innerHTML = filtered.map(g => {
-        const repWork = g.representative_work || (g.key_works || []).join(', ') || '대표 저작 정보 준비 중';
+        const isTrending = g.tier === 'trending';
         const rawLinks = g.links || (g.follow_links || []).map(l => ({ title: l.name, url: l.url }));
-        const links = (rawLinks && rawLinks.length) ? rawLinks : [{ title: '활동 살펴보기', url: '#' }];
+        const links = (rawLinks && rawLinks.length) ? rawLinks : [{ title: '연구 프로필', url: '#' }];
 
+        if (isTrending) {
+          // 🔥 핫한 동시대 연구자 카드
+          const recentPapers = g.recent_papers || [];
+          return `
+          <div class="p-6 bg-white rounded-2xl card-border shadow-2xs hover:shadow-xs transition-all space-y-4 flex flex-col justify-between">
+            <div class="space-y-3">
+              <div class="flex items-start justify-between gap-2">
+                <div class="flex items-center space-x-3">
+                  <div class="w-10 h-10 rounded-xl bg-amber-50 border border-amber-200 text-amber-800 flex items-center justify-center font-bold text-base shrink-0">
+                    ${g.avatar || '📝'}
+                  </div>
+                  <div>
+                    <h3 class="text-base font-bold serif-title text-sand-900 leading-snug">
+                      ${g.name_kr}
+                      ${g.name_en && g.name_en !== g.name_kr ? `<span class="text-xs text-sand-400 font-sans font-normal ml-1">(${g.name_en})</span>` : ''}
+                    </h3>
+                    <p class="text-xs text-sand-700 font-medium">${g.field || '동시대 학술 연구'}</p>
+                  </div>
+                </div>
+                <div class="flex flex-col items-end gap-1 shrink-0">
+                  <span class="text-[11px] font-semibold px-2 py-0.5 rounded-full bg-amber-100 text-amber-900 border border-amber-200">
+                    ${g.badge || '🔥 핫 토픽'}
+                  </span>
+                  <span class="text-[10px] text-sand-400 font-mono">${g.category}</span>
+                </div>
+              </div>
+
+              <!-- Affiliation -->
+              <p class="text-[11px] text-sand-700 font-medium flex items-center space-x-1">
+                <i data-lucide="building-2" class="w-3.5 h-3.5 text-sand-400 shrink-0"></i>
+                <span class="truncate">${g.affiliation || ''}</span>
+              </p>
+
+              <!-- Salon Published Papers Box -->
+              <div class="space-y-2 text-xs bg-sand-50/80 p-3.5 rounded-xl border border-sand-200/70">
+                <strong class="text-sand-900 text-[11px] flex items-center justify-between">
+                  <span class="flex items-center space-x-1.5">
+                    <i data-lucide="file-text" class="w-3.5 h-3.5 text-sand-600"></i>
+                    <span>살롱 수록 논문 (${recentPapers.length}편):</span>
+                  </span>
+                  <span class="text-[10px] text-sand-400">최근: ${g.latest_active || ''}</span>
+                </strong>
+                <div class="space-y-1.5 pt-1">
+                  ${recentPapers.map(p => `
+                    <div class="text-[11px] text-sand-800 flex items-start justify-between gap-2 hover:bg-sand-100/80 p-1 rounded transition">
+                      <a href="${p.url}" target="_blank" rel="noopener noreferrer" class="hover:underline font-medium truncate flex-1 flex items-center space-x-1 text-sand-900">
+                        <span class="text-sand-400 shrink-0">📄</span>
+                        <span class="truncate">${p.title}</span>
+                      </a>
+                      <span class="text-[10px] text-sand-400 font-mono shrink-0">${p.date || ''}</span>
+                    </div>
+                  `).join('')}
+                </div>
+              </div>
+
+              <!-- Key Concepts -->
+              <div class="flex flex-wrap gap-1">
+                ${(g.key_concepts || []).map(c => `
+                  <span class="text-[10px] px-2 py-0.5 bg-sand-100 rounded-md text-sand-700 font-medium">#${c}</span>
+                `).join('')}
+              </div>
+
+              <!-- Core Focus -->
+              <p class="text-xs text-sand-700 leading-relaxed pt-1 border-t border-sand-100">
+                ${g.core_philosophy || g.recent_activities || ''}
+              </p>
+            </div>
+
+            <div class="pt-3 border-t border-sand-100 flex flex-wrap items-center justify-between gap-2 text-xs">
+              <span class="text-[11px] text-sand-400">연구 네트워크</span>
+              <div class="flex flex-wrap gap-1.5">
+                ${links.map(l => `
+                  <a 
+                    href="${l.url}" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    class="inline-flex items-center space-x-1 px-2.5 py-1 rounded-lg bg-sand-100 hover:bg-sand-200 text-sand-800 text-[11px] font-medium transition"
+                  >
+                    <span>${l.title || '바로가기'}</span>
+                    <i data-lucide="external-link" class="w-3 h-3"></i>
+                  </a>
+                `).join('')}
+              </div>
+            </div>
+          </div>
+          `;
+        }
+
+        // 🏛️ 올타임 레전드 카드
+        const repWork = g.representative_work || (g.key_works || []).join(', ') || '대표 저작 정보 준비 중';
         return `
         <div class="p-6 bg-white rounded-2xl card-border shadow-2xs hover:shadow-xs transition-all space-y-4 flex flex-col justify-between">
           <div class="space-y-3">
             <div class="flex items-start justify-between gap-2">
               <div class="flex items-center space-x-3">
                 <div class="w-10 h-10 rounded-xl bg-sand-100 border border-sand-200 text-sand-800 flex items-center justify-center font-bold serif-title text-base shrink-0">
-                  ${g.avatar || g.name_kr.charAt(0)}
+                  ${g.avatar || '🏛️'}
                 </div>
                 <div>
                   <h3 class="text-base font-bold serif-title text-sand-900 leading-snug">
@@ -961,12 +1086,12 @@
             <!-- Recent Activities -->
             <div class="text-xs text-sand-700 pt-1 border-t border-sand-100">
               <strong class="text-sand-900 block text-[11px] mb-0.5">최근 활동 및 화두:</strong>
-              <p class="leading-relaxed">${g.recent_activities}</p>
+              <p class="leading-relaxed">${g.recent_activities || ''}</p>
             </div>
           </div>
 
           <div class="pt-3 border-t border-sand-100 flex flex-wrap items-center justify-between gap-2 text-xs">
-            <span class="text-[11px] text-sand-400">네트워크</span>
+            <span class="text-[11px] text-sand-400">사유 아카이브</span>
             <div class="flex flex-wrap gap-1.5">
               ${links.map(l => `
                 <a 
@@ -984,9 +1109,7 @@
         </div>
       `;
       }).join('');
-
       updateIcons();
-      updateGuruPillCounts();
     }
 
     // Update Shelf Pill Counts dynamically
@@ -1261,6 +1384,20 @@
         btn.classList.remove('bg-white', 'text-sand-700');
         currentCategory = btn.dataset.cat;
         renderFeed();
+      });
+    });
+
+    // Guru Tier Switcher Event (Trending vs Legends)
+    document.querySelectorAll('.guru-tier-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.guru-tier-btn').forEach(b => {
+          b.classList.remove('active', 'bg-sand-900', 'text-white', 'border-sand-900');
+          b.classList.add('bg-white', 'text-sand-800', 'border-sand-300');
+        });
+        btn.classList.add('active', 'bg-sand-900', 'text-white', 'border-sand-900');
+        btn.classList.remove('bg-white', 'text-sand-800', 'border-sand-300');
+        currentGuruTier = btn.dataset.tier;
+        renderGurus();
       });
     });
 
