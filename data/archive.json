@@ -1,5 +1,189 @@
 [
   {
+    "id": "digest-20261118-morning",
+    "date": "2026-11-18",
+    "edition": "morning",
+    "edition_label": "오전",
+    "timestamp": "2026-11-18 03:16",
+    "daily_summary": {
+      "theme": "추출주의 농업 극복과 다종 공생 기반 대지 윤리의 회복",
+      "overview": "오늘의 연구들은 기후 붕괴와 토양 황폐화라는 복합 위기 속에서, 소농의 자치권과 흙·미생물·다종 생명 간의 유기적 얽힘을 회복하는 농생태학적 대안을 역설합니다.",
+      "key_takeaways": [
+        "생산주의 패러다임 탈피: 화학 비료와 거대 자본 중심의 녹색혁명을 넘어 생태적 지속가능성을 우선하는 패러다임 전환이 요구됩니다.",
+        "다종 공생의 대지 윤리: 인간뿐 아니라 흙과 생태계 구성원 전체의 상호 의존성을 인정하는 돌봄의 농업을 실천해야 합니다.",
+        "소농의 자치와 지역 식량 순환: 외부 공급망 충격에 흔들리지 않는 지역 중심의 자립적 식량 및 생태 네트워크를 복원해야 합니다."
+      ]
+    },
+    "items": [
+      {
+        "id": "http://arxiv.org/abs/2611.22431v1",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "Controlling Proactive Multimodal AI: Separating Perception from Participation",
+        "source": "arXiv cs.HC / cs.CY",
+        "authors": "Muawiz Feroze Khan, Fatima Ali, Yun Huang",
+        "published": "2026-11-17",
+        "url": "http://arxiv.org/abs/2611.22431v1",
+        "category": "농생태·식량주권",
+        "relevance_score": 9.8,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'arXiv cs.HC / cs.CY'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#시빅테크",
+          "#토지개간미술"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.17613/g7mbr-1s626",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "The Role of Generative Artificial Intelligence in Korean Language Learning: Applications, Challenges, and Instructional Strategies",
+        "source": "Scholarly Pre-print / Journal",
+        "authors": "Yundong Wu",
+        "published": "2026-12-31",
+        "url": "https://doi.org/10.17613/g7mbr-1s626",
+        "category": "농생태·식량주권",
+        "relevance_score": 8.6,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Scholarly Pre-print / Journal'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.17613/bqzbv-24862",
+        "title_kr": "농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "Regulating the Frontier: Model-Level Evidence from the EU AI Act",
+        "source": "PhilPapers (PhilPapers Foundation)",
+        "authors": "Han Li",
+        "published": "2026-12-31",
+        "url": "https://doi.org/10.17613/bqzbv-24862",
+        "category": "농생태·식량주권",
+        "relevance_score": 8.6,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'PhilPapers (PhilPapers Foundation)'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.17613/yh16p-7xe23",
+        "title_kr": "도시 공간의 탈상품화와 자율적 시민 공간권 연구",
+        "original_title": "Exploring or Exploiting Generative AI? A Dual-Path, Dual-Horizon Theory of Employee Incremental and Radical Creativity",
+        "source": "PhilPapers (PhilPapers Foundation)",
+        "authors": "Jun Bai",
+        "published": "2026-12-31",
+        "url": "https://doi.org/10.17613/yh16p-7xe23",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 8.6,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'PhilPapers (PhilPapers Foundation)'에 게재된 본 연구는, 도시 공간의 급격한 금융화와 부동산 투기, 배제적 젠트리피케이션으로 인해 시민의 주거 안정과 공간에 대한 권리(Right to the City)가 잠식되는 위기를 추적합니다.",
+          "핵심 분석 및 이론적 발견: 사유재산과 국공유재의 이분법을 넘어 시민들이 도시 공간을 공동으로 점유하고 운영하는 도시 커먼즈의 물리적 거점 및 자치적 운영 규약의 성공 요인을 분석했습니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.5281/zenodo.23879615",
+        "title_kr": "위기 환경 속 최소 개입형 공공안전망과 상호부조 인프라",
+        "original_title": "Screen use in children and adolescents: Developmental risks, benefits, and educational implications",
+        "source": "Journal of Child Development, Exceptionality and Education",
+        "authors": "Hanna David",
+        "published": "2026-12-30",
+        "url": "https://doi.org/10.5281/zenodo.23879615",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 8.6,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Journal of Child Development, Exceptionality and Education'에 게재된 본 연구는, 기후 재난과 일상적 위기가 상시화된 환경에서, 기존의 사후 수습형 행정이 고립 가구와 사회적 약자를 사각지대에 방치하는 구조적 결함을 지적합니다.",
+          "핵심 분석 및 이론적 발견: 지역 풀뿌리 상호부조망과 데이터 기반 위기 경보 시스템이 결합하여 신속하고 편견 없는 조기 감지 및 돌봄 지원을 실현하는 복합 회복력 체계를 규명했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 공공 안전망의 실천적 프로토콜을 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/2611.21379v1",
+        "title_kr": "디자인의 비판적 분석 및 실천 담론: 농생태학적 대지 윤리와 다종 공생의 회복탄력성",
+        "original_title": "What's the Difference? Voice Design and Confirmation Bias in AI-Assisted Self-Diagnosis: Anthropomorphic vs. Machine-Like Voice Output",
+        "source": "arXiv cs.HC / cs.CY",
+        "authors": "Niklas Roethlingshoefer, Emma Winkler, Melanie Loeffler",
+        "published": "2026-11-16",
+        "url": "http://arxiv.org/abs/2611.21379v1",
+        "category": "농생태·식량주권",
+        "relevance_score": 8.6,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'arXiv cs.HC / cs.CY'에 게재된 본 연구는, 대규모 산업 농업과 자본의 추출주의가 초래한 토양 파괴, 생물다양성 붕괴, 그리고 소농의 식량주권 박탈이라는 생태적 복합 위기(Polycrisis)를 진단합니다.",
+          "핵심 분석 및 이론적 발견: 인간 중심적 통제를 벗어나 흙, 미생물, 생태계와 인간이 맺는 다종 공생(Multispecies) 관계망과 생태적 회복력을 촉진하는 농생태학적(Agroecological) 실천 원리와 순환 체계를 구체화했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 과정 중심 예술, 그리고 대지 윤리(Land Ethic)를 결합하여 은퇴 후 지역과 생태계에 뿌리내리는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#토지개간미술",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "http://arxiv.org/abs/2611.20519v1",
+        "title_kr": "디자인의 비판적 분석 및 실천 담론",
+        "original_title": "AI Tool Adoption and Loyalty among Product, Industrial, and UX/UI Designers across the Double Diamond",
+        "source": "arXiv cs.HC / cs.CY",
+        "authors": "Sepideh Tajarmakan, Khashayar Hojjati Emami",
+        "published": "2026-11-16",
+        "url": "http://arxiv.org/abs/2611.20519v1",
+        "category": "시빅HCI·UXR",
+        "relevance_score": 8.6,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'arXiv cs.HC / cs.CY'에 게재된 본 연구는, 공공 시스템이 재난 약자, 고립 1인 가구, 이동 취약계층의 실제 생활 맥락을 반영하지 못하고 행정 편의주의적 인터페이스로 귀결되는 현실적 균열을 짚어냅니다.",
+          "핵심 분석 및 이론적 발견: 당사자 참여형 디자인 리서치(Participatory Design)와 현장 기반 사용자 경험(UXR)을 통해, 위기 상황에서 사생활 침해 없이 자연스럽게 작동하는 무해하고 포용적인 공공 서비스 아키텍처를 도출했습니다.",
+          "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
+        ],
+        "keywords": [
+          "#시빅HCI",
+          "#연구동향"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.17632/75799jny8k",
+        "title_kr": "취약계층 포용 인터페이스와 참여형 시빅 서비스 설계",
+        "original_title": "Species-Specific Visual and Instrument-Based Assessment Data for Street Trees in Daegu, Republic of Korea",
+        "source": "Mendeley Data",
+        "authors": "Ki joon Park, J. E. Kim, Doobyeol Paek",
+        "published": "2027-10-13",
+        "url": "https://doi.org/10.17632/75799jny8k",
+        "category": "시빅HCI·UXR",
+        "relevance_score": 7.7,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Mendeley Data'에 게재된 본 연구는, 공공 시스템이 재난 약자, 고립 1인 가구, 이동 취약계층의 실제 생활 맥락을 반영하지 못하고 행정 편의주의적 인터페이스로 귀결되는 현실적 균열을 짚어냅니다.",
+          "핵심 분석 및 이론적 발견: 당사자 참여형 디자인 리서치(Participatory Design)와 현장 기반 사용자 경험(UXR)을 통해, 위기 상황에서 사생활 침해 없이 자연스럽게 작동하는 무해하고 포용적인 공공 서비스 아키텍처를 도출했습니다.",
+          "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
+        ],
+        "keywords": [
+          "#시빅HCI",
+          "#연구동향"
+        ]
+      }
+    ]
+  },
+  {
     "id": "digest-20261117-afternoon",
     "date": "2026-11-17",
     "edition": "afternoon",
