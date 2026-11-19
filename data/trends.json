@@ -1,22 +1,22 @@
 {
-  "updated_at": "2026-11-19 02:54",
-  "total_digests": 41,
-  "total_papers_analyzed": 329,
+  "updated_at": "2026-11-19 17:48",
+  "total_digests": 42,
+  "total_papers_analyzed": 337,
   "total_gurus": 39,
   "total_periodicals": 50,
   "total_tracked_keywords": 20,
   "category_distribution": [
     {
       "category": "농생태·식량주권",
-      "count": 90
+      "count": 91
     },
     {
       "category": "공간사회·도시커먼즈",
-      "count": 82
+      "count": 83
     },
     {
       "category": "재난안전·공공인프라",
-      "count": 60
+      "count": 64
     },
     {
       "category": "과학기술학·STS",
@@ -28,7 +28,7 @@
     },
     {
       "category": "커먼즈·공유재",
-      "count": 8
+      "count": 10
     },
     {
       "category": "돌봄·상호부조",
@@ -38,30 +38,30 @@
   "top_keywords": [
     {
       "keyword": "#동시대학술",
-      "count": 168
+      "count": 172
     },
     {
       "keyword": "#농생태",
-      "count": 90
+      "count": 91
     },
     {
       "keyword": "#공간사회",
-      "count": 82
+      "count": 83
     },
     {
       "keyword": "#책임있는AI",
-      "count": 60
+      "count": 65
     },
     {
       "keyword": "#재난안전",
-      "count": 60
-    },
-    {
-      "keyword": "#과학기술학",
-      "count": 55
+      "count": 64
     },
     {
       "keyword": "#도시공간",
+      "count": 56
+    },
+    {
+      "keyword": "#과학기술학",
       "count": 55
     },
     {
@@ -70,23 +70,23 @@
     },
     {
       "keyword": "#커머닝",
-      "count": 24
+      "count": 25
     },
     {
       "keyword": "#다종공생",
       "count": 23
     },
     {
-      "keyword": "#존중의수사학",
-      "count": 9
-    },
-    {
       "keyword": "#커먼즈",
-      "count": 8
+      "count": 10
     },
     {
       "keyword": "#대지윤리",
-      "count": 8
+      "count": 9
+    },
+    {
+      "keyword": "#존중의수사학",
+      "count": 9
     },
     {
       "keyword": "#돌봄",
@@ -97,6 +97,10 @@
       "count": 5
     },
     {
+      "keyword": "#돌봄소통",
+      "count": 4
+    },
+    {
       "keyword": "#토지개간미술",
       "count": 4
     },
@@ -105,16 +109,12 @@
       "count": 3
     },
     {
-      "keyword": "#돌봄소통",
+      "keyword": "#위기안전망",
       "count": 2
     },
     {
       "keyword": "#소농협동",
-      "count": 1
-    },
-    {
-      "keyword": "#위기안전망",
-      "count": 1
+      "count": 2
     }
   ],
   "timeline_series": [

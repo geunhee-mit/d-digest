@@ -1,12 +1,12 @@
 {
-  "id": "digest-20261119-morning",
+  "id": "digest-20261119-afternoon",
   "date": "2026-11-19",
-  "edition": "morning",
-  "edition_label": "오전",
-  "timestamp": "2026-11-19 02:54",
+  "edition": "afternoon",
+  "edition_label": "오후",
+  "timestamp": "2026-11-19 17:48",
   "daily_summary": {
-    "theme": "복합 위기 시대의 대항 헤게모니와 자율적 커먼즈 인프라",
-    "overview": "오늘 수집된 연구들은 자본과 국가의 이분법을 넘어, 자립적인 1인 가구와 개인이 고립되지 않고 공동의 자원을 호혜적으로 관리하는 커머닝(Commoning) 실천에 주목합니다.",
+    "theme": "상호부조와 데이터 인프라가 엮어내는 사각지대 없는 공공 돌봄",
+    "overview": "오늘의 연구들은 일상화된 재난 환경 속에서 고독사와 사회적 고립을 방지하기 위한 최소 개입형 상호부조 안전망과 공공 인프라 프로토콜의 구체적 청사진을 제시합니다.",
     "key_takeaways": [
       "사유화(Enclosure)의 극복: 자원과 공간을 소유의 대상이 아닌 공동의 돌봄 대상으로 전환하는 커머닝 규약이 긴요합니다.",
       "독립적 개인의 자치 연대: 지나친 집단주의적 강요 없이도 상호 신뢰와 규칙을 지켜낼 수 있는 자율 거버넌스 프로토콜이 요청됩니다.",
@@ -15,171 +15,171 @@
   },
   "items": [
     {
-      "id": "https://blog.p2pfoundation.net/commons-based-peer-production-at-the-edge-of-a-chaotic-transition/",
-      "title_kr": "혼돈적 전환의 경계에 선 커먼즈 기반 피어 생산",
-      "original_title": "Commons-based peer production at the edge of a chaotic transition",
-      "source": "P2P Foundation Blog (P2P 커먼즈 & 피어생산)",
-      "authors": "P2P Foundation Blog (P2P 커먼즈 & 피어생산)",
-      "published": "2026-11-19",
-      "url": "https://blog.p2pfoundation.net/commons-based-peer-production-at-the-edge-of-a-chaotic-transition/",
+      "id": "https://doi.org/10.5334/ijc.1727",
+      "title_kr": "Sustaining open source as 디지털 커먼즈: Evidence from the Apache Software Foundation ASF Incubator Program",
+      "original_title": "Sustaining Open Source as a Digital Commons: Evidence from the Apache Software Foundation (ASF) Incubator Program",
+      "source": "International Journal of the Commons (IJC)",
+      "authors": "Lin Zhou, Charles M. Schweik, Curtis J. Atkisson",
+      "published": "2026-11-18",
+      "url": "https://doi.org/10.5334/ijc.1727",
       "category": "커먼즈·공유재",
       "relevance_score": 9.8,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'P2P Foundation Blog (P2P 커먼즈 & 피어생산)'에 게재된 본 연구는, 초국적 자본의 데이터 독점과 혼돈적 디지털 전환기 속에서 지속가능한 자치적 커먼즈 기반 피어 생산의 위기와 기회을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
-        "핵심 분석 및 이론적 발견: 현장 실증 데이터와 이론적 모델링을 결합하여 대안적 거버넌스의 구체적 경로를 제시했습니다.",
+        "연구 배경 및 문제의식: 학술지 'International Journal of the Commons (IJC)'에 게재된 본 연구는, 시장 자본의 인클로저(Enclosure)와 국가 관료제의 통제 속에서 자치적 자원 관리와 공동체 커머닝이 직면한 제도적 침해을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
         "트윈 연구 시사점: 사유화와 관료제를 넘어 자립적 개인이 사생활을 지키며 비시장적 방식으로 연대할 수 있는 '느슨하고 안전한 P2P 커먼즈 프로토콜' 구축에 필수적 참조점을 제공합니다."
       ],
       "keywords": [
         "#커먼즈",
         "#커머닝",
-        "#동시대학술"
+        "#책임있는AI"
       ]
     },
     {
-      "id": "https://doi.org/10.21953/lse.00004901",
-      "title_kr": "Manufacturing positive energy out of contingency and misunderstanding: the platformized cultural production in Chinas short video industry",
-      "original_title": "Manufacturing “positive energy” out of contingency and misunderstanding: the platformized cultural production in China’s short video industry",
-      "source": "London School of Economics and Political Science Theses Online (London School of Economics and Political Science)",
-      "authors": "Zifeng Chen",
-      "published": "2027-01-01",
-      "url": "https://doi.org/10.21953/lse.00004901",
-      "category": "과학기술학·STS",
+      "id": "https://doi.org/10.1080/13549839.2026.2763657",
+      "title_kr": "Tourism planning   promotion 공간정의 Tehran: Grounded 이론 Approach",
+      "original_title": "Tourism planning and the promotion of spatial justice in Tehran: a grounded theory approach",
+      "source": "Local Environment",
+      "authors": "Reza Motahar, Mohammadsaleh Shokouhibidhendi, Seyed Abdolhadi Daneshpour",
+      "published": "2026-11-18",
+      "url": "https://doi.org/10.1080/13549839.2026.2763657",
+      "category": "공간사회·도시커먼즈",
       "relevance_score": 9.4,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'London School of Economics and Political Science Theses Online (London School of Economics and Political Science)'에 게재된 본 연구는, 신재생에너지 전환마저 거대 자본의 추출주의적 개발 논리로 환원되는 한계 속에서, 기후 위기 극복을 위한 대안적이고 민주적인 에너지 담론의 부재을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "연구 배경 및 문제의식: 학술지 'Local Environment'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
         "핵심 분석 및 이론적 발견: 현장 실증 데이터와 이론적 모델링을 결합하여 대안적 거버넌스의 구체적 경로를 제시했습니다.",
-        "트윈 연구 시사점: 기술 관료주의를 탈피하여 개인이 플랫폼의 수동적 소비자에 머물지 않고 능동적 데이터 주권과 민주적 기술 통제권을 행사하도록 돕는 제도적 근거가 됩니다."
+        "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하고 자치권을 방어하는 데 긴요한 준거를 제시합니다."
       ],
       "keywords": [
-        "#과학기술학",
-        "#책임있는AI",
-        "#대지윤리"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.65106/apubs.2026.3116",
-      "title_kr": "돌봄 윤리에 기반한 학습 분석 설계: 다중 사례 연구 접근법",
-      "original_title": "Designing learning analytics with care: A multiple case study approach",
-      "source": "ASCILITE Publications",
-      "authors": "Jo-Anne Clark, David Tuffley",
-      "published": "2026-11-17",
-      "url": "https://doi.org/10.65106/apubs.2026.3116",
-      "category": "시빅HCI·UXR",
-      "relevance_score": 9.4,
-      "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'ASCILITE Publications'에 게재된 본 연구는, 도구적 과학주의가 간과해 온 자연과의 미적·관계론적 교감과 생태학적 앎의 심층적 연결성을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
-        "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
-        "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
-      ],
-      "keywords": [
-        "#시빅HCI",
-        "#참여디자인",
-        "#동시대학술"
-      ]
-    },
-    {
-      "id": "http://arxiv.org/abs/2610.26360v1",
-      "title_kr": "Remote Expert Evaluation of Tabletop Avatar Gaze Control in Asymmetric MultiScale MRVR Collaboration에 관한 비판적 고찰",
-      "original_title": "Remote Expert Evaluation of Tabletop Avatar Gaze Control in Asymmetric Multi-Scale MR--VR Collaboration",
-      "source": "arXiv cs.HC / cs.CY",
-      "authors": "Carlos Mosquera, Neven Elsayed, Ernst Kruijff",
-      "published": "2026-10-19",
-      "url": "http://arxiv.org/abs/2610.26360v1",
-      "category": "시빅HCI·UXR",
-      "relevance_score": 9.4,
-      "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'arXiv cs.HC / cs.CY'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
-        "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
-        "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
-      ],
-      "keywords": [
-        "#시빅HCI",
-        "#책임있는AI",
-        "#참여디자인"
-      ]
-    },
-    {
-      "id": "https://blog.p2pfoundation.net/awakening-to-an-ecology-of-the-commons/",
-      "title_kr": "커먼즈의 생태학에 대한 자각과 대안적 전환",
-      "original_title": "Awakening to an Ecology of the Commons",
-      "source": "P2P Foundation Blog (P2P 커먼즈 & 피어생산)",
-      "authors": "P2P Foundation Blog (P2P 커먼즈 & 피어생산)",
-      "published": "2026-11-19",
-      "url": "https://blog.p2pfoundation.net/awakening-to-an-ecology-of-the-commons/",
-      "category": "커먼즈·공유재",
-      "relevance_score": 9.4,
-      "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'P2P Foundation Blog (P2P 커먼즈 & 피어생산)'에 게재된 본 연구는, 시장 자본의 인클로저(Enclosure)와 국가 관료제의 통제 속에서 자치적 자원 관리와 공동체 커머닝이 직면한 제도적 침해을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
-        "핵심 분석 및 이론적 발견: 현장 실증 데이터와 이론적 모델링을 결합하여 대안적 거버넌스의 구체적 경로를 제시했습니다.",
-        "트윈 연구 시사점: 사유화와 관료제를 넘어 자립적 개인이 사생활을 지키며 비시장적 방식으로 연대할 수 있는 '느슨하고 안전한 P2P 커먼즈 프로토콜' 구축에 필수적 참조점을 제공합니다."
-      ],
-      "keywords": [
-        "#커먼즈",
-        "#커머닝",
-        "#동시대학술"
-      ]
-    },
-    {
-      "id": "https://blog.p2pfoundation.net/double-edge-theatre-art-commoning/",
-      "title_kr": "더블 에지 시어터: 예술과 커머닝의 실천",
-      "original_title": "Double Edge Theatre: Art & Commoning",
-      "source": "P2P Foundation Blog (P2P 커먼즈 & 피어생산)",
-      "authors": "P2P Foundation Blog (P2P 커먼즈 & 피어생산)",
-      "published": "2026-11-19",
-      "url": "https://blog.p2pfoundation.net/double-edge-theatre-art-commoning/",
-      "category": "커먼즈·공유재",
-      "relevance_score": 9.4,
-      "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'P2P Foundation Blog (P2P 커먼즈 & 피어생산)'에 게재된 본 연구는, 시장 자본의 인클로저(Enclosure)와 국가 관료제의 통제 속에서 자치적 자원 관리와 공동체 커머닝이 직면한 제도적 침해을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
-        "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
-        "트윈 연구 시사점: 사유화와 관료제를 넘어 자립적 개인이 사생활을 지키며 비시장적 방식으로 연대할 수 있는 '느슨하고 안전한 P2P 커먼즈 프로토콜' 구축에 필수적 참조점을 제공합니다."
-      ],
-      "keywords": [
-        "#커먼즈",
+        "#공간사회",
         "#책임있는AI",
         "#동시대학술"
       ]
     },
     {
-      "id": "https://doi.org/10.1038/s41597-026-08719-6",
-      "title_kr": "MaterialCities: mapping building material stocks and floor area of the worlds 18 million settlements by structures and functions",
-      "original_title": "MaterialCities: mapping building material stocks and floor area of the world’s 1.8 million settlements by structures and functions",
-      "source": "Scientific Data",
-      "authors": "Tomer Fishman, Yoav Peled, Janneke van Oorschot",
-      "published": "2026-11-17",
-      "url": "https://doi.org/10.1038/s41597-026-08719-6",
+      "id": "https://doi.org/10.1061/jitse4.iseng-3028",
+      "title_kr": "Exploring 공간 Equality 공간 Equity 재난 Management: A Review of Points of Distribution and Community Considerations",
+      "original_title": "Exploring Spatial Equality and Spatial Equity in Disaster Management: A Review of Points of Distribution and Community Considerations",
+      "source": "Journal of Infrastructure Systems",
+      "authors": "Jooho Kim, Yujin Song, Nayoung Lee",
+      "published": "2026-11-18",
+      "url": "https://doi.org/10.1061/jitse4.iseng-3028",
       "category": "재난안전·공공인프라",
-      "relevance_score": 8.9,
+      "relevance_score": 9.4,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Scientific Data'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "연구 배경 및 문제의식: 학술지 'Journal of Infrastructure Systems'에 게재된 본 연구는, 재난과 기후 위기가 일상화된 사회에서 공공 행정이 고립 가구와 재난 약자의 실제 위기 상황을 포착하지 못하는 시스템적 결함을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
         "핵심 분석 및 이론적 발견: 현장 실증 데이터와 이론적 모델링을 결합하여 대안적 거버넌스의 구체적 경로를 제시했습니다.",
         "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
       ],
       "keywords": [
         "#재난안전",
-        "#책임있는AI",
+        "#위기안전망",
+        "#동시대학술"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.1080/11745398.2026.2757214",
+      "title_kr": "Photo encounters  human–plant relationships 자연 Strip gardening frictions",
+      "original_title": "Photo encounters of human–plant relationships in nature strip gardening frictions",
+      "source": "Annals of Leisure Research",
+      "authors": "Stephanie Ochona",
+      "published": "2026-11-17",
+      "url": "https://doi.org/10.1080/11745398.2026.2757214",
+      "category": "농생태·식량주권",
+      "relevance_score": 8.9,
+      "summary_points": [
+        "연구 배경 및 문제의식: 학술지 'Annals of Leisure Research'에 게재된 본 연구는, 서구적 개발주의와 산업 농업이 토착민의 오랜 생태 지혜와 자연과의 유기적 연결성을 해체해 온 환경 부정의을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
+        "트윈 연구 시사점: 자연 기반 치유와 대지 윤리를 결합하여, 거대 산업 농업에 의존하지 않고 지역 생태계와 공생하는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+      ],
+      "keywords": [
+        "#농생태",
+        "#대지윤리",
         "#도시공간"
       ]
     },
     {
-      "id": "https://doi.org/10.31223/x5v230",
-      "title_kr": "Practice-  stage-specific constraints to adopting climate-smart 농업 Practices  smallholder rice farming  community-managed seasonal tank irrigation: Evidence from Sri Lanka",
-      "original_title": "Practice- and stage-specific constraints to adopting climate-smart agriculture practices in smallholder rice farming under community-managed seasonal tank irrigation: Evidence from Sri Lanka",
-      "source": "EarthArXiv (California Digital Library)",
-      "authors": "A. I. Y. Lankapura, Sanjaya Fernando, K. P. P. Kopiyawattage",
+      "id": "https://doi.org/10.3389/fsufs.2026.2003270",
+      "title_kr": "AgriTrust: an adaptable semantic and geospatial framework for reconciling EUDR and Brazilian regulatory compliance",
+      "original_title": "AgriTrust: an adaptable semantic and geospatial framework for reconciling EUDR and Brazilian regulatory compliance",
+      "source": "Frontiers in Sustainable Food Systems",
+      "authors": "Ivan Bergier, Edson Eyji Sano, Édson Luís Bolfe",
       "published": "2026-11-17",
-      "url": "https://doi.org/10.31223/x5v230",
+      "url": "https://doi.org/10.3389/fsufs.2026.2003270",
+      "category": "커먼즈·공유재",
+      "relevance_score": 8.9,
+      "summary_points": [
+        "연구 배경 및 문제의식: 학술지 'Frontiers in Sustainable Food Systems'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "핵심 분석 및 이론적 발견: 국가 및 지역별 정책 비교와 제도 분석을 통해, 단일한 기술 규제를 넘어 당사자 참여와 공공적 책임성을 담보하는 비교 제도론적 프레임워크를 도출했습니다.",
+        "트윈 연구 시사점: 사유화와 관료제를 넘어 자립적 개인이 사생활을 지키며 비시장적 방식으로 연대할 수 있는 '느슨하고 안전한 P2P 커먼즈 프로토콜' 구축에 필수적 참조점을 제공합니다."
+      ],
+      "keywords": [
+        "#커먼즈",
+        "#책임있는AI",
+        "#동시대학술"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.4324/9781003765417-9",
+      "title_kr": "Everyday climate 취약성",
+      "original_title": "Everyday Climate Vulnerability",
+      "source": "Routledge eBooks",
+      "authors": "Urmee Priya Das",
+      "published": "2026-11-19",
+      "url": "https://doi.org/10.4324/9781003765417-9",
       "category": "재난안전·공공인프라",
       "relevance_score": 8.9,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'EarthArXiv (California Digital Library)'에 게재된 본 연구는, 글로벌 농식품 복합체와 시장 중심 구조 속에서 소농들이 겪는 경제적 종속과 자생적 협동조합 거버넌스의 제도적 위기을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
-        "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
+        "연구 배경 및 문제의식: 학술지 'Routledge eBooks'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "핵심 분석 및 이론적 발견: 현장 실증 데이터와 이론적 모델링을 결합하여 대안적 거버넌스의 구체적 경로를 제시했습니다.",
+        "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+      ],
+      "keywords": [
+        "#재난안전",
+        "#동시대학술"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.5281/zenodo.24356027",
+      "title_kr": "Climate Change Is Knocking on Jharkhands Door에 관한 비판적 고찰",
+      "original_title": "Climate Change Is Knocking on Jharkhand's Door",
+      "source": "Zenodo (CERN European Organization for Nuclear Research)",
+      "authors": "Anant Kumar",
+      "published": "2026-11-19",
+      "url": "https://doi.org/10.5281/zenodo.24356027",
+      "category": "재난안전·공공인프라",
+      "relevance_score": 8.9,
+      "summary_points": [
+        "연구 배경 및 문제의식: 학술지 'Zenodo (CERN European Organization for Nuclear Research)'에 게재된 본 연구는, 의료 및 공공 돌봄 현장에서 구조적 불평등과 인종·계층 편견으로 인해 취약 계층 당사자의 목소리가 배제되고 소통이 단절되는 제도적 소외을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "핵심 분석 및 이론적 발견: 국가 및 지역별 정책 비교와 제도 분석을 통해, 단일한 기술 규제를 넘어 당사자 참여와 공공적 책임성을 담보하는 비교 제도론적 프레임워크를 도출했습니다.",
         "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
       ],
       "keywords": [
         "#재난안전",
         "#책임있는AI",
+        "#돌봄소통",
         "#소농협동"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.68018/jsshe.2026.011",
+      "title_kr": "Legal Aspects of Climate Adaptation and the Economics of Resilience에 관한 비판적 고찰",
+      "original_title": "Legal Aspects of Climate Adaptation and the Economics of Resilience",
+      "source": "Scholarly Pre-print / Journal",
+      "authors": "Panagiotis Galanis",
+      "published": "2026-11-18",
+      "url": "https://doi.org/10.68018/jsshe.2026.011",
+      "category": "재난안전·공공인프라",
+      "relevance_score": 8.9,
+      "summary_points": [
+        "연구 배경 및 문제의식: 학술지 'Scholarly Pre-print / Journal'에 게재된 본 연구는, 의료 및 공공 돌봄 현장에서 구조적 불평등과 인종·계층 편견으로 인해 취약 계층 당사자의 목소리가 배제되고 소통이 단절되는 제도적 소외을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "핵심 분석 및 이론적 발견: 국가 및 지역별 정책 비교와 제도 분석을 통해, 단일한 기술 규제를 넘어 당사자 참여와 공공적 책임성을 담보하는 비교 제도론적 프레임워크를 도출했습니다.",
+        "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+      ],
+      "keywords": [
+        "#재난안전",
+        "#책임있는AI",
+        "#돌봄소통"
       ]
     }
   ]
