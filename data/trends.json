@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-11-18 17:39",
-  "total_digests": 40,
-  "total_papers_analyzed": 321,
-  "total_gurus": 38,
+  "updated_at": "2026-11-19 02:54",
+  "total_digests": 41,
+  "total_papers_analyzed": 329,
+  "total_gurus": 39,
   "total_periodicals": 50,
   "total_tracked_keywords": 20,
   "category_distribution": [
@@ -16,29 +16,29 @@
     },
     {
       "category": "재난안전·공공인프라",
-      "count": 58
+      "count": 60
     },
     {
       "category": "과학기술학·STS",
-      "count": 54
+      "count": 55
     },
     {
       "category": "시빅HCI·UXR",
-      "count": 24
+      "count": 26
+    },
+    {
+      "category": "커먼즈·공유재",
+      "count": 8
     },
     {
       "category": "돌봄·상호부조",
       "count": 8
-    },
-    {
-      "category": "커먼즈·공유재",
-      "count": 5
     }
   ],
   "top_keywords": [
     {
       "keyword": "#동시대학술",
-      "count": 164
+      "count": 168
     },
     {
       "keyword": "#농생태",
@@ -49,23 +49,27 @@
       "count": 82
     },
     {
-      "keyword": "#재난안전",
-      "count": 58
+      "keyword": "#책임있는AI",
+      "count": 60
     },
     {
-      "keyword": "#책임있는AI",
-      "count": 55
+      "keyword": "#재난안전",
+      "count": 60
     },
     {
       "keyword": "#과학기술학",
-      "count": 54
+      "count": 55
     },
     {
       "keyword": "#도시공간",
-      "count": 54
+      "count": 55
     },
     {
       "keyword": "#시빅HCI",
+      "count": 26
+    },
+    {
+      "keyword": "#커머닝",
       "count": 24
     },
     {
@@ -73,27 +77,23 @@
       "count": 23
     },
     {
-      "keyword": "#커머닝",
-      "count": 22
-    },
-    {
       "keyword": "#존중의수사학",
       "count": 9
+    },
+    {
+      "keyword": "#커먼즈",
+      "count": 8
+    },
+    {
+      "keyword": "#대지윤리",
+      "count": 8
     },
     {
       "keyword": "#돌봄",
       "count": 8
     },
     {
-      "keyword": "#대지윤리",
-      "count": 7
-    },
-    {
       "keyword": "#알고리즘정의",
-      "count": 5
-    },
-    {
-      "keyword": "#커먼즈",
       "count": 5
     },
     {
@@ -101,19 +101,19 @@
       "count": 4
     },
     {
+      "keyword": "#참여디자인",
+      "count": 3
+    },
+    {
       "keyword": "#돌봄소통",
       "count": 2
     },
     {
-      "keyword": "#참여디자인",
+      "keyword": "#소농협동",
       "count": 1
     },
     {
       "keyword": "#위기안전망",
-      "count": 1
-    },
-    {
-      "keyword": "#에코페미니즘",
       "count": 1
     }
   ],

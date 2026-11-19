@@ -381,22 +381,22 @@
           <div class="flex items-center space-x-2">
             <span class="text-2xl">🏛️</span>
             <h2 class="text-base sm:text-lg font-bold serif-title text-sand-900">
-              연구자 인덱스 · 학계 핫한 연구자 & 올타임 레전드
+              연구자 인덱스 · 분야별 최고 권위 석학 & 올타임 레전드
             </h2>
           </div>
           <p class="text-xs text-sand-700 leading-relaxed max-w-3xl">
-            커먼즈, 과학기술학(STS), 시빅 컴퓨팅, 농생태학, 돌봄 연대 분야에서 <strong>지금 동시대 학술 담론을 이끄는 핫한 신진·중견 연구자들</strong>과, <strong>사유의 뼈대를 놓은 불멸의 올타임 레전드 사상가들</strong>을 함께 조망합니다. 다이제스트가 발행될 때마다 논문 저자 데이터가 실시간으로 자동 갱신됩니다.
+            ScholarGPS, Google Scholar, AD Scientific Index 및 OpenAlex의 <strong>피인용 순위와 h-index 등 전 세계 학술 영향력</strong>을 기반으로 엄선한 살롱 6대 분야의 세계적 석학 39인을 조망합니다. 사유의 뼈대를 놓은 <strong>불멸의 올타임 레전드</strong>와 지금 학계를 선도하는 <strong>동시대 최고 권위 석학</strong>들의 핵심 철학과 학술 지표를 한눈에 탐색할 수 있습니다.
           </p>
 
           <!-- Tier Switcher Tabs -->
           <div class="flex flex-wrap items-center gap-2 pt-2 border-t border-sand-200/60">
             <button class="guru-tier-btn active px-4 py-1.5 rounded-xl font-semibold text-xs border border-sand-900 bg-sand-900 text-white transition flex items-center space-x-1.5" data-tier="trending">
-              <span>🔥 학계 핫한 연구자</span>
-              <span id="badge-trending-count" class="px-1.5 py-0.2 rounded-full bg-white/20 text-[10px]">20</span>
+              <span>🔥 동시대 최고 권위 석학</span>
+              <span id="badge-trending-count" class="px-1.5 py-0.2 rounded-full bg-white/20 text-[10px]">25</span>
             </button>
             <button class="guru-tier-btn px-4 py-1.5 rounded-xl font-medium text-xs border border-sand-300 bg-white text-sand-800 hover:bg-sand-100 transition flex items-center space-x-1.5" data-tier="legend">
               <span>🏛️ 올타임 레전드</span>
-              <span id="badge-legend-count" class="px-1.5 py-0.2 rounded-full bg-sand-200 text-[10px]">18</span>
+              <span id="badge-legend-count" class="px-1.5 py-0.2 rounded-full bg-sand-200 text-[10px]">14</span>
             </button>
             <button class="guru-tier-btn px-3 py-1.5 rounded-xl font-medium text-xs border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition" data-tier="all">
               <span>전체 보기</span>
@@ -409,12 +409,11 @@
           <span class="text-sand-400 text-[11px] mr-1">분야 필터:</span>
           <button class="guru-pill active px-3 py-1 rounded-full border border-sand-300 bg-sand-900 text-white transition font-medium text-xs" data-gurucat="all">전체</button>
           <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="커먼즈·공유재">커먼즈·공유재</button>
+          <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="공간사회·도시커먼즈">공간사회·도시커먼즈</button>
+          <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="농생태·식량주권">농생태·식량주권</button>
           <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="과학기술학·STS">과학기술학·STS</button>
           <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="시빅HCI·UXR">시빅HCI·UXR</button>
-          <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="농생태·식량주권">농생태·식량주권</button>
-          <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="공간사회·도시커먼즈">공간사회·도시커먼즈</button>
           <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="재난안전·공공인프라">재난안전·공공인프라</button>
-          <button class="guru-pill px-3 py-1 rounded-full border border-sand-200 bg-white text-sand-700 hover:bg-sand-100 transition font-medium text-xs" data-gurucat="돌봄·상호부조">돌봄·상호부조</button>
         </div>
 
         <!-- Gurus Grid -->
@@ -978,39 +977,35 @@
                 <span class="truncate">${g.affiliation || ''}</span>
               </p>
 
-              <!-- Salon Published Papers Box -->
-              <div class="space-y-2 text-xs bg-sand-50/80 p-3.5 rounded-xl border border-sand-200/70">
-                <strong class="text-sand-900 text-[11px] flex items-center justify-between">
-                  <span class="flex items-center space-x-1.5">
-                    <i data-lucide="file-text" class="w-3.5 h-3.5 text-sand-600"></i>
-                    <span>살롱 수록 논문 (${recentPapers.length}편):</span>
-                  </span>
-                  <span class="text-[10px] text-sand-400">최근: ${g.latest_active || ''}</span>
-                </strong>
-                <div class="space-y-1.5 pt-1">
-                  ${recentPapers.map(p => `
-                    <div class="text-[11px] text-sand-800 flex items-start justify-between gap-2 hover:bg-sand-100/80 p-1 rounded transition">
-                      <a href="${p.url}" target="_blank" rel="noopener noreferrer" class="hover:underline font-medium truncate flex-1 flex items-center space-x-1 text-sand-900">
-                        <span class="text-sand-400 shrink-0">📄</span>
-                        <span class="truncate">${p.title}</span>
-                      </a>
-                      <span class="text-[10px] text-sand-400 font-mono shrink-0">${p.date || ''}</span>
-                    </div>
+              <!-- Academic Impact Metrics Bar -->
+              <div class="flex items-center gap-2 py-1.5 px-3 rounded-xl bg-amber-500/10 border border-amber-500/20 text-[11px] font-mono text-sand-800">
+                <span class="font-bold text-amber-900">📊 피인용: ${Number(g.citations || 0).toLocaleString()}회</span>
+                <span class="text-amber-300">|</span>
+                <span>h-index: <strong class="text-sand-900">${g.h_index || '-'}</strong></span>
+                <span class="text-amber-300">|</span>
+                <span>저작: ${g.works_count || '-'}편</span>
+              </div>
+
+              <!-- Core Philosophy Box -->
+              <div class="p-3.5 rounded-xl bg-sand-50/90 border border-sand-200/70 text-xs space-y-1.5">
+                <span class="text-[11px] font-bold text-sand-700 flex items-center space-x-1">
+                  <i data-lucide="quote" class="w-3 h-3 text-sand-700"></i>
+                  <span>핵심 사유 및 연구 파급력:</span>
+                </span>
+                <p class="text-sand-800 leading-relaxed">${g.core_philosophy || ''}</p>
+              </div>
+
+              <!-- Representative Work & Key Concepts -->
+              <div class="space-y-2 text-xs">
+                <div class="text-[11px] text-sand-700 leading-relaxed">
+                  <strong class="text-sand-900">대표 저작:</strong> ${g.representative_work || '대표 저작 정보'}
+                </div>
+                <div class="flex flex-wrap gap-1">
+                  ${(g.key_concepts || []).map(c => `
+                    <span class="text-[10px] px-2 py-0.5 bg-sand-100 rounded-md text-sand-700 font-medium">#${c}</span>
                   `).join('')}
                 </div>
               </div>
-
-              <!-- Key Concepts -->
-              <div class="flex flex-wrap gap-1">
-                ${(g.key_concepts || []).map(c => `
-                  <span class="text-[10px] px-2 py-0.5 bg-sand-100 rounded-md text-sand-700 font-medium">#${c}</span>
-                `).join('')}
-              </div>
-
-              <!-- Core Focus -->
-              <p class="text-xs text-sand-700 leading-relaxed pt-1 border-t border-sand-100">
-                ${g.core_philosophy || g.recent_activities || ''}
-              </p>
             </div>
 
             <div class="pt-3 border-t border-sand-100 flex flex-wrap items-center justify-between gap-2 text-xs">
@@ -1061,6 +1056,15 @@
               <i data-lucide="building-2" class="w-3 h-3 text-sand-400 shrink-0"></i>
               <span class="truncate">${g.affiliation || ''}</span>
             </p>
+
+            <!-- Academic Impact Metrics Bar -->
+            <div class="flex items-center gap-2 py-1.5 px-3 rounded-xl bg-sand-100/90 border border-sand-200 text-[11px] font-mono text-sand-800">
+              <span class="font-bold text-sand-900">📊 피인용: ${Number(g.citations || 0).toLocaleString()}회</span>
+              <span class="text-sand-300">|</span>
+              <span>h-index: <strong class="text-sand-900">${g.h_index || '-'}</strong></span>
+              <span class="text-sand-300">|</span>
+              <span>저작: ${g.works_count || '-'}편</span>
+            </div>
 
             <!-- Core Philosophy Box -->
             <div class="p-3.5 rounded-xl bg-sand-50/90 border border-sand-200/70 text-xs space-y-1.5">
