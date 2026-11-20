@@ -1,14 +1,14 @@
 {
-  "updated_at": "2026-11-20 02:46",
-  "total_digests": 43,
-  "total_papers_analyzed": 345,
+  "updated_at": "2026-11-20 17:24",
+  "total_digests": 44,
+  "total_papers_analyzed": 353,
   "total_gurus": 39,
   "total_periodicals": 50,
   "total_tracked_keywords": 20,
   "category_distribution": [
     {
       "category": "농생태·식량주권",
-      "count": 91
+      "count": 92
     },
     {
       "category": "공간사회·도시커먼즈",
@@ -16,7 +16,7 @@
     },
     {
       "category": "재난안전·공공인프라",
-      "count": 67
+      "count": 74
     },
     {
       "category": "과학기술학·STS",
@@ -38,11 +38,11 @@
   "top_keywords": [
     {
       "keyword": "#동시대학술",
-      "count": 174
+      "count": 179
     },
     {
       "keyword": "#농생태",
-      "count": 91
+      "count": 92
     },
     {
       "keyword": "#공간사회",
@@ -50,15 +50,15 @@
     },
     {
       "keyword": "#책임있는AI",
-      "count": 73
+      "count": 80
     },
     {
       "keyword": "#재난안전",
-      "count": 67
+      "count": 74
     },
     {
       "keyword": "#도시공간",
-      "count": 57
+      "count": 59
     },
     {
       "keyword": "#과학기술학",
@@ -78,7 +78,7 @@
     },
     {
       "keyword": "#대지윤리",
-      "count": 11
+      "count": 12
     },
     {
       "keyword": "#커먼즈",
@@ -91,6 +91,10 @@
     {
       "keyword": "#돌봄",
       "count": 8
+    },
+    {
+      "keyword": "#위기안전망",
+      "count": 5
     },
     {
       "keyword": "#알고리즘정의",
@@ -111,10 +115,6 @@
     {
       "keyword": "#토지개간미술",
       "count": 4
-    },
-    {
-      "keyword": "#위기안전망",
-      "count": 3
     }
   ],
   "timeline_series": [

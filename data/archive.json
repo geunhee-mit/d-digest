@@ -1,5 +1,193 @@
 [
   {
+    "id": "digest-20261120-afternoon",
+    "date": "2026-11-20",
+    "edition": "afternoon",
+    "edition_label": "오후",
+    "timestamp": "2026-11-20 17:24",
+    "daily_summary": {
+      "theme": "상호부조와 데이터 인프라가 엮어내는 사각지대 없는 공공 돌봄",
+      "overview": "오늘의 연구들은 일상화된 재난 환경 속에서 고독사와 사회적 고립을 방지하기 위한 최소 개입형 상호부조 안전망과 공공 인프라 프로토콜의 구체적 청사진을 제시합니다.",
+      "key_takeaways": [
+        "사유화(Enclosure)의 극복: 자원과 공간을 소유의 대상이 아닌 공동의 돌봄 대상으로 전환하는 커머닝 규약이 긴요합니다.",
+        "독립적 개인의 자치 연대: 지나친 집단주의적 강요 없이도 상호 신뢰와 규칙을 지켜낼 수 있는 자율 거버넌스 프로토콜이 요청됩니다.",
+        "비시장적 대안 인프라의 필요성: 시장에 종속되지 않고 최소한의 생활 안전을 영위할 수 있는 공통재(Commons)의 확충이 핵심 과제입니다."
+      ]
+    },
+    "items": [
+      {
+        "id": "https://doi.org/10.5281/zenodo.24329791",
+        "title_kr": "A global metagenomic genome collection reveals the diversity and structure of fermentedfood microbiome에 관한 비판적 고찰",
+        "original_title": "A global metagenomic genome collection reveals the diversity and structure of fermented-food microbiome",
+        "source": "Zenodo (CERN European Organization for Nuclear Research)",
+        "authors": "Lijun You",
+        "published": "2027-11-18",
+        "url": "https://doi.org/10.5281/zenodo.24329791",
+        "category": "농생태·식량주권",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Zenodo (CERN European Organization for Nuclear Research)'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 현장 실증 데이터와 이론적 모델링을 결합하여 대안적 거버넌스의 구체적 경로를 제시했습니다.",
+          "트윈 연구 시사점: 자연 기반 치유와 대지 윤리를 결합하여, 거대 산업 농업에 의존하지 않고 지역 생태계와 공생하는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+        ],
+        "keywords": [
+          "#농생태",
+          "#책임있는AI",
+          "#동시대학술"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.52293/wes.1206.1118",
+        "title_kr": "Development   climate change jurisdictional 취약성 Index  south africa",
+        "original_title": "Development of a climate change jurisdictional vulnerability index in South Africa",
+        "source": "Water and Environmental Sustainability",
+        "authors": "Bernard Moeketsi Hlalele",
+        "published": "2027-06-30",
+        "url": "https://doi.org/10.52293/wes.1206.1118",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Water and Environmental Sustainability'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 국가 및 지역별 정책 비교와 제도 분석을 통해, 단일한 기술 규제를 넘어 당사자 참여와 공공적 책임성을 담보하는 비교 제도론적 프레임워크를 도출했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#책임있는AI",
+          "#동시대학술"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.30892/gtg.68444-1925",
+        "title_kr": "A GEOSPATIALBASED EDUCATION MANAGEMENT MODEL AS A WEIGHTED DECISION SUPPORT SYSTEM FOR SUSTAINABLE TOURISM VILLAGES에 관한 비판적 고찰",
+        "original_title": "A GEOSPATIAL-BASED EDUCATION MANAGEMENT MODEL AS A WEIGHTED DECISION SUPPORT SYSTEM FOR SUSTAINABLE TOURISM VILLAGES",
+        "source": "GeoJournal of Tourism and Geosites",
+        "authors": "Bambang Sigit Widodo, Dwi Angga Oktavianto, Seedou Mukthar SONKO",
+        "published": "2026-12-31",
+        "url": "https://doi.org/10.30892/gtg.68444-1925",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'GeoJournal of Tourism and Geosites'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 현장 실증 데이터와 이론적 모델링을 결합하여 대안적 거버넌스의 구체적 경로를 제시했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#책임있는AI",
+          "#동시대학술"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.3751/79.1.19",
+        "title_kr": "Activism and CommunityBased Climate Adaptation in Kuwait에 관한 비판적 고찰",
+        "original_title": "Activism and Community-Based Climate Adaptation in Kuwait",
+        "source": "The Middle East Journal",
+        "authors": "Mariam AlSaad",
+        "published": "2026-12-01",
+        "url": "https://doi.org/10.3751/79.1.19",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'The Middle East Journal'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#책임있는AI",
+          "#동시대학술"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.33545/26648717.2026.v8.i10a.922",
+        "title_kr": "Ecofeminism in the modern world: Gender environment and social transformation",
+        "original_title": "Eco-feminism in the modern world: Gender, environment and social transformation",
+        "source": "International Journal of Research in English",
+        "authors": "V Bhagya Jyotsna",
+        "published": "2026-12-01",
+        "url": "https://doi.org/10.33545/26648717.2026.v8.i10a.922",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'International Journal of Research in English'에 게재된 본 연구는, 서구적 개발주의와 산업 농업이 토착민의 오랜 생태 지혜와 자연과의 유기적 연결성을 해체해 온 환경 부정의을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#책임있는AI",
+          "#대지윤리"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.3301/rol.2026.48",
+        "title_kr": "Sinkholes in the Caffarella Valley Appia Antica Regional Park Rome: subsurface modelling and risk mitigation",
+        "original_title": "Sinkholes in the Caffarella Valley (Appia Antica Regional Park, Rome): subsurface modelling and risk mitigation",
+        "source": "Rendiconti online della Società Geologica Italiana",
+        "authors": "Enrico Maria Guarneri, Stefania Nisio, A. Annunziatellis",
+        "published": "2027-07-01",
+        "url": "https://doi.org/10.3301/rol.2026.48",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Rendiconti online della Società Geologica Italiana'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 현장 실증 데이터와 이론적 모델링을 결합하여 대안적 거버넌스의 구체적 경로를 제시했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#도시공간",
+          "#동시대학술"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.35429/h.2026.4.16.35",
+        "title_kr": "사이의 긴급 위기 Reconstruction: Territorial impacts and climate adaptation challenges after hurricane John in Guerrero",
+        "original_title": "Between emergency and reconstruction: Territorial impacts and climate adaptation challenges after hurricane John in Guerrero",
+        "source": "ECORFAN eBooks",
+        "authors": "Isaías Naú Niño-Castillo, José Francisco Calvo-Hernández, José Gabriel Santos-Santos",
+        "published": "2026-12-30",
+        "url": "https://doi.org/10.35429/h.2026.4.16.35",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'ECORFAN eBooks'에 게재된 본 연구는, 재난과 기후 위기가 일상화된 사회에서 공공 행정이 고립 가구와 재난 약자의 실제 위기 상황을 포착하지 못하는 시스템적 결함을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 국가 및 지역별 정책 비교와 제도 분석을 통해, 단일한 기술 규제를 넘어 당사자 참여와 공공적 책임성을 담보하는 비교 제도론적 프레임워크를 도출했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#책임있는AI",
+          "#도시공간",
+          "#위기안전망"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.22373/al-ijtimaiyyah.v12i2.36334",
+        "title_kr": "PROTECTION OF FAMILIES AFFECTED BY THE MOUNT SEMERU ERUPTION: 재난 Fiqh 관점 Mdmc lumajang response",
+        "original_title": "PROTECTION OF FAMILIES AFFECTED BY THE MOUNT SEMERU ERUPTION: A DISASTER FIQH PERSPECTIVE ON THE MDMC LUMAJANG RESPONSE",
+        "source": "Jurnal Al-Ijtimaiyyah",
+        "authors": "Muhammad Rasyid Ridho, Gandung Fajar Panjalu, Salman Al Farisi",
+        "published": "2026-12-30",
+        "url": "https://doi.org/10.22373/al-ijtimaiyyah.v12i2.36334",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Jurnal Al-Ijtimaiyyah'에 게재된 본 연구는, 재난과 기후 위기가 일상화된 사회에서 공공 행정이 고립 가구와 재난 약자의 실제 위기 상황을 포착하지 못하는 시스템적 결함을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#책임있는AI",
+          "#자원추출주의",
+          "#위기안전망"
+        ]
+      }
+    ]
+  },
+  {
     "id": "digest-20261120-morning",
     "date": "2026-11-20",
     "edition": "morning",
