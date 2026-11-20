@@ -1,5 +1,192 @@
 [
   {
+    "id": "digest-20261120-morning",
+    "date": "2026-11-20",
+    "edition": "morning",
+    "edition_label": "오전",
+    "timestamp": "2026-11-20 02:46",
+    "daily_summary": {
+      "theme": "상호부조와 데이터 인프라가 엮어내는 사각지대 없는 공공 돌봄",
+      "overview": "오늘의 연구들은 일상화된 재난 환경 속에서 고독사와 사회적 고립을 방지하기 위한 최소 개입형 상호부조 안전망과 공공 인프라 프로토콜의 구체적 청사진을 제시합니다.",
+      "key_takeaways": [
+        "사유화(Enclosure)의 극복: 자원과 공간을 소유의 대상이 아닌 공동의 돌봄 대상으로 전환하는 커머닝 규약이 긴요합니다.",
+        "독립적 개인의 자치 연대: 지나친 집단주의적 강요 없이도 상호 신뢰와 규칙을 지켜낼 수 있는 자율 거버넌스 프로토콜이 요청됩니다.",
+        "비시장적 대안 인프라의 필요성: 시장에 종속되지 않고 최소한의 생활 안전을 영위할 수 있는 공통재(Commons)의 확충이 핵심 과제입니다."
+      ]
+    },
+    "items": [
+      {
+        "id": "https://doi.org/10.58806/ijsrs.2026.v3i11n02",
+        "title_kr": "Appraising  level  climate 정의 Vulnerable communities  oyo state: Focus  rural 농민 Flood-prone dwellers   inner city  ibadan, nigeria",
+        "original_title": "Appraising The Level of Climate Justice for Vulnerable Communities in Oyo State: Focus on Rural Farmers and Flood-Prone Dwellers in the Inner City of Ibadan, Nigeria",
+        "source": "International Journal of Scientific Research Studies",
+        "authors": "Simon Ajayi Olukotun Ph.D",
+        "published": "2026-11-18",
+        "url": "https://doi.org/10.58806/ijsrs.2026.v3i11n02",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'International Journal of Scientific Research Studies'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 국가 및 지역별 정책 비교와 제도 분석을 통해, 단일한 기술 규제를 넘어 당사자 참여와 공공적 책임성을 담보하는 비교 제도론적 프레임워크를 도출했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#책임있는AI",
+          "#소농협동"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.21953/lse.00004965",
+        "title_kr": "Entrepreneurial subjectivity expertise and speculation in artificial intelligence startups in Taipei Taiwan에 관한 비판적 고찰",
+        "original_title": "Entrepreneurial subjectivity, expertise, and speculation in artificial intelligence start-ups in Taipei, Taiwan",
+        "source": "London School of Economics and Political Science Theses Online (London School of Economics and Political Science)",
+        "authors": "Stahl, Laura A.",
+        "published": "2027-01-01",
+        "url": "https://doi.org/10.21953/lse.00004965",
+        "category": "과학기술학·STS",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'London School of Economics and Political Science Theses Online (London School of Economics and Political Science)'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
+          "트윈 연구 시사점: 기술 관료주의를 탈피하여 개인이 플랫폼의 수동적 소비자에 머물지 않고 능동적 데이터 주권과 민주적 기술 통제권을 행사하도록 돕는 제도적 근거가 됩니다."
+        ],
+        "keywords": [
+          "#과학기술학",
+          "#책임있는AI",
+          "#동시대학술"
+        ]
+      },
+      {
+        "id": "https://openalex.org/W7225674882",
+        "title_kr": "Contextualising 참여형 Ai futures  indigenous communities  namibia",
+        "original_title": "Contextualising Participatory AI Futures with Indigenous Communities in Namibia",
+        "source": "Scholarly Pre-print / Journal",
+        "authors": "Rachel Charlotte Smith, Uariaike Mbinge, Shortman Kandjengo",
+        "published": "2026-12-10",
+        "url": "https://pure.au.dk/portal/en/publications/405b5aad-eb73-4343-83fd-e9886783070d",
+        "category": "시빅HCI·UXR",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Scholarly Pre-print / Journal'에 게재된 본 연구는, 서구적 개발주의와 산업 농업이 토착민의 오랜 생태 지혜와 자연과의 유기적 연결성을 해체해 온 환경 부정의을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
+          "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
+        ],
+        "keywords": [
+          "#시빅HCI",
+          "#책임있는AI",
+          "#참여디자인"
+        ]
+      },
+      {
+        "id": "https://openalex.org/W7111757091",
+        "title_kr": "Serious games and decision support tools: Supporting farmer decision making for land use net zero",
+        "original_title": "Serious games and decision support tools: Supporting farmer decision making for land use net zero",
+        "source": "Research Repository (University of Gloucestershire)",
+        "authors": "Thompson, Chloe, Julie Urquhart, Damian Maye",
+        "published": "2026-11-24",
+        "url": "https://eprints.glos.ac.uk/15549/",
+        "category": "시빅HCI·UXR",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Research Repository (University of Gloucestershire)'에 게재된 본 연구는, 글로벌 농식품 복합체와 시장 중심 구조 속에서 소농들이 겪는 경제적 종속과 자생적 협동조합 거버넌스의 제도적 위기을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
+          "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
+        ],
+        "keywords": [
+          "#시빅HCI",
+          "#책임있는AI",
+          "#소농협동"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.69980/zt3cpd54",
+        "title_kr": "THE EVOLUTION AND ETHICAL INTEGRATION OF ARTIFICIAL INTELLIGENCE IN MODERN EDUCATION: A FRAMEWORK FOR PERSONALIZED LEARNING AND INSTITUTIONAL ACCOUNTABILITY",
+        "original_title": "THE EVOLUTION AND ETHICAL INTEGRATION OF ARTIFICIAL INTELLIGENCE IN MODERN EDUCATION: A FRAMEWORK FOR PERSONALIZED LEARNING AND INSTITUTIONAL ACCOUNTABILITY",
+        "source": "EPH - International Journal of Business & Management Science",
+        "authors": "Anwesha Mukherjee, Soma Sinha Roy",
+        "published": "2026-11-21",
+        "url": "https://doi.org/10.69980/zt3cpd54",
+        "category": "시빅HCI·UXR",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'EPH - International Journal of Business & Management Science'에 게재된 본 연구는, 서구적 개발주의와 산업 농업이 토착민의 오랜 생태 지혜와 자연과의 유기적 연결성을 해체해 온 환경 부정의을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 국가 및 지역별 정책 비교와 제도 분석을 통해, 단일한 기술 규제를 넘어 당사자 참여와 공공적 책임성을 담보하는 비교 제도론적 프레임워크를 도출했습니다.",
+          "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
+        ],
+        "keywords": [
+          "#시빅HCI",
+          "#책임있는AI",
+          "#대지윤리"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.21203/rs.3.rs-11129181/v1",
+        "title_kr": "BlueGreen Acupuncture: Transforming stormwater ponds into multifunctional green 인프라 Cape town",
+        "original_title": "Blue-Green Acupuncture: Transforming Stormwater Ponds into Multifunctional Green Infrastructure in Cape Town",
+        "source": "Research Square",
+        "authors": "Julia Mclachlan, Kathryn Ewing, Kirsty Carden",
+        "published": "2026-11-18",
+        "url": "https://doi.org/10.21203/rs.3.rs-11129181/v1",
+        "category": "공간사회·도시커먼즈",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Research Square'에 게재된 본 연구는, 서구적 개발주의와 산업 농업이 토착민의 오랜 생태 지혜와 자연과의 유기적 연결성을 해체해 온 환경 부정의을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
+          "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하고 자치권을 방어하는 데 긴요한 준거를 제시합니다."
+        ],
+        "keywords": [
+          "#공간사회",
+          "#책임있는AI",
+          "#대지윤리",
+          "#도시공간"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.14710/jphcs.2026.32275",
+        "title_kr": "Upaya Kesiapsiagaan Penanggulangan Bencana Di Lingkungan Sekolah Dasar Melalui Edukasi Sekolah Siaga Bencana Di Kota Semarang에 관한 비판적 고찰",
+        "original_title": "Upaya Kesiapsiagaan Penanggulangan Bencana Di Lingkungan Sekolah Dasar Melalui Edukasi Sekolah Siaga Bencana Di Kota Semarang",
+        "source": "Journal of Public Health and Community Service",
+        "authors": "Eka Yunila Fatmasari, Putri Asmita Wigati, Ayun Sriatmi",
+        "published": "2026-11-30",
+        "url": "https://doi.org/10.14710/jphcs.2026.32275",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Journal of Public Health and Community Service'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 현장 실증 데이터와 이론적 모델링을 결합하여 대안적 거버넌스의 구체적 경로를 제시했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#책임있는AI",
+          "#동시대학술"
+        ]
+      },
+      {
+        "id": "https://doi.org/10.21203/rs.3.rs-10901888/v1",
+        "title_kr": "Seismic codes에서 재난 Outcomes로: Institutional Learning Enforcement and Casualty Patterns in Türkiye and Japan",
+        "original_title": "From Seismic Codes to Disaster Outcomes: Institutional Learning, Enforcement, and Casualty Patterns in Türkiye and Japan",
+        "source": "Research Square",
+        "authors": "Mustafa DALLI, Asena Soyluk",
+        "published": "2026-11-18",
+        "url": "https://doi.org/10.21203/rs.3.rs-10901888/v1",
+        "category": "재난안전·공공인프라",
+        "relevance_score": 8.9,
+        "summary_points": [
+          "연구 배경 및 문제의식: 학술지 'Research Square'에 게재된 본 연구는, 재난과 기후 위기가 일상화된 사회에서 공공 행정이 고립 가구와 재난 약자의 실제 위기 상황을 포착하지 못하는 시스템적 결함을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+          "핵심 분석 및 이론적 발견: 국가 및 지역별 정책 비교와 제도 분석을 통해, 단일한 기술 규제를 넘어 당사자 참여와 공공적 책임성을 담보하는 비교 제도론적 프레임워크를 도출했습니다.",
+          "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+        ],
+        "keywords": [
+          "#재난안전",
+          "#책임있는AI",
+          "#위기안전망"
+        ]
+      }
+    ]
+  },
+  {
     "id": "digest-20261119-afternoon",
     "date": "2026-11-19",
     "edition": "afternoon",
