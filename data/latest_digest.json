@@ -1,31 +1,94 @@
 {
-  "id": "digest-20261120-afternoon",
-  "date": "2026-11-20",
-  "edition": "afternoon",
-  "edition_label": "오후",
-  "timestamp": "2026-11-20 17:24",
+  "id": "digest-20261121-morning",
+  "date": "2026-11-21",
+  "edition": "morning",
+  "edition_label": "오전",
+  "timestamp": "2026-11-21 02:56",
   "daily_summary": {
-    "theme": "상호부조와 데이터 인프라가 엮어내는 사각지대 없는 공공 돌봄",
-    "overview": "오늘의 연구들은 일상화된 재난 환경 속에서 고독사와 사회적 고립을 방지하기 위한 최소 개입형 상호부조 안전망과 공공 인프라 프로토콜의 구체적 청사진을 제시합니다.",
+    "theme": "추출주의 농업 극복과 다종 공생 기반 대지 윤리의 회복",
+    "overview": "오늘의 연구들은 기후 붕괴와 토양 황폐화라는 복합 위기 속에서, 소농의 자치권과 흙·미생물·다종 생명 간의 유기적 얽힘을 회복하는 농생태학적 대안을 역설합니다.",
     "key_takeaways": [
-      "사유화(Enclosure)의 극복: 자원과 공간을 소유의 대상이 아닌 공동의 돌봄 대상으로 전환하는 커머닝 규약이 긴요합니다.",
-      "독립적 개인의 자치 연대: 지나친 집단주의적 강요 없이도 상호 신뢰와 규칙을 지켜낼 수 있는 자율 거버넌스 프로토콜이 요청됩니다.",
-      "비시장적 대안 인프라의 필요성: 시장에 종속되지 않고 최소한의 생활 안전을 영위할 수 있는 공통재(Commons)의 확충이 핵심 과제입니다."
+      "생산주의 패러다임 탈피: 화학 비료와 거대 자본 중심의 녹색혁명을 넘어 생태적 지속가능성을 우선하는 패러다임 전환이 요구됩니다.",
+      "다종 공생의 대지 윤리: 인간뿐 아니라 흙과 생태계 구성원 전체의 상호 의존성을 인정하는 돌봄의 농업을 실천해야 합니다.",
+      "소농의 자치와 지역 식량 순환: 외부 공급망 충격에 흔들리지 않는 지역 중심의 자립적 식량 및 생태 네트워크를 복원해야 합니다."
     ]
   },
   "items": [
     {
-      "id": "https://doi.org/10.5281/zenodo.24329791",
-      "title_kr": "A global metagenomic genome collection reveals the diversity and structure of fermentedfood microbiome에 관한 비판적 고찰",
-      "original_title": "A global metagenomic genome collection reveals the diversity and structure of fermented-food microbiome",
-      "source": "Zenodo (CERN European Organization for Nuclear Research)",
-      "authors": "Lijun You",
-      "published": "2027-11-18",
-      "url": "https://doi.org/10.5281/zenodo.24329791",
+      "id": "https://doi.org/10.52823/amqo8416",
+      "title_kr": "AI NeuroInclusion and Inclusive Development in the Global South: 거버넌스 Framework  equitable participation",
+      "original_title": "AI, Neuro-Inclusion and Inclusive Development in the Global South: A Governance Framework for Equitable Participation",
+      "source": "Journal of Governance Security & Development",
+      "authors": "Sandip P. Dhurat",
+      "published": "2027-01-01",
+      "url": "https://doi.org/10.52823/amqo8416",
+      "category": "시빅HCI·UXR",
+      "relevance_score": 9.8,
+      "summary_points": [
+        "연구 배경 및 문제의식: 학술지 'Journal of Governance Security & Development'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "핵심 분석 및 이론적 발견: 상호 신뢰와 공감적 대화를 복원하는 실천적 발견법(Heuristic)을 정립하여, 위계적 관계를 수평적·호혜적 소통 구조로 전환하는 소통 프로토콜을 체계화했습니다.",
+        "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
+      ],
+      "keywords": [
+        "#시빅HCI",
+        "#책임있는AI",
+        "#참여디자인",
+        "#돌봄소통"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.35870/emt.v11i1.8120",
+      "title_kr": "Pengaruh Nilai Ekofeminisme terhadap Efektivitas Komunikasi Pemasaran Model AIDA pada Produk Kerajinan Daur Ulang Plastik에 관한 비판적 고찰",
+      "original_title": "Pengaruh Nilai Ekofeminisme terhadap Efektivitas Komunikasi Pemasaran Model AIDA pada Produk Kerajinan Daur Ulang Plastik",
+      "source": "Jurnal EMT KITA",
+      "authors": "Laili Savitri Noor, Ateniyanti Ateniyanti, Ati Hermawati",
+      "published": "2027-01-01",
+      "url": "https://doi.org/10.35870/emt.v11i1.8120",
+      "category": "농생태·식량주권",
+      "relevance_score": 9.4,
+      "summary_points": [
+        "연구 배경 및 문제의식: 학술지 'Jurnal EMT KITA'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "핵심 분석 및 이론적 발견: 상호 신뢰와 공감적 대화를 복원하는 실천적 발견법(Heuristic)을 정립하여, 위계적 관계를 수평적·호혜적 소통 구조로 전환하는 소통 프로토콜을 체계화했습니다.",
+        "트윈 연구 시사점: 자연 기반 치유와 대지 윤리를 결합하여, 거대 산업 농업에 의존하지 않고 지역 생태계와 공생하는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+      ],
+      "keywords": [
+        "#농생태",
+        "#책임있는AI",
+        "#동시대학술"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.4324/9781003587095",
+      "title_kr": "Feminism across Differences in Literature and Film: 생태여성주의(에코페미니즘) , posthumanism, 윤리",
+      "original_title": "Feminism across Differences in Literature and Film: Ecofeminism, Posthumanism, Ethics",
+      "source": "Routledge eBooks",
+      "authors": "Carolina Núñez-Puente",
+      "published": "2026-11-19",
+      "url": "https://doi.org/10.4324/9781003587095",
+      "category": "농생태·식량주권",
+      "relevance_score": 9.4,
+      "summary_points": [
+        "연구 배경 및 문제의식: 학술지 'Routledge eBooks'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "핵심 분석 및 이론적 발견: 현상학적 윤리학의 개념을 확장하여 인간과 비인간 동물이 공유하는 생명 목적론(Telos)과 상호 공감의 지평을 이론적으로 입증했습니다.",
+        "트윈 연구 시사점: 자연 기반 치유와 대지 윤리를 결합하여, 거대 산업 농업에 의존하지 않고 지역 생태계와 공생하는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
+      ],
+      "keywords": [
+        "#농생태",
+        "#동시대학술"
+      ]
+    },
+    {
+      "id": "https://doi.org/10.68294/bxrc9610",
+      "title_kr": "The Icon of Divinity: Sophia Trinity and Creation in Sergii Bulgakov",
+      "original_title": "The Icon of Divinity: Sophia, Trinity, and Creation in Sergii Bulgakov",
+      "source": "University of Notre Dame Press eBooks",
+      "authors": "Sarah Elizabeth Hunt",
+      "published": "2027-04-15",
+      "url": "https://doi.org/10.68294/bxrc9610",
       "category": "농생태·식량주권",
       "relevance_score": 8.9,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Zenodo (CERN European Organization for Nuclear Research)'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "연구 배경 및 문제의식: 학술지 'University of Notre Dame Press eBooks'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
         "핵심 분석 및 이론적 발견: 현장 실증 데이터와 이론적 모델링을 결합하여 대안적 거버넌스의 구체적 경로를 제시했습니다.",
         "트윈 연구 시사점: 자연 기반 치유와 대지 윤리를 결합하여, 거대 산업 농업에 의존하지 않고 지역 생태계와 공생하는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
       ],
@@ -36,152 +99,86 @@
       ]
     },
     {
-      "id": "https://doi.org/10.52293/wes.1206.1118",
-      "title_kr": "Development   climate change jurisdictional 취약성 Index  south africa",
-      "original_title": "Development of a climate change jurisdictional vulnerability index in South Africa",
-      "source": "Water and Environmental Sustainability",
-      "authors": "Bernard Moeketsi Hlalele",
-      "published": "2027-06-30",
-      "url": "https://doi.org/10.52293/wes.1206.1118",
-      "category": "재난안전·공공인프라",
+      "id": "https://openalex.org/W7236903982",
+      "title_kr": "Worlds Within Worlds: Dialogues of Resistance Through Time and SEEK",
+      "original_title": "Worlds Within Worlds: Dialogues of Resistance Through Time and SEEK",
+      "source": "International Critical Childhood Policy Studies Journal",
+      "authors": "Emese Ilyés, Cris An",
+      "published": "2026-11-17",
+      "url": "https://iccpsonlinejournal.org/index.php/childhoods/article/view/381",
+      "category": "농생태·식량주권",
       "relevance_score": 8.9,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Water and Environmental Sustainability'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
-        "핵심 분석 및 이론적 발견: 국가 및 지역별 정책 비교와 제도 분석을 통해, 단일한 기술 규제를 넘어 당사자 참여와 공공적 책임성을 담보하는 비교 제도론적 프레임워크를 도출했습니다.",
-        "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
-      ],
-      "keywords": [
-        "#재난안전",
-        "#책임있는AI",
-        "#동시대학술"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.30892/gtg.68444-1925",
-      "title_kr": "A GEOSPATIALBASED EDUCATION MANAGEMENT MODEL AS A WEIGHTED DECISION SUPPORT SYSTEM FOR SUSTAINABLE TOURISM VILLAGES에 관한 비판적 고찰",
-      "original_title": "A GEOSPATIAL-BASED EDUCATION MANAGEMENT MODEL AS A WEIGHTED DECISION SUPPORT SYSTEM FOR SUSTAINABLE TOURISM VILLAGES",
-      "source": "GeoJournal of Tourism and Geosites",
-      "authors": "Bambang Sigit Widodo, Dwi Angga Oktavianto, Seedou Mukthar SONKO",
-      "published": "2026-12-31",
-      "url": "https://doi.org/10.30892/gtg.68444-1925",
-      "category": "재난안전·공공인프라",
-      "relevance_score": 8.9,
-      "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'GeoJournal of Tourism and Geosites'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
-        "핵심 분석 및 이론적 발견: 현장 실증 데이터와 이론적 모델링을 결합하여 대안적 거버넌스의 구체적 경로를 제시했습니다.",
-        "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
-      ],
-      "keywords": [
-        "#재난안전",
-        "#책임있는AI",
-        "#동시대학술"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.3751/79.1.19",
-      "title_kr": "Activism and CommunityBased Climate Adaptation in Kuwait에 관한 비판적 고찰",
-      "original_title": "Activism and Community-Based Climate Adaptation in Kuwait",
-      "source": "The Middle East Journal",
-      "authors": "Mariam AlSaad",
-      "published": "2026-12-01",
-      "url": "https://doi.org/10.3751/79.1.19",
-      "category": "재난안전·공공인프라",
-      "relevance_score": 8.9,
-      "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'The Middle East Journal'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "연구 배경 및 문제의식: 학술지 'International Critical Childhood Policy Studies Journal'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
         "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
-        "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+        "트윈 연구 시사점: 자연 기반 치유와 대지 윤리를 결합하여, 거대 산업 농업에 의존하지 않고 지역 생태계와 공생하는 지속가능한 순환 삶의 방식을 구체화하는 나침반이 됩니다."
       ],
       "keywords": [
-        "#재난안전",
-        "#책임있는AI",
+        "#농생태",
         "#동시대학술"
       ]
     },
     {
-      "id": "https://doi.org/10.33545/26648717.2026.v8.i10a.922",
-      "title_kr": "Ecofeminism in the modern world: Gender environment and social transformation",
-      "original_title": "Eco-feminism in the modern world: Gender, environment and social transformation",
-      "source": "International Journal of Research in English",
-      "authors": "V Bhagya Jyotsna",
-      "published": "2026-12-01",
-      "url": "https://doi.org/10.33545/26648717.2026.v8.i10a.922",
-      "category": "재난안전·공공인프라",
+      "id": "https://doi.org/10.11116/9789461668172",
+      "title_kr": "Reimagining Knowledge in the Amazon Rainforest: Crafting Alternative Futures",
+      "original_title": "Reimagining Knowledge in the Amazon Rainforest: Crafting Alternative Futures",
+      "source": "Leuven University Press eBooks",
+      "authors": "연구진",
+      "published": "2027-01-28",
+      "url": "https://doi.org/10.11116/9789461668172",
+      "category": "과학기술학·STS",
       "relevance_score": 8.9,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'International Journal of Research in English'에 게재된 본 연구는, 서구적 개발주의와 산업 농업이 토착민의 오랜 생태 지혜와 자연과의 유기적 연결성을 해체해 온 환경 부정의을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "연구 배경 및 문제의식: 학술지 'Leuven University Press eBooks'에 게재된 본 연구는, 환경 위기 속에서 특정 장소와 공동체가 겪는 경합과 분열, 그리고 인간 중심적 소속감을 넘어선 다종 서식지 재구성의 필요성을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
         "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
-        "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+        "트윈 연구 시사점: 기술 관료주의를 탈피하여 개인이 플랫폼의 수동적 소비자에 머물지 않고 능동적 데이터 주권과 민주적 기술 통제권을 행사하도록 돕는 제도적 근거가 됩니다."
       ],
       "keywords": [
-        "#재난안전",
+        "#과학기술학",
         "#책임있는AI",
-        "#대지윤리"
+        "#도시공간"
       ]
     },
     {
-      "id": "https://doi.org/10.3301/rol.2026.48",
-      "title_kr": "Sinkholes in the Caffarella Valley Appia Antica Regional Park Rome: subsurface modelling and risk mitigation",
-      "original_title": "Sinkholes in the Caffarella Valley (Appia Antica Regional Park, Rome): subsurface modelling and risk mitigation",
-      "source": "Rendiconti online della Società Geologica Italiana",
-      "authors": "Enrico Maria Guarneri, Stefania Nisio, A. Annunziatellis",
-      "published": "2027-07-01",
-      "url": "https://doi.org/10.3301/rol.2026.48",
-      "category": "재난안전·공공인프라",
-      "relevance_score": 8.9,
-      "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Rendiconti online della Società Geologica Italiana'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
-        "핵심 분석 및 이론적 발견: 현장 실증 데이터와 이론적 모델링을 결합하여 대안적 거버넌스의 구체적 경로를 제시했습니다.",
-        "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
-      ],
-      "keywords": [
-        "#재난안전",
-        "#도시공간",
-        "#동시대학술"
-      ]
-    },
-    {
-      "id": "https://doi.org/10.35429/h.2026.4.16.35",
-      "title_kr": "사이의 긴급 위기 Reconstruction: Territorial impacts and climate adaptation challenges after hurricane John in Guerrero",
-      "original_title": "Between emergency and reconstruction: Territorial impacts and climate adaptation challenges after hurricane John in Guerrero",
+      "id": "https://doi.org/10.35429/h.2026.4.72.87",
+      "title_kr": "Mentoring socioformation and sustainable tourism in south of Mexico에 관한 비판적 고찰",
+      "original_title": "Mentoring, socioformation, and sustainable tourism in south of Mexico",
       "source": "ECORFAN eBooks",
-      "authors": "Isaías Naú Niño-Castillo, José Francisco Calvo-Hernández, José Gabriel Santos-Santos",
+      "authors": "Jacob Elías Niño Castillo, José Julián Mojica-Deloya, Gerardo Raúl Chunga Chinguel",
       "published": "2026-12-30",
-      "url": "https://doi.org/10.35429/h.2026.4.16.35",
-      "category": "재난안전·공공인프라",
+      "url": "https://doi.org/10.35429/h.2026.4.72.87",
+      "category": "시빅HCI·UXR",
       "relevance_score": 8.9,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'ECORFAN eBooks'에 게재된 본 연구는, 재난과 기후 위기가 일상화된 사회에서 공공 행정이 고립 가구와 재난 약자의 실제 위기 상황을 포착하지 못하는 시스템적 결함을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
-        "핵심 분석 및 이론적 발견: 국가 및 지역별 정책 비교와 제도 분석을 통해, 단일한 기술 규제를 넘어 당사자 참여와 공공적 책임성을 담보하는 비교 제도론적 프레임워크를 도출했습니다.",
-        "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+        "연구 배경 및 문제의식: 학술지 'ECORFAN eBooks'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
+        "트윈 연구 시사점: 침해적인 집단주의 규율을 강요하지 않으면서도 위기 발생 시 고립된 개인에게 정확하고 투과성 높은 안전망을 제공하는 유니버설 공공 인터페이스 설계에 직접적 지침이 됩니다."
       ],
       "keywords": [
-        "#재난안전",
+        "#시빅HCI",
         "#책임있는AI",
-        "#도시공간",
-        "#위기안전망"
+        "#참여디자인"
       ]
     },
     {
-      "id": "https://doi.org/10.22373/al-ijtimaiyyah.v12i2.36334",
-      "title_kr": "PROTECTION OF FAMILIES AFFECTED BY THE MOUNT SEMERU ERUPTION: 재난 Fiqh 관점 Mdmc lumajang response",
-      "original_title": "PROTECTION OF FAMILIES AFFECTED BY THE MOUNT SEMERU ERUPTION: A DISASTER FIQH PERSPECTIVE ON THE MDMC LUMAJANG RESPONSE",
-      "source": "Jurnal Al-Ijtimaiyyah",
-      "authors": "Muhammad Rasyid Ridho, Gandung Fajar Panjalu, Salman Al Farisi",
-      "published": "2026-12-30",
-      "url": "https://doi.org/10.22373/al-ijtimaiyyah.v12i2.36334",
-      "category": "재난안전·공공인프라",
+      "id": "https://doi.org/10.15847/cct.44160",
+      "title_kr": "We Cant Die Here by this Wall: 공공 Buildings 사이의 Heritage 도시 Development  miranda do douro, portugal",
+      "original_title": "\"We Can’t Die Here by this Wall\": Public buildings between heritage and urban development in Miranda do Douro, Portugal",
+      "source": "Cidades, comunidades e território/Cidades comunidades e territórios",
+      "authors": "Catarina Ruivo, Ivonne Herrera-Pineda",
+      "published": "2027-07-01",
+      "url": "https://doi.org/10.15847/cct.44160",
+      "category": "공간사회·도시커먼즈",
       "relevance_score": 8.9,
       "summary_points": [
-        "연구 배경 및 문제의식: 학술지 'Jurnal Al-Ijtimaiyyah'에 게재된 본 연구는, 재난과 기후 위기가 일상화된 사회에서 공공 행정이 고립 가구와 재난 약자의 실제 위기 상황을 포착하지 못하는 시스템적 결함을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
+        "연구 배경 및 문제의식: 학술지 'Cidades, comunidades e território/Cidades comunidades e territórios'에 게재된 본 연구는, 동시대 학술 담론에서 제기되는 구조적 한계와 비판적 쟁점을(를) 정면으로 비판하며 새로운 이론적·실천적 해법을 모색합니다.",
         "핵심 분석 및 이론적 발견: 생태예술 실천과 지역 공동체의 자치적 실험을 분석하여, 에너지를 단순한 자원이 아닌 공동체의 다종 공생과 자율성을 촉진하는 문화적 커먼즈로 재개념화했습니다.",
-        "트윈 연구 시사점: 개인의 사생활을 엄격히 보호하면서도 위급 시 고립사나 재난 피해를 예방할 수 있는 최소 개입형 상호부조 안전망의 실천적 설계를 뒷받침합니다."
+        "트윈 연구 시사점: 도시 내에서 고립되지 않고 사적 자율성과 공적 연결을 동시에 누릴 수 있는 제3의 비시장적 공유 거점 공간을 형성하고 자치권을 방어하는 데 긴요한 준거를 제시합니다."
       ],
       "keywords": [
-        "#재난안전",
+        "#공간사회",
         "#책임있는AI",
-        "#자원추출주의",
-        "#위기안전망"
+        "#도시공간"
       ]
     }
   ]
